@@ -1,0 +1,101 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ворон к ворону летит, Ворон ворону кричит: «Ворон, где б нам отобедать?
+1	Ворон	Ворон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=0:5
+2	к	к	ADP	IN	_	3	case	_	TokenRange=6:7
+3	ворону	ворона	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	TokenRange=8:14
+4	летит	лететь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=15:20
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=20:21
+6	Ворон	Ворон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=23:28
+7	ворону	ворона	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	TokenRange=29:35
+8	кричит	кричать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=36:42
+9	:	:	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+10	«Ворон	«ворон	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No|TokenRange=45:51
+11	,	,	PUNCT	,	_	10	punct	_	TokenRange=51:52
+12	где	где	ADV	WRB	Degree=Pos	15	advmod	_	TokenRange=53:56
+13	б	б	AUX	VBC	_	15	aux	_	TokenRange=57:58
+14	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	15	iobj	_	TokenRange=59:62
+15	отобедать	отобедать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	parataxis	_	SpaceAfter=No|TokenRange=63:72
+16	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=72:73
+
+# sent_id = 2
+# text = Как бы нам о том проведать?» Ворон ворону в ответ: «Знаю, будет нам обед;
+1	Как	как	ADV	WRB	Degree=Pos	6	advmod	_	TokenRange=75:78
+2	бы	бы	AUX	UH	_	6	aux	_	TokenRange=79:81
+3	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	6	iobj	_	TokenRange=82:85
+4	о	о	ADP	IN	_	5	case	_	TokenRange=86:87
+5	том	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	TokenRange=88:91
+6	проведать	проведать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=92:101
+7	?»	?»	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=101:103
+8	Ворон	Ворон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=105:110
+9	ворону	ворона	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	TokenRange=111:117
+10	в	в	ADP	IN	_	11	case	_	TokenRange=118:119
+11	ответ	ответ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=120:125
+12	:	:	PUNCT	:	_	13	punct	_	SpacesAfter=\r\n|TokenRange=125:126
+13	«Знаю	«знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No|TokenRange=128:133
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=133:134
+15	будет	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	TokenRange=135:140
+16	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	15	iobj	_	TokenRange=141:144
+17	обед	обед	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No|TokenRange=145:149
+18	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=149:150
+
+# sent_id = 3
+# text = В чистом поле под ракитой Богатырь лежит убитый.
+1	В	в	ADP	IN	_	3	case	_	TokenRange=152:153
+2	чистом	чистый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	TokenRange=154:160
+3	поле	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	TokenRange=161:165
+4	под	под	ADP	IN	_	5	case	_	TokenRange=166:169
+5	ракитой	ракита	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=\r\n|TokenRange=170:177
+6	Богатырь	богатырь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=179:187
+7	лежит	лежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=188:193
+8	убитый	убить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	nsubj	_	SpaceAfter=No|TokenRange=194:200
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=200:201
+
+# sent_id = 4
+# text = Кем убит и отчего, Знает сокол лишь его, Да кобылка вороная, Да хозяйка молодая».
+1	Кем	кто	PRON	WP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	iobj	_	TokenRange=203:206
+2	убит	убить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	advcl	_	TokenRange=207:211
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=212:213
+4	отчего	отчего	ADV	RB	Degree=Pos	2	conj	_	SpaceAfter=No|TokenRange=214:220
+5	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=220:221
+6	Знает	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=223:228
+7	сокол	сокол	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=229:234
+8	лишь	лишь	PART	UH	_	9	advmod	_	TokenRange=235:239
+9	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	SpaceAfter=No|TokenRange=240:243
+10	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=243:244
+11	Да	да	CCONJ	CC	_	12	cc	_	TokenRange=246:248
+12	кобылка	кобылка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	TokenRange=249:256
+13	вороная	вороный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|TokenRange=257:264
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=264:265
+15	Да	да	CCONJ	CC	_	16	cc	_	TokenRange=267:269
+16	хозяйка	хозяйка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	TokenRange=270:277
+17	молодая»	молодая»	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=278:286
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=286:287
+
+# sent_id = 5
+# text = Сокол в рощу улетел, На кобылку недруг сел, А хозяйка ждет милого, Не убитого, живого.
+1	Сокол	сокол	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=289:294
+2	в	в	ADP	IN	_	3	case	_	TokenRange=295:296
+3	рощу	роща	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=297:301
+4	улетел	улететь	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=302:308
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=308:309
+6	На	на	ADP	IN	_	7	case	_	TokenRange=311:313
+7	кобылку	кобылка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	TokenRange=314:321
+8	недруг	недруг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=322:328
+9	сел	сесть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No|TokenRange=329:332
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=332:333
+11	А	а	CCONJ	CC	_	13	cc	_	TokenRange=335:336
+12	хозяйка	хозяйка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	TokenRange=337:344
+13	ждет	ждать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=345:349
+14	милого	милый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|TokenRange=350:356
+15	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=356:357
+16	Не	не	PART	NEG	Polarity=Neg	17	advmod	_	TokenRange=359:361
+17	убитого	убитый	ADJ	VBNL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No|TokenRange=362:369
+18	,	,	PUNCT	,	_	19	punct	_	TokenRange=369:370
+19	живого	живой	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No|TokenRange=371:377
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=377:378
+

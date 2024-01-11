@@ -1,0 +1,124 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Цветок засохший, безуханный, Забытый в книге вижу я;
+1	Цветок	цветок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=0:6
+2	засохший	засохнуть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	SpaceAfter=No|TokenRange=7:15
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=15:16
+4	безуханный	безуханный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=17:27
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+6	Забытый	забыть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	TokenRange=30:37
+7	в	в	ADP	IN	_	8	case	_	TokenRange=38:39
+8	книге	книга	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	TokenRange=40:45
+9	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=46:50
+10	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj	_	SpaceAfter=No|TokenRange=51:52
+11	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+
+# sent_id = 2
+# text = И вот уже мечтою странной Душа наполнилась моя: Где цвел? когда? какой весною?
+1	И	и	CCONJ	CC	_	7	cc	_	TokenRange=55:56
+2	вот	вот	PART	UH	_	7	advmod	_	TokenRange=57:60
+3	уже	уже	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=61:64
+4	мечтою	мечта	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	TokenRange=65:71
+5	странной	странный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\r\n|TokenRange=72:80
+6	Душа	душа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=82:86
+7	наполнилась	наполниться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=87:98
+8	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	7	det	_	SpaceAfter=No|TokenRange=99:102
+9	:	:	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+10	Где	где	ADV	WRB	Degree=Pos	11	advmod	_	TokenRange=105:108
+11	цвел	цвести	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No|TokenRange=109:113
+12	?	?	PUNCT	.	_	11	punct	_	TokenRange=113:114
+13	когда	когда	ADV	WRB	Degree=Pos	11	advmod	_	SpaceAfter=No|TokenRange=115:120
+14	?	?	PUNCT	.	_	13	punct	_	TokenRange=120:121
+15	какой	какой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	16	det	_	TokenRange=122:127
+16	весною	весна	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|TokenRange=128:134
+17	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=134:135
+
+# sent_id = 3
+# text = И долго ль цвел? и сорван кем, Чужой, знакомой ли рукою?
+1	И	и	CCONJ	CC	_	4	cc	_	TokenRange=137:138
+2	долго	долго	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=139:144
+3	ль	ль	PART	UH	_	4	advmod	_	TokenRange=145:147
+4	цвел	цвести	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=148:152
+5	?	?	PUNCT	.	_	4	punct	_	TokenRange=152:153
+6	и	и	CCONJ	CC	_	7	cc	_	TokenRange=154:155
+7	сорван	сорвать	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	TokenRange=156:162
+8	кем	кто	PRON	WP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	SpaceAfter=No|TokenRange=163:166
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=166:167
+10	Чужой	чужой	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=169:174
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=174:175
+12	знакомой	знакомый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	TokenRange=176:184
+13	ли	ли	PART	UH	_	12	advmod	_	TokenRange=185:187
+14	рукою	рука	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	iobj	_	SpaceAfter=No|TokenRange=188:193
+15	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=193:194
+
+# sent_id = 4
+# text = И положен сюда зачем?
+1	И	и	CCONJ	CC	_	2	cc	_	TokenRange=196:197
+2	положен	класть	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=198:205
+3	сюда	сюда	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=206:210
+4	зачем	зачем	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=211:216
+5	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+
+# sent_id = 5
+# text = На память нежного ль свиданья, Или разлуки роковой, Иль одинокого гулянья В тиши полей, в тени лесной?
+1	На	на	ADP	IN	_	2	case	_	TokenRange=219:221
+2	память	память	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	TokenRange=222:228
+3	нежного	нежный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	TokenRange=229:236
+4	ль	ль	PART	UH	_	5	advmod	_	TokenRange=237:239
+5	свиданья	свиданье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=240:248
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=248:249
+7	Или	или	CCONJ	CC	_	8	cc	_	TokenRange=251:254
+8	разлуки	разлука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	TokenRange=255:262
+9	роковой	роковой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=263:270
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=270:271
+11	Иль	иль	CCONJ	CC	_	13	cc	_	TokenRange=273:276
+12	одинокого	одинокий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	TokenRange=277:286
+13	гулянья	гулянье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	SpacesAfter=\r\n|TokenRange=287:294
+14	В	в	ADP	IN	_	15	case	_	TokenRange=296:297
+15	тиши	тиша	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	TokenRange=298:302
+16	полей	поле	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No|TokenRange=303:308
+17	,	,	PUNCT	,	_	19	punct	_	TokenRange=308:309
+18	в	в	ADP	IN	_	19	case	_	TokenRange=310:311
+19	тени	тень	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	conj	_	TokenRange=312:316
+20	лесной	лесной	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No|TokenRange=317:323
+21	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=323:324
+
+# sent_id = 6
+# text = И жив ли тот, и та жива ли?
+1	И	и	CCONJ	CC	_	2	cc	_	TokenRange=326:327
+2	жив	живой	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=328:331
+3	ли	ли	PART	UH	_	2	advmod	_	TokenRange=332:334
+4	тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=335:338
+5	,	,	PUNCT	,	_	8	punct	_	TokenRange=338:339
+6	и	и	CCONJ	CC	_	8	cc	_	TokenRange=340:341
+7	та	тот	DET	DT	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=342:344
+8	жива	живой	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	conj	_	TokenRange=345:349
+9	ли	ли	PART	UH	_	8	advmod	_	SpaceAfter=No|TokenRange=350:352
+10	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=352:353
+
+# sent_id = 7
+# text = И нынче где их уголок?
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=355:356
+2	нынче	нынче	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=357:362
+3	где	где	ADV	WRB	Degree=Pos	0	root	_	TokenRange=363:366
+4	их	их	DET	PRP$	_	5	det	_	TokenRange=367:369
+5	уголок	уголок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=370:376
+6	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=376:377
+
+# sent_id = 8
+# text = Или уже они увяли, Как сей неведомый цветок?
+1	Или	или	CCONJ	CC	_	4	cc	_	TokenRange=379:382
+2	уже	уже	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=383:386
+3	они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	4	nsubj	_	TokenRange=387:390
+4	увяли	увять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=391:396
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=396:397
+6	Как	как	ADV	IN	_	9	case	_	TokenRange=399:402
+7	сей	сей	DET	DT	Case=Nom|Gender=Masc|Number=Sing	9	det	_	TokenRange=403:406
+8	неведомый	неведомый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=407:416
+9	цветок	цветок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=417:423
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=423:424
+

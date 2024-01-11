@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Зачем твой дивный карандаш Рисует мой арапский профиль?
+1	Зачем	зачем	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=0:5
+2	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	4	det	_	TokenRange=6:10
+3	дивный	дивный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=11:17
+4	карандаш	карандаш	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\r\n|TokenRange=18:26
+5	Рисует	рисовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=28:34
+6	мой	мой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	det	_	TokenRange=35:38
+7	арапский	арапский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=39:47
+8	профиль	профиль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=48:55
+9	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+
+# sent_id = 2
+# text = Хоть ты векам его предашь, Его освищет Мефистофель.
+1	Хоть	хоть	SCONJ	IN	_	5	mark	_	TokenRange=58:62
+2	ты	ты	PRON	DT	Case=Nom|Number=Sing|Person=2	5	nsubj	_	TokenRange=63:65
+3	векам	век	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	TokenRange=66:71
+4	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	TokenRange=72:75
+5	предашь	предать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No|TokenRange=76:83
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=83:84
+7	Его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	TokenRange=86:89
+8	освищет	освизать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=90:97
+9	Мефистофель	Мефистофель	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=98:109
+10	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=109:110
+
+# sent_id = 3
+# text = Рисуй Олениной черты.
+1	Рисуй	рисовать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=112:117
+2	Олениной	олениный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=118:126
+3	черты	черта	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=127:132
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=132:133
+
+# sent_id = 4
+# text = В жару сердечных вдохновений Лишь юности и красоты Поклонником быть должен гений.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=135:136
+2	жару	жара	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	TokenRange=137:141
+3	сердечных	сердечный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	TokenRange=142:151
+4	вдохновений	вдохновение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpacesAfter=\r\n|TokenRange=152:163
+5	Лишь	лишь	PART	UH	_	6	advmod	_	TokenRange=165:169
+6	юности	юность	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	TokenRange=170:176
+7	и	и	CCONJ	CC	_	8	cc	_	TokenRange=177:178
+8	красоты	красота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpacesAfter=\r\n|TokenRange=179:186
+9	Поклонником	поклонник	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	xcomp	_	TokenRange=188:199
+10	быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf	11	cop	_	TokenRange=200:204
+11	должен	должен	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=205:211
+12	гений	гений	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|TokenRange=212:217
+13	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No|TokenRange=217:218
+

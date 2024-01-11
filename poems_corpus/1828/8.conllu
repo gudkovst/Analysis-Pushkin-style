@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Дар напрасный, дар случайный, Жизнь, зачем ты мне дана?
+1	Дар	дар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=0:3
+2	напрасный	напрасный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=4:13
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=13:14
+4	дар	дар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=15:18
+5	случайный	случайный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=19:28
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+7	Жизнь	жизнь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=31:36
+8	,	,	PUNCT	,	_	12	punct	_	TokenRange=36:37
+9	зачем	зачем	ADV	RB	Degree=Pos	12	advmod	_	TokenRange=38:43
+10	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	12	nsubj:pass	_	TokenRange=44:46
+11	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	12	iobj	_	TokenRange=47:50
+12	дана	дать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No|TokenRange=51:55
+13	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+
+# sent_id = 2
+# text = Иль зачем судьбою тайной Ты на казнь осуждена?
+1	Иль	иль	CCONJ	CC	_	8	cc	_	TokenRange=58:61
+2	зачем	зачем	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=62:67
+3	судьбою	судьба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	iobj	_	TokenRange=68:75
+4	тайной	тайна	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\r\n|TokenRange=76:82
+5	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	8	nsubj:pass	_	TokenRange=84:86
+6	на	на	ADP	IN	_	7	case	_	TokenRange=87:89
+7	казнь	казнь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	TokenRange=90:95
+8	осуждена	осудить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=96:104
+9	?	?	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+
+# sent_id = 3
+# text = Кто меня враждебной властью Из ничтожества воззвал, Душу мне наполнил страстью, Ум сомненьем взволновал?..
+1	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=107:110
+2	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	obj	_	TokenRange=111:115
+3	враждебной	враждебный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=116:126
+4	властью	власть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	SpacesAfter=\r\n|TokenRange=127:134
+5	Из	из	ADP	IN	_	6	case	_	TokenRange=136:138
+6	ничтожества	ничтожество	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	TokenRange=139:150
+7	воззвал	воззвать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=151:158
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=158:159
+9	Душу	душа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	TokenRange=161:165
+10	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	11	iobj	_	TokenRange=166:169
+11	наполнил	наполнить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=170:178
+12	страстью	страсть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=179:187
+13	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=187:188
+14	Ум	ум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=190:192
+15	сомненьем	сомненье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	iobj	_	TokenRange=193:202
+16	взволновал	взволновать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|TokenRange=203:213
+17	?..	?..	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=213:216
+
+# sent_id = 4
+# text = Цели нет передо мною: Сердце пусто, празден ум, И томит меня тоскою Однозвучный жизни шум.
+1	Цели	цель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=218:222
+2	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=223:226
+3	передо	передо	ADP	IN	_	4	case	_	TokenRange=227:233
+4	мною	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	2	obl	_	SpaceAfter=No|TokenRange=234:238
+5	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=238:239
+6	Сердце	сердце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	TokenRange=241:247
+7	пусто	пустой	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	parataxis	_	SpaceAfter=No|TokenRange=248:253
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=253:254
+9	празден	праздеть	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	TokenRange=255:262
+10	ум	ум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	SpaceAfter=No|TokenRange=263:265
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=265:266
+12	И	и	CCONJ	CC	_	13	cc	_	TokenRange=268:269
+13	томит	томить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=270:275
+14	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	13	obj	_	TokenRange=276:280
+15	тоскою	тоска	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	iobj	_	SpacesAfter=\r\n|TokenRange=281:287
+16	Однозвучный	однозвучный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=289:300
+17	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	TokenRange=301:306
+18	шум	шум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No|TokenRange=307:310
+19	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=310:311
+

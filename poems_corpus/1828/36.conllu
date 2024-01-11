@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Брадатый староста Авдей С поклоном барыне своей Заместо красного яичка Поднес ученого скворца.
+1	Брадатый	брадатый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=0:8
+2	староста	староста	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=9:17
+3	Авдей	Авдей	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpacesAfter=\r\n|TokenRange=18:23
+4	С	с	ADP	IN	_	5	case	_	TokenRange=25:26
+5	поклоном	поклон	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	TokenRange=27:35
+6	барыне	барыня	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	TokenRange=36:42
+7	своей	свой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	8	det	_	SpacesAfter=\r\n|TokenRange=43:48
+8	Заместо	заместо	NOUN	NN	_	11	advmod	_	TokenRange=50:57
+9	красного	красный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=58:66
+10	яичка	яичок	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpacesAfter=\r\n|TokenRange=67:72
+11	Поднес	поднести	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=74:80
+12	ученого	ученый	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	TokenRange=81:88
+13	скворца	скворец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=89:96
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=96:97
+
+# sent_id = 2
+# text = Известно вам: такая птичка Умней иного мудреца.
+1	Известно	известный	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	TokenRange=99:107
+2	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	1	iobj	_	SpaceAfter=No|TokenRange=108:111
+3	:	:	PUNCT	:	_	1	punct	_	TokenRange=111:112
+4	такая	такой	DET	DT	Case=Nom|Gender=Fem|Number=Sing	5	det	_	TokenRange=113:118
+5	птичка	птичка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpacesAfter=\r\n|TokenRange=119:125
+6	Умней	умный	ADJ	RBR	Degree=Cmp	1	parataxis	_	TokenRange=127:132
+7	иного	иной	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=133:138
+8	мудреца	мудрец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=139:146
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=146:147
+
+# sent_id = 3
+# text = Скворец, надувшись величаво, Вздыхал о царствии небес И приговаривал картаво: «Христос воскрес!
+1	Скворец	скворец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=149:156
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=156:157
+3	надувшись	надуться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	TokenRange=158:167
+4	величаво	величаво	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=168:176
+5	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+6	Вздыхал	вздыхать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=179:186
+7	о	о	ADP	IN	_	8	case	_	TokenRange=187:188
+8	царствии	царствие	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	TokenRange=189:197
+9	небес	небо	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpacesAfter=\r\n|TokenRange=198:203
+10	И	и	CCONJ	CC	_	11	cc	_	TokenRange=205:206
+11	приговаривал	приговаривать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	TokenRange=207:219
+12	картаво	картаво	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No|TokenRange=220:227
+13	:	:	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=227:228
+14	«Христос	«христос	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=230:238
+15	воскрес	воскрести	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No|TokenRange=239:246
+16	!	!	PUNCT	.	_	6	punct	_	TokenRange=246:247
+
+# sent_id = 4
+# text = Христос воскрес!»
+1	Христос	Христос	PROPN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=248:255
+2	воскрес!»	воскрес!»	ADJ	_	Abbr=Yes	0	root	_	SpaceAfter=No|TokenRange=256:265
+

@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Кобылица молодая, Честь кавказского тавра, Что ты мчишься, удалая?
+1	Кобылица	кобылица	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=0:8
+2	молодая	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=9:16
+3	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=16:17
+4	Честь	честь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	TokenRange=19:24
+5	кавказского	кавказский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=25:36
+6	тавра	тавр	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=37:42
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+8	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	TokenRange=45:48
+9	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=49:51
+10	мчишься	мчиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	SpaceAfter=No|TokenRange=52:59
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=59:60
+12	удалая	удалый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	parataxis	_	SpaceAfter=No|TokenRange=61:67
+13	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=67:68
+
+# sent_id = 2
+# text = И тебе пришла пора;
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=70:71
+2	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	3	iobj	_	TokenRange=72:76
+3	пришла	прийти	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=77:83
+4	пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=84:88
+5	;	;	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=88:89
+
+# sent_id = 3
+# text = Не косись пугливым оком, Ног на воздух не мечи, В поле гладком и широком Своенравно не скачи.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=91:93
+2	косись	коситься	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=94:100
+3	пугливым	пугливый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	TokenRange=101:109
+4	оком	ок	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=110:114
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=114:115
+6	Ног	нога	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obj	_	TokenRange=117:120
+7	на	на	ADP	IN	_	8	case	_	TokenRange=121:123
+8	воздух	воздух	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	TokenRange=124:130
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=131:133
+10	мечи	меч	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=134:138
+11	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=138:139
+12	В	в	ADP	IN	_	13	case	_	TokenRange=141:142
+13	поле	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	TokenRange=143:147
+14	гладком	гладкий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	TokenRange=148:155
+15	и	и	CCONJ	CC	_	16	cc	_	TokenRange=156:157
+16	широком	широкий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	SpacesAfter=\r\n|TokenRange=158:165
+17	Своенравно	своенравно	ADV	RB	Degree=Pos	19	advmod	_	TokenRange=167:177
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=178:180
+19	скачи	скакать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=181:186
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=186:187
+
+# sent_id = 4
+# text = Погоди; тебя заставлю Я смириться подо мной: В мерный круг твой бег направлю Укороченной уздой.
+1	Погоди	погодить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=189:195
+2	;	;	PUNCT	:	_	1	punct	_	TokenRange=195:196
+3	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	4	obj	_	TokenRange=197:201
+4	заставлю	заставить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	parataxis	_	SpacesAfter=\r\n|TokenRange=202:210
+5	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=212:213
+6	смириться	смириться	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	TokenRange=214:223
+7	подо	подо	ADP	IN	_	8	case	_	TokenRange=224:228
+8	мной	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	6	obl	_	SpaceAfter=No|TokenRange=229:233
+9	:	:	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=233:234
+10	В	в	ADP	IN	_	12	case	_	TokenRange=236:237
+11	мерный	мерный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	TokenRange=238:244
+12	круг	круг	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	TokenRange=245:249
+13	твой	твой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	det	_	TokenRange=250:254
+14	бег	бег	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	TokenRange=255:258
+15	направлю	направить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	SpacesAfter=\r\n|TokenRange=259:267
+16	Укороченной	укоротить	VERB	VBNL	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	TokenRange=269:280
+17	уздой	узда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	iobj	_	SpaceAfter=No|TokenRange=281:286
+18	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=286:287
+

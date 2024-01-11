@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Уродился я, бедный недоносок, С глупых лет брожу я сиротою; Недорослем меня бедного женили;
+1	Уродился	уродиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=0:8
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	1	nsubj	_	SpaceAfter=No|TokenRange=9:10
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=10:11
+4	бедный	бедный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=12:18
+5	недоносок	недоносок	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=19:28
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+7	С	с	ADP	IN	_	9	case	_	TokenRange=31:32
+8	глупых	глупый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	TokenRange=33:39
+9	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	TokenRange=40:43
+10	брожу	бродить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=44:49
+11	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	TokenRange=50:51
+12	сиротою	сирота	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	10	xcomp	_	SpaceAfter=No|TokenRange=52:59
+13	;	;	PUNCT	:	_	17	punct	_	SpacesAfter=\r\n|TokenRange=59:60
+14	Недорослем	Недоросль	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	iobj	_	TokenRange=62:72
+15	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	17	obj	_	TokenRange=73:77
+16	бедного	бедный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=78:85
+17	женили	женить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=86:92
+18	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=92:93
+
+# sent_id = 2
+# text = Новая семья не полюбила; Сударыня жена не приласкала.
+1	Новая	новый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=95:100
+2	семья	семья	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=101:106
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=107:109
+4	полюбила	полюбить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=110:118
+5	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=118:119
+6	Сударыня	Сударынь	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=121:129
+7	жена	жена	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	TokenRange=130:134
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=135:137
+9	приласкала	приласкать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=138:148
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=148:149
+

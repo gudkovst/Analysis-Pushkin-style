@@ -1,0 +1,109 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Она мила — скажу меж нами — Придворных витязей гроза, И можно с южными звездами Сравнить, особенно стихами, Ее черкесские глаза.
+1	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	TokenRange=0:3
+2	мила	милый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	TokenRange=4:8
+3	—	—	PUNCT	--	_	4	punct	_	TokenRange=9:10
+4	скажу	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=11:16
+5	меж	меж	ADP	IN	_	6	case	_	TokenRange=17:20
+6	нами	мы	PRON	PRP	Case=Ins|Number=Plur|Person=1	4	obl	_	TokenRange=21:25
+7	—	—	PUNCT	``	_	9	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+8	Придворных	придворный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	TokenRange=29:39
+9	витязей	витязь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	TokenRange=40:47
+10	гроза	гроз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=48:53
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+12	И	и	CCONJ	CC	_	13	cc	_	TokenRange=56:57
+13	можно	можно	VERB	PRED	_	4	conj	_	TokenRange=58:63
+14	с	с	ADP	IN	_	16	case	_	TokenRange=64:65
+15	южными	южный	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	TokenRange=66:72
+16	звездами	звезда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	SpacesAfter=\r\n|TokenRange=73:81
+17	Сравнить	сравнить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No|TokenRange=83:91
+18	,	,	PUNCT	,	_	20	punct	_	TokenRange=91:92
+19	особенно	особенно	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=93:101
+20	стихами	стихи	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	iobj	_	SpaceAfter=No|TokenRange=102:109
+21	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=109:110
+22	Ее	ее	DET	PRP$	_	24	det	_	TokenRange=112:114
+23	черкесские	черкесский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	TokenRange=115:125
+24	глаза	глаз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No|TokenRange=126:131
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=131:132
+
+# sent_id = 2
+# text = Она владеет ими смело, Они горят огня живей;
+1	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	TokenRange=134:137
+2	владеет	владеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=138:145
+3	ими	они	PRON	PRP	Case=Ins|Number=Plur|Person=3	2	obj	_	TokenRange=146:149
+4	смело	смело	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=150:155
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=155:156
+6	Они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	7	nsubj	_	TokenRange=158:161
+7	горят	гореть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=162:167
+8	огня	огонь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obj	_	TokenRange=168:172
+9	живей	живей	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No|TokenRange=173:178
+10	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=178:179
+
+# sent_id = 3
+# text = Но, сам признайся, то ли дело Глаза Олениной моей!
+1	Но	но	CCONJ	CC	_	8	cc	_	SpaceAfter=No|TokenRange=181:183
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=183:184
+3	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	TokenRange=185:188
+4	признайся	признаться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	parataxis	_	SpaceAfter=No|TokenRange=189:198
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=198:199
+6	то	то	SCONJ	RB	_	8	mark	_	TokenRange=200:202
+7	ли	ли	PART	UH	_	6	fixed	_	TokenRange=203:205
+8	дело	дело	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\r\n|TokenRange=206:210
+9	Глаза	глаз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	TokenRange=212:217
+10	Олениной	Оленина	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	TokenRange=218:226
+11	моей	мой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	10	det	_	SpaceAfter=No|TokenRange=227:231
+12	!	!	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=231:232
+
+# sent_id = 4
+# text = Какой задумчивый в них гений, И сколько детской простоты, И сколько томных выражений, И сколько неги и мечты!..
+1	Какой	какой	DET	DT	Case=Nom|Gender=Masc|Number=Sing	5	det	_	TokenRange=234:239
+2	задумчивый	задумчивый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=240:250
+3	в	в	ADP	IN	_	4	case	_	TokenRange=251:252
+4	них	они	PRON	PRP	Case=Loc|Number=Plur|Person=3	2	nmod	_	TokenRange=253:256
+5	гений	гений	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=257:262
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=262:263
+7	И	и	CCONJ	CC	_	10	cc	_	TokenRange=265:266
+8	сколько	сколько	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	10	nummod:gov	_	TokenRange=267:274
+9	детской	детский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=275:282
+10	простоты	простота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=283:291
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=291:292
+12	И	и	CCONJ	CC	_	15	cc	_	TokenRange=294:295
+13	сколько	сколько	NUM	RB	Case=Nom|NumType=Card	15	nummod:gov	_	TokenRange=296:303
+14	томных	томный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	TokenRange=304:310
+15	выражений	выражение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No|TokenRange=311:320
+16	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=320:321
+17	И	и	CCONJ	CC	_	19	cc	_	TokenRange=323:324
+18	сколько	сколько	NUM	RB	Case=Nom|NumType=Card	19	nummod:gov	_	TokenRange=325:332
+19	неги	нега	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	TokenRange=333:337
+20	и	и	CCONJ	CC	_	21	cc	_	TokenRange=338:339
+21	мечты	мечта	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No|TokenRange=340:345
+22	!..	!..	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=345:348
+
+# sent_id = 5
+# text = Потупит их с улыбкой Леля — В них скромных граций торжество; Поднимет — ангел Рафаэля Так созерцает божество.
+1	Потупит	потупить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=350:357
+2	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	1	obj	_	TokenRange=358:360
+3	с	с	ADP	IN	_	4	case	_	TokenRange=361:362
+4	улыбкой	улыбка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	TokenRange=363:370
+5	Леля	Лель	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	TokenRange=371:375
+6	—	—	PUNCT	--	_	11	punct	_	SpacesAfter=\r\n|TokenRange=376:377
+7	В	в	ADP	IN	_	8	case	_	TokenRange=379:380
+8	них	они	PRON	PRP	Case=Loc|Number=Plur|Person=3	11	nmod	_	TokenRange=381:384
+9	скромных	скромный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=385:393
+10	граций	грация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	TokenRange=394:400
+11	торжество	торжество	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=401:410
+12	;	;	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=410:411
+13	Поднимет	поднять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=413:421
+14	—	—	PUNCT	--	_	18	punct	_	TokenRange=422:423
+15	ангел	ангел	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=424:429
+16	Рафаэля	Рафаэль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpacesAfter=\r\n|TokenRange=430:437
+17	Так	так	ADV	RB	Degree=Pos	18	advmod	_	TokenRange=439:442
+18	созерцает	созерцать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	TokenRange=443:452
+19	божество	божество	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|TokenRange=453:461
+20	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=461:462
+
