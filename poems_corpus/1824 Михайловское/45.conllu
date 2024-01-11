@@ -1,0 +1,413 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Во славном городе во Киеве, У славного царя у Владимира, Жила была молода вдова.
+1	Во	во	ADP	IN	_	3	case	_	TokenRange=0:2
+2	славном	славный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=3:10
+3	городе	город	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	TokenRange=11:17
+4	во	во	ADP	IN	_	5	case	_	TokenRange=18:20
+5	Киеве	Киев	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=21:26
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+7	У	у	ADP	IN	_	9	case	_	TokenRange=29:30
+8	славного	славный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=31:39
+9	царя	царь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	TokenRange=40:44
+10	у	у	ADP	IN	_	11	case	_	TokenRange=45:46
+11	Владимира	Владимир	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=47:56
+12	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=56:57
+13	Жила	жить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=59:63
+14	была	быть	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	aux	_	TokenRange=64:68
+15	молода	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	TokenRange=69:75
+16	вдова	вдова	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No|TokenRange=76:81
+17	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\r\n|TokenRange=81:82
+
+# sent_id = 2
+# text = У вдовушки было девять сынов, Десятая дочь любезная: Поили, кормили, пелегали — Девять сынов под разбой пошли, Десятую дочь замуж выдали, По край моря, за Морьянина.
+1	У	у	ADP	IN	_	2	case	_	TokenRange=84:85
+2	вдовушки	вдовушка	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	TokenRange=86:94
+3	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=95:99
+4	девять	девять	NUM	CD	Case=Nom|NumType=Card	5	nummod:gov	_	TokenRange=100:106
+5	сынов	сын	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No|TokenRange=107:112
+6	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=112:113
+7	Десятая	десятый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=115:122
+8	дочь	дочь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=123:127
+9	любезная	любезный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=128:136
+10	:	:	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+11	Поили	поить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No|TokenRange=139:144
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=144:145
+13	кормили	кормить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=146:153
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=153:154
+15	пелегали	пелегать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=155:163
+16	—	—	PUNCT	--	_	21	punct	_	SpacesAfter=\r\n|TokenRange=164:165
+17	Девять	девять	NUM	CD	Case=Nom|NumType=Card	18	nummod:gov	_	TokenRange=167:173
+18	сынов	сын	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	TokenRange=174:179
+19	под	под	ADP	IN	_	20	case	_	TokenRange=180:183
+20	разбой	разбой	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	TokenRange=184:190
+21	пошли	пойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No|TokenRange=191:196
+22	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\r\n|TokenRange=196:197
+23	Десятую	десятый	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	TokenRange=199:206
+24	дочь	дочь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	TokenRange=207:211
+25	замуж	замуж	ADV	RB	Degree=Pos	26	advmod	_	TokenRange=212:217
+26	выдали	выдать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	conj	_	SpaceAfter=No|TokenRange=218:224
+27	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=224:225
+28	По	по	ADP	IN	_	29	case	_	TokenRange=227:229
+29	край	край	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	TokenRange=230:234
+30	моря	море	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No|TokenRange=235:239
+31	,	,	PUNCT	,	_	29	punct	_	TokenRange=239:240
+32	за	за	ADP	IN	_	33	case	_	TokenRange=241:243
+33	Морьянина	Морьянин	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|TokenRange=244:253
+34	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=253:254
+
+# sent_id = 3
+# text = Они прижили малого детища.
+1	Они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	2	nsubj	_	TokenRange=256:259
+2	прижили	прижить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=260:267
+3	малого	малый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	TokenRange=268:274
+4	детища	детище	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=275:281
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=281:282
+
+# sent_id = 4
+# text = Она год живет и другой живет, На третий год стосковалася.
+1	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	TokenRange=284:287
+2	год	год	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=288:291
+3	живет	жить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=292:297
+4	и	и	CCONJ	CC	_	6	cc	_	TokenRange=298:299
+5	другой	другой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=300:306
+6	живет	жить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=307:312
+7	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=312:313
+8	На	на	ADP	IN	_	10	case	_	TokenRange=315:317
+9	третий	третий	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=318:324
+10	год	год	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	TokenRange=325:328
+11	стосковалася	стосковаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No|TokenRange=329:341
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=341:342
+
+# sent_id = 5
+# text = Стала она Морьянина в гости звать: «Пойдем, Морьянин-свет, Ты к теще, а я к матушке, Ты к шурьям, а я к милым братьям».
+1	Стала	стать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=344:349
+2	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	nsubj	_	TokenRange=350:353
+3	Морьянина	Морьянин	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	TokenRange=354:363
+4	в	в	ADP	IN	_	5	case	_	TokenRange=364:365
+5	гости	гость	NOUN	NN	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	TokenRange=366:371
+6	звать	звать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No|TokenRange=372:377
+7	:	:	PUNCT	:	_	8	punct	_	SpacesAfter=\r\n|TokenRange=377:378
+8	«Пойдем	«пойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No|TokenRange=380:387
+9	,	,	PUNCT	,	_	10	punct	_	TokenRange=387:388
+10	Морьянин-	морьянин-	NOUN	JJL	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No|TokenRange=389:398
+11	свет	свет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=398:402
+12	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=402:403
+13	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	15	nsubj	_	TokenRange=405:407
+14	к	к	ADP	IN	_	15	case	_	TokenRange=408:409
+15	теще	теща	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=410:414
+16	,	,	PUNCT	,	_	18	punct	_	TokenRange=414:415
+17	а	а	CCONJ	CC	_	18	cc	_	TokenRange=416:417
+18	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	conj	_	TokenRange=418:419
+19	к	к	ADP	IN	_	20	case	_	TokenRange=420:421
+20	матушке	матушка	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	18	orphan	_	SpaceAfter=No|TokenRange=422:429
+21	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=429:430
+22	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	24	nsubj	_	TokenRange=432:434
+23	к	к	ADP	IN	_	24	case	_	TokenRange=435:436
+24	шурьям	шурья	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	18	orphan	_	SpaceAfter=No|TokenRange=437:443
+25	,	,	PUNCT	,	_	27	punct	_	TokenRange=443:444
+26	а	а	CCONJ	CC	_	27	cc	_	TokenRange=445:446
+27	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	conj	_	TokenRange=447:448
+28	к	к	ADP	IN	_	30	case	_	TokenRange=449:450
+29	милым	милый	ADJ	JJL	Case=Dat|Degree=Pos|Number=Plur	30	amod	_	TokenRange=451:456
+30	братьям»	брать	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	orphan	_	SpaceAfter=No|TokenRange=457:465
+31	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=465:466
+
+# sent_id = 6
+# text = Они день идут и другой идут, На третий день становилися.
+1	Они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	3	nsubj	_	TokenRange=468:471
+2	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=472:476
+3	идут	идти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=477:481
+4	и	и	CCONJ	CC	_	6	cc	_	TokenRange=482:483
+5	другой	другой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=484:490
+6	идут	идти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=491:495
+7	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=495:496
+8	На	на	ADP	IN	_	10	case	_	TokenRange=498:500
+9	третий	третий	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=501:507
+10	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	TokenRange=508:512
+11	становилися	становиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No|TokenRange=513:524
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=524:525
+
+# sent_id = 7
+# text = Нарубили огонечек малёшенек, Пустили дымочек тонёшенек.
+1	Нарубили	нарубить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=527:535
+2	огонечек	огонечка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	TokenRange=536:544
+3	малёшенек	малёшенка	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=545:554
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=554:555
+5	Пустили	пустить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=557:564
+6	дымочек	дымочек	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	TokenRange=565:572
+7	тонёшенек	тонёшенко	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|TokenRange=573:582
+8	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=582:583
+
+# sent_id = 8
+# text = Напали воры, разбойники, Они Морьянина зарезали, Морьянинка в воду бросили, Морьянинку во полон взяли.
+1	Напали	напасть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=585:591
+2	воры	вор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No|TokenRange=592:596
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=596:597
+4	разбойники	разбойник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=598:608
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=608:609
+6	Они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	8	nsubj	_	TokenRange=611:614
+7	Морьянина	Морьянин	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	TokenRange=615:624
+8	зарезали	зарезать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=625:633
+9	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=633:634
+10	Морьянинка	Морьянинк	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	TokenRange=636:646
+11	в	в	ADP	IN	_	12	case	_	TokenRange=647:648
+12	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	TokenRange=649:653
+13	бросили	бросить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=654:661
+14	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=661:662
+15	Морьянинку	Морьянинка	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	TokenRange=664:674
+16	во	во	ADP	IN	_	17	case	_	TokenRange=675:677
+17	полон	полон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	TokenRange=678:683
+18	взяли	взять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=684:689
+19	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=689:690
+
+# sent_id = 9
+# text = Как все-то разбойнички стали пить и есть, Один-то разбойничек ни пьет, ни ест, Ни пьет, ни ест, богу молится.
+1	Как	как	SCONJ	IN	_	4	mark	_	TokenRange=692:695
+2	все-то	все-то	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=696:702
+3	разбойнички	разбойничка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=703:714
+4	стали	стать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	TokenRange=715:720
+5	пить	пить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=721:725
+6	и	и	CCONJ	CC	_	7	cc	_	TokenRange=726:727
+7	есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=728:732
+8	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=732:733
+9	Один-то	один-то	ADV	RB	Degree=Pos	10	amod	_	TokenRange=735:742
+10	разбойничек	разбойничек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=743:754
+11	ни	ни	CCONJ	NEG	Polarity=Neg	12	advmod	_	TokenRange=755:757
+12	пьет	пить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=758:762
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=762:763
+14	ни	ни	CCONJ	CC	Polarity=Neg	15	cc	_	TokenRange=764:766
+15	ест	есть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=767:770
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=770:771
+17	Ни	ни	CCONJ	CC	Polarity=Neg	18	cc	_	TokenRange=773:775
+18	пьет	пить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=776:780
+19	,	,	PUNCT	,	_	21	punct	_	TokenRange=780:781
+20	ни	ни	CCONJ	CC	Polarity=Neg	21	cc	_	TokenRange=782:784
+21	ест	есть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=785:788
+22	,	,	PUNCT	,	_	24	punct	_	TokenRange=788:789
+23	богу	бог	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	24	iobj	_	TokenRange=790:794
+24	молится	молиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	SpaceAfter=No|TokenRange=795:802
+25	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\r\n|TokenRange=802:803
+
+# sent_id = 10
+# text = Все разбойнички спать легли,
+1	Все	весь	DET	DT	Case=Nom|Number=Plur	2	det	_	TokenRange=805:808
+2	разбойнички	разбойничка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=809:820
+3	спать	спать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=821:826
+4	легли	лечь	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=827:832
+5	,	,	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=832:833
+
+# sent_id = 11
+# text = Один-то разбойничек ни спит, ни лежит.
+1	Один-то	один-то	ADJ	RB	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=835:842
+2	разбойничек	разбойничек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=843:854
+3	ни	ни	CCONJ	NEG	Polarity=Neg	4	cc	_	TokenRange=855:857
+4	спит	спать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=858:862
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=862:863
+6	ни	ни	CCONJ	CC	Polarity=Neg	7	cc	_	TokenRange=864:866
+7	лежит	лежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=867:872
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=872:873
+
+# sent_id = 12
+# text = Господу богу молится.
+1	Господу	господ	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	TokenRange=875:882
+2	богу	бог	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	appos	_	TokenRange=883:887
+3	молится	молиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=888:895
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=895:896
+
+# sent_id = 13
+# text = И стал он у Морьянинки расспрашивать: «Ты скажи, скажи, Морьянинка.
+1	И	и	CCONJ	CC	_	2	cc	_	TokenRange=898:899
+2	стал	стать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=900:904
+3	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	TokenRange=905:907
+4	у	у	ADP	IN	_	5	case	_	TokenRange=908:909
+5	Морьянинки	Морьянинка	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	TokenRange=910:920
+6	расспрашивать	расспрашивать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No|TokenRange=921:934
+7	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=934:935
+8	«Ты	«ты	PRON	PRP	_	9	nsubj	_	TokenRange=937:940
+9	скажи	сказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No|TokenRange=941:946
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=946:947
+11	скажи	сказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No|TokenRange=948:953
+12	,	,	PUNCT	,	_	11	punct	_	TokenRange=953:954
+13	Морьянинка	Морьянинка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	vocative	_	SpaceAfter=No|TokenRange=955:965
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=965:966
+
+# sent_id = 14
+# text = С какого ты села-города?
+1	С	с	ADP	IN	_	4	case	_	TokenRange=968:969
+2	какого	какой	DET	DT	Case=Gen|Gender=Neut|Number=Sing	4	det	_	TokenRange=970:976
+3	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	4	nsubj	_	TokenRange=977:979
+4	села	село	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=980:984
+5	-города	-город	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=984:991
+6	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=991:992
+
+# sent_id = 15
+# text = И которого отца-матери?» Стала ему Морьянинка рассказывать: «У славного царя у Владимира Жила была молода вдова;
+1	И	и	CCONJ	CC	_	6	cc	_	TokenRange=994:995
+2	которого	который	PRON	AWP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	TokenRange=996:1004
+3	отца	отец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=1005:1009
+4	-матери	-мать	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=1009:1016
+5	?»	?»	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=1016:1018
+6	Стала	стать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1020:1025
+7	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	6	iobj	_	TokenRange=1026:1029
+8	Морьянинка	Морьянинка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=1030:1040
+9	рассказывать	рассказывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No|TokenRange=1041:1053
+10	:	:	PUNCT	:	_	16	punct	_	SpacesAfter=\r\n|TokenRange=1053:1054
+11	«У	«у	ADP	IN	_	13	case	_	TokenRange=1056:1058
+12	славного	славный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	TokenRange=1059:1067
+13	царя	царь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	TokenRange=1068:1072
+14	у	у	ADP	IN	_	15	case	_	TokenRange=1073:1074
+15	Владимира	Владимир	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpacesAfter=\r\n|TokenRange=1075:1084
+16	Жила	жить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	TokenRange=1086:1090
+17	была	быть	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	16	xcomp	_	TokenRange=1091:1095
+18	молода	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=1096:1102
+19	вдова	вдова	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No|TokenRange=1103:1108
+20	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=1108:1109
+
+# sent_id = 16
+# text = У вдовушки было девять сынов— Десятая дочь любезная: Поили, кормили, пелегали, Девять сынов под разбой пошли, Десятую дочь замуж выдали, По край моря за Морьянина».
+1	У	у	ADP	IN	_	2	case	_	TokenRange=1111:1112
+2	вдовушки	вдовушка	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	TokenRange=1113:1121
+3	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1122:1126
+4	девять	девять	NUM	CD	Case=Nom|NumType=Card	5	nummod:gov	_	TokenRange=1127:1133
+5	сынов	сын	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No|TokenRange=1134:1139
+6	—	—	PUNCT	--	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1139:1140
+7	Десятая	десятый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=1142:1149
+8	дочь	дочь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	TokenRange=1150:1154
+9	любезная	любезный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=1155:1163
+10	:	:	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=1163:1164
+11	Поили	поить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No|TokenRange=1166:1171
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=1171:1172
+13	кормили	кормить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=1173:1180
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=1180:1181
+15	пелегали	пелегать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=1182:1190
+16	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=1190:1191
+17	Девять	девять	NUM	CD	Case=Nom|NumType=Card	18	nummod:gov	_	TokenRange=1193:1199
+18	сынов	сын	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	TokenRange=1200:1205
+19	под	под	ADP	IN	_	20	case	_	TokenRange=1206:1209
+20	разбой	разбой	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	TokenRange=1210:1216
+21	пошли	пойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=1217:1222
+22	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\r\n|TokenRange=1222:1223
+23	Десятую	десятый	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	TokenRange=1225:1232
+24	дочь	дочь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	TokenRange=1233:1237
+25	замуж	замуж	ADV	RB	Degree=Pos	26	advmod	_	TokenRange=1238:1243
+26	выдали	выдать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=1244:1250
+27	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=1250:1251
+28	По	по	ADP	IN	_	29	case	_	TokenRange=1253:1255
+29	край	край	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	TokenRange=1256:1260
+30	моря	море	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	TokenRange=1261:1265
+31	за	за	ADP	IN	_	32	case	_	TokenRange=1266:1268
+32	Морьянина»	Морьянина»	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|TokenRange=1269:1279
+33	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=1279:1280
+
+# sent_id = 17
+# text = — Вставайте, братцы родимые!
+1	—	—	PUNCT	--	_	2	punct	_	TokenRange=1282:1283
+2	Вставайте	вставать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=1284:1293
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=1293:1294
+4	братцы	братец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	TokenRange=1295:1301
+5	родимые	родимый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	SpaceAfter=No|TokenRange=1302:1309
+6	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=1309:1310
+
+# sent_id = 18
+# text = Не Морьянина мы зарезали, Не Морьянинка в воду бросили, Не Морьянинку во полон взяли: Мы зарезали зятя любезного, В воду бросили племянника, Родну сестру взяли во полон.— Вставали братцы родимые, Просили у сестры прощеньица: «Отчего ты нам не сказалася, Что ты нам родна сестра?» Пошли братцы к родной матушке, Становились на коленки все И просили у нее прощеньица: «Прости нас, родная матушка, Не знавши зарезали зятя любезного.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=1312:1314
+2	Морьянина	Морьянин	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	TokenRange=1315:1324
+3	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	4	nsubj	_	TokenRange=1325:1327
+4	зарезали	зарезать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=1328:1336
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=1336:1337
+6	Не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=1339:1341
+7	Морьянинка	Морьянинка	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	TokenRange=1342:1352
+8	в	в	ADP	IN	_	9	case	_	TokenRange=1353:1354
+9	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	TokenRange=1355:1359
+10	бросили	бросить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=1360:1367
+11	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=1367:1368
+12	Не	не	PART	NEG	Polarity=Neg	13	advmod	_	TokenRange=1370:1372
+13	Морьянинку	Морьянинка	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	TokenRange=1373:1383
+14	во	во	ADP	IN	_	15	case	_	TokenRange=1384:1386
+15	полон	полон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	TokenRange=1387:1392
+16	взяли	взять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=1393:1398
+17	:	:	PUNCT	:	_	19	punct	_	SpacesAfter=\r\n|TokenRange=1398:1399
+18	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	19	nsubj	_	TokenRange=1401:1403
+19	зарезали	зарезать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	TokenRange=1404:1412
+20	зятя	зять	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	TokenRange=1413:1417
+21	любезного	любезный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No|TokenRange=1418:1427
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=1427:1428
+23	В	в	ADP	IN	_	24	case	_	TokenRange=1430:1431
+24	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	TokenRange=1432:1436
+25	бросили	бросить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	TokenRange=1437:1444
+26	племянника	племянник	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No|TokenRange=1445:1455
+27	,	,	PUNCT	,	_	30	punct	_	SpacesAfter=\r\n|TokenRange=1455:1456
+28	Родну	Родна	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	TokenRange=1458:1463
+29	сестру	сестра	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	TokenRange=1464:1470
+30	взяли	взять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	TokenRange=1471:1476
+31	во	во	ADP	IN	_	32	case	_	TokenRange=1477:1479
+32	полон.—	полон.—	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	SpacesAfter=\r\n|TokenRange=1480:1487
+33	Вставали	вставать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	parataxis	_	TokenRange=1489:1497
+34	братцы	братец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	TokenRange=1498:1504
+35	родимые	родимый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	SpaceAfter=No|TokenRange=1505:1512
+36	,	,	PUNCT	,	_	37	punct	_	SpacesAfter=\r\n|TokenRange=1512:1513
+37	Просили	просить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	33	conj	_	TokenRange=1515:1522
+38	у	у	ADP	IN	_	39	case	_	TokenRange=1523:1524
+39	сестры	сестра	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	37	obl	_	TokenRange=1525:1531
+40	прощеньица	прощеньица	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No|TokenRange=1532:1542
+41	:	:	PUNCT	:	_	46	punct	_	SpacesAfter=\r\n|TokenRange=1542:1543
+42	«Отчего	«отчего	ADV	RB	_	46	advmod	_	TokenRange=1545:1552
+43	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	46	nsubj	_	TokenRange=1553:1555
+44	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	46	iobj	_	TokenRange=1556:1559
+45	не	не	PART	NEG	Polarity=Neg	46	advmod	_	TokenRange=1560:1562
+46	сказалася	сказаться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	37	parataxis	_	SpaceAfter=No|TokenRange=1563:1572
+47	,	,	PUNCT	,	_	51	punct	_	SpacesAfter=\r\n|TokenRange=1572:1573
+48	Что	что	SCONJ	IN	_	51	mark	_	TokenRange=1575:1578
+49	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	51	nsubj	_	TokenRange=1579:1581
+50	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	51	iobj	_	TokenRange=1582:1585
+51	родна	родный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	46	ccomp	_	TokenRange=1586:1591
+52	сестра	сестра	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	51	nsubj	_	SpaceAfter=No|TokenRange=1592:1598
+53	?»	?»	PUNCT	.	_	46	punct	_	SpacesAfter=\r\n|TokenRange=1598:1600
+54	Пошли	пойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=1602:1607
+55	братцы	братец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	54	nsubj	_	TokenRange=1608:1614
+56	к	к	ADP	IN	_	58	case	_	TokenRange=1615:1616
+57	родной	родной	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	58	amod	_	TokenRange=1617:1623
+58	матушке	матушка	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	54	obl	_	SpaceAfter=No|TokenRange=1624:1631
+59	,	,	PUNCT	,	_	60	punct	_	SpacesAfter=\r\n|TokenRange=1631:1632
+60	Становились	становиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	54	conj	_	TokenRange=1634:1645
+61	на	на	ADP	IN	_	62	case	_	TokenRange=1646:1648
+62	коленки	коленка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	60	obl	_	TokenRange=1649:1656
+63	все	все	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	60	nsubj	_	SpacesAfter=\r\n|TokenRange=1657:1660
+64	И	и	CCONJ	CC	_	65	cc	_	TokenRange=1662:1663
+65	просили	просить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	54	conj	_	TokenRange=1664:1671
+66	у	у	ADP	IN	_	67	case	_	TokenRange=1672:1673
+67	нее	она	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=3	65	obl	_	TokenRange=1674:1677
+68	прощеньица	прощеньица	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	65	obj	_	SpaceAfter=No|TokenRange=1678:1688
+69	:	:	PUNCT	:	_	78	punct	_	SpacesAfter=\r\n|TokenRange=1688:1689
+70	«Прости	«прости	VERB	VBC	_	78	parataxis	_	TokenRange=1691:1698
+71	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	70	obj	_	SpaceAfter=No|TokenRange=1699:1702
+72	,	,	PUNCT	,	_	74	punct	_	TokenRange=1702:1703
+73	родная	родной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	74	amod	_	TokenRange=1704:1710
+74	матушка	матушка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	68	appos	_	SpaceAfter=No|TokenRange=1711:1718
+75	,	,	PUNCT	,	_	77	punct	_	SpacesAfter=\r\n|TokenRange=1718:1719
+76	Не	не	PART	NEG	Polarity=Neg	77	advmod	_	TokenRange=1721:1723
+77	знавши	знать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	78	advcl	_	TokenRange=1724:1730
+78	зарезали	зарезать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	65	parataxis	_	TokenRange=1731:1739
+79	зятя	зять	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	78	obj	_	TokenRange=1740:1744
+80	любезного	любезный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	79	amod	_	SpaceAfter=No|TokenRange=1745:1754
+81	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=1754:1755
+
+# sent_id = 19
+# text = В воду бросили племянника, Родну сестру взяли во полон».
+1	В	в	ADP	IN	_	2	case	_	TokenRange=1757:1758
+2	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	TokenRange=1759:1763
+3	бросили	бросить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1764:1771
+4	племянника	племянник	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=1772:1782
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=1782:1783
+6	Родну	родна	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=1785:1790
+7	сестру	сестра	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	TokenRange=1791:1797
+8	взяли	взять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=1798:1803
+9	во	во	ADP	IN	_	10	case	_	TokenRange=1804:1806
+10	полон»	полон»	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|TokenRange=1807:1813
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=1813:1814
+

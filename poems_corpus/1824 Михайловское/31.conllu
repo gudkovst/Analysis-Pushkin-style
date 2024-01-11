@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Пока супруг тебя, красавицу младую, Между шести других еще не заключил,— Ходи к источнику могил И черпай воду ключевую, И думай, милая моя: Как невозвратная струя Блестит, бежит и исчезает — Так жизни время убегает, В гареме так исчезну я.
+1	Пока	пока	SCONJ	IN	_	13	mark	_	TokenRange=0:4
+2	супруг	супруг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	TokenRange=5:11
+3	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	13	obj	_	SpaceAfter=No|TokenRange=12:16
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=16:17
+5	красавицу	красавица	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	3	appos	_	TokenRange=18:27
+6	младую	младой	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No|TokenRange=28:34
+7	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=34:35
+8	Между	между	ADP	IN	_	10	case	_	TokenRange=37:42
+9	шести	шесть	NUM	CD	Case=Gen|NumType=Card	10	nummod	_	TokenRange=43:48
+10	других	другой	ADJ	NN	Case=Gen|Degree=Pos|Number=Plur	13	obl	_	TokenRange=49:55
+11	еще	еще	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=56:59
+12	не	не	PART	NEG	Polarity=Neg	13	advmod	_	TokenRange=60:62
+13	заключил	заключить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	SpaceAfter=No|TokenRange=63:71
+14	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No|TokenRange=71:72
+15	—	—	PUNCT	--	_	16	punct	_	SpacesAfter=\r\n|TokenRange=72:73
+16	Ходи	ходить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=75:79
+17	к	к	ADP	IN	_	18	case	_	TokenRange=80:81
+18	источнику	источник	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	TokenRange=82:91
+19	могил	могила	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpacesAfter=\r\n|TokenRange=92:97
+20	И	и	CCONJ	CC	_	21	cc	_	TokenRange=99:100
+21	черпай	черпать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	16	conj	_	TokenRange=101:107
+22	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	TokenRange=108:112
+23	ключевую	ключевой	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No|TokenRange=113:121
+24	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\r\n|TokenRange=121:122
+25	И	и	CCONJ	CC	_	26	cc	_	TokenRange=124:125
+26	думай	думать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No|TokenRange=126:131
+27	,	,	PUNCT	,	_	28	punct	_	TokenRange=131:132
+28	милая	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	parataxis	_	TokenRange=133:138
+29	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	28	det	_	SpaceAfter=No|TokenRange=139:142
+30	:	:	PUNCT	:	_	34	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+31	Как	как	ADV	WRB	_	34	advmod	_	TokenRange=145:148
+32	невозвратная	невозвратный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	TokenRange=149:161
+33	струя	струя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	SpacesAfter=\r\n|TokenRange=162:167
+34	Блестит	блестеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	ccomp	_	SpaceAfter=No|TokenRange=169:176
+35	,	,	PUNCT	,	_	36	punct	_	TokenRange=176:177
+36	бежит	бежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	_	TokenRange=178:183
+37	и	и	CCONJ	CC	_	38	cc	_	TokenRange=184:185
+38	исчезает	исчезать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	_	TokenRange=186:194
+39	—	—	PUNCT	--	_	43	punct	_	SpacesAfter=\r\n|TokenRange=195:196
+40	Так	так	ADV	RB	Degree=Pos	43	advmod	_	TokenRange=198:201
+41	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	obl	_	TokenRange=202:207
+42	время	время	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	43	nsubj	_	TokenRange=208:213
+43	убегает	убегать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	parataxis	_	SpaceAfter=No|TokenRange=214:221
+44	,	,	PUNCT	,	_	48	punct	_	SpacesAfter=\r\n|TokenRange=221:222
+45	В	в	ADP	IN	_	46	case	_	TokenRange=224:225
+46	гареме	гарема	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	48	obl	_	TokenRange=226:232
+47	так	так	ADV	RB	Degree=Pos	48	advmod	_	TokenRange=233:236
+48	исчезну	исчезнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	43	conj	_	TokenRange=237:244
+49	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	48	nsubj	_	SpaceAfter=No|TokenRange=245:246
+50	.	.	PUNCT	.	_	16	punct	_	SpaceAfter=No|TokenRange=246:247
+

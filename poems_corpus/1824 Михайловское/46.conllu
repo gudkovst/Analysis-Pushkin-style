@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Как за церковью, за немецкою, Добрый молодец богу молится: Как не дай боже хорошу жену,— Хорошу жену в честный пир зовут, Меня молодца не примолвили.
+1	Как	как	SCONJ	IN	_	3	case	_	TokenRange=0:3
+2	за	за	ADP	IN	_	3	case	_	TokenRange=4:6
+3	церковью	церковь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|TokenRange=7:15
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=15:16
+5	за	за	ADP	IN	_	6	case	_	TokenRange=17:19
+6	немецкою	немецкий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=20:28
+7	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+8	Добрый	добрый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=31:37
+9	молодец	молодец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=38:45
+10	богу	бог	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	TokenRange=46:50
+11	молится	молиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=51:58
+12	:	:	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=58:59
+13	Как	как	ADV	WRB	_	15	advmod	_	TokenRange=61:64
+14	не	не	PART	NEG	Polarity=Neg	15	advmod	_	TokenRange=65:67
+15	дай	дать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	11	parataxis	_	TokenRange=68:71
+16	боже	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	advmod	_	TokenRange=72:76
+17	хорошу	хоросить	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=77:83
+18	жену	жена	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|TokenRange=84:88
+19	,	,	PUNCT	,	_	26	punct	_	SpaceAfter=No|TokenRange=88:89
+20	—	—	PUNCT	--	_	26	punct	_	SpacesAfter=\r\n|TokenRange=89:90
+21	Хорошу	хорошу	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	TokenRange=92:98
+22	жену	жена	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	TokenRange=99:103
+23	в	в	ADP	IN	_	25	case	_	TokenRange=104:105
+24	честный	честный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	TokenRange=106:113
+25	пир	пир	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obl	_	TokenRange=114:117
+26	зовут	звать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	SpaceAfter=No|TokenRange=118:123
+27	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\r\n|TokenRange=123:124
+28	Меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	31	obj	_	TokenRange=126:130
+29	молодца	молодец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	TokenRange=131:138
+30	не	не	PART	NEG	Polarity=Neg	31	advmod	_	TokenRange=139:141
+31	примолвили	примолвить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	parataxis	_	SpaceAfter=No|TokenRange=142:152
+32	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=152:153
+
+# sent_id = 2
+# text = Мою жену — в новы саночки, Меня молодца — на запяточки.
+1	Мою	мой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	2	det	_	TokenRange=155:158
+2	жену	жена	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	TokenRange=159:163
+3	—	—	PUNCT	--	_	6	punct	_	TokenRange=164:165
+4	в	в	ADP	IN	_	5	case	_	TokenRange=166:167
+5	новы	нова	ADJ	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	TokenRange=168:172
+6	саночки	саночка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=173:180
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=180:181
+8	Меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	orphan	_	TokenRange=183:187
+9	молодца	молодец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	TokenRange=188:195
+10	—	—	PUNCT	--	_	9	punct	_	TokenRange=196:197
+11	на	на	ADP	IN	_	12	case	_	TokenRange=198:200
+12	запяточки	запяточка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	orphan	_	SpaceAfter=No|TokenRange=201:210
+13	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=210:211
+
+# sent_id = 3
+# text = Мою жену — на широкий двор, Меня молодца — за вороточки.
+1	Мою	мой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	2	det	_	TokenRange=213:216
+2	жену	жена	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	0	root	_	TokenRange=217:221
+3	—	—	PUNCT	--	_	6	punct	_	TokenRange=222:223
+4	на	на	ADP	IN	_	6	case	_	TokenRange=224:226
+5	широкий	широкий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=227:234
+6	двор	двор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=235:239
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=239:240
+8	Меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	orphan	_	TokenRange=242:246
+9	молодца	молодец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	TokenRange=247:254
+10	—	—	PUNCT	--	_	9	punct	_	TokenRange=255:256
+11	за	за	ADP	IN	_	12	case	_	TokenRange=257:259
+12	вороточки	вороточка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	orphan	_	SpaceAfter=No|TokenRange=260:269
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=269:270
+

@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Что дружба?
+1	Что	что	SCONJ	IN	_	2	mark	_	TokenRange=0:3
+2	дружба	дружба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=4:10
+3	?	?	PUNCT	.	_	2	punct	_	TokenRange=10:11
+
+# sent_id = 2
+# text = Легкий пыл похмелья, Обиды вольный разговор, Обмен тщеславия, безделья Иль покровительства позор.
+1	Легкий	легкий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=12:18
+2	пыл	пыл	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=19:22
+3	похмелья	похмелье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=23:31
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+5	Обиды	обида	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	TokenRange=34:39
+6	вольный	вольный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=40:47
+7	разговор	разговор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=48:56
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=56:57
+9	Обмен	обмен	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=59:64
+10	тщеславия	тщеславие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=65:74
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=74:75
+12	безделья	безделье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	conj	_	SpacesAfter=\r\n|TokenRange=76:84
+13	Иль	иль	PART	UH	_	14	advmod	_	TokenRange=86:89
+14	покровительства	покровительство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	TokenRange=90:105
+15	позор	позор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No|TokenRange=106:111
+16	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=111:112
+

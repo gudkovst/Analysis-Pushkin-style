@@ -1,0 +1,126 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не беленька березанька к земле клонится, Не камыш трава во чистом поле расшаталася,— Зашатался, загулялся добрый молодец, В одной тоненькой кармазиновой черкешучке.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	беленька	беленький	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=3:11
+3	березанька	березанька	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=12:22
+4	к	к	ADP	IN	_	5	case	_	TokenRange=23:24
+5	земле	земля	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	TokenRange=25:30
+6	клонится	клониться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=31:39
+7	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=39:40
+8	Не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=42:44
+9	камыш	камыш	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=45:50
+10	трава	трава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	TokenRange=51:56
+11	во	во	ADP	IN	_	13	case	_	TokenRange=57:59
+12	чистом	чистый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	TokenRange=60:66
+13	поле	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	TokenRange=67:71
+14	расшаталася	расшататься	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	SpaceAfter=No|TokenRange=72:83
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No|TokenRange=83:84
+16	—	—	PUNCT	--	_	17	punct	_	SpacesAfter=\r\n|TokenRange=84:85
+17	Зашатался	зашататься	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	SpaceAfter=No|TokenRange=87:96
+18	,	,	PUNCT	,	_	19	punct	_	TokenRange=96:97
+19	загулялся	загуляться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	TokenRange=98:107
+20	добрый	добрый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=108:114
+21	молодец	молодец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No|TokenRange=115:122
+22	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\r\n|TokenRange=122:123
+23	В	в	ADP	IN	_	27	case	_	TokenRange=125:126
+24	одной	один	NUM	CD	Case=Loc|Gender=Fem|Number=Sing	27	nummod	_	TokenRange=127:132
+25	тоненькой	тоненький	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	TokenRange=133:142
+26	кармазиновой	кармазиновый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	TokenRange=143:155
+27	черкешучке	черкешучка	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|TokenRange=156:166
+28	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=166:167
+
+# sent_id = 2
+# text = У черкешучки рукавички назад закинуты, Камчатные его полочки назад загнуты, За плечьми несет ружьецо знать турецкое, Во правой руке он присошечек карновенький, Он присошечком, добрый молодец, подпирается, Горючьми слезми разудаленький заливается.
+1	У	у	ADP	IN	_	2	case	_	TokenRange=169:170
+2	черкешучки	черкешучка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	TokenRange=171:181
+3	рукавички	рукавичок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	TokenRange=182:191
+4	назад	назад	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=192:197
+5	закинуты	закинуть	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=198:206
+6	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=206:207
+7	Камчатные	камчатный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	TokenRange=209:218
+8	его	его	DET	PRP$	_	9	det	_	TokenRange=219:222
+9	полочки	полочка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	TokenRange=223:230
+10	назад	назад	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=231:236
+11	загнуты	загнуть	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No|TokenRange=237:244
+12	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=244:245
+13	За	за	ADP	IN	_	14	case	_	TokenRange=247:249
+14	плечьми	плечо	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	15	obl	_	TokenRange=250:257
+15	несет	нести	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=258:263
+16	ружьецо	ружьецо	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	TokenRange=264:271
+17	знать	знать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	TokenRange=272:277
+18	турецкое	турецкий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No|TokenRange=278:286
+19	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=286:287
+20	Во	во	ADP	IN	_	22	case	_	TokenRange=289:291
+21	правой	правый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	TokenRange=292:298
+22	руке	рука	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	TokenRange=299:303
+23	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	TokenRange=304:306
+24	присошечек	присошечка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	TokenRange=307:317
+25	карновенький	карновенький	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No|TokenRange=318:330
+26	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\r\n|TokenRange=330:331
+27	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	TokenRange=333:335
+28	присошечком	присошечок	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No|TokenRange=336:347
+29	,	,	PUNCT	,	_	31	punct	_	TokenRange=347:348
+30	добрый	добрый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	TokenRange=349:355
+31	молодец	молодец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No|TokenRange=356:363
+32	,	,	PUNCT	,	_	33	punct	_	TokenRange=363:364
+33	подпирается	подпираться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	SpaceAfter=No|TokenRange=365:376
+34	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\r\n|TokenRange=376:377
+35	Горючьми	горючь	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	36	amod	_	TokenRange=379:387
+36	слезми	слезма	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	38	iobj	_	TokenRange=388:394
+37	разудаленький	разудаленький	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	38	nsubj	_	TokenRange=395:408
+38	заливается	заливаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	SpaceAfter=No|TokenRange=409:419
+39	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=419:420
+
+# sent_id = 3
+# text = Вдруг несчастьице над молодцом случилось, Поднималася с гор погорушка всё хурта вьюга, Всё хурта подымалась с гор, погорушка полуденная, Собивала-то она добра молодца со дороженьки, Прибивала-то она молодца ко городу, Ко тому же то ко городу ко незнамому.
+1	Вдруг	вдруг	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=422:427
+2	несчастьице	несчастьице	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=428:439
+3	над	над	ADP	IN	_	4	case	_	TokenRange=440:443
+4	молодцом	молодец	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	TokenRange=444:452
+5	случилось	случиться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=453:462
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=462:463
+7	Поднималася	подниматься	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	TokenRange=465:476
+8	с	с	ADP	IN	_	9	case	_	TokenRange=477:478
+9	гор	гора	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	TokenRange=479:482
+10	погорушка	погорушка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=483:492
+11	всё	весь	DET	DT	_	12	det	_	TokenRange=493:496
+12	хурта	хурта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	TokenRange=497:502
+13	вьюга	вьюга	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No|TokenRange=503:508
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=508:509
+15	Всё	весь	ADV	DT	Degree=Pos	16	det	_	TokenRange=511:514
+16	хурта	хурта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	TokenRange=515:520
+17	подымалась	подыматься	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	TokenRange=521:531
+18	с	с	ADP	IN	_	19	case	_	TokenRange=532:533
+19	гор	гора	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No|TokenRange=534:537
+20	,	,	PUNCT	,	_	22	punct	_	TokenRange=537:538
+21	погорушка	погорушка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	TokenRange=539:548
+22	полуденная	полуденный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No|TokenRange=549:559
+23	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\r\n|TokenRange=559:560
+24	Собивала-то	собивала-то	ADV	RB	Degree=Pos	26	advmod	_	TokenRange=562:573
+25	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	26	nsubj	_	TokenRange=574:577
+26	добра	добро	ADJ	NN	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	22	conj	_	TokenRange=578:583
+27	молодца	молодец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	TokenRange=584:591
+28	со	со	ADP	IN	_	29	case	_	TokenRange=592:594
+29	дороженьки	дороженька	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No|TokenRange=595:605
+30	,	,	PUNCT	,	_	33	punct	_	SpacesAfter=\r\n|TokenRange=605:606
+31	Прибивала-то	прибивала-то	ADV	RB	Degree=Pos	33	advmod	_	TokenRange=608:620
+32	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	33	nsubj	_	TokenRange=621:624
+33	молодца	молодец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	TokenRange=625:632
+34	ко	ко	ADP	IN	_	35	case	_	TokenRange=633:635
+35	городу	город	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No|TokenRange=636:642
+36	,	,	PUNCT	,	_	42	punct	_	SpacesAfter=\r\n|TokenRange=642:643
+37	Ко	ко	ADP	IN	_	38	case	_	TokenRange=645:647
+38	тому	то	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	42	nmod	_	TokenRange=648:652
+39	же	же	PART	UH	_	38	advmod	_	TokenRange=653:655
+40	то	то	PRON	DT	_	38	advmod	_	TokenRange=656:658
+41	ко	ко	ADP	IN	_	42	case	_	TokenRange=659:661
+42	городу	город	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	35	conj	_	TokenRange=662:668
+43	ко	ко	ADP	IN	_	44	case	_	TokenRange=669:671
+44	незнамому	незнамый	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No|TokenRange=672:681
+45	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=681:682
+

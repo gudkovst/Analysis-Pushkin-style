@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Как у нас было на улице, У нас на широкой, Красны девки разыгрались, Молодушки расплясались.
+1	Как	как	SCONJ	IN	_	4	mark	_	TokenRange=0:3
+2	у	у	ADP	IN	_	3	case	_	TokenRange=4:5
+3	нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	4	obl	_	TokenRange=6:9
+4	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	TokenRange=10:14
+5	на	на	ADP	IN	_	6	case	_	TokenRange=15:17
+6	улице	улица	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=18:23
+7	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+8	У	у	ADP	IN	_	9	case	_	TokenRange=26:27
+9	нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	15	obl	_	TokenRange=28:31
+10	на	на	ADP	IN	_	11	case	_	TokenRange=32:34
+11	широкой	широкий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|TokenRange=35:42
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+13	Красны	красный	ADJ	JJL	Degree=Pos|Number=Plur|Variant=Short	11	conj	_	TokenRange=45:51
+14	девки	девка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	TokenRange=52:57
+15	разыгрались	разыграться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=58:69
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=69:70
+17	Молодушки	молодушка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	TokenRange=72:81
+18	расплясались	расплясаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	15	conj	_	SpaceAfter=No|TokenRange=82:94
+19	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\r\n|TokenRange=94:95
+
+# sent_id = 2
+# text = Одна девка лучше всех.
+1	Одна	один	NUM	CD	Case=Nom|Gender=Fem|Number=Sing	2	nummod	_	TokenRange=97:101
+2	девка	девка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=102:107
+3	лучше	хороший	ADJ	RBR	Degree=Cmp	0	root	_	TokenRange=108:113
+4	всех	все	PRON	DT	Animacy=Anim|Case=Gen|Number=Plur	3	nmod	_	SpaceAfter=No|TokenRange=114:118
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=118:119
+
+# sent_id = 3
+# text = На ней лента шире всех.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=121:123
+2	ней	она	PRON	PRP	Case=Loc|Gender=Fem|Number=Sing|Person=3	4	nmod	_	TokenRange=124:127
+3	лента	лента	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=128:133
+4	шире	широкий	ADJ	RBR	Degree=Cmp	0	root	_	TokenRange=134:138
+5	всех	все	PRON	DT	Animacy=Anim|Case=Gen|Number=Plur	4	nmod	_	SpaceAfter=No|TokenRange=139:143
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+
+# sent_id = 4
+# text = Девка парню говорила И всю правду объявила: «Послушай-ка, мой милой, Сердце-радость дорогой, Мой батюшка не лихой, Тебе будет не чужой».
+1	Девка	девка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=146:151
+2	парню	парень	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	TokenRange=152:157
+3	говорила	говорить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=158:166
+4	И	и	CCONJ	CC	_	7	cc	_	TokenRange=168:169
+5	всю	весь	DET	DT	Case=Acc|Gender=Fem|Number=Sing	6	det	_	TokenRange=170:173
+6	правду	правда	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	TokenRange=174:180
+7	объявила	объявить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=181:189
+8	:	:	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=189:190
+9	«Послушай-ка	«послушай-ка	ADV	RB	_	20	parataxis	_	SpaceAfter=No|TokenRange=192:204
+10	,	,	PUNCT	,	_	9	punct	_	TokenRange=204:205
+11	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	12	det	_	TokenRange=206:209
+12	милой	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No|TokenRange=210:215
+13	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=215:216
+14	Сердце-радость	сердце-радость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	TokenRange=218:232
+15	дорогой	дорогой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|TokenRange=233:240
+16	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=240:241
+17	Мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	18	det	_	TokenRange=243:246
+18	батюшка	батюшка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	TokenRange=247:254
+19	не	не	PART	NEG	Polarity=Neg	20	advmod	_	TokenRange=255:257
+20	лихой	лихой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|TokenRange=258:263
+21	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=263:264
+22	Тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	25	iobj	_	TokenRange=266:270
+23	будет	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	cop	_	TokenRange=271:276
+24	не	не	PART	NEG	Polarity=Neg	25	advmod	_	TokenRange=277:279
+25	чужой»	чужой»	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No|TokenRange=280:286
+26	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=286:287
+

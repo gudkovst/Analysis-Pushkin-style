@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ты издал дядю моего.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=0:2
+2	издал	издать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3:8
+3	дядю	дядя	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	TokenRange=9:13
+4	моего	мой	DET	PRP$	Case=Gen|Gender=Masc|Number=Sing	3	det	_	SpaceAfter=No|TokenRange=14:19
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=19:20
+
+# sent_id = 2
+# text = Творец Опасного соседа Достоин очень был того, Хотя покойная Беседа И не заметила его.
+1	Творец	творец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=22:28
+2	Опасного	опасный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=29:37
+3	соседа	сосед	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\r\n|TokenRange=38:44
+4	Достоин	Достоин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=46:53
+5	очень	очень	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=54:59
+6	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	TokenRange=60:63
+7	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=64:68
+8	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=68:69
+9	Хотя	хотя	SCONJ	IN	_	14	mark	_	TokenRange=71:75
+10	покойная	покойный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=76:84
+11	Беседа	беседа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpacesAfter=\r\n|TokenRange=85:91
+12	И	и	PART	UH	_	14	advmod	_	TokenRange=93:94
+13	не	не	PART	NEG	Polarity=Neg	14	advmod	_	TokenRange=95:97
+14	заметила	заметить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	TokenRange=98:106
+15	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	SpaceAfter=No|TokenRange=107:110
+16	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=110:111
+
+# sent_id = 3
+# text = Теперь издай меня, приятель, Плоды пустых моих трудов, Но ради Феба, мой Плетнев, Когда ж ты будешь свой издатель?
+1	Теперь	теперь	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=113:119
+2	издай	издать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=120:125
+3	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	2	obj	_	SpaceAfter=No|TokenRange=126:130
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=130:131
+5	приятель	приятель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No|TokenRange=132:140
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=140:141
+7	Плоды	плод	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	TokenRange=143:148
+8	пустых	пустой	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=149:155
+9	моих	мой	DET	PRP$	Case=Gen|Number=Plur	10	det	_	TokenRange=156:160
+10	трудов	труд	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|TokenRange=161:167
+11	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=167:168
+12	Но	но	CCONJ	CC	_	17	cc	_	TokenRange=170:172
+13	ради	ради	ADP	IN	_	14	case	_	TokenRange=173:177
+14	Феба	Феб	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|TokenRange=178:182
+15	,	,	PUNCT	,	_	14	punct	_	TokenRange=182:183
+16	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	17	det	_	TokenRange=184:187
+17	Плетнев	Плетнев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=188:195
+18	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=195:196
+19	Когда	когда	ADV	WRB	_	24	advmod	_	TokenRange=198:203
+20	ж	же	PART	UH	_	19	advmod	_	TokenRange=204:205
+21	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	24	nsubj	_	TokenRange=206:208
+22	будешь	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	24	cop	_	TokenRange=209:215
+23	свой	свой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	24	det	_	TokenRange=216:220
+24	издатель	издатель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=221:229
+25	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=229:230
+

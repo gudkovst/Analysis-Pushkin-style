@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Как жениться задумал царский арап, Меж боярынь арап похаживает, На боярышен арап поглядывает.
+1	Как	как	ADV	WRB	_	3	advmod	_	TokenRange=0:3
+2	жениться	жениться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	TokenRange=4:12
+3	задумал	задумать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	TokenRange=13:20
+4	царский	царский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=21:28
+5	арап	арап	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=29:33
+6	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=33:34
+7	Меж	меж	ADP	IN	_	8	case	_	TokenRange=36:39
+8	боярынь	боярынь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=40:47
+9	арап	арап	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=48:52
+10	похаживает	похаживать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=53:63
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+12	На	на	ADP	IN	_	13	case	_	TokenRange=66:68
+13	боярышен	боярышен	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	TokenRange=69:77
+14	арап	арап	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=78:82
+15	поглядывает	поглядывать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=83:94
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=94:95
+
+# sent_id = 2
+# text = Что выбрал арап себе сударушку, Черный ворон белую лебедушку.
+1	Что	что	SCONJ	IN	_	2	obj	_	TokenRange=97:100
+2	выбрал	выбрать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=101:107
+3	арап	арап	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=108:112
+4	себе	себя	PRON	PRP	Case=Dat	2	iobj	_	TokenRange=113:117
+5	сударушку	сударушка	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=118:127
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=127:128
+7	Черный	черный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=130:136
+8	ворон	ворон	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=137:142
+9	белую	белый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=143:148
+10	лебедушку	лебедушка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	orphan	_	SpaceAfter=No|TokenRange=149:158
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=158:159
+
+# sent_id = 3
+# text = А как он, арап, чернешенек, А она-то, душа, белешенька.
+1	А	а	CCONJ	CC	_	3	cc	_	TokenRange=161:162
+2	как	как	ADV	IN	_	3	case	_	TokenRange=163:166
+3	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	SpaceAfter=No|TokenRange=167:169
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=169:170
+5	арап	арап	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=171:175
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=175:176
+7	чернешенек	чернешенек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=177:187
+8	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=187:188
+9	А	а	CCONJ	CC	_	10	cc	_	TokenRange=190:191
+10	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	conj	_	SpaceAfter=No|TokenRange=192:195
+11	-	-	PUNCT	-	_	12	punct	_	SpaceAfter=No|TokenRange=195:196
+12	то	то	PART	UH	_	10	advmod	_	SpaceAfter=No|TokenRange=196:198
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=198:199
+14	душа	душа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=200:204
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=204:205
+16	белешенька	белешенька	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No|TokenRange=206:216
+17	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=216:217
+

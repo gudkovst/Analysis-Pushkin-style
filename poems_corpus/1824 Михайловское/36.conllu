@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Дитя, не смею над тобой Произносить благословенья.
+1	Дитя	дитя	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No|TokenRange=0:4
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=4:5
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=6:8
+4	смею	сметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=9:13
+5	над	над	ADP	IN	_	6	case	_	TokenRange=14:17
+6	тобой	ты	PRON	PRP	Case=Ins|Number=Sing|Person=2	4	obl	_	SpacesAfter=\r\n|TokenRange=18:23
+7	Произносить	произносить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=25:36
+8	благословенья	благословенье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|TokenRange=37:50
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+
+# sent_id = 2
+# text = Ты взором, мирною душой, Небесный ангел утешенья.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=53:55
+2	взором	взор	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=56:62
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=62:63
+4	мирною	мирный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=64:70
+5	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=71:76
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=76:77
+7	Небесный	небесный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=79:87
+8	ангел	ангел	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	TokenRange=88:93
+9	утешенья	утешение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=94:102
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 3
+# text = Да будут ясны дни твои, Как милый взор твой ныне ясен.
+1	Да	да	CCONJ	CC	_	3	cc	_	TokenRange=105:107
+2	будут	быть	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	TokenRange=108:113
+3	ясны	ясный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=114:118
+4	дни	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	TokenRange=119:122
+5	твои	твой	DET	PRP$	Case=Nom|Number=Plur	4	det	_	SpaceAfter=No|TokenRange=123:127
+6	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=127:128
+7	Как	как	ADV	IN	_	12	mark	_	TokenRange=130:133
+8	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=134:139
+9	взор	взор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=140:144
+10	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	9	det	_	TokenRange=145:149
+11	ныне	ныне	ADV	RB	Degree=Pos	12	advmod	_	TokenRange=150:154
+12	ясен	ясный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	advcl	_	SpaceAfter=No|TokenRange=155:159
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=159:160
+
+# sent_id = 4
+# text = Меж лучших жребиев земли Да будет жребий твой прекрасен.
+1	Меж	меж	ADP	IN	_	3	case	_	TokenRange=162:165
+2	лучших	лучший	ADJ	JJS	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	TokenRange=166:172
+3	жребиев	жребий	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	TokenRange=173:180
+4	земли	земля	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\r\n|TokenRange=181:186
+5	Да	да	PART	UH	_	6	advmod	_	TokenRange=188:190
+6	будет	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	cop	_	TokenRange=191:196
+7	жребий	жребий	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=197:203
+8	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	7	det	_	TokenRange=204:208
+9	прекрасен	прекрасный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=209:218
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=218:219
+

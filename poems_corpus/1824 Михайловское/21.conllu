@@ -1,0 +1,101 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Зачем ты, грозный аквилон, Тростник прибрежный долу клонишь?
+1	Зачем	зачем	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=0:5
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	SpaceAfter=No|TokenRange=6:8
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=8:9
+4	грозный	грозный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=10:17
+5	аквилон	аквилон	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=18:25
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+7	Тростник	тростник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	TokenRange=28:36
+8	прибрежный	прибрежный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=37:47
+9	долу	дол	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	TokenRange=48:52
+10	клонишь	клонить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=53:60
+11	?	?	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=60:61
+
+# sent_id = 2
+# text = Зачем на дальний небосклон Ты облачко столь гневно гонишь?
+1	Зачем	зачем	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=63:68
+2	на	на	ADP	IN	_	4	case	_	TokenRange=69:71
+3	дальний	дальний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=72:79
+4	небосклон	небосклон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\r\n|TokenRange=80:89
+5	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	TokenRange=91:93
+6	облачко	облачко	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	TokenRange=94:101
+7	столь	столь	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=102:107
+8	гневно	гневно	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=108:114
+9	гонишь	гонить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=115:121
+10	?	?	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=121:122
+
+# sent_id = 3
+# text = Недавно черных туч грядой Свод неба глухо облекался, Недавно дуб над высотой В красе надменной величался...
+1	Недавно	недавно	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=124:131
+2	черных	черный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	TokenRange=132:138
+3	туч	туча	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	TokenRange=139:142
+4	грядой	гряда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	SpacesAfter=\r\n|TokenRange=143:149
+5	Свод	свод	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=151:155
+6	неба	небо	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	TokenRange=156:160
+7	глухо	глухо	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=161:166
+8	облекался	облекаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=167:176
+9	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+10	Недавно	недавно	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=179:186
+11	дуб	дуб	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=187:190
+12	над	над	ADP	IN	_	13	case	_	TokenRange=191:194
+13	высотой	высота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\r\n|TokenRange=195:202
+14	В	в	ADP	IN	_	15	case	_	TokenRange=204:205
+15	красе	краса	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	TokenRange=206:211
+16	надменной	надменный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=212:221
+17	величался	величаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	SpaceAfter=No|TokenRange=222:231
+18	...	...	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=231:234
+
+# sent_id = 4
+# text = Но ты поднялся, ты взыграл, Ты прошумел грозой и славой — И бурны тучи разогнал, И дуб низвергнул величавый.
+1	Но	но	CCONJ	CC	_	3	cc	_	TokenRange=236:238
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=239:241
+3	поднялся	подняться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=242:250
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=250:251
+5	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	TokenRange=252:254
+6	взыграл	взыграть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=255:262
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=262:263
+8	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	TokenRange=265:267
+9	прошумел	прошуметь	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=268:276
+10	грозой	гроза	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obj	_	TokenRange=277:283
+11	и	и	CCONJ	CC	_	12	cc	_	TokenRange=284:285
+12	славой	слава	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	TokenRange=286:292
+13	—	—	PUNCT	--	_	17	punct	_	SpacesAfter=\r\n|TokenRange=293:294
+14	И	и	CCONJ	CC	_	17	cc	_	TokenRange=296:297
+15	бурны	бурн	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	nsubj	_	TokenRange=298:303
+16	тучи	туча	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	TokenRange=304:308
+17	разогнал	разогнать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=309:317
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=317:318
+19	И	и	CCONJ	CC	_	21	cc	_	TokenRange=320:321
+20	дуб	дуб	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	TokenRange=322:325
+21	низвергнул	низвергнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=326:336
+22	величавый	величавый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No|TokenRange=337:346
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=346:347
+
+# sent_id = 5
+# text = Пускай же солнца ясный лик Отныне радостью блистает, И облачком зефир играет, И тихо зыблется тростник.
+1	Пускай	пускай	ADV	RB	_	3	advmod	_	TokenRange=349:355
+2	же	же	PART	UH	_	1	advmod	_	TokenRange=356:358
+3	солнца	солнце	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	TokenRange=359:365
+4	ясный	ясный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=366:371
+5	лик	лик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=372:375
+6	Отныне	отныне	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=377:383
+7	радостью	радость	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obj	_	TokenRange=384:392
+8	блистает	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=393:401
+9	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=401:402
+10	И	и	CCONJ	CC	_	13	cc	_	TokenRange=404:405
+11	облачком	облачко	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	iobj	_	TokenRange=406:414
+12	зефир	зефир	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	TokenRange=415:420
+13	играет	играть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No|TokenRange=421:427
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=427:428
+15	И	и	CCONJ	CC	_	17	cc	_	TokenRange=430:431
+16	тихо	тихо	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=432:436
+17	зыблется	зыбиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	TokenRange=437:445
+18	тростник	тростник	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|TokenRange=446:454
+19	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=454:455
+

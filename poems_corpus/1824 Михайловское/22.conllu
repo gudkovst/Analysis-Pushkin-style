@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Пускай увенчанный любовью красоты В заветном золоте хранит ее черты И письма тайные, награды долгой муки, Но в тихие часы томительной разлуки Ничто, ничто моих не радует очей, И ни единый дар возлюбленной моей, Святой залог любви, утеха грусти нежной — Не лечит ран любви безумной, безнадежной.
+1	Пускай	пускай	PART	RB	_	2	advmod	_	TokenRange=0:6
+2	увенчанный	увенчать	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	TokenRange=7:17
+3	любовью	любовь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl:agent	_	TokenRange=18:25
+4	красоты	красота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\r\n|TokenRange=26:33
+5	В	в	ADP	IN	_	7	case	_	TokenRange=35:36
+6	заветном	заветный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	TokenRange=37:45
+7	золоте	золото	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	TokenRange=46:52
+8	хранит	хранить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=53:59
+9	ее	ее	DET	PRP$	_	10	det	_	TokenRange=60:62
+10	черты	черта	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpacesAfter=\r\n|TokenRange=63:68
+11	И	и	CCONJ	CC	_	12	cc	_	TokenRange=70:71
+12	письма	письмо	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	conj	_	TokenRange=72:78
+13	тайные	тайный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No|TokenRange=79:85
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=85:86
+15	награды	награда	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	conj	_	TokenRange=87:94
+16	долгой	долгий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	TokenRange=95:101
+17	муки	мука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=102:106
+18	,	,	PUNCT	,	_	30	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+19	Но	но	CCONJ	CC	_	30	cc	_	TokenRange=109:111
+20	в	в	ADP	IN	_	22	case	_	TokenRange=112:113
+21	тихие	тихий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	TokenRange=114:119
+22	часы	часы	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obl	_	TokenRange=120:124
+23	томительной	томительный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	TokenRange=125:136
+24	разлуки	разлука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpacesAfter=\r\n|TokenRange=137:144
+25	Ничто	ничто	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	SpaceAfter=No|TokenRange=146:151
+26	,	,	PUNCT	,	_	27	punct	_	TokenRange=151:152
+27	ничто	ничто	PRON	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	appos	_	TokenRange=153:158
+28	моих	мой	DET	PRP$	Case=Gen|Number=Plur	27	det	_	TokenRange=159:163
+29	не	не	PART	NEG	Polarity=Neg	30	advmod	_	TokenRange=164:166
+30	радует	радовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=167:173
+31	очей	очей	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No|TokenRange=174:178
+32	,	,	PUNCT	,	_	49	punct	_	SpacesAfter=\r\n|TokenRange=178:179
+33	И	и	CCONJ	CC	_	49	cc	_	TokenRange=181:182
+34	ни	ни	PART	NEG	Polarity=Neg	35	advmod	_	TokenRange=183:185
+35	единый	единый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	TokenRange=186:192
+36	дар	дар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	49	nsubj	_	TokenRange=193:196
+37	возлюбленной	возлюбленная	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	TokenRange=197:209
+38	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	37	det	_	SpaceAfter=No|TokenRange=210:214
+39	,	,	PUNCT	,	_	41	punct	_	SpacesAfter=\r\n|TokenRange=214:215
+40	Святой	святой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	TokenRange=217:223
+41	залог	залог	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	appos	_	TokenRange=224:229
+42	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No|TokenRange=230:235
+43	,	,	PUNCT	,	_	44	punct	_	TokenRange=235:236
+44	утеха	утеха	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	49	nsubj	_	TokenRange=237:242
+45	грусти	грусть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	TokenRange=243:249
+46	нежной	нежный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	TokenRange=250:256
+47	—	—	PUNCT	--	_	41	punct	_	SpacesAfter=\r\n|TokenRange=257:258
+48	Не	не	PART	NEG	Polarity=Neg	49	advmod	_	TokenRange=260:262
+49	лечит	лечить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=263:268
+50	ран	рана	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	49	obj	_	TokenRange=269:272
+51	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	TokenRange=273:278
+52	безумной	безумный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	SpaceAfter=No|TokenRange=279:287
+53	,	,	PUNCT	,	_	54	punct	_	TokenRange=287:288
+54	безнадежной	безнадежный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	52	conj	_	SpaceAfter=No|TokenRange=289:300
+55	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=300:301
+

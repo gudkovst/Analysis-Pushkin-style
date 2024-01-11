@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = О дева-роза, я в оковах; Но не стыжусь твоих оков: Так соловей в кустах лавровых, Пернатый царь лесных певцов, Близ розы гордой и прекрасной В неволе сладостной живет И нежно песни ей поет Во мраке ночи сладострастной.
+1	О	о	INTJ	IN	_	2	discourse	_	TokenRange=0:1
+2	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=2:6
+3	-	-	PUNCT	-	_	4	punct	_	SpaceAfter=No|TokenRange=6:7
+4	роза	роза	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=7:11
+5	,	,	PUNCT	,	_	8	punct	_	TokenRange=11:12
+6	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=13:14
+7	в	в	ADP	IN	_	8	case	_	TokenRange=15:16
+8	оковах	окова	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No|TokenRange=17:23
+9	;	;	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+10	Но	но	CCONJ	CC	_	12	cc	_	TokenRange=26:28
+11	не	не	PART	NEG	Polarity=Neg	12	advmod	_	TokenRange=29:31
+12	стыжусь	стыдиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	TokenRange=32:39
+13	твоих	твой	DET	PRP$	Case=Gen|Number=Plur	14	det	_	TokenRange=40:45
+14	оков	ок	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No|TokenRange=46:50
+15	:	:	PUNCT	:	_	35	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+16	Так	так	ADV	RB	Degree=Pos	35	advmod	_	TokenRange=53:56
+17	соловей	соловей	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	TokenRange=57:64
+18	в	в	ADP	IN	_	19	case	_	TokenRange=65:66
+19	кустах	куст	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	TokenRange=67:73
+20	лавровых	лавровый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	19	nmod	_	SpaceAfter=No|TokenRange=74:82
+21	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+22	Пернатый	пернатый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	TokenRange=85:93
+23	царь	царь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	TokenRange=94:98
+24	лесных	лесной	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	TokenRange=99:105
+25	певцов	певец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No|TokenRange=106:112
+26	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=112:113
+27	Близ	близ	ADP	IN	_	28	case	_	TokenRange=115:119
+28	розы	роза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	obl	_	TokenRange=120:124
+29	гордой	гордый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	TokenRange=125:131
+30	и	и	CCONJ	CC	_	31	cc	_	TokenRange=132:133
+31	прекрасной	прекрасный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	conj	_	SpacesAfter=\r\n|TokenRange=134:144
+32	В	в	ADP	IN	_	33	case	_	TokenRange=146:147
+33	неволе	неволя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	TokenRange=148:154
+34	сладостной	сладостный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	TokenRange=155:165
+35	живет	жить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpacesAfter=\r\n|TokenRange=166:171
+36	И	и	CCONJ	CC	_	40	cc	_	TokenRange=173:174
+37	нежно	нежно	ADV	RB	Degree=Pos	40	advmod	_	TokenRange=175:180
+38	песни	песня	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	obj	_	TokenRange=181:186
+39	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	40	iobj	_	TokenRange=187:189
+40	поет	петь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	conj	_	SpacesAfter=\r\n|TokenRange=190:194
+41	Во	во	ADP	IN	_	42	case	_	TokenRange=196:198
+42	мраке	мрак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	40	obl	_	TokenRange=199:204
+43	ночи	ночь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	TokenRange=205:209
+44	сладострастной	сладострастный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	SpaceAfter=No|TokenRange=210:224
+45	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=224:225
+
