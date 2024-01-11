@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Арист нам обещал трагедию такую, Что все от жалости в театре заревут, Что слезы зрителей рекою потекут.
+1	Арист	Арист	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=0:5
+2	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	3	iobj	_	TokenRange=6:9
+3	обещал	обещать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=10:16
+4	трагедию	трагедия	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	TokenRange=17:25
+5	такую	такой	DET	DT	Case=Acc|Gender=Fem|Number=Sing	4	det	_	SpaceAfter=No|TokenRange=26:31
+6	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+7	Что	что	SCONJ	IN	_	13	mark	_	TokenRange=34:37
+8	все	все	PRON	DT	Animacy=Anim|Case=Nom|Number=Plur	13	nsubj	_	TokenRange=38:41
+9	от	от	ADP	IN	_	10	case	_	TokenRange=42:44
+10	жалости	жалость	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	TokenRange=45:52
+11	в	в	ADP	IN	_	12	case	_	TokenRange=53:54
+12	театре	театр	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	TokenRange=55:61
+13	заревут	зарвать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	SpaceAfter=No|TokenRange=62:69
+14	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=69:70
+15	Что	что	SCONJ	IN	_	19	mark	_	TokenRange=72:75
+16	слезы	слеза	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	TokenRange=76:81
+17	зрителей	зритель	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	TokenRange=82:90
+18	рекою	река	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	iobj	_	TokenRange=91:96
+19	потекут	потечь	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	ccomp	_	SpaceAfter=No|TokenRange=97:104
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+
+# sent_id = 2
+# text = Мы ждали драму золотую.
+1	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	TokenRange=107:109
+2	ждали	ждать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=110:115
+3	драму	драма	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=116:121
+4	золотую	золотой	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No|TokenRange=122:129
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=129:130
+
+# sent_id = 3
+# text = И что же? дождались — и, нечего сказать, Достоинству ее нельзя убавить весу, Ну, право, удалось Аристу написать Прежалкую пиесу.
+1	И	и	CCONJ	CC	_	5	cc	_	TokenRange=132:133
+2	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=134:137
+3	же	же	PART	UH	_	2	advmod	_	SpaceAfter=No|TokenRange=138:140
+4	?	?	PUNCT	.	_	2	punct	_	TokenRange=140:141
+5	дождались	дожидаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=142:151
+6	—	—	PUNCT	--	_	14	punct	_	TokenRange=152:153
+7	и	и	CCONJ	CC	_	14	cc	_	SpaceAfter=No|TokenRange=154:155
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=155:156
+9	нечего	нечего	PRON	DT	_	14	parataxis	_	TokenRange=157:163
+10	сказать	сказать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No|TokenRange=164:171
+11	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=171:172
+12	Достоинству	достоинство	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	iobj	_	TokenRange=174:185
+13	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obj	_	TokenRange=186:188
+14	нельзя	нельзя	VERB	PRED	_	5	conj	_	TokenRange=189:195
+15	убавить	убавить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	TokenRange=196:203
+16	весу	вес	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	SpaceAfter=No|TokenRange=204:208
+17	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=208:209
+18	Ну	ну	PART	UH	_	22	parataxis	_	SpaceAfter=No|TokenRange=211:213
+19	,	,	PUNCT	,	_	20	punct	_	TokenRange=213:214
+20	право	право	ADV	RB	Degree=Pos	22	parataxis	_	SpaceAfter=No|TokenRange=215:220
+21	,	,	PUNCT	,	_	20	punct	_	TokenRange=220:221
+22	удалось	удаться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	TokenRange=222:229
+23	Аристу	Арист	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	22	iobj	_	TokenRange=230:236
+24	написать	написать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	SpacesAfter=\r\n|TokenRange=237:245
+25	Прежалкую	прежалкий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	TokenRange=247:256
+26	пиесу	пиеса	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No|TokenRange=257:262
+27	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=262:263
+
