@@ -1,1 +1,103 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Тебе, певцу, тебе, герою!
+1	Тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	0	root	_	SpaceAfter=No|TokenRange=0:4
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=4:5
+3	певцу	певец	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=6:11
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=11:12
+5	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	1	conj	_	SpaceAfter=No|TokenRange=13:17
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=17:18
+7	герою	герой	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=19:24
+8	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+
+# sent_id = 2
+# text = Не удалось мне за тобою При громе пушечном, в огне Скакать на бешеном коне.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=27:29
+2	удалось	удаться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=30:37
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	2	iobj	_	TokenRange=38:41
+4	за	за	ADP	IN	_	5	case	_	TokenRange=42:44
+5	тобою	ты	PRON	PRP	Case=Ins|Number=Sing|Person=2	2	obl	_	SpacesAfter=\r\n|TokenRange=45:50
+6	При	при	ADP	IN	_	7	case	_	TokenRange=52:55
+7	громе	гром	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	TokenRange=56:61
+8	пушечном	пушечный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=62:70
+9	,	,	PUNCT	,	_	12	punct	_	TokenRange=70:71
+10	в	в	ADP	IN	_	11	case	_	TokenRange=72:73
+11	огне	огонь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=74:78
+12	Скакать	скакать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	TokenRange=80:87
+13	на	на	ADP	IN	_	15	case	_	TokenRange=88:90
+14	бешеном	бешеный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=91:98
+15	коне	конь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|TokenRange=99:103
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=103:104
+
+# sent_id = 3
+# text = Наездник смирного Пегаса, Носил я старого Парнаса Из моды вышедший мундир: Но и по этой службе трудной, И тут, о мой наездник чудный, Ты мой отец и командир.
+1	Наездник	наездник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=106:114
+2	смирного	смирный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=115:123
+3	Пегаса	Пегас	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|TokenRange=124:130
+4	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=130:131
+5	Носил	носить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=133:138
+6	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	TokenRange=139:140
+7	старого	старый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=141:148
+8	Парнаса	Парнас	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpacesAfter=\r\n|TokenRange=149:156
+9	Из	из	ADP	IN	_	10	case	_	TokenRange=158:160
+10	моды	мода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	TokenRange=161:165
+11	вышедший	выйти	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	TokenRange=166:174
+12	мундир	мундир	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=175:181
+13	:	:	PUNCT	:	_	19	punct	_	SpacesAfter=\r\n|TokenRange=181:182
+14	Но	но	CCONJ	CC	_	19	cc	_	TokenRange=184:186
+15	и	и	PART	UH	_	18	advmod	_	TokenRange=187:188
+16	по	по	ADP	IN	_	18	case	_	TokenRange=189:191
+17	этой	этот	DET	DT	Case=Dat|Gender=Fem|Number=Sing	18	det	_	TokenRange=192:196
+18	службе	служба	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	obl	_	TokenRange=197:203
+19	трудной	трудный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	parataxis	_	SpaceAfter=No|TokenRange=204:211
+20	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\r\n|TokenRange=211:212
+21	И	и	CCONJ	CC	_	27	cc	_	TokenRange=214:215
+22	тут	тут	ADV	RB	Degree=Pos	19	advmod	_	SpaceAfter=No|TokenRange=216:219
+23	,	,	PUNCT	,	_	22	punct	_	TokenRange=219:220
+24	о	о	ADP	IN	_	26	case	_	TokenRange=221:222
+25	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	26	det	_	TokenRange=223:226
+26	наездник	наездник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	TokenRange=227:235
+27	чудный	чудный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No|TokenRange=236:242
+28	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\r\n|TokenRange=242:243
+29	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	31	nsubj	_	TokenRange=245:247
+30	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	31	det	_	TokenRange=248:251
+31	отец	отец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	TokenRange=252:256
+32	и	и	CCONJ	CC	_	33	cc	_	TokenRange=257:258
+33	командир	командир	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No|TokenRange=259:267
+34	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=267:268
+
+# sent_id = 4
+# text = Вот мой Пугач: при первом взгляде Он виден — плут, казак прямой!
+1	Вот	вот	PART	UH	_	0	root	_	TokenRange=270:273
+2	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	3	det	_	TokenRange=274:277
+3	Пугач	Пугач	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=278:283
+4	:	:	PUNCT	:	_	3	punct	_	TokenRange=283:284
+5	при	при	ADP	IN	_	7	case	_	TokenRange=285:288
+6	первом	первый	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=289:295
+7	взгляде	взгляд	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\r\n|TokenRange=296:303
+8	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	TokenRange=305:307
+9	виден	видный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	parataxis	_	TokenRange=308:313
+10	—	—	PUNCT	``	_	11	punct	_	TokenRange=314:315
+11	плут	плут	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No|TokenRange=316:320
+12	,	,	PUNCT	,	_	11	punct	_	TokenRange=320:321
+13	казак	казак	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=322:327
+14	прямой	прямой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|TokenRange=328:334
+15	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=334:335
+
+# sent_id = 5
+# text = В передовом твоем отряде Урядник был бы он лихой.
+1	В	в	ADP	IN	_	4	case	_	TokenRange=337:338
+2	передовом	передовой	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=339:348
+3	твоем	твой	DET	PRP$	Case=Loc|Gender=Masc|Number=Sing	4	det	_	TokenRange=349:354
+4	отряде	отряд	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\r\n|TokenRange=355:361
+5	Урядник	урядник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=363:370
+6	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	cop	_	TokenRange=371:374
+7	бы	бы	AUX	VBC	_	9	aux	_	TokenRange=375:377
+8	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	TokenRange=378:380
+9	лихой	лихой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=381:386
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=386:387
 

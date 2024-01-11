@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Юноша, полный красы, напряженья, усилия чуждый, Строен, легок и могуч,— тешится быстрой игрой!
+1	Юноша	юноша	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No|TokenRange=0:5
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=5:6
+3	полный	полный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	TokenRange=7:13
+4	красы	краса	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=14:19
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=19:20
+6	напряженья	напряжение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=21:31
+7	,	,	PUNCT	,	_	8	punct	_	TokenRange=31:32
+8	усилия	усилие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	TokenRange=33:39
+9	чуждый	чуждый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=40:46
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=46:47
+11	Строен	строный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No|TokenRange=49:55
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=55:56
+13	легок	легокий	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	TokenRange=57:62
+14	и	и	CCONJ	CC	_	15	cc	_	TokenRange=63:64
+15	могуч	могучий	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	conj	_	SpaceAfter=No|TokenRange=65:70
+16	,	,	PUNCT	,	_	18	punct	_	SpaceAfter=No|TokenRange=70:71
+17	—	—	PUNCT	--	_	18	punct	_	TokenRange=71:72
+18	тешится	тешиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=73:80
+19	быстрой	быстрый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	TokenRange=81:88
+20	игрой	игра	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No|TokenRange=89:94
+21	!	!	PUNCT	.	_	18	punct	_	SpacesAfter=\r\n|TokenRange=94:95
+
+# sent_id = 2
+# text = Вот и товарищ тебе, дискобол!
+1	Вот	вот	PART	UH	_	0	root	_	TokenRange=97:100
+2	и	и	PART	UH	_	3	advmod	_	TokenRange=101:102
+3	товарищ	товарищ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=103:110
+4	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	3	nmod	_	SpaceAfter=No|TokenRange=111:115
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=115:116
+6	дискобол	дискобол	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=117:125
+7	!	!	PUNCT	.	_	3	punct	_	TokenRange=125:126
+
+# sent_id = 3
+# text = Он достоин, клянуся, Дружно обнявшись с тобой, после игры отдыхать.
+1	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	TokenRange=127:129
+2	достоин	достойный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=130:137
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=137:138
+4	клянуся	клясться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	SpaceAfter=No|TokenRange=139:146
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=146:147
+6	Дружно	дружно	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=149:155
+7	обнявшись	обняться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	4	advcl	_	TokenRange=156:165
+8	с	с	ADP	IN	_	9	case	_	TokenRange=166:167
+9	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	7	obl	_	SpaceAfter=No|TokenRange=168:173
+10	,	,	PUNCT	,	_	7	punct	_	TokenRange=173:174
+11	после	после	ADP	IN	_	12	case	_	TokenRange=175:180
+12	игры	игра	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	TokenRange=181:185
+13	отдыхать	отдыхать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No|TokenRange=186:194
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=194:195
+

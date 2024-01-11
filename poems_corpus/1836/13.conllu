@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = От меня вечор Леила Равнодушно уходила.
+1	От	от	ADP	IN	_	2	case	_	TokenRange=0:2
+2	меня	я	PRON	PRP	Case=Gen|Number=Sing|Person=1	6	obl	_	TokenRange=3:7
+3	вечор	вечор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=8:13
+4	Леила	Леила	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpacesAfter=\r\n|TokenRange=14:19
+5	Равнодушно	равнодушно	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=21:31
+6	уходила	уходить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=32:39
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=39:40
+
+# sent_id = 2
+# text = Я сказал: «Постой, куда?» А она мне возразила: «Голова твоя седа».
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=42:43
+2	сказал	сказать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=44:50
+3	:	:	PUNCT	:	_	2	punct	_	TokenRange=50:51
+4	«Постой	«постой	ADV	RB	Degree=Pos	2	parataxis	_	SpaceAfter=No|TokenRange=52:59
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=59:60
+6	куда	куда	ADV	WRB	Degree=Pos	4	conj	_	SpaceAfter=No|TokenRange=61:65
+7	?»	?»	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=65:67
+8	А	а	CCONJ	CC	_	11	cc	_	TokenRange=69:70
+9	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	TokenRange=71:74
+10	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	11	iobj	_	TokenRange=75:78
+11	возразила	возразить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=79:88
+12	:	:	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=88:89
+13	«Голова	«голова	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	TokenRange=91:98
+14	твоя	твой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	15	det	_	TokenRange=99:103
+15	седа»	седа»	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	parataxis	_	SpaceAfter=No|TokenRange=104:109
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=109:110
+
+# sent_id = 3
+# text = Я насмешнице нескромной Отвечал: «Всему пора!
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=112:113
+2	насмешнице	насмешница	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	TokenRange=114:124
+3	нескромной	нескромный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesAfter=\r\n|TokenRange=125:135
+4	Отвечал	отвечать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=137:144
+5	:	:	PUNCT	:	_	4	punct	_	TokenRange=144:145
+6	«Всему	«всему	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=146:152
+7	пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No|TokenRange=153:157
+8	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=157:158
+
+# sent_id = 4
+# text = То, что было мускус темный, Стало нынче камфора».
+1	То	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=160:162
+2	,	,	PUNCT	,	_	6	punct	_	TokenRange=162:163
+3	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	TokenRange=164:167
+4	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	cop	_	TokenRange=168:172
+5	мускус	мускус	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=173:179
+6	темный	темный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	acl	_	SpaceAfter=No|TokenRange=180:186
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=186:187
+8	Стало	стать	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=189:194
+9	нынче	нынче	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=195:200
+10	камфора»	камфора»	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=201:209
+11	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=209:210
+
+# sent_id = 5
+# text = Но Леила неудачным Посмеялася речам И сказала: «Знаешь сам: Сладок мускус новобрачным, Камфора годна гробам».
+1	Но	но	CCONJ	CC	_	4	cc	_	TokenRange=212:214
+2	Леила	Леила	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=215:220
+3	неудачным	неудачный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	xcomp	_	SpacesAfter=\r\n|TokenRange=221:230
+4	Посмеялася	посмеяться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=232:242
+5	речам	реча	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	iobj	_	SpacesAfter=\r\n|TokenRange=243:248
+6	И	и	CCONJ	CC	_	7	cc	_	TokenRange=250:251
+7	сказала	сказать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=252:259
+8	:	:	PUNCT	:	_	9	punct	_	TokenRange=259:260
+9	«Знаешь	«знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	TokenRange=261:268
+10	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=269:272
+11	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=272:273
+12	Сладок	сладок	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	TokenRange=275:281
+13	мускус	мускус	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=282:288
+14	новобрачным	новобрачный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No|TokenRange=289:300
+15	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=300:301
+16	Камфора	Камфора	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	TokenRange=303:310
+17	годна	годный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	parataxis	_	TokenRange=311:316
+18	гробам»	гроб	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	iobj	_	SpaceAfter=No|TokenRange=317:324
+19	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=324:325
+

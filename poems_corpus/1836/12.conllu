@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Юноша трижды шагнул, наклонился, рукой о колено Бодро оперся, другой поднял меткую кость.
+1	Юноша	юноша	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=0:5
+2	трижды	трижды	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=6:12
+3	шагнул	шагнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=13:19
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=19:20
+5	наклонился	наклониться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No|TokenRange=21:31
+6	,	,	PUNCT	,	_	11	punct	_	TokenRange=31:32
+7	рукой	рука	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	iobj	_	TokenRange=33:38
+8	о	о	ADP	IN	_	9	case	_	TokenRange=39:40
+9	колено	колено	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpacesAfter=\r\n|TokenRange=41:47
+10	Бодро	Бодро	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	TokenRange=49:54
+11	оперся	опереться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No|TokenRange=55:61
+12	,	,	PUNCT	,	_	14	punct	_	TokenRange=61:62
+13	другой	другой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=63:69
+14	поднял	поднять	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=70:76
+15	меткую	меткий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	TokenRange=77:83
+16	кость	кость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No|TokenRange=84:89
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=89:90
+
+# sent_id = 2
+# text = Вот уж прицелился... прочь! раздайся, народ любопытный, Врозь расступись; не мешай русской удалой игре.
+1	Вот	вот	PART	UH	_	3	advmod	_	TokenRange=92:95
+2	уж	уж	PART	UH	_	3	advmod	_	TokenRange=96:98
+3	прицелился	прицелиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=99:109
+4	...	...	PUNCT	.	_	3	punct	_	TokenRange=109:112
+5	прочь	прочь	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=113:118
+6	!	!	PUNCT	.	_	5	punct	_	TokenRange=118:119
+7	раздайся	раздаться	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	3	parataxis	_	SpaceAfter=No|TokenRange=120:128
+8	,	,	PUNCT	,	_	7	punct	_	TokenRange=128:129
+9	народ	народ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=130:135
+10	любопытный	любопытный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|TokenRange=136:146
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=146:147
+12	Врозь	врозь	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=149:154
+13	расступись	расступиться	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	7	advcl	_	SpaceAfter=No|TokenRange=155:165
+14	;	;	PUNCT	:	_	16	punct	_	TokenRange=165:166
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	TokenRange=167:169
+16	мешай	мешать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	7	parataxis	_	TokenRange=170:175
+17	русской	русский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=176:183
+18	удалой	удалый	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=184:190
+19	игре	игра	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	iobj	_	SpaceAfter=No|TokenRange=191:195
+20	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=195:196
+
