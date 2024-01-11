@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я видел вас, я их читал, Сии прелестные созданья, Где ваши томные мечтанья Боготворят свой идеал.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	видел	видеть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2:7
+3	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	2	obj	_	SpaceAfter=No|TokenRange=8:11
+4	,	,	PUNCT	,	_	7	punct	_	TokenRange=11:12
+5	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	7	nsubj	_	TokenRange=13:14
+6	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	7	obj	_	TokenRange=15:17
+7	читал	читать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=18:23
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+9	Сии	сей	DET	PRP$	Case=Nom|Number=Plur	11	det	_	TokenRange=26:29
+10	прелестные	прелестный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	TokenRange=30:40
+11	созданья	созданье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=41:49
+12	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=49:50
+13	Где	где	ADV	WRB	_	17	advmod	_	TokenRange=52:55
+14	ваши	ваш	DET	PRP$	Case=Nom|Number=Plur	16	det	_	TokenRange=56:60
+15	томные	томный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	TokenRange=61:67
+16	мечтанья	мечтание	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	SpacesAfter=\r\n|TokenRange=68:76
+17	Боготворят	боготворить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	TokenRange=78:88
+18	свой	свой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	det	_	TokenRange=89:93
+19	идеал	идеал	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|TokenRange=94:99
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=99:100
+
+# sent_id = 2
+# text = Я пил отраву в вашем взоре, В душой исполненных чертах, И в вашем милом разговоре, И в ваших пламенных стихах; Соперницы запретной розы Блажен бессмертный идеал...
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=102:103
+2	пил	пить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=104:107
+3	отраву	отрава	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=108:114
+4	в	в	ADP	IN	_	6	case	_	TokenRange=115:116
+5	вашем	ваш	DET	PRP$	Case=Loc|Gender=Masc|Number=Sing	6	det	_	TokenRange=117:122
+6	взоре	взор	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=123:128
+7	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+8	В	в	ADP	IN	_	9	case	_	TokenRange=131:132
+9	душой	душа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=133:138
+10	исполненных	исполненный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	TokenRange=139:150
+11	чертах	черта	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=151:157
+12	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=157:158
+13	И	и	CCONJ	CC	_	17	cc	_	TokenRange=160:161
+14	в	в	ADP	IN	_	17	case	_	TokenRange=162:163
+15	вашем	ваш	DET	PRP$	Case=Loc|Gender=Masc|Number=Sing	17	det	_	TokenRange=164:169
+16	милом	милый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=170:175
+17	разговоре	разговор	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=176:185
+18	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=185:186
+19	И	и	CCONJ	CC	_	23	cc	_	TokenRange=188:189
+20	в	в	ADP	IN	_	23	case	_	TokenRange=190:191
+21	ваших	ваш	DET	PRP$	Case=Loc|Number=Plur	23	det	_	TokenRange=192:197
+22	пламенных	пламенный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	TokenRange=198:207
+23	стихах	стих	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=208:214
+24	;	;	PUNCT	:	_	28	punct	_	SpacesAfter=\r\n|TokenRange=214:215
+25	Соперницы	соперница	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	28	nsubj	_	TokenRange=217:226
+26	запретной	запретный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	TokenRange=227:236
+27	розы	роза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpacesAfter=\r\n|TokenRange=237:241
+28	Блажен	блаженный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	TokenRange=243:249
+29	бессмертный	бессмертный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	TokenRange=250:261
+30	идеал	идеал	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No|TokenRange=262:267
+31	...	...	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=267:270
+
+# sent_id = 3
+# text = Стократ блажен, кто вам внушал Не много рифм и много прозы.
+1	Стократ	стократ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=272:279
+2	блажен	блаженный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=280:286
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=286:287
+4	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=288:291
+5	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	6	iobj	_	TokenRange=292:295
+6	внушал	внушать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpacesAfter=\r\n|TokenRange=296:302
+7	Не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=304:306
+8	много	много	NUM	RB	Animacy=Inan|Case=Acc|NumType=Card	9	nummod:gov	_	TokenRange=307:312
+9	рифм	рифма	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obj	_	TokenRange=313:317
+10	и	и	CCONJ	CC	_	12	cc	_	TokenRange=318:319
+11	много	много	NUM	RB	Animacy=Inan|Case=Acc|NumType=Card	12	nummod:gov	_	TokenRange=320:325
+12	прозы	проза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|TokenRange=326:331
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=331:332
+

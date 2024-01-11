@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ты богоматерь, нет сомненья, Не та, которая красой Пленила только дух святой, Мила ты всем без исключенья;
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=0:2
+2	богоматерь	богоматерь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=3:13
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=13:14
+4	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=15:18
+5	сомненья	сомненье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=19:27
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+7	Не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=30:32
+8	та	тот	DET	DT	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=33:35
+9	,	,	PUNCT	,	_	12	punct	_	TokenRange=35:36
+10	которая	который	PRON	AWP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	TokenRange=37:44
+11	красой	краса	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	iobj	_	SpacesAfter=\r\n|TokenRange=45:51
+12	Пленила	пленить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	TokenRange=53:60
+13	только	только	PART	UH	_	14	advmod	_	TokenRange=61:67
+14	дух	дух	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	TokenRange=68:71
+15	святой	святой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No|TokenRange=72:78
+16	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=78:79
+17	Мила	милый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	12	conj	_	TokenRange=81:85
+18	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	17	nsubj	_	TokenRange=86:88
+19	всем	все	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	iobj	_	TokenRange=89:93
+20	без	без	ADP	IN	_	21	case	_	TokenRange=94:97
+21	исключенья	исключенье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|TokenRange=98:108
+22	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=108:109
+
+# sent_id = 2
+# text = Не та, которая Христа Родила, не спросясь супруга.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=111:113
+2	та	тот	DET	DT	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=114:116
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=116:117
+4	которая	который	PRON	AWP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=118:125
+5	Христа	Христос	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpacesAfter=\r\n|TokenRange=126:132
+6	Родила	родить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No|TokenRange=134:140
+7	,	,	PUNCT	,	_	9	punct	_	TokenRange=140:141
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=142:144
+9	спросясь	спроситься	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	TokenRange=145:153
+10	супруга	супруг	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|TokenRange=154:161
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=161:162
+
+# sent_id = 3
+# text = Есть бог другой земного круга — Ему послушна красота, Он бог Парни, Тибулла, Мура, Им мучусь, им утешен я.
+1	Есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=164:168
+2	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=169:172
+3	другой	другой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=173:179
+4	земного	земной	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=180:187
+5	круга	круг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	TokenRange=188:193
+6	—	—	PUNCT	--	_	8	punct	_	SpacesAfter=\r\n|TokenRange=194:195
+7	Ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	8	iobj	_	TokenRange=197:200
+8	послушна	послушный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	parataxis	_	TokenRange=201:209
+9	красота	красота	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=210:217
+10	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=217:218
+11	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	TokenRange=220:222
+12	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	TokenRange=223:226
+13	Парни	парень	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=227:232
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=232:233
+15	Тибулла	Тибулл	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=234:241
+16	,	,	PUNCT	,	_	17	punct	_	TokenRange=241:242
+17	Мура	Мур	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=243:247
+18	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=247:248
+19	Им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	20	iobj	_	TokenRange=250:252
+20	мучусь	мучиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	SpaceAfter=No|TokenRange=253:259
+21	,	,	PUNCT	,	_	23	punct	_	TokenRange=259:260
+22	им	он	PRON	PRP	Case=Dat|Number=Plur|Person=3	23	iobj	_	TokenRange=261:263
+23	утешен	утешить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	conj	_	TokenRange=264:270
+24	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	23	nsubj:pass	_	SpaceAfter=No|TokenRange=271:272
+25	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=272:273
+
+# sent_id = 4
+# text = Он весь в тебя — ты мать Амура, Ты богородица моя!
+1	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	TokenRange=275:277
+2	весь	весь	DET	DT	Case=Nom|Gender=Masc|Number=Sing	7	det	_	TokenRange=278:282
+3	в	в	ADP	IN	_	4	case	_	TokenRange=283:284
+4	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	2	nmod	_	TokenRange=285:289
+5	—	—	PUNCT	--	_	7	punct	_	TokenRange=290:291
+6	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=292:294
+7	мать	мать	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=295:299
+8	Амура	Амур	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=300:305
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=305:306
+10	Ты	ты	PRON	DT	Case=Nom|Number=Sing|Person=2	11	nsubj	_	TokenRange=308:310
+11	богородица	богородица	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	TokenRange=311:321
+12	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	11	det	_	SpaceAfter=No|TokenRange=322:325
+13	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=325:326
+

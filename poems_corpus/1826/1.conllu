@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вот, Зина, вам совет: играйте, Из роз веселых заплетайте Себе торжественный венец — И впредь у нас не разрывайте Ни мадригалов, ни сердец.
+1	Вот	вот	PART	UH	_	6	advmod	_	SpaceAfter=No|TokenRange=0:3
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=3:4
+3	Зина	Зина	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No|TokenRange=5:9
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=9:10
+5	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	6	iobj	_	TokenRange=11:14
+6	совет	совет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=15:20
+7	:	:	PUNCT	:	_	6	punct	_	TokenRange=20:21
+8	играйте	играть	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No|TokenRange=22:29
+9	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=29:30
+10	Из	из	ADP	IN	_	11	case	_	TokenRange=32:34
+11	роз	роза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	TokenRange=35:38
+12	веселых	веселый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	11	nmod	_	TokenRange=39:46
+13	заплетайте	заплетать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	8	conj	_	SpacesAfter=\r\n|TokenRange=47:57
+14	Себе	себя	PRON	PRP	Case=Dat	13	iobj	_	TokenRange=59:63
+15	торжественный	торжественный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	TokenRange=64:77
+16	венец	венец	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	TokenRange=78:83
+17	—	—	PUNCT	--	_	23	punct	_	SpacesAfter=\r\n|TokenRange=84:85
+18	И	и	CCONJ	CC	_	23	cc	_	TokenRange=87:88
+19	впредь	впредь	ADV	RB	Degree=Pos	23	advmod	_	TokenRange=89:95
+20	у	у	ADP	IN	_	21	case	_	TokenRange=96:97
+21	нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	23	obl	_	TokenRange=98:101
+22	не	не	PART	NEG	Polarity=Neg	23	advmod	_	TokenRange=102:104
+23	разрывайте	разрывать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	13	conj	_	SpacesAfter=\r\n|TokenRange=105:115
+24	Ни	ни	CCONJ	CC	Polarity=Neg	25	cc	_	TokenRange=117:119
+25	мадригалов	мадригал	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No|TokenRange=120:130
+26	,	,	PUNCT	,	_	28	punct	_	TokenRange=130:131
+27	ни	ни	CCONJ	CC	Polarity=Neg	28	cc	_	TokenRange=132:134
+28	сердец	сердец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No|TokenRange=135:141
+29	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=141:142
+

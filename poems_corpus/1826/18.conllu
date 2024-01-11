@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Кристалл, поэтом обновленный, Укрась мой мирный уголок, Залог поэзии священной И дружбы сладостный залог.
+1	Кристалл	кристалл	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=0:8
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=8:9
+3	поэтом	поэт	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	TokenRange=10:16
+4	обновленный	обновить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No|TokenRange=17:28
+5	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+6	Укрась	украсить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=31:37
+7	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	9	det	_	TokenRange=38:41
+8	мирный	мирный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=42:48
+9	уголок	уголок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=49:55
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+11	Залог	залог	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	TokenRange=58:63
+12	поэзии	поэзия	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=64:70
+13	священной	священный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpacesAfter=\r\n|TokenRange=71:80
+14	И	и	CCONJ	CC	_	15	cc	_	TokenRange=82:83
+15	дружбы	дружба	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	TokenRange=84:90
+16	сладостный	сладостный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=91:101
+17	залог	залог	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No|TokenRange=102:107
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+
+# sent_id = 2
+# text = В тебе таится жар целебный.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=110:111
+2	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	3	obl	_	TokenRange=112:116
+3	таится	таиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=117:123
+4	жар	жар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=124:127
+5	целебный	целебный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No|TokenRange=128:136
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+
+# sent_id = 3
+# text = Едва уста красноречивы Тебя коснулися, и вмиг Его ума огонь игривый В тебя таинственно проник.
+1	Едва	едва	SCONJ	IN	_	5	mark	_	TokenRange=139:143
+2	уста	уста	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	TokenRange=144:148
+3	красноречивы	красноречивый	ADJ	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\r\n|TokenRange=149:161
+4	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	5	obj	_	TokenRange=163:167
+5	коснулися	коснуться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	16	advcl	_	SpaceAfter=No|TokenRange=168:177
+6	,	,	PUNCT	,	_	5	punct	_	TokenRange=177:178
+7	и	и	CCONJ	CC	_	16	cc	_	TokenRange=179:180
+8	вмиг	вмиг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	advmod	_	SpacesAfter=\r\n|TokenRange=181:185
+9	Его	его	DET	PRP$	_	10	det	_	TokenRange=187:190
+10	ума	ум	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	TokenRange=191:194
+11	огонь	огонь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=195:200
+12	игривый	игривый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpacesAfter=\r\n|TokenRange=201:208
+13	В	в	ADP	IN	_	14	case	_	TokenRange=210:211
+14	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	16	obl	_	TokenRange=212:216
+15	таинственно	таинственно	ADV	RB	Degree=Pos	16	advmod	_	TokenRange=217:228
+16	проник	проникнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=229:235
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\r\n|TokenRange=235:236
+

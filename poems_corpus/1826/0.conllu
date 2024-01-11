@@ -1,1 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Стих каждый в повести твоей Звучит и блещет, как червонец.
+1	Стих	стих	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=0:4
+2	каждый	каждый	DET	DT	Case=Nom|Gender=Masc|Number=Sing	1	det	_	TokenRange=5:11
+3	в	в	ADP	IN	_	4	case	_	TokenRange=12:13
+4	повести	повесть	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	TokenRange=14:21
+5	твоей	твой	DET	PRP$	Case=Loc|Gender=Fem|Number=Sing	4	det	_	SpacesAfter=\r\n|TokenRange=22:27
+6	Звучит	звучать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=29:35
+7	и	и	CCONJ	CC	_	8	cc	_	TokenRange=36:37
+8	блещет	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=38:44
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=44:45
+10	как	как	ADP	IN	_	11	case	_	TokenRange=46:49
+11	червонец	червонец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|TokenRange=50:58
+12	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=58:59
+
+# sent_id = 2
+# text = Твоя чухоночка, ей-ей, Гречанок Байрона милей, А твой зоил прямой чухонец.
+1	Твоя	твой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	2	det	_	TokenRange=61:65
+2	чухоночка	чухоночка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=66:75
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=75:76
+4	ей-ей	ей-ей	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=77:82
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+6	Гречанок	гречанок	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=85:93
+7	Байрона	Байрон	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=94:101
+8	милей	милый	ADJ	JJH	Degree=Cmp	2	conj	_	SpaceAfter=No|TokenRange=102:107
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+10	А	а	CCONJ	CC	_	12	cc	_	TokenRange=110:111
+11	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=112:116
+12	зоил	зоить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=117:121
+13	прямой	прямой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=122:128
+14	чухонец	чухонец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|TokenRange=129:136
+15	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=136:137
 

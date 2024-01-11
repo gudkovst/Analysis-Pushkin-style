@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Всё мое»,— сказало злато; «Всё мое»,— сказал булат.
+1	«Всё	«всё	ADV	RB	Degree=Pos	2	nsubj	_	TokenRange=0:4
+2	мое»	мой	DET	PRP$	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=5:9
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|TokenRange=9:10
+4	—	—	PUNCT	--	_	5	punct	_	TokenRange=10:11
+5	сказало	сказать	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=12:19
+6	злато	злато	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=20:25
+7	;	;	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+8	«Всё	«всё	ADV	RB	Degree=Pos	9	nsubj	_	TokenRange=28:32
+9	мое»	мой	DET	PRP$	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No|TokenRange=33:37
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No|TokenRange=37:38
+11	—	—	PUNCT	--	_	12	punct	_	TokenRange=38:39
+12	сказал	сказать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	TokenRange=40:46
+13	булат	булат	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|TokenRange=47:52
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+
+# sent_id = 2
+# text = «Всё куплю»,— сказало злато; «Всё возьму»,— сказал булат.
+1	«Всё	«всё	ADV	RB	Degree=Pos	2	obj	_	TokenRange=55:59
+2	куплю»	купловать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=60:66
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|TokenRange=66:67
+4	—	—	PUNCT	``	_	5	punct	_	TokenRange=67:68
+5	сказало	сказать	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=69:76
+6	злато	злато	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=77:82
+7	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+8	«Всё	«всё	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=85:89
+9	возьму»	возьовать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No|TokenRange=90:97
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No|TokenRange=97:98
+11	—	—	PUNCT	--	_	12	punct	_	TokenRange=98:99
+12	сказал	сказать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=100:106
+13	булат	булат	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|TokenRange=107:112
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=112:113
+

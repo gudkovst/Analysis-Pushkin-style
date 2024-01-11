@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = С тобой мне вновь считаться довелось, Певец любви то резвый, то унылый; Играешь ты на лире очень мило, Играешь ты довольно плохо в штос.
+1	С	с	ADP	IN	_	2	case	_	TokenRange=0:1
+2	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	6	obl	_	TokenRange=2:7
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	6	iobj	_	TokenRange=8:11
+4	вновь	вновь	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=12:17
+5	считаться	считаться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	TokenRange=18:27
+6	довелось	довестись	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=28:36
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=36:37
+8	Певец	певец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=39:44
+9	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	TokenRange=45:50
+10	то	то	CCONJ	CC	_	11	cc	_	TokenRange=51:53
+11	резвый	резвый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No|TokenRange=54:60
+12	,	,	PUNCT	,	_	14	punct	_	TokenRange=60:61
+13	то	то	SCONJ	CC	_	14	cc	_	TokenRange=62:64
+14	унылый	унылый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|TokenRange=65:71
+15	;	;	PUNCT	:	_	16	punct	_	SpacesAfter=\r\n|TokenRange=71:72
+16	Играешь	играть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=74:81
+17	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	16	nsubj	_	TokenRange=82:84
+18	на	на	ADP	IN	_	19	case	_	TokenRange=85:87
+19	лире	лира	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	TokenRange=88:92
+20	очень	очень	ADV	RB	Degree=Pos	21	advmod	_	TokenRange=93:98
+21	мило	мило	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No|TokenRange=99:103
+22	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=103:104
+23	Играешь	играть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	TokenRange=106:113
+24	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	23	nsubj	_	TokenRange=114:116
+25	довольно	довольно	ADV	RB	Degree=Pos	26	advmod	_	TokenRange=117:125
+26	плохо	плохо	ADV	RB	Degree=Pos	23	advmod	_	TokenRange=126:131
+27	в	в	ADP	IN	_	28	case	_	TokenRange=132:133
+28	штос	штос	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|TokenRange=134:138
+29	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=138:139
+
+# sent_id = 2
+# text = Пятьсот рублей, проигранных тобою, Наличные свидетели тому.
+1	Пятьсот	пятьсот	NUM	CD	Case=Nom|NumType=Card	2	nummod:gov	_	TokenRange=141:148
+2	рублей	рубль	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No|TokenRange=149:155
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=155:156
+4	проигранных	проиграть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	TokenRange=157:168
+5	тобою	ты	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl:agent	_	SpaceAfter=No|TokenRange=169:174
+6	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=174:175
+7	Наличные	наличный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	TokenRange=177:185
+8	свидетели	свидетель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	TokenRange=186:195
+9	тому	то	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	iobj	_	SpaceAfter=No|TokenRange=196:200
+10	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=200:201
+
+# sent_id = 3
+# text = Судьба моя сходна с твоей судьбою; Сейчас, мой друг, увидишь почему.
+1	Судьба	судьба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=203:209
+2	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	1	det	_	TokenRange=210:213
+3	сходна	сходный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	TokenRange=214:220
+4	с	с	ADP	IN	_	6	case	_	TokenRange=221:222
+5	твоей	твой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	6	det	_	TokenRange=223:228
+6	судьбою	судьба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=229:236
+7	;	;	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=236:237
+8	Сейчас	сейчас	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No|TokenRange=239:245
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=245:246
+10	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	11	det	_	TokenRange=247:250
+11	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No|TokenRange=251:255
+12	,	,	PUNCT	,	_	11	punct	_	TokenRange=255:256
+13	увидишь	увидеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=257:264
+14	почему	почему	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No|TokenRange=265:271
+15	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=271:272
+

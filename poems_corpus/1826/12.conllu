@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Нет, не черкешенка она,— Но в долы Грузии от века Такая дева не сошла С высот угрюмого Казбека.
+1	Нет	нет	PART	NEG	Polarity=Neg	4	parataxis	_	SpaceAfter=No|TokenRange=0:3
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=3:4
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=5:7
+4	черкешенка	черкешенка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=8:18
+5	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No|TokenRange=19:22
+6	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No|TokenRange=22:23
+7	—	—	PUNCT	--	_	17	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+8	Но	но	CCONJ	CC	_	17	cc	_	TokenRange=26:28
+9	в	в	ADP	IN	_	10	case	_	TokenRange=29:30
+10	долы	дола	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obl	_	TokenRange=31:35
+11	Грузии	Грузия	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	TokenRange=36:42
+12	от	от	ADP	IN	_	13	case	_	TokenRange=43:45
+13	века	век	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpacesAfter=\r\n|TokenRange=46:50
+14	Такая	такой	DET	DT	Case=Nom|Gender=Fem|Number=Sing	15	det	_	TokenRange=52:57
+15	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	TokenRange=58:62
+16	не	не	PART	NEG	Polarity=Neg	17	advmod	_	TokenRange=63:65
+17	сошла	сойти	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpacesAfter=\r\n|TokenRange=66:71
+18	С	с	ADP	IN	_	19	case	_	TokenRange=73:74
+19	высот	высота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	TokenRange=75:80
+20	угрюмого	угрюмый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=81:89
+21	Казбека	Казбек	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|TokenRange=90:97
+22	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+
+# sent_id = 2
+# text = Нет, не агат в глазах у ней,— Но все сокровища Востока Не стоят сладостных лучей Ее полуденного ока.
+1	Нет	нет	PART	NEG	Polarity=Neg	4	parataxis	_	SpaceAfter=No|TokenRange=100:103
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=103:104
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=105:107
+4	агат	агеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=108:112
+5	в	в	ADP	IN	_	6	case	_	TokenRange=113:114
+6	глазах	глаз	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	TokenRange=115:121
+7	у	у	ADP	IN	_	8	case	_	TokenRange=122:123
+8	ней	она	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=3	4	obl	_	SpaceAfter=No|TokenRange=124:127
+9	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No|TokenRange=127:128
+10	—	—	PUNCT	--	_	16	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+11	Но	но	CCONJ	CC	_	16	cc	_	TokenRange=131:133
+12	все	весь	DET	DT	Case=Nom|Number=Plur	13	det	_	TokenRange=134:137
+13	сокровища	сокровище	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	TokenRange=138:147
+14	Востока	Восток	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\r\n|TokenRange=148:155
+15	Не	не	PART	NEG	Polarity=Neg	16	advmod	_	TokenRange=157:159
+16	стоят	стоять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=160:165
+17	сладостных	сладостный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	TokenRange=166:176
+18	лучей	луч	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obj	_	SpacesAfter=\r\n|TokenRange=177:182
+19	Ее	ее	DET	PRP$	_	21	det	_	TokenRange=184:186
+20	полуденного	полуденный	VERB	VBNL	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	TokenRange=187:198
+21	ока	око	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|TokenRange=199:202
+22	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=202:203
+

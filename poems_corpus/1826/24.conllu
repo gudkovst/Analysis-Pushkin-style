@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не веровал я троице доныне: Мне бог тройной казался все мудрен;
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	веровал	веровать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3:10
+3	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=11:12
+4	троице	троица	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	TokenRange=13:19
+5	доныне	доныня	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=20:26
+6	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+7	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	10	iobj	_	TokenRange=29:32
+8	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=33:36
+9	тройной	тройной	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=37:44
+10	казался	казаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	parataxis	_	TokenRange=45:52
+11	все	все	PRON	DT	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=53:56
+12	мудрен	мудрный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	obl	_	SpaceAfter=No|TokenRange=57:63
+13	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+
+# sent_id = 2
+# text = Но вижу вас и, верой одарен, Молюсь трем грациям в одной богине.
+1	Но	но	CCONJ	CC	_	2	cc	_	TokenRange=66:68
+2	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=69:73
+3	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	2	obj	_	TokenRange=74:77
+4	и	и	CCONJ	CC	_	9	cc	_	SpaceAfter=No|TokenRange=78:79
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=79:80
+6	верой	вера	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	TokenRange=81:86
+7	одарен	одарить	ADJ	JJH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	advcl	_	SpaceAfter=No|TokenRange=87:93
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=93:94
+9	Молюсь	молиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	TokenRange=96:102
+10	трем	три	NUM	CD	Case=Dat|NumType=Card	11	nummod	_	TokenRange=103:107
+11	грациям	грация	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	iobj	_	TokenRange=108:115
+12	в	в	ADP	IN	_	14	case	_	TokenRange=116:117
+13	одной	один	NUM	CD	Case=Loc|Gender=Fem|Number=Sing	14	nummod	_	TokenRange=118:123
+14	богине	богиня	NOUN	NN	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=124:130
+15	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=130:131
+
