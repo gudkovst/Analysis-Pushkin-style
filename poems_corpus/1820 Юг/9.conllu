@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Хайрониос! ругатель закоснелый, Во тьме, в пыли, в презреньи поседелый, Уймись, дружок! к чему журнальный шум И пасквилей томительная тупость?
+1	Хайрониос	Хайрониос	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=0:9
+2	!	!	PUNCT	.	_	1	punct	_	TokenRange=9:10
+3	ругатель	ругатель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=11:19
+4	закоснелый	закоснелый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No|TokenRange=20:30
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+6	Во	во	ADP	IN	_	7	case	_	TokenRange=33:35
+7	тьме	тьма	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=36:40
+8	,	,	PUNCT	,	_	10	punct	_	TokenRange=40:41
+9	в	в	ADP	IN	_	10	case	_	TokenRange=42:43
+10	пыли	пыль	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=44:48
+11	,	,	PUNCT	,	_	13	punct	_	TokenRange=48:49
+12	в	в	ADP	IN	_	13	case	_	TokenRange=50:51
+13	презреньи	презренье	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	TokenRange=52:61
+14	поседелый	поседелый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=62:71
+15	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=71:72
+16	Уймись	уймись	VERB	VBG	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	1	conj	_	SpaceAfter=No|TokenRange=74:80
+17	,	,	PUNCT	,	_	16	punct	_	TokenRange=80:81
+18	дружок	дружок	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=82:88
+19	!	!	PUNCT	.	_	18	punct	_	TokenRange=88:89
+20	к	к	ADP	IN	_	21	case	_	TokenRange=90:91
+21	чему	что	PRON	WP	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	TokenRange=92:96
+22	журнальный	журнальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	TokenRange=97:107
+23	шум	шум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	parataxis	_	SpacesAfter=\r\n|TokenRange=108:111
+24	И	и	CCONJ	CC	_	25	cc	_	TokenRange=113:114
+25	пасквилей	пасквиль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	TokenRange=115:124
+26	томительная	томительный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	TokenRange=125:136
+27	тупость	тупость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No|TokenRange=137:144
+28	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=144:145
+
+# sent_id = 2
+# text = Затейник зол, с улыбкой скажет глупость, Невежда глуп, зевая, скажет ум.
+1	Затейник	затейник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=147:155
+2	зол	золый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=156:159
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=159:160
+4	с	с	ADP	IN	_	5	case	_	TokenRange=161:162
+5	улыбкой	улыбка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	TokenRange=163:170
+6	скажет	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=171:177
+7	глупость	глупость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=178:186
+8	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=186:187
+9	Невежда	невежда	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=189:196
+10	глуп	глупый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	SpaceAfter=No|TokenRange=197:201
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=201:202
+12	зевая	зевать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	SpaceAfter=No|TokenRange=203:208
+13	,	,	PUNCT	,	_	12	punct	_	TokenRange=208:209
+14	скажет	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=210:216
+15	ум	ум	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|TokenRange=217:219
+16	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=219:220
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Зачем безвременную скуку Зловещей думою питать, И неизбежную разлуку В унынье робком ожидать?
+1	Зачем	зачем	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=0:5
+2	безвременную	безвременный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=6:18
+3	скуку	скука	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpacesAfter=\r\n|TokenRange=19:24
+4	Зловещей	зловещий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=26:34
+5	думою	дума	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	iobj	_	TokenRange=35:40
+6	питать	питать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=41:47
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=47:48
+8	И	и	CCONJ	CC	_	10	cc	_	TokenRange=50:51
+9	неизбежную	неизбежный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=52:62
+10	разлуку	разлука	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	SpacesAfter=\r\n|TokenRange=63:70
+11	В	в	ADP	IN	_	12	case	_	TokenRange=72:73
+12	унынье	унынье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	TokenRange=74:80
+13	робком	робком	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	advmod	_	TokenRange=81:87
+14	ожидать	ожидать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=88:95
+15	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=95:96
+
+# sent_id = 2
+# text = И так уж близок день страданья!
+1	И	и	CCONJ	CC	_	4	cc	_	TokenRange=98:99
+2	так	так	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=100:103
+3	уж	уж	PART	UH	_	2	advmod	_	TokenRange=104:106
+4	близок	близкий	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=107:113
+5	день	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=114:118
+6	страданья	страданье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=119:128
+7	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+
+# sent_id = 3
+# text = Один, в тиши пустых полей, Ты будешь звать воспоминанья Потерянных тобою дней.
+1	Один	один	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Card	10	nsubj	_	SpaceAfter=No|TokenRange=131:135
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=135:136
+3	в	в	ADP	IN	_	4	case	_	TokenRange=137:138
+4	тиши	тиша	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	TokenRange=139:143
+5	пустых	пустой	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	TokenRange=144:150
+6	полей	поле	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No|TokenRange=151:156
+7	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=156:157
+8	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=159:161
+9	будешь	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	10	aux	_	TokenRange=162:168
+10	звать	звать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=169:174
+11	воспоминанья	воспоминание	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpacesAfter=\r\n|TokenRange=175:187
+12	Потерянных	потерять	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	TokenRange=189:199
+13	тобою	ты	PRON	PRP	Case=Ins|Number=Sing|Person=2	12	obl:agent	_	TokenRange=200:205
+14	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|TokenRange=206:210
+15	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=210:211
+
+# sent_id = 4
+# text = Тогда изгнаньем и могилой, Несчастный, будешь ты готов Купить хоть слово девы милой, Хоть легкий шум ее шагов.
+1	Тогда	тогда	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=213:218
+2	изгнаньем	изгнанье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	iobj	_	TokenRange=219:228
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=229:230
+4	могилой	могила	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=231:238
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=238:239
+6	Несчастный	несчастный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=241:251
+7	,	,	PUNCT	,	_	6	punct	_	TokenRange=251:252
+8	будешь	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	10	cop	_	TokenRange=253:259
+9	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=260:262
+10	готов	готовый	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\r\n|TokenRange=263:268
+11	Купить	купить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	TokenRange=270:276
+12	хоть	хоть	ADV	RB	_	13	advmod	_	TokenRange=277:281
+13	слово	слово	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	TokenRange=282:287
+14	девы	дева	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	TokenRange=288:292
+15	милой	милый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No|TokenRange=293:298
+16	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=298:299
+17	Хоть	хоть	ADV	IN	_	19	advmod	_	TokenRange=301:305
+18	легкий	легкий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	TokenRange=306:312
+19	шум	шум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	TokenRange=313:316
+20	ее	ее	DET	PRP$	_	21	det	_	TokenRange=317:319
+21	шагов	шаг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No|TokenRange=320:325
+22	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No|TokenRange=325:326
+
