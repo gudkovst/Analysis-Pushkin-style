@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Штабс-капитану, Гёте, Грею, Томсону, Шиллеру привет!
+1	Штабс-капитану	штабс-капитан	NOUN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	SpaceAfter=No|TokenRange=0:14
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=14:15
+3	Гёте	Гете	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=16:20
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=20:21
+5	Грею	Грей	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=22:26
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+7	Томсону	Томсон	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=29:36
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=36:37
+9	Шиллеру	Шиллер	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	conj	_	TokenRange=38:45
+10	привет	привет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=46:52
+11	!	!	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+
+# sent_id = 2
+# text = Им поклониться честь имею, Но сердцем истинно жалею, Что никогда их дома нет.
+1	Им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	4	iobj	_	TokenRange=55:57
+2	поклониться	поклониться	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	TokenRange=58:69
+3	честь	честь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=70:75
+4	имею	иметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=76:80
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=80:81
+6	Но	но	CCONJ	CC	_	9	cc	_	TokenRange=83:85
+7	сердцем	сердце	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	TokenRange=86:93
+8	истинно	истинно	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=94:101
+9	жалею	жалеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=102:107
+10	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+11	Что	что	SCONJ	IN	_	15	mark	_	TokenRange=110:113
+12	никогда	никогда	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=114:121
+13	их	их	DET	PRP$	_	14	det	_	TokenRange=122:124
+14	дома	дом	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=125:129
+15	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	SpaceAfter=No|TokenRange=130:133
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=133:134
+

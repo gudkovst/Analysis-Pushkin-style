@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Мне бой знаком — люблю я звук мечей;
+1	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	3	iobj	_	TokenRange=0:3
+2	бой	бой	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=4:7
+3	знаком	знакомый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=8:14
+4	—	—	PUNCT	--	_	5	punct	_	TokenRange=15:16
+5	люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=17:22
+6	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	TokenRange=23:24
+7	звук	звук	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	TokenRange=25:29
+8	мечей	меч	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|TokenRange=30:35
+9	;	;	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=35:36
+
+# sent_id = 2
+# text = От первых лет поклонник бранной славы, Люблю войны кровавые забавы, И смерти мысль мила душе моей.
+1	От	от	ADP	IN	_	3	case	_	TokenRange=38:40
+2	первых	первый	ADJ	ORD	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	TokenRange=41:47
+3	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	TokenRange=48:51
+4	поклонник	поклонник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=52:61
+5	бранной	бранный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=62:69
+6	славы	слава	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=70:75
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=75:76
+8	Люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=78:83
+9	войны	война	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	TokenRange=84:89
+10	кровавые	кровавый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	TokenRange=90:98
+11	забавы	забава	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|TokenRange=99:105
+12	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=105:106
+13	И	и	CCONJ	CC	_	16	cc	_	TokenRange=108:109
+14	смерти	смерть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	TokenRange=110:116
+15	мысль	мысль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	TokenRange=117:122
+16	мила	милый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	8	conj	_	TokenRange=123:127
+17	душе	душа	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	iobj	_	TokenRange=128:132
+18	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	17	det	_	SpaceAfter=No|TokenRange=133:137
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=137:138
+
+# sent_id = 3
+# text = Во цвете лет свободы верный воин, Перед собой кто смерти не видал, Тот полного веселья не вкушал И милых жен лобзаний не достоин.
+1	Во	во	ADP	IN	_	2	case	_	TokenRange=140:142
+2	цвете	цвет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	TokenRange=143:148
+3	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	TokenRange=149:152
+4	свободы	свобода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	TokenRange=153:160
+5	верный	верный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=161:167
+6	воин	воин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No|TokenRange=168:172
+7	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=172:173
+8	Перед	перед	ADP	IN	_	9	case	_	TokenRange=175:180
+9	собой	себя	PRON	PRP	Case=Ins|Reflex=Yes	13	obl	_	TokenRange=181:186
+10	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	TokenRange=187:190
+11	смерти	смерть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obj	_	TokenRange=191:197
+12	не	не	PART	NEG	Polarity=Neg	13	advmod	_	TokenRange=198:200
+13	видал	видать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No|TokenRange=201:206
+14	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=206:207
+15	Тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	TokenRange=209:212
+16	полного	полный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	TokenRange=213:220
+17	веселья	веселье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obj	_	TokenRange=221:228
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=229:231
+19	вкушал	вкушать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=232:238
+20	И	и	CCONJ	CC	_	25	cc	_	TokenRange=240:241
+21	милых	милый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	TokenRange=242:247
+22	жен	жена	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	25	obl	_	TokenRange=248:251
+23	лобзаний	лобзание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	TokenRange=252:260
+24	не	не	PART	NEG	Polarity=Neg	25	advmod	_	TokenRange=261:263
+25	достоин	достойный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	19	conj	_	SpaceAfter=No|TokenRange=264:271
+26	.	.	PUNCT	.	_	19	punct	_	SpaceAfter=No|TokenRange=271:272
+
