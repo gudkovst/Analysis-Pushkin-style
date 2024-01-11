@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Бог веселый винограда Позволяет нам три чаши Выпивать в пиру вечернем.
+1	Бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=0:3
+2	веселый	веселый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=4:11
+3	винограда	виноград	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\r\n|TokenRange=12:21
+4	Позволяет	позволять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=23:32
+5	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	4	iobj	_	TokenRange=33:36
+6	три	три	NUM	CD	Animacy=Inan|Case=Acc|NumType=Card	7	nummod:gov	_	TokenRange=37:40
+7	чаши	чаша	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obj	_	SpacesAfter=\r\n|TokenRange=41:45
+8	Выпивать	выпивать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=47:55
+9	в	в	ADP	IN	_	10	case	_	TokenRange=56:57
+10	пиру	пира	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	TokenRange=58:62
+11	вечернем	вечерний	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	iobj	_	SpaceAfter=No|TokenRange=63:71
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=71:72
+
+# sent_id = 2
+# text = Первую во имя граций, Обнаженных и стыдливых, Посвящается вторая Краснощекому здоровью, Третья дружбе многолетной.
+1	Первую	первый	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	obj	_	TokenRange=74:80
+2	во	во	ADP	IN	_	3	case	_	TokenRange=81:83
+3	имя	имя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	TokenRange=84:87
+4	граций	грация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|TokenRange=88:94
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=94:95
+6	Обнаженных	обнаженный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	TokenRange=97:107
+7	и	и	CCONJ	CC	_	8	cc	_	TokenRange=108:109
+8	стыдливых	стыдливый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=110:119
+9	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=119:120
+10	Посвящается	посвящаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=122:133
+11	вторая	второй	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	nsubj	_	SpacesAfter=\r\n|TokenRange=134:140
+12	Краснощекому	краснощекий	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	TokenRange=142:154
+13	здоровью	здоровье	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	iobj	_	SpaceAfter=No|TokenRange=155:163
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=163:164
+15	Третья	третий	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	TokenRange=166:172
+16	дружбе	дружба	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	conj	_	TokenRange=173:179
+17	многолетной	многолетный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=180:191
+18	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=191:192
+
+# sent_id = 3
+# text = Мудрый после третьей чаши Все венки с главы слагает И творит уж возлиянья Благодатному Морфею.
+1	Мудрый	мудрый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=194:200
+2	после	после	ADP	IN	_	4	case	_	TokenRange=201:206
+3	третьей	третий	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=207:214
+4	чаши	чаша	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpacesAfter=\r\n|TokenRange=215:219
+5	Все	весь	DET	DT	Animacy=Inan|Case=Acc|Number=Plur	6	det	_	TokenRange=221:224
+6	венки	венка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	TokenRange=225:230
+7	с	с	ADP	IN	_	8	case	_	TokenRange=231:232
+8	главы	глава	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	TokenRange=233:238
+9	слагает	слагать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=239:246
+10	И	и	CCONJ	CC	_	11	cc	_	TokenRange=248:249
+11	творит	творить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=250:256
+12	уж	уж	PART	UH	_	13	advmod	_	TokenRange=257:259
+13	возлиянья	возлияние	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	SpacesAfter=\r\n|TokenRange=260:269
+14	Благодатному	благодатный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=271:283
+15	Морфею	Морфей	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	SpaceAfter=No|TokenRange=284:290
+16	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=290:291
+

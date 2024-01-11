@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Славная флейта, Феон, здесь лежит.
+1	Славная	славный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=0:7
+2	флейта	флейта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=8:14
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=14:15
+4	Феон	Феон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=16:20
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=20:21
+6	здесь	здесь	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=22:27
+7	лежит	лежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=28:33
+8	.	.	PUNCT	.	_	7	punct	_	TokenRange=33:34
+
+# sent_id = 2
+# text = Предводителя хоров Старец, ослепший от лет, некогда Скирпал родил И, вдохновенный, нарек младенца Феоном.
+1	Предводителя	предводитель	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	obj	_	TokenRange=35:47
+2	хоров	хор	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\r\n|TokenRange=48:53
+3	Старец	старец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|TokenRange=55:61
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=61:62
+5	ослепший	ослеть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	TokenRange=63:71
+6	от	от	ADP	IN	_	7	case	_	TokenRange=72:74
+7	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|TokenRange=75:78
+8	,	,	PUNCT	,	_	5	punct	_	TokenRange=78:79
+9	некогда	некогда	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=80:87
+10	Скирпал	Скирпал	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=88:95
+11	родил	родить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=96:101
+12	И	и	CCONJ	CC	_	16	cc	_	SpaceAfter=No|TokenRange=103:104
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=104:105
+14	вдохновенный	вдохновенный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No|TokenRange=106:118
+15	,	,	PUNCT	,	_	14	punct	_	TokenRange=118:119
+16	нарек	наречь	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=120:125
+17	младенца	младенец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	TokenRange=126:134
+18	Феоном	Феон	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No|TokenRange=135:141
+19	.	.	PUNCT	.	_	11	punct	_	TokenRange=141:142
+
+# sent_id = 3
+# text = За чашей Сладостно Вакха и муз славил приятный Феон.
+1	За	за	ADP	IN	_	2	case	_	TokenRange=143:145
+2	чашей	чаша	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=\r\n|TokenRange=146:151
+3	Сладостно	сладостно	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=153:162
+4	Вакха	Вакха	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	obj	_	TokenRange=163:168
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=169:170
+6	муз	муз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	TokenRange=171:174
+7	славил	славить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=175:181
+8	приятный	приятный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=182:190
+9	Феон	Феон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=191:195
+10	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=195:196
+
+# sent_id = 4
+# text = Славил и Ватала он, молодого красавца: прохожий!
+1	Славил	славить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=198:204
+2	и	и	CCONJ	CC	_	3	cc	_	TokenRange=205:206
+3	Ватала	ватать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=207:213
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	nsubj	_	SpaceAfter=No|TokenRange=214:216
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=216:217
+6	молодого	молодой	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=218:226
+7	красавца	красавец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=227:235
+8	:	:	PUNCT	:	_	7	punct	_	TokenRange=235:236
+9	прохожий	прохожий	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=237:245
+10	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=245:246
+
+# sent_id = 5
+# text = Мимо гробницы спеша, вымолви: здравствуй, Феон!
+1	Мимо	мимо	ADP	IN	_	2	case	_	TokenRange=248:252
+2	гробницы	гробница	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	TokenRange=253:261
+3	спеша	спешить	VERB	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=262:267
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=267:268
+5	вымолви	вымолвить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=269:276
+6	:	:	PUNCT	:	_	5	punct	_	TokenRange=276:277
+7	здравствуй	здравствовать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No|TokenRange=278:288
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=288:289
+9	Феон	Феон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No|TokenRange=290:294
+10	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=294:295
+

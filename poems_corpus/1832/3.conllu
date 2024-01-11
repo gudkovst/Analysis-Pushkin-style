@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Когда-то (помню с умиленьем) Я смел вас нянчить с восхищеньем, Вы были дивное дитя.
+1	Когда-то	когда-то	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=0:8
+2	(	(	PUNCT	(	_	3	punct	_	SpaceAfter=No|TokenRange=9:10
+3	помню	помнить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	TokenRange=10:15
+4	с	с	ADP	IN	_	5	case	_	TokenRange=16:17
+5	умиленьем	умиление	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=18:27
+6	)	)	PUNCT	)	_	3	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+7	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=30:31
+8	смел	сметь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=32:36
+9	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	8	obj	_	TokenRange=37:40
+10	нянчить	нянчить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	TokenRange=41:48
+11	с	с	ADP	IN	_	12	case	_	TokenRange=49:50
+12	восхищеньем	восхищенье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|TokenRange=51:62
+13	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=62:63
+14	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	17	nsubj	_	TokenRange=65:67
+15	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	17	cop	_	TokenRange=68:72
+16	дивное	дивный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	TokenRange=73:79
+17	дитя	дитя	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No|TokenRange=80:84
+18	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=84:85
+
+# sent_id = 2
+# text = Вы расцвели — с благоговеньем Вам ныне поклоняюсь я.
+1	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	2	nsubj	_	TokenRange=87:89
+2	расцвели	расцвести	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=90:98
+3	—	—	PUNCT	``	_	8	punct	_	TokenRange=99:100
+4	с	с	ADP	IN	_	5	case	_	TokenRange=101:102
+5	благоговеньем	благоговенье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	SpacesAfter=\r\n|TokenRange=103:116
+6	Вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	8	iobj	_	TokenRange=118:121
+7	ныне	ныне	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=122:126
+8	поклоняюсь	поклоняться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	TokenRange=127:137
+9	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	SpaceAfter=No|TokenRange=138:139
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=139:140
+
+# sent_id = 3
+# text = За вами сердцем и глазами С невольным трепетом ношусь И вашей славою и вами, Как нянька старая, горжусь.
+1	За	за	ADP	IN	_	2	case	_	TokenRange=142:144
+2	вами	вы	PRON	PRP	Case=Ins|Number=Plur	9	obl	_	TokenRange=145:149
+3	сердцем	сердце	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	TokenRange=150:157
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=158:159
+5	глазами	глаз	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	conj	_	SpacesAfter=\r\n|TokenRange=160:167
+6	С	с	ADP	IN	_	8	case	_	TokenRange=169:170
+7	невольным	невольный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=171:180
+8	трепетом	трепет	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	TokenRange=181:189
+9	ношусь	ношуться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\r\n|TokenRange=190:196
+10	И	и	CCONJ	CC	_	12	cc	_	TokenRange=198:199
+11	вашей	ваш	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	12	det	_	TokenRange=200:205
+12	славою	слава	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	iobj	_	TokenRange=206:212
+13	и	и	CCONJ	CC	_	20	cc	_	TokenRange=213:214
+14	вами	вы	PRON	PRP	Case=Ins|Number=Plur|Person=2	20	iobj	_	SpaceAfter=No|TokenRange=215:219
+15	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=219:220
+16	Как	как	ADP	IN	_	17	case	_	TokenRange=222:225
+17	нянька	нянька	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	20	obl	_	TokenRange=226:232
+18	старая	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No|TokenRange=233:239
+19	,	,	PUNCT	,	_	17	punct	_	TokenRange=239:240
+20	горжусь	гордиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	SpaceAfter=No|TokenRange=241:248
+21	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=248:249
+

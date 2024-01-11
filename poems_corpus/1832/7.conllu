@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Гонимый рока самовластьем От пышной далеко Москвы, Я буду вспоминать с участьем То место, где цветете вы.
+1	Гонимый	гонить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	TokenRange=0:7
+2	рока	рок	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obj	_	TokenRange=8:12
+3	самовластьем	самовластье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl:agent	_	SpacesAfter=\r\n|TokenRange=13:25
+4	От	от	ADP	IN	_	7	case	_	TokenRange=27:29
+5	пышной	пышный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=30:36
+6	далеко	далеко	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=37:43
+7	Москвы	Москва	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=44:50
+8	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+9	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=53:54
+10	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux	_	TokenRange=55:59
+11	вспоминать	вспоминать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=60:70
+12	с	с	ADP	IN	_	13	case	_	TokenRange=71:72
+13	участьем	участье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	SpacesAfter=\r\n|TokenRange=73:81
+14	То	тот	DET	DT	Case=Acc|Gender=Neut|Number=Sing	15	det	_	TokenRange=83:85
+15	место	место	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=86:91
+16	,	,	PUNCT	,	_	18	punct	_	TokenRange=91:92
+17	где	где	ADV	WRB	_	18	advmod	_	TokenRange=93:96
+18	цветете	цвететь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	TokenRange=97:104
+19	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	18	nsubj	_	SpaceAfter=No|TokenRange=105:107
+20	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+
+# sent_id = 2
+# text = Столичный шум меня тревожит; Всегда в нем грустно я живу, И ваша память только может Одна напомнить мне Москву.
+1	Столичный	столичный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=110:119
+2	шум	шум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=120:123
+3	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	4	obj	_	TokenRange=124:128
+4	тревожит	тревожить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=129:137
+5	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=137:138
+6	Всегда	всегда	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=140:146
+7	в	в	ADP	IN	_	8	case	_	TokenRange=147:148
+8	нем	он	PRON	PRP	Case=Loc|Gender=Masc|Number=Sing|Person=3	11	obl	_	TokenRange=149:152
+9	грустно	грустно	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=153:160
+10	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=161:162
+11	живу	жить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=163:167
+12	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=167:168
+13	И	и	CCONJ	CC	_	17	cc	_	TokenRange=170:171
+14	ваша	ваш	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	15	det	_	TokenRange=172:176
+15	память	память	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	TokenRange=177:183
+16	только	только	PART	UH	_	17	advmod	_	TokenRange=184:190
+17	может	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	SpacesAfter=\r\n|TokenRange=191:196
+18	Одна	один	NUM	CD	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	TokenRange=198:202
+19	напомнить	напомнить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	TokenRange=203:212
+20	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	19	iobj	_	TokenRange=213:216
+21	Москву	Москва	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|TokenRange=217:223
+22	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=223:224
+

@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Одни стихи ему читала, И щеки рделися у ней, И тихо грудь ее дышала: «Приди — жених души моей».
+1	Одни	один	DET	DT	Animacy=Inan|Case=Acc|Number=Plur	2	amod	_	TokenRange=0:4
+2	стихи	стихи	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	TokenRange=5:10
+3	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	iobj	_	TokenRange=11:14
+4	читала	читать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=15:21
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=21:22
+6	И	и	CCONJ	CC	_	8	cc	_	TokenRange=24:25
+7	щеки	щека	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	TokenRange=26:30
+8	рделися	рдеться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	TokenRange=31:38
+9	у	у	ADP	IN	_	10	case	_	TokenRange=39:40
+10	ней	она	PRON	PRP	Case=Ins|Gender=Fem|Number=Sing|Person=3	8	obl	_	SpaceAfter=No|TokenRange=41:44
+11	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=44:45
+12	И	и	CCONJ	CC	_	16	cc	_	TokenRange=47:48
+13	тихо	тихо	ADV	RB	Degree=Pos	16	advmod	_	TokenRange=49:53
+14	грудь	грудь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	TokenRange=54:59
+15	ее	ее	DET	PRP$	_	14	det	_	TokenRange=60:62
+16	дышала	дышать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=63:69
+17	:	:	PUNCT	:	_	18	punct	_	SpacesAfter=\r\n|TokenRange=69:70
+18	«Приди	«придить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	16	parataxis	_	TokenRange=72:78
+19	—	—	PUNCT	--	_	18	punct	_	TokenRange=79:80
+20	жених	жених	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=81:86
+21	души	душа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	TokenRange=87:91
+22	моей»	моей»	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No|TokenRange=92:97
+23	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=97:98
+

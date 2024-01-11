@@ -1,0 +1,149 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Чистый лоснится пол; стеклянные чаши блистают;
+1	Чистый	чистый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=0:6
+2	лоснится	лосниться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=7:15
+3	пол	пол	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=16:19
+4	;	;	PUNCT	:	_	2	punct	_	TokenRange=19:20
+5	стеклянные	стеклянный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	TokenRange=21:31
+6	чаши	чаша	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	TokenRange=32:36
+7	блистают	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=37:45
+8	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=45:46
+
+# sent_id = 2
+# text = Все уж увенчаны гости; иной обоняет, зажмурясь, Ладана сладостный дым; другой открывает амфору, Запах веселый вина разливая далече; сосуды Светлой студеной воды, золотистые хлебы, янтарный Мед и сыр молодой — всё готово; весь убран цветами Жертвенник.
+1	Все	все	PRON	DT	Case=Nom|Number=Plur	3	nsubj:pass	_	TokenRange=48:51
+2	уж	уж	PART	UH	_	3	advmod	_	TokenRange=52:54
+3	увенчаны	увенчать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=55:63
+4	гости	гость	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No|TokenRange=64:69
+5	;	;	PUNCT	:	_	3	punct	_	TokenRange=69:70
+6	иной	иной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=71:75
+7	обоняет	обонять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No|TokenRange=76:83
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=83:84
+9	зажмурясь	зажмуриться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	SpaceAfter=No|TokenRange=85:94
+10	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=94:95
+11	Ладана	ладать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	TokenRange=97:103
+12	сладостный	сладостный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	TokenRange=104:114
+13	дым	дым	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=115:118
+14	;	;	PUNCT	:	_	16	punct	_	TokenRange=118:119
+15	другой	другой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=120:126
+16	открывает	открывать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=127:136
+17	амфору	амфора	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No|TokenRange=137:143
+18	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+19	Запах	запах	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	obj	_	TokenRange=146:151
+20	веселый	веселый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=152:159
+21	вина	вино	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	TokenRange=160:164
+22	разливая	разливать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	TokenRange=165:173
+23	далече	далече	ADV	RBR	Degree=Cmp	22	advmod	_	SpaceAfter=No|TokenRange=174:180
+24	;	;	PUNCT	:	_	40	punct	_	TokenRange=180:181
+25	сосуды	сосуд	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	SpacesAfter=\r\n|TokenRange=182:188
+26	Светлой	светлый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	TokenRange=190:197
+27	студеной	студеный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	TokenRange=198:206
+28	воды	вода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No|TokenRange=207:211
+29	,	,	PUNCT	,	_	31	punct	_	TokenRange=211:212
+30	золотистые	золотистый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	TokenRange=213:223
+31	хлебы	хлеб	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No|TokenRange=224:229
+32	,	,	PUNCT	,	_	34	punct	_	TokenRange=229:230
+33	янтарный	янтарный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	SpacesAfter=\r\n|TokenRange=231:239
+34	Мед	мед	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	conj	_	TokenRange=241:244
+35	и	и	CCONJ	CC	_	36	cc	_	TokenRange=245:246
+36	сыр	сыр	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	conj	_	TokenRange=247:250
+37	молодой	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	TokenRange=251:258
+38	—	—	PUNCT	--	_	40	punct	_	TokenRange=259:260
+39	всё	всё	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	40	nsubj	_	TokenRange=261:264
+40	готово	готовый	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	parataxis	_	SpaceAfter=No|TokenRange=265:271
+41	;	;	PUNCT	:	_	43	punct	_	TokenRange=271:272
+42	весь	весь	DET	DT	Case=Nom|Gender=Masc|Number=Sing	43	nsubj:pass	_	TokenRange=273:277
+43	убран	убрать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	parataxis	_	TokenRange=278:283
+44	цветами	цветы	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	43	obl:agent	_	SpacesAfter=\r\n|TokenRange=284:291
+45	Жертвенник	жертвенник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	43	nsubj:pass	_	SpaceAfter=No|TokenRange=293:303
+46	.	.	PUNCT	.	_	3	punct	_	TokenRange=303:304
+
+# sent_id = 3
+# text = Хоры поют.
+1	Хоры	хор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	TokenRange=305:309
+2	поют	петь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=310:314
+3	.	.	PUNCT	.	_	2	punct	_	TokenRange=314:315
+
+# sent_id = 4
+# text = Но в начале трапезы, о други, Должно творить возлиянья, вещать благовещие речи, Должно бессмертных молить, да сподобят нас чистой душою Правду блюсти: ведь оно ж и легче.
+1	Но	но	CCONJ	CC	_	9	cc	_	TokenRange=316:318
+2	в	в	ADP	IN	_	3	case	_	TokenRange=319:320
+3	начале	начало	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	TokenRange=321:327
+4	трапезы	трапеза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=328:335
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=335:336
+6	о	о	ADP	IN	_	7	case	_	TokenRange=337:338
+7	други	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|TokenRange=339:344
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=344:345
+9	Должно	должен	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	TokenRange=347:353
+10	творить	творить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	TokenRange=354:361
+11	возлиянья	возлияние	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No|TokenRange=362:371
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=371:372
+13	вещать	вещать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	TokenRange=373:379
+14	благовещие	благовещий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	TokenRange=380:390
+15	речи	речь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No|TokenRange=391:395
+16	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=395:396
+17	Должно	должен	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	conj	_	TokenRange=398:404
+18	бессмертных	бессмертный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	17	obj	_	TokenRange=405:416
+19	молить	молить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	SpaceAfter=No|TokenRange=417:423
+20	,	,	PUNCT	,	_	22	punct	_	TokenRange=423:424
+21	да	да	CCONJ	CC	_	22	cc	_	TokenRange=425:427
+22	сподобят	сподобить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=428:436
+23	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	22	obj	_	TokenRange=437:440
+24	чистой	чистый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	TokenRange=441:447
+25	душою	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	iobj	_	SpacesAfter=\r\n|TokenRange=448:453
+26	Правду	правда	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	TokenRange=455:461
+27	блюсти	блюсти	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No|TokenRange=462:468
+28	:	:	PUNCT	:	_	33	punct	_	TokenRange=468:469
+29	ведь	ведь	SCONJ	IN	_	33	mark	_	TokenRange=470:474
+30	оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	33	nsubj	_	TokenRange=475:478
+31	ж	же	PART	UH	_	30	advmod	_	TokenRange=479:480
+32	и	и	PART	UH	_	33	advmod	_	TokenRange=481:482
+33	легче	легкий	ADJ	RBR	Degree=Cmp	22	parataxis	_	SpaceAfter=No|TokenRange=483:488
+34	.	.	PUNCT	.	_	9	punct	_	TokenRange=488:489
+
+# sent_id = 5
+# text = Теперь мы приступим: Каждый в меру свою напивайся.
+1	Теперь	теперь	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=490:496
+2	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	TokenRange=497:499
+3	приступим	приступить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=500:509
+4	:	:	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=509:510
+5	Каждый	каждый	DET	DT	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=512:518
+6	в	в	ADP	IN	_	7	case	_	TokenRange=519:520
+7	меру	мера	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	TokenRange=521:525
+8	свою	свой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	7	det	_	TokenRange=526:530
+9	напивайся	напиваться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	3	parataxis	_	SpaceAfter=No|TokenRange=531:540
+10	.	.	PUNCT	.	_	3	punct	_	TokenRange=540:541
+
+# sent_id = 6
+# text = Беда не велика В ночь, возвращаясь домой, на раба опираться; но слава Гостю, который за чашей беседует мудро и тихо!
+1	Беда	беда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=542:546
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=547:549
+3	велика	большой	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\r\n|TokenRange=550:556
+4	В	в	ADP	IN	_	5	case	_	TokenRange=558:559
+5	ночь	ночь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=560:564
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=564:565
+7	возвращаясь	возвращаться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	TokenRange=566:577
+8	домой	домой	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No|TokenRange=578:583
+9	,	,	PUNCT	,	_	12	punct	_	TokenRange=583:584
+10	на	на	ADP	IN	_	11	case	_	TokenRange=585:587
+11	раба	раб	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	TokenRange=588:592
+12	опираться	опираться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	conj	_	SpaceAfter=No|TokenRange=593:602
+13	;	;	PUNCT	:	_	15	punct	_	TokenRange=602:603
+14	но	но	CCONJ	CC	_	15	cc	_	TokenRange=604:606
+15	слава	слава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpacesAfter=\r\n|TokenRange=607:612
+16	Гостю	гость	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=614:619
+17	,	,	PUNCT	,	_	21	punct	_	TokenRange=619:620
+18	который	который	PRON	AWP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	TokenRange=621:628
+19	за	за	ADP	IN	_	20	case	_	TokenRange=629:631
+20	чашей	чаша	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	TokenRange=632:637
+21	беседует	беседовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	TokenRange=638:646
+22	мудро	мудро	ADV	RB	Degree=Pos	21	advmod	_	TokenRange=647:652
+23	и	и	CCONJ	CC	_	24	cc	_	TokenRange=653:654
+24	тихо	тихо	ADV	RB	Degree=Pos	22	conj	_	SpaceAfter=No|TokenRange=655:659
+25	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=659:660
+

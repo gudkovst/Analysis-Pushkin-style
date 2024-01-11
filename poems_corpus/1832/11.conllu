@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Долго сих листов заветных Не касался я пером; Виноват, в столе моем Уж давно без строк приветных Залежался твой альбом.
+1	Долго	долго	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=0:5
+2	сих	сей	DET	DT	Case=Gen|Number=Plur	3	det	_	TokenRange=6:9
+3	листов	лист	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	TokenRange=10:16
+4	заветных	заветный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	3	nmod	_	SpacesAfter=\r\n|TokenRange=17:25
+5	Не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=27:29
+6	касался	касаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=30:37
+7	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=38:39
+8	пером	перо	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	SpaceAfter=No|TokenRange=40:45
+9	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=45:46
+10	Виноват	виноватый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	parataxis	_	SpaceAfter=No|TokenRange=48:55
+11	,	,	PUNCT	,	_	10	punct	_	TokenRange=55:56
+12	в	в	ADP	IN	_	13	case	_	TokenRange=57:58
+13	столе	стол	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	TokenRange=59:64
+14	моем	мой	DET	PRP$	Case=Loc|Gender=Masc|Number=Sing	13	det	_	SpacesAfter=\r\n|TokenRange=65:69
+15	Уж	уж	PART	UH	_	16	advmod	_	TokenRange=71:73
+16	давно	давно	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=74:79
+17	без	без	ADP	IN	_	18	case	_	TokenRange=80:83
+18	строк	строка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obl	_	TokenRange=84:89
+19	приветных	приветный	ADJ	NN	Case=Gen|Degree=Pos|Number=Plur	18	nmod	_	SpacesAfter=\r\n|TokenRange=90:99
+20	Залежался	залежаться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	parataxis	_	TokenRange=101:110
+21	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	22	det	_	TokenRange=111:115
+22	альбом	альбом	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No|TokenRange=116:122
+23	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=122:123
+
+# sent_id = 2
+# text = В именины, очень кстати, Пожелать тебе я рад Много всякой благодати, Много сладостных отрад,— На Парнасе много грома, В жизни много тихих дней И на совести твоей Ни единого альбома От красавиц, от друзей.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=125:126
+2	именины	именин	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No|TokenRange=127:134
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=134:135
+4	очень	очень	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=136:141
+5	кстати	кстати	ADV	RB	Degree=Pos	10	parataxis	_	SpaceAfter=No|TokenRange=142:148
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=148:149
+7	Пожелать	пожелать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	TokenRange=151:159
+8	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	7	iobj	_	TokenRange=160:164
+9	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	TokenRange=165:166
+10	рад	рад	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\r\n|TokenRange=167:170
+11	Много	много	NUM	RB	_	13	nummod:gov	_	TokenRange=172:177
+12	всякой	всякий	DET	DT	Case=Gen|Gender=Fem|Number=Sing	13	det	_	TokenRange=178:184
+13	благодати	благодать	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|TokenRange=185:194
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=194:195
+15	Много	много	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	17	nummod:gov	_	TokenRange=197:202
+16	сладостных	сладостный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	TokenRange=203:213
+17	отрад	отрада	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No|TokenRange=214:219
+18	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No|TokenRange=219:220
+19	—	—	PUNCT	--	_	23	punct	_	SpacesAfter=\r\n|TokenRange=220:221
+20	На	на	ADP	IN	_	21	case	_	TokenRange=223:225
+21	Парнасе	Парнас	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	TokenRange=226:233
+22	много	много	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	23	nummod:gov	_	TokenRange=234:239
+23	грома	гром	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No|TokenRange=240:245
+24	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\r\n|TokenRange=245:246
+25	В	в	ADP	IN	_	26	case	_	TokenRange=248:249
+26	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	TokenRange=250:255
+27	много	много	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	23	nummod:gov	_	TokenRange=256:261
+28	тихих	тихий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	TokenRange=262:267
+29	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpacesAfter=\r\n|TokenRange=268:272
+30	И	и	CCONJ	CC	_	32	cc	_	TokenRange=274:275
+31	на	на	ADP	IN	_	32	case	_	TokenRange=276:278
+32	совести	совесть	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	conj	_	TokenRange=279:286
+33	твоей	твой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	36	det	_	SpacesAfter=\r\n|TokenRange=287:292
+34	Ни	ни	PART	NEG	Polarity=Neg	35	advmod	_	TokenRange=294:296
+35	единого	единый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	TokenRange=297:304
+36	альбома	альбом	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpacesAfter=\r\n|TokenRange=305:312
+37	От	от	ADP	IN	_	38	case	_	TokenRange=314:316
+38	красавиц	красавица	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No|TokenRange=317:325
+39	,	,	PUNCT	,	_	41	punct	_	TokenRange=325:326
+40	от	от	ADP	IN	_	41	case	_	TokenRange=327:329
+41	друзей	друг	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	38	conj	_	SpaceAfter=No|TokenRange=330:336
+42	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No|TokenRange=336:337
+
