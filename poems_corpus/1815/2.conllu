@@ -1,0 +1,112 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Люблю я в полдень воспаленный Прохладу черпать из ручья И в роще тихой, отдаленной Смотреть, как плещет в брег струя.
+1	Люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:5
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	1	nsubj	_	TokenRange=6:7
+3	в	в	ADP	IN	_	4	case	_	TokenRange=8:9
+4	полдень	полдень	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	TokenRange=10:17
+5	воспаленный	воспаленный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\r\n|TokenRange=18:29
+6	Прохладу	прохлада	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	TokenRange=31:39
+7	черпать	черпать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	TokenRange=40:47
+8	из	из	ADP	IN	_	9	case	_	TokenRange=48:50
+9	ручья	ручей	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpacesAfter=\r\n|TokenRange=51:56
+10	И	и	CCONJ	CC	_	16	cc	_	TokenRange=58:59
+11	в	в	ADP	IN	_	12	case	_	TokenRange=60:61
+12	роще	роща	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	TokenRange=62:66
+13	тихой	тихий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|TokenRange=67:72
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=72:73
+15	отдаленной	отдаленный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	SpacesAfter=\r\n|TokenRange=74:84
+16	Смотреть	смотреть	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	SpaceAfter=No|TokenRange=86:94
+17	,	,	PUNCT	,	_	19	punct	_	TokenRange=94:95
+18	как	как	SCONJ	IN	_	19	mark	_	TokenRange=96:99
+19	плещет	плистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	TokenRange=100:106
+20	в	в	ADP	IN	_	21	case	_	TokenRange=107:108
+21	брег	брег	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	TokenRange=109:113
+22	струя	струя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No|TokenRange=114:119
+23	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=119:120
+
+# sent_id = 2
+# text = Когда ж вино в края поскачет, Напенясь в чаше круговой, Друзья, скажите, — кто не плачет, Заране радуясь душой?
+1	Когда	когда	SCONJ	IN	_	6	mark	_	TokenRange=122:127
+2	ж	же	PART	UH	_	6	advmod	_	TokenRange=128:129
+3	вино	вино	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	TokenRange=130:134
+4	в	в	ADP	IN	_	5	case	_	TokenRange=135:136
+5	края	край	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	TokenRange=137:141
+6	поскачет	поскакать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No|TokenRange=142:150
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=150:151
+8	Напенясь	напениться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	TokenRange=153:161
+9	в	в	ADP	IN	_	10	case	_	TokenRange=162:163
+10	чаше	чаша	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	TokenRange=164:168
+11	круговой	круговой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No|TokenRange=169:177
+12	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=177:178
+13	Друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No|TokenRange=180:186
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=186:187
+15	скажите	сказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=188:195
+16	,	,	PUNCT	,	_	20	punct	_	TokenRange=195:196
+17	—	—	PUNCT	``	_	20	punct	_	TokenRange=197:198
+18	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	TokenRange=199:202
+19	не	не	PART	NEG	Polarity=Neg	20	advmod	_	TokenRange=203:205
+20	плачет	плакать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	SpaceAfter=No|TokenRange=206:212
+21	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=212:213
+22	Заране	заране	ADV	RB	Degree=Pos	23	advmod	_	TokenRange=215:221
+23	радуясь	радоваться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	20	advcl	_	TokenRange=222:229
+24	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No|TokenRange=230:235
+25	?	?	PUNCT	.	_	15	punct	_	SpacesAfter=\r\n|TokenRange=235:236
+
+# sent_id = 3
+# text = Да будет проклят дерзновенный, Кто первый грешною рукой, Нечестьем буйным ослепленный, О страх!.. смесил вино с водой!
+1	Да	да	PART	UH	_	3	cc	_	TokenRange=238:240
+2	будет	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	TokenRange=241:246
+3	проклят	проклить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=247:254
+4	дерзновенный	дерзновенный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No|TokenRange=255:267
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=267:268
+6	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=270:273
+7	первый	первый	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=274:280
+8	грешною	грешный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=281:288
+9	рукой	рука	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	SpaceAfter=No|TokenRange=289:294
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=294:295
+11	Нечестьем	нечестий	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl:agent	_	TokenRange=297:306
+12	буйным	буйный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	obl:agent	_	TokenRange=307:313
+13	ослепленный	ослепить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	SpaceAfter=No|TokenRange=314:325
+14	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=325:326
+15	О	о	ADP	IN	_	16	case	_	TokenRange=328:329
+16	страх	страх	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|TokenRange=330:335
+17	!..	!..	PUNCT	.	_	16	punct	_	TokenRange=335:338
+18	смесил	смесить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=339:345
+19	вино	вино	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	TokenRange=346:350
+20	с	с	ADP	IN	_	21	case	_	TokenRange=351:352
+21	водой	вода	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|TokenRange=353:358
+22	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=358:359
+
+# sent_id = 4
+# text = Да будет проклят род злодея!
+1	Да	да	PART	UH	_	3	advmod	_	TokenRange=361:363
+2	будет	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	TokenRange=364:369
+3	проклят	проклить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=370:377
+4	род	род	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	TokenRange=378:381
+5	злодея	злодей	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=382:388
+6	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=388:389
+
+# sent_id = 5
+# text = Пускай не в силах будет пить Или, стаканами владея, Лафит с цымлянским различить!
+1	Пускай	пускай	PART	RB	_	6	advmod	_	TokenRange=391:397
+2	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=398:400
+3	в	в	ADP	IN	_	4	case	_	TokenRange=401:402
+4	силах	сила	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	TokenRange=403:408
+5	будет	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	TokenRange=409:414
+6	пить	пить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=415:419
+7	Или	или	CCONJ	CC	_	15	cc	_	SpaceAfter=No|TokenRange=421:424
+8	,	,	PUNCT	,	_	10	punct	_	TokenRange=424:425
+9	стаканами	стакан	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	iobj	_	TokenRange=426:435
+10	владея	владеть	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	SpaceAfter=No|TokenRange=436:442
+11	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=442:443
+12	Лафит	Лафит	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	TokenRange=445:450
+13	с	с	ADP	IN	_	14	case	_	TokenRange=451:452
+14	цымлянским	цымлянский	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	TokenRange=453:463
+15	различить	различить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=464:473
+16	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=473:474
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Где наша роза, Друзья мои?
+1	Где	где	ADV	WRB	Degree=Pos	0	root	_	TokenRange=0:3
+2	наша	наш	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	3	det	_	TokenRange=4:8
+3	роза	роза	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=9:13
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=13:14
+5	Друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	appos	_	TokenRange=16:22
+6	мои	мой	DET	PRP$	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	5	det	_	SpaceAfter=No|TokenRange=23:26
+7	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+
+# sent_id = 2
+# text = Увяла роза, Дитя зари.
+1	Увяла	увять	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=29:34
+2	роза	роза	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=35:39
+3	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=39:40
+4	Дитя	дитя	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=42:46
+5	зари	заря	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=47:51
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=51:52
+
+# sent_id = 3
+# text = Не говори: Так вянет младость!
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=54:56
+2	говори	говорить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=57:63
+3	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+4	Так	так	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=66:69
+5	вянет	вянуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=70:75
+6	младость	младость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=76:84
+7	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=84:85
+
+# sent_id = 4
+# text = Не говори:
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=87:89
+2	говори	говорить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=90:96
+3	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=96:97
+
+# sent_id = 5
+# text = Вот жизни радость!
+1	Вот	вот	PART	UH	_	2	advmod	_	TokenRange=99:102
+2	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	TokenRange=103:108
+3	радость	радость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=109:116
+4	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=116:117
+
+# sent_id = 6
+# text = Цветку скажи: Прости, жалею!
+1	Цветку	цветок	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	TokenRange=119:125
+2	скажи	сказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=126:131
+3	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=131:132
+4	Прости	простить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=134:140
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=140:141
+6	жалею	жалеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=142:147
+7	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=147:148
+
+# sent_id = 7
+# text = И на лилею Нам укажи.
+1	И	и	CCONJ	CC	_	5	cc	_	TokenRange=150:151
+2	на	на	ADP	IN	_	3	case	_	TokenRange=152:154
+3	лилею	лилея	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\r\n|TokenRange=155:160
+4	Нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	5	iobj	_	TokenRange=162:165
+5	укажи	указать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=166:171
+6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=171:172
+
