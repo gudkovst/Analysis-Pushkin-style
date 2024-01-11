@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Поверь: когда слепней и комаров Вокруг тебя летает рой журнальный, Не рассуждай, не трать учтивых слов, Не возражай на писк и шум нахальный: Ни логикой, ни вкусом, милый друг, Никак нельзя смирить их род упрямый.
+1	Поверь	поверить	VERB	NN	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=0:6
+2	:	:	PUNCT	:	_	1	punct	_	TokenRange=6:7
+3	когда	когда	SCONJ	WRB	_	9	mark	_	TokenRange=8:13
+4	слепней	слепень	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obj	_	TokenRange=14:21
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=22:23
+6	комаров	комар	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	SpacesAfter=\r\n|TokenRange=24:31
+7	Вокруг	вокруг	ADP	IN	_	8	case	_	TokenRange=33:39
+8	тебя	ты	PRON	PRP	Case=Gen|Number=Sing|Person=2	9	obl	_	TokenRange=40:44
+9	летает	летать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	TokenRange=45:51
+10	рой	рой	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=52:55
+11	журнальный	журнальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No|TokenRange=56:66
+12	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=66:67
+13	Не	не	PART	NEG	Polarity=Neg	14	advmod	_	TokenRange=69:71
+14	рассуждай	рассуждать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No|TokenRange=72:81
+15	,	,	PUNCT	,	_	17	punct	_	TokenRange=81:82
+16	не	не	PART	NEG	Polarity=Neg	17	advmod	_	TokenRange=83:85
+17	трать	трать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	9	conj	_	TokenRange=86:91
+18	учтивых	учтивый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	TokenRange=92:99
+19	слов	слово	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	obj	_	SpaceAfter=No|TokenRange=100:104
+20	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+21	Не	не	PART	NEG	Polarity=Neg	22	advmod	_	TokenRange=107:109
+22	возражай	возражать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=110:118
+23	на	на	ADP	IN	_	24	case	_	TokenRange=119:121
+24	писк	писк	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	TokenRange=122:126
+25	и	и	CCONJ	CC	_	26	cc	_	TokenRange=127:128
+26	шум	шум	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	conj	_	TokenRange=129:132
+27	нахальный	нахальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No|TokenRange=133:142
+28	:	:	PUNCT	:	_	39	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+29	Ни	ни	CCONJ	CC	Polarity=Neg	30	cc	_	TokenRange=145:147
+30	логикой	логика	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No|TokenRange=148:155
+31	,	,	PUNCT	,	_	33	punct	_	TokenRange=155:156
+32	ни	ни	CCONJ	CC	Polarity=Neg	33	cc	_	TokenRange=157:159
+33	вкусом	вкус	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No|TokenRange=160:166
+34	,	,	PUNCT	,	_	36	punct	_	TokenRange=166:167
+35	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	TokenRange=168:173
+36	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	parataxis	_	SpaceAfter=No|TokenRange=174:178
+37	,	,	PUNCT	,	_	36	punct	_	SpacesAfter=\r\n|TokenRange=178:179
+38	Никак	никак	ADV	RB	Degree=Pos	39	advmod	_	TokenRange=181:186
+39	нельзя	нельзя	VERB	PRED	_	22	parataxis	_	TokenRange=187:193
+40	смирить	смирить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	39	xcomp	_	TokenRange=194:201
+41	их	их	DET	PRP$	_	42	det	_	TokenRange=202:204
+42	род	род	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obj	_	TokenRange=205:208
+43	упрямый	упрямый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No|TokenRange=209:216
+44	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+
+# sent_id = 2
+# text = Сердиться грех — но замахнись и вдруг Прихлопни их проворной эпиграммой.
+1	Сердиться	сердиться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	TokenRange=219:228
+2	грех	грех	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=229:233
+3	—	—	PUNCT	--	_	5	punct	_	TokenRange=234:235
+4	но	но	CCONJ	CC	_	5	cc	_	TokenRange=236:238
+5	замахнись	замахниться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=239:248
+6	и	и	CCONJ	CC	_	8	cc	_	TokenRange=249:250
+7	вдруг	вдруг	ADV	RB	Degree=Pos	8	advmod	_	SpacesAfter=\r\n|TokenRange=251:256
+8	Прихлопни	прихлопнуть	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=258:267
+9	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	8	obj	_	TokenRange=268:270
+10	проворной	проворный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=271:280
+11	эпиграммой	эпиграмма	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No|TokenRange=281:291
+12	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=291:292
+

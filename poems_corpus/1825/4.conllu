@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Напрасно ахнула Европа, Не унывайте, не беда!
+1	Напрасно	напрасно	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=0:8
+2	ахнула	ахнуть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=9:15
+3	Европа	Европа	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=16:22
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=22:23
+5	Не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=25:27
+6	унывайте	унывать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=28:36
+7	,	,	PUNCT	,	_	9	punct	_	TokenRange=36:37
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=38:40
+9	беда	беда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=41:45
+10	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=45:46
+
+# sent_id = 2
+# text = От петербургского потопа Спаслась Полярная звезда.
+1	От	от	ADP	IN	_	3	case	_	TokenRange=48:50
+2	петербургского	петербургский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=51:65
+3	потопа	потоп	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\r\n|TokenRange=66:72
+4	Спаслась	спастись	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=74:82
+5	Полярная	полярный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=83:91
+6	звезда	звезда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=92:98
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=98:99
+
+# sent_id = 3
+# text = Бестужев, твой ковчег на бреге!
+1	Бестужев	Бестужев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=101:109
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=109:110
+3	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	4	det	_	TokenRange=111:115
+4	ковчег	ковчег	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=116:122
+5	на	на	ADP	IN	_	6	case	_	TokenRange=123:125
+6	бреге	брег	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=126:131
+7	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=131:132
+
+# sent_id = 4
+# text = Парнаса блещут высоты;
+1	Парнаса	Парнас	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	TokenRange=134:141
+2	блещут	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=142:148
+3	высоты	высота	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|TokenRange=149:155
+4	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=155:156
+
+# sent_id = 5
+# text = И в благодетельном ковчеге Спаслись и люди и скоты.
+1	И	и	CCONJ	CC	_	5	cc	_	TokenRange=158:159
+2	в	в	ADP	IN	_	4	case	_	TokenRange=160:161
+3	благодетельном	благодетельный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=162:176
+4	ковчеге	ковчег	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\r\n|TokenRange=177:184
+5	Спаслись	спастись	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=186:194
+6	и	и	PART	UH	_	7	advmod	_	TokenRange=195:196
+7	люди	человек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	TokenRange=197:201
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=202:203
+9	скоты	скот	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No|TokenRange=204:209
+10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=209:210
+

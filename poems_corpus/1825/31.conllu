@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = О чем, прозаик, ты хлопочешь?
+1	О	о	ADP	IN	_	2	case	_	TokenRange=0:1
+2	чем	что	PRON	WP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=2:5
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=5:6
+4	прозаик	прозаик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No|TokenRange=7:14
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=14:15
+6	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=16:18
+7	хлопочешь	хлопотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=19:28
+8	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+
+# sent_id = 2
+# text = Давай мне мысль какую хочешь: Ее с конца я завострю, Летучей рифмой оперю, Взложу на тетиву тугую, Послушный лук согну в дугу.
+1	Давай	давать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=31:36
+2	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	1	iobj	_	TokenRange=37:40
+3	мысль	мысль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	TokenRange=41:46
+4	какую	какой	DET	DT	Case=Acc|Gender=Fem|Number=Sing	3	det	_	TokenRange=47:52
+5	хочешь	хотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No|TokenRange=53:59
+6	:	:	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=59:60
+7	Ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	11	obj	_	TokenRange=62:64
+8	с	с	ADP	IN	_	9	case	_	TokenRange=65:66
+9	конца	конец	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	TokenRange=67:72
+10	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=73:74
+11	завострю	завостреть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No|TokenRange=75:83
+12	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=83:84
+13	Летучей	летучий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	TokenRange=86:93
+14	рифмой	рифма	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	iobj	_	TokenRange=94:100
+15	оперю	оперить	VERB	VBC	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|TokenRange=101:106
+16	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+17	Взложу	взложить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=109:115
+18	на	на	ADP	IN	_	19	case	_	TokenRange=116:118
+19	тетиву	тетива	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	TokenRange=119:125
+20	тугую	тугой	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No|TokenRange=126:131
+21	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=131:132
+22	Послушный	послушный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	TokenRange=134:143
+23	лук	лук	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	TokenRange=144:147
+24	согну	согнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=148:153
+25	в	в	ADP	IN	_	26	case	_	TokenRange=154:155
+26	дугу	дуга	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No|TokenRange=156:160
+27	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=160:161
+
+# sent_id = 3
+# text = А там пошлю наудалую, И горе нашему врагу!
+1	А	а	CCONJ	CC	_	3	cc	_	TokenRange=163:164
+2	там	там	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=165:168
+3	пошлю	послать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=169:174
+4	наудалую	наудалый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=175:183
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=183:184
+6	И	и	CCONJ	CC	_	7	cc	_	TokenRange=186:187
+7	горе	горе	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	conj	_	TokenRange=188:192
+8	нашему	наш	DET	PRP$	Case=Dat|Gender=Masc|Number=Sing	9	det	_	TokenRange=193:199
+9	врагу	враг	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No|TokenRange=200:205
+10	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=205:206
+

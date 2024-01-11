@@ -1,0 +1,116 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Короче дни, а ночи доле, Настала скучная пора, И солнце будто поневоле Глядит на убранное поле.
+1	Короче	короче	ADV	RBR	Degree=Cmp	8	advmod	_	TokenRange=0:6
+2	дни	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|TokenRange=7:10
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=10:11
+4	а	а	CCONJ	CC	_	6	cc	_	TokenRange=12:13
+5	ночи	ночь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	TokenRange=14:18
+6	доле	доле	ADV	RB	Degree=Cmp	8	conj	_	SpaceAfter=No|TokenRange=19:23
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+8	Настала	настать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=26:33
+9	скучная	скучный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=34:41
+10	пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=42:46
+11	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=46:47
+12	И	и	CCONJ	CC	_	16	cc	_	TokenRange=49:50
+13	солнце	солнце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	TokenRange=51:57
+14	будто	будто	PART	IN	_	15	advmod	_	TokenRange=58:63
+15	поневоле	поневоле	ADV	RB	Degree=Pos	16	advmod	_	SpacesAfter=\r\n|TokenRange=64:72
+16	Глядит	глядеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=74:80
+17	на	на	ADP	IN	_	19	case	_	TokenRange=81:83
+18	убранное	убрать	VERB	VBNL	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	TokenRange=84:92
+19	поле	поле	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=93:97
+20	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+
+# sent_id = 2
+# text = Что делать в зимни вечера?
+1	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	TokenRange=100:103
+2	делать	делать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=104:110
+3	в	в	ADP	IN	_	4	case	_	TokenRange=111:112
+4	зимни	зимни	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	TokenRange=113:118
+5	вечера	вечер	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=119:125
+6	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=125:126
+
+# sent_id = 3
+# text = Пока не подавали кушать, Хотите ли теперь послушать, Мои почтенные друзья, Рассказ про доброго Роберта, Что жил во время Дагоберта?
+1	Пока	пока	SCONJ	IN	_	3	mark	_	TokenRange=128:132
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=133:135
+3	подавали	подавать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	TokenRange=136:144
+4	кушать	кушать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No|TokenRange=145:151
+5	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+6	Хотите	хотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=154:160
+7	ли	ли	PART	UH	_	6	advmod	_	TokenRange=161:163
+8	теперь	теперь	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=164:170
+9	послушать	послушать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No|TokenRange=171:180
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=180:181
+11	Мои	мой	DET	PRP$	Case=Nom|Number=Plur	13	det	_	TokenRange=183:186
+12	почтенные	почтенный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	TokenRange=187:196
+13	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No|TokenRange=197:203
+14	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=203:204
+15	Рассказ	рассказ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	TokenRange=206:213
+16	про	про	ADP	IN	_	18	case	_	TokenRange=214:217
+17	доброго	добрый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	TokenRange=218:225
+18	Роберта	Роберт	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=226:233
+19	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=233:234
+20	Что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	TokenRange=236:239
+21	жил	жить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	TokenRange=240:243
+22	во	во	ADP	IN	_	23	case	_	TokenRange=244:246
+23	время	время	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	TokenRange=247:252
+24	Дагоберта	Дагоберт	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|TokenRange=253:262
+25	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=262:263
+
+# sent_id = 4
+# text = Из Рима ехал он домой, Имея очень мало денег.
+1	Из	из	ADP	IN	_	2	case	_	TokenRange=265:267
+2	Рима	Рим	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	TokenRange=268:272
+3	ехал	ехать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=273:277
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	TokenRange=278:280
+5	домой	домой	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=281:286
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=286:287
+7	Имея	иметь	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	TokenRange=289:293
+8	очень	очень	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=294:299
+9	мало	мало	NUM	RB	Animacy=Inan|Case=Acc|NumType=Card	10	nummod:gov	_	TokenRange=300:304
+10	денег	деньги	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No|TokenRange=305:310
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=310:311
+
+# sent_id = 5
+# text = Сей рыцарь был хорош собой, Разумен, хоть и молоденек.
+1	Сей	сей	DET	DT	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=313:316
+2	рыцарь	рыцарь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=317:323
+3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	TokenRange=324:327
+4	хорош	хороший	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=328:333
+5	собой	себя	PRON	PRP	Case=Ins|Reflex=Yes	4	nmod	_	SpaceAfter=No|TokenRange=334:339
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=339:340
+7	Разумен	разумный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No|TokenRange=342:349
+8	,	,	PUNCT	,	_	11	punct	_	TokenRange=349:350
+9	хоть	хоть	SCONJ	IN	_	11	mark	_	TokenRange=351:355
+10	и	и	PART	UH	_	11	advmod	_	TokenRange=356:357
+11	молоденек	молоденек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=358:367
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=367:368
+
+# sent_id = 6
+# text = В то время деньги И дабы впредь не смел чудесить, Поймавши истинно повесить И живота весьма лишить.
+1	В	в	ADP	IN	_	3	case	_	TokenRange=370:371
+2	то	тот	DET	DT	Case=Acc|Gender=Neut|Number=Sing	3	det	_	TokenRange=372:374
+3	время	время	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	TokenRange=375:380
+4	деньги	деньги	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpacesAfter=\r\n|TokenRange=381:387
+5	И	и	CCONJ	CC	_	9	cc	_	TokenRange=389:390
+6	дабы	дабы	SCONJ	IN	_	9	mark	_	TokenRange=391:395
+7	впредь	впредь	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=396:402
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=403:405
+9	смел	сметь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=406:410
+10	чудесить	чудесить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No|TokenRange=411:419
+11	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=419:420
+12	Поймавши	поймать	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	TokenRange=422:430
+13	истинно	истинно	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=431:438
+14	повесить	повесить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	SpacesAfter=\r\n|TokenRange=439:447
+15	И	и	CCONJ	CC	_	18	cc	_	TokenRange=449:450
+16	живота	живот	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obj	_	TokenRange=451:457
+17	весьма	весьма	ADV	RB	Degree=Pos	18	advmod	_	TokenRange=458:464
+18	лишить	лишить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	conj	_	SpaceAfter=No|TokenRange=465:471
+19	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=471:472
+

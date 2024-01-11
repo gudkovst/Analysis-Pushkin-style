@@ -1,0 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Нет ни в чем вам благодати;
+1	Нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:3
+2	ни	ни	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=4:6
+3	в	в	ADP	IN	_	4	case	_	TokenRange=7:8
+4	чем	что	PRON	WP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	TokenRange=9:12
+5	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	1	iobj	_	TokenRange=13:16
+6	благодати	благодать	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No|TokenRange=17:26
+7	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+
+# sent_id = 2
+# text = С счастием у вас разлад: И прекрасны вы некстати
+1	С	с	ADP	IN	_	2	case	_	TokenRange=29:30
+2	счастием	счастие	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	TokenRange=31:39
+3	у	у	ADP	IN	_	4	case	_	TokenRange=40:41
+4	вас	вы	PRON	PRP	Case=Gen|Number=Plur|Person=2	0	root	_	TokenRange=42:45
+5	разлад	разлад	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=46:52
+6	:	:	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+7	И	и	CCONJ	CC	_	8	cc	_	TokenRange=55:56
+8	прекрасны	прекрасный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	5	parataxis	_	TokenRange=57:66
+9	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	8	nsubj	_	TokenRange=67:69
+10	некстати	некстати	ADV	RB	Degree=Pos	8	advmod	_	SpacesAfter=\r\n|TokenRange=70:78
+
+# sent_id = 3
+# text = И умны вы невпопад.
+1	И	и	CCONJ	CC	_	2	cc	_	TokenRange=80:81
+2	умны	умный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=82:86
+3	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	2	nsubj	_	TokenRange=87:89
+4	невпопад	невпопад	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=90:98
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=98:99
+

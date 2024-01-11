@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В крови горит огонь желанья, Душа тобой уязвлена, Лобзай меня: твои лобзанья Мне слаще мирра и вина.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	крови	кровь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	TokenRange=2:7
+3	горит	гореть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=8:13
+4	огонь	огонь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=14:19
+5	желанья	желание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=20:27
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+7	Душа	душа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	TokenRange=30:34
+8	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	9	iobj	_	TokenRange=35:40
+9	уязвлена	уязвить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No|TokenRange=41:49
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=49:50
+11	Лобзай	лобзать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=52:58
+12	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	11	obj	_	SpaceAfter=No|TokenRange=59:63
+13	:	:	PUNCT	:	_	17	punct	_	TokenRange=63:64
+14	твои	твой	DET	PRP$	Case=Nom|Number=Plur	15	det	_	TokenRange=65:69
+15	лобзанья	лобзанье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	SpacesAfter=\r\n|TokenRange=70:78
+16	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	17	iobj	_	TokenRange=80:83
+17	слаще	сладкий	ADJ	JJH	Degree=Cmp	11	parataxis	_	TokenRange=84:89
+18	мирра	мирр	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	TokenRange=90:95
+19	и	и	CCONJ	CC	_	20	cc	_	TokenRange=96:97
+20	вина	вино	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	SpaceAfter=No|TokenRange=98:102
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 2
+# text = Склонись ко мне главою нежной, И да почию безмятежный, Пока дохнет веселый день И двигнется ночная тень.
+1	Склонись	склониться	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=105:113
+2	ко	ко	ADP	IN	_	3	case	_	TokenRange=114:116
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	1	obl	_	TokenRange=117:120
+4	главою	глава	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	iobj	_	TokenRange=121:127
+5	нежной	нежный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No|TokenRange=128:134
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=134:135
+7	И	и	CCONJ	CC	_	10	cc	_	TokenRange=137:138
+8	да	да	CCONJ	CC	_	10	cc	_	TokenRange=139:141
+9	почию	почий	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	TokenRange=142:147
+10	безмятежный	безмятежный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=148:159
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=159:160
+12	Пока	пока	SCONJ	IN	_	13	mark	_	TokenRange=162:166
+13	дохнет	дохнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	TokenRange=167:173
+14	веселый	веселый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=174:181
+15	день	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpacesAfter=\r\n|TokenRange=182:186
+16	И	и	CCONJ	CC	_	17	cc	_	TokenRange=188:189
+17	двигнется	двигнуться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	13	conj	_	TokenRange=190:199
+18	ночная	ночной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=200:206
+19	тень	тень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No|TokenRange=207:211
+20	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=211:212
+

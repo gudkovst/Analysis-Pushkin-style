@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Воспитанный под барабаном, Наш царь лихим был капитаном: Под Австерлицем он бежал, В двенадцатом году дрожал, Зато был фрунтовой профессор!
+1	Воспитанный	воспитанный	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	TokenRange=0:11
+2	под	под	ADP	IN	_	3	case	_	TokenRange=12:15
+3	барабаном	барабан	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=16:25
+4	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+5	Наш	наш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	6	det	_	TokenRange=28:31
+6	царь	царь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=32:36
+7	лихим	лихой	ADJ	JJL	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	amod	_	TokenRange=37:42
+8	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	cop	_	TokenRange=43:46
+9	капитаном	капитан	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=47:56
+10	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=56:57
+11	Под	под	ADP	IN	_	12	case	_	TokenRange=59:62
+12	Австерлицем	Австерлиц	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	TokenRange=63:74
+13	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	TokenRange=75:77
+14	бежал	бежать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No|TokenRange=78:83
+15	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=83:84
+16	В	в	ADP	IN	_	18	case	_	TokenRange=86:87
+17	двенадцатом	двенадцатый	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	TokenRange=88:99
+18	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	TokenRange=100:104
+19	дрожал	дрожать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No|TokenRange=105:111
+20	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=111:112
+21	Зато	зато	CCONJ	CC	_	22	cc	_	TokenRange=114:118
+22	был	быть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=119:122
+23	фрунтовой	фрунтовой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	TokenRange=123:132
+24	профессор	профессор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No|TokenRange=133:142
+25	!	!	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+
+# sent_id = 2
+# text = Но фрунт герою надоел — Теперь коллежский он асессор По части иностранных дел!
+1	Но	но	CCONJ	CC	_	4	cc	_	TokenRange=145:147
+2	фрунт	фрунт	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	TokenRange=148:153
+3	герою	герой	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	TokenRange=154:159
+4	надоел	надоеть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=160:166
+5	—	—	PUNCT	--	_	4	punct	_	SpacesAfter=\r\n|TokenRange=167:168
+6	Теперь	теперь	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=170:176
+7	коллежский	коллежский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=177:187
+8	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	TokenRange=188:190
+9	асессор	асессор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	SpacesAfter=\r\n|TokenRange=191:198
+10	По	по	ADP	IN	_	11	case	_	TokenRange=200:202
+11	части	часть	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	TokenRange=203:208
+12	иностранных	иностранный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	TokenRange=209:220
+13	дел	дело	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|TokenRange=221:224
+14	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=224:225
+

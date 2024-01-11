@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Быть может, уж недолго мне В изгнанье мирном оставаться, Вздыхать о милой старине И сельской музе в тишине Душой беспечной предаваться.
+1	Быть	быть	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	TokenRange=0:4
+2	может	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No|TokenRange=5:10
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=10:11
+4	уж	уж	PART	UH	_	5	advmod	_	TokenRange=12:14
+5	недолго	недолго	ADV	RB	Degree=Pos	0	root	_	TokenRange=15:22
+6	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	5	iobj	_	SpacesAfter=\r\n|TokenRange=23:26
+7	В	в	ADP	IN	_	8	case	_	TokenRange=28:29
+8	изгнанье	изгнанье	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	TokenRange=30:38
+9	мирном	мирный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	TokenRange=39:45
+10	оставаться	оставаться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	csubj	_	SpaceAfter=No|TokenRange=46:56
+11	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=56:57
+12	Вздыхать	вздыхать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	TokenRange=59:67
+13	о	о	ADP	IN	_	15	case	_	TokenRange=68:69
+14	милой	милый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=70:75
+15	старине	старина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=76:83
+16	И	и	CCONJ	CC	_	18	cc	_	TokenRange=85:86
+17	сельской	сельский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=87:95
+18	музе	муза	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	conj	_	TokenRange=96:100
+19	в	в	ADP	IN	_	20	case	_	TokenRange=101:102
+20	тишине	тишина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=103:109
+21	Душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	iobj	_	TokenRange=111:116
+22	беспечной	беспечный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=117:126
+23	предаваться	предаваться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	xcomp	_	SpaceAfter=No|TokenRange=127:138
+24	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=138:139
+
+# sent_id = 2
+# text = Но и в дали, в краю чужом Я буду мыслию всегдашней Бродить Тригорского кругом, В лугах, у речки, над холмом, В саду под сенью лип домашней.
+1	Но	но	CCONJ	CC	_	11	cc	_	TokenRange=141:143
+2	и	и	PART	UH	_	4	advmod	_	TokenRange=144:145
+3	в	в	ADP	IN	_	4	case	_	TokenRange=146:147
+4	дали	даль	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|TokenRange=148:152
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=152:153
+6	в	в	ADP	IN	_	7	case	_	TokenRange=154:155
+7	краю	край	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	TokenRange=156:160
+8	чужом	чужой	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\r\n|TokenRange=161:166
+9	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=168:169
+10	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux	_	TokenRange=170:174
+11	мыслию	мыслить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=175:181
+12	всегдашней	всегдашний	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	obj	_	SpacesAfter=\r\n|TokenRange=182:192
+13	Бродить	бродить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	TokenRange=194:201
+14	Тригорского	тригорский	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=202:213
+15	кругом	кругом	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No|TokenRange=214:220
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=220:221
+17	В	в	ADP	IN	_	18	case	_	TokenRange=223:224
+18	лугах	луг	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|TokenRange=225:230
+19	,	,	PUNCT	,	_	21	punct	_	TokenRange=230:231
+20	у	у	ADP	IN	_	21	case	_	TokenRange=232:233
+21	речки	речка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No|TokenRange=234:239
+22	,	,	PUNCT	,	_	24	punct	_	TokenRange=239:240
+23	над	над	ADP	IN	_	24	case	_	TokenRange=241:244
+24	холмом	холм	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|TokenRange=245:251
+25	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\r\n|TokenRange=251:252
+26	В	в	ADP	IN	_	27	case	_	TokenRange=254:255
+27	саду	сад	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	TokenRange=256:260
+28	под	под	ADP	IN	_	29	case	_	TokenRange=261:264
+29	сенью	сень	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	nmod	_	TokenRange=265:270
+30	лип	липа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	TokenRange=271:274
+31	домашней	домашний	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No|TokenRange=275:283
+32	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=283:284
+
+# sent_id = 3
+# text = Когда померкнет ясный день, Одна из глубины могильной Так иногда в родную сень Летит тоскующая тень На милых бросить взор умильный.
+1	Когда	когда	SCONJ	IN	_	2	mark	_	TokenRange=286:291
+2	померкнет	померкнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	advcl	_	TokenRange=292:301
+3	ясный	ясный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=302:307
+4	день	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=308:312
+5	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=312:313
+6	Одна	один	NUM	CD	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|NumType=Card	15	nsubj	_	TokenRange=315:319
+7	из	из	ADP	IN	_	8	case	_	TokenRange=320:322
+8	глубины	глубина	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	TokenRange=323:330
+9	могильной	могильный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\r\n|TokenRange=331:340
+10	Так	так	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=342:345
+11	иногда	иногда	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=346:352
+12	в	в	ADP	IN	_	14	case	_	TokenRange=353:354
+13	родную	родной	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	TokenRange=355:361
+14	сень	сень	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpacesAfter=\r\n|TokenRange=362:366
+15	Летит	лететь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=368:373
+16	тоскующая	тосковать	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	_	TokenRange=374:383
+17	тень	тень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpacesAfter=\r\n|TokenRange=384:388
+18	На	на	ADP	IN	_	19	case	_	TokenRange=390:392
+19	милых	милый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	15	obl	_	TokenRange=393:398
+20	бросить	бросить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	TokenRange=399:406
+21	взор	взор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	TokenRange=407:411
+22	умильный	умильный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No|TokenRange=412:420
+23	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No|TokenRange=420:421
+

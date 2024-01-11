@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ты видел деву на скале В одежде белой над волнами, Когда, бушуя в бурной мгле, Играло море с берегами, Когда луч молний озарял Ее всечасно блеском алым И ветер бился и летал С ее летучим покрывалом?
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=0:2
+2	видел	видеть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3:8
+3	деву	дева	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=9:13
+4	на	на	ADP	IN	_	5	case	_	TokenRange=14:16
+5	скале	скала	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	SpacesAfter=\r\n|TokenRange=17:22
+6	В	в	ADP	IN	_	7	case	_	TokenRange=24:25
+7	одежде	одежда	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	TokenRange=26:32
+8	белой	белый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=33:38
+9	над	над	ADP	IN	_	10	case	_	TokenRange=39:42
+10	волнами	волна	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|TokenRange=43:50
+11	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+12	Когда	когда	ADV	WRB	_	19	mark	_	SpaceAfter=No|TokenRange=53:58
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=58:59
+14	бушуя	бушовать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	advcl	_	TokenRange=60:65
+15	в	в	ADP	IN	_	17	case	_	TokenRange=66:67
+16	бурной	бурный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	TokenRange=68:74
+17	мгле	мгла	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|TokenRange=75:79
+18	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=79:80
+19	Играло	играть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	TokenRange=82:88
+20	море	море	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	TokenRange=89:93
+21	с	с	ADP	IN	_	22	case	_	TokenRange=94:95
+22	берегами	берег	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|TokenRange=96:104
+23	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+24	Когда	когда	ADV	WRB	_	27	mark	_	TokenRange=107:112
+25	луч	луч	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	TokenRange=113:116
+26	молний	молния	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	TokenRange=117:123
+27	озарял	озарять	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	SpacesAfter=\r\n|TokenRange=124:130
+28	Ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	27	obj	_	TokenRange=132:134
+29	всечасно	всечасно	ADV	RB	Degree=Pos	27	advmod	_	TokenRange=135:143
+30	блеском	блеск	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	iobj	_	TokenRange=144:151
+31	алым	алый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	SpacesAfter=\r\n|TokenRange=152:156
+32	И	и	CCONJ	CC	_	34	cc	_	TokenRange=158:159
+33	ветер	ветер	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	TokenRange=160:165
+34	бился	биться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	27	conj	_	TokenRange=166:171
+35	и	и	CCONJ	CC	_	36	cc	_	TokenRange=172:173
+36	летал	летать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	_	SpacesAfter=\r\n|TokenRange=174:179
+37	С	с	ADP	IN	_	40	case	_	TokenRange=181:182
+38	ее	ее	DET	PRP$	_	40	det	_	TokenRange=183:185
+39	летучим	летучий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	TokenRange=186:193
+40	покрывалом	покрывало	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	36	obl	_	SpaceAfter=No|TokenRange=194:204
+41	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=204:205
+
+# sent_id = 2
+# text = Прекрасно море в бурной мгле И небо в блесках без лазури;
+1	Прекрасно	прекрасный	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	TokenRange=207:216
+2	море	море	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	TokenRange=217:221
+3	в	в	ADP	IN	_	5	case	_	TokenRange=222:223
+4	бурной	бурный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=224:230
+5	мгле	мгла	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\r\n|TokenRange=231:235
+6	И	и	CCONJ	CC	_	7	cc	_	TokenRange=237:238
+7	небо	небо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	TokenRange=239:243
+8	в	в	ADP	IN	_	9	case	_	TokenRange=244:245
+9	блесках	блеск	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	TokenRange=246:253
+10	без	без	ADP	IN	_	11	case	_	TokenRange=254:257
+11	лазури	лазурь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=258:264
+12	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=264:265
+
+# sent_id = 3
+# text = Но верь мне: дева на скале Прекрасней волн, небес и бури.
+1	Но	но	CCONJ	CC	_	2	cc	_	TokenRange=267:269
+2	верь	верить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=270:274
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	2	iobj	_	SpaceAfter=No|TokenRange=275:278
+4	:	:	PUNCT	:	_	2	punct	_	TokenRange=278:279
+5	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	TokenRange=280:284
+6	на	на	ADP	IN	_	7	case	_	TokenRange=285:287
+7	скале	скала	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\r\n|TokenRange=288:293
+8	Прекрасней	прекрасный	ADJ	JJL	Degree=Cmp	9	amod	_	TokenRange=295:305
+9	волн	волна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No|TokenRange=306:310
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=310:311
+11	небес	небо	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	conj	_	TokenRange=312:317
+12	и	и	CCONJ	CC	_	13	cc	_	TokenRange=318:319
+13	бури	буря	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|TokenRange=320:324
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=324:325
+

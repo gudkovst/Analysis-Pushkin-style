@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Наш друг Фита, Кутейкин в эполетах, Бормочет нам растянутый псалом: Поэт Фита, не становись Фертом!
+1	Наш	наш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=0:3
+2	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=4:8
+3	Фита	Фита	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=9:13
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=13:14
+5	Кутейкин	Кутейкин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	TokenRange=15:23
+6	в	в	ADP	IN	_	7	case	_	TokenRange=24:25
+7	эполетах	эполет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No|TokenRange=26:34
+8	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=34:35
+9	Бормочет	бормотать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=37:45
+10	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	9	iobj	_	TokenRange=46:49
+11	растянутый	растянуть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	TokenRange=50:60
+12	псалом	псал	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|TokenRange=61:67
+13	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=67:68
+14	Поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=70:74
+15	Фита	Фита	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No|TokenRange=75:79
+16	,	,	PUNCT	,	_	14	punct	_	TokenRange=79:80
+17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	TokenRange=81:83
+18	становись	становиться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	9	parataxis	_	TokenRange=84:93
+19	Фертом	Ферт	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No|TokenRange=94:100
+20	!	!	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=100:101
+
+# sent_id = 2
+# text = Дьячок Фита, ты Ижица в поэтах!
+1	Дьячок	дьячок	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=103:109
+2	Фита	Фита	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=110:114
+3	,	,	PUNCT	,	_	1	punct	_	TokenRange=114:115
+4	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	5	nsubj	_	TokenRange=116:118
+5	Ижица	Ижица	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=119:124
+6	в	в	ADP	IN	_	7	case	_	TokenRange=125:126
+7	поэтах	поэт	NOUN	NN	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No|TokenRange=127:133
+8	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=133:134
+

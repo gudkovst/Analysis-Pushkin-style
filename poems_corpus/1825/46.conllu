@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В глуши, измучась жизнью постной, Изнемогая животом, Я не парю — сижу орлом И болен праздностью поносной.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	глуши	глушь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|TokenRange=2:7
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=7:8
+4	измучась	измучиться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	13	advcl	_	TokenRange=9:17
+5	жизнью	жизнь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obj	_	TokenRange=18:24
+6	постной	постный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No|TokenRange=25:32
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=32:33
+8	Изнемогая	изнемогать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	conj	_	TokenRange=35:44
+9	животом	живот	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=45:52
+10	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+11	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj	_	TokenRange=55:56
+12	не	не	PART	NEG	Polarity=Neg	13	advmod	_	TokenRange=57:59
+13	парю	парить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=60:64
+14	—	—	PUNCT	--	_	15	punct	_	TokenRange=65:66
+15	сижу	сидеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	TokenRange=67:71
+16	орлом	орло	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obj	_	SpacesAfter=\r\n|TokenRange=72:77
+17	И	и	CCONJ	CC	_	18	cc	_	TokenRange=79:80
+18	болен	больной	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	conj	_	TokenRange=81:86
+19	праздностью	праздность	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	iobj	_	TokenRange=87:98
+20	поносной	поносный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No|TokenRange=99:107
+21	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+
+# sent_id = 2
+# text = Бумаги берегу запас, Натугу вдохновенья чуждый, Хожу я редко на Парнас, И только за большою нуждой.
+1	Бумаги	бумага	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	TokenRange=110:116
+2	берегу	берег	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=117:123
+3	запас	запас	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=124:129
+4	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=129:130
+5	Натугу	натуга	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=132:138
+6	вдохновенья	вдохновенье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	TokenRange=139:150
+7	чуждый	чуждый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=151:157
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=157:158
+9	Хожу	ходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=160:164
+10	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj	_	TokenRange=165:166
+11	редко	редко	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=167:172
+12	на	на	ADP	IN	_	13	case	_	TokenRange=173:175
+13	Парнас	ПАРНАС	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=176:182
+14	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=182:183
+15	И	и	CCONJ	CC	_	19	cc	_	TokenRange=185:186
+16	только	только	PART	UH	_	19	advmod	_	TokenRange=187:193
+17	за	за	ADP	IN	_	19	case	_	TokenRange=194:196
+18	большою	большой	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=197:204
+19	нуждой	нужда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=205:211
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=211:212
+
+# sent_id = 3
+# text = Но твой затейливый навоз Приятно мне щекотит нос: Хвостова он напоминает, Отца зубастых голубей, И дух мой снова позывает Ко испражненью прежних дней.
+1	Но	но	CCONJ	CC	_	7	cc	_	TokenRange=214:216
+2	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	4	det	_	TokenRange=217:221
+3	затейливый	затейливый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=222:232
+4	навоз	навоз	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpacesAfter=\r\n|TokenRange=233:238
+5	Приятно	приятно	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=240:247
+6	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	7	iobj	_	TokenRange=248:251
+7	щекотит	щекотить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=252:259
+8	нос	нос	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=260:263
+9	:	:	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=263:264
+10	Хвостова	хвостов	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obj	_	TokenRange=266:274
+11	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	TokenRange=275:277
+12	напоминает	напоминать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No|TokenRange=278:288
+13	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=288:289
+14	Отца	отец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	TokenRange=291:295
+15	зубастых	зубастый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	TokenRange=296:304
+16	голубей	голубь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No|TokenRange=305:312
+17	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=312:313
+18	И	и	CCONJ	CC	_	22	cc	_	TokenRange=315:316
+19	дух	дух	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	TokenRange=317:320
+20	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	19	det	_	TokenRange=321:324
+21	снова	снова	ADV	RB	Degree=Pos	22	advmod	_	TokenRange=325:330
+22	позывает	позывать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpacesAfter=\r\n|TokenRange=331:339
+23	Ко	ко	ADP	IN	_	24	case	_	TokenRange=341:343
+24	испражненью	испражненье	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	obl	_	TokenRange=344:355
+25	прежних	прежний	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	TokenRange=356:363
+26	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No|TokenRange=364:368
+27	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=368:369
+
