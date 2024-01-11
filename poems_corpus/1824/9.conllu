@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Певец Давид был ростом мал, Но повалил же Голиафа, Который был и генерал, И, положусь, не проще графа.
+1	Певец	певец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=0:5
+2	Давид	Давид	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=6:11
+3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	TokenRange=12:15
+4	ростом	рост	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	TokenRange=16:22
+5	мал	маленький	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=23:26
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+7	Но	но	CCONJ	CC	_	8	cc	_	TokenRange=29:31
+8	повалил	повалить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=32:39
+9	же	же	PART	UH	_	8	advmod	_	TokenRange=40:42
+10	Голиафа	Голиаф	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=43:50
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+12	Который	который	PRON	AWP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=53:60
+13	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	cop	_	TokenRange=61:64
+14	и	и	CCONJ	CC	_	15	cc	_	TokenRange=65:66
+15	генерал	генерал	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	acl:relcl	_	SpaceAfter=No|TokenRange=67:74
+16	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=74:75
+17	И	и	CCONJ	CC	_	22	cc	_	SpaceAfter=No|TokenRange=77:78
+18	,	,	PUNCT	,	_	19	punct	_	TokenRange=78:79
+19	положусь	положиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	22	parataxis	_	SpaceAfter=No|TokenRange=80:88
+20	,	,	PUNCT	,	_	19	punct	_	TokenRange=88:89
+21	не	не	PART	NEG	Polarity=Neg	22	advmod	_	TokenRange=90:92
+22	проще	простой	ADJ	RBR	Degree=Cmp	15	conj	_	TokenRange=93:98
+23	графа	граф	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|TokenRange=99:104
+24	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=104:105
+

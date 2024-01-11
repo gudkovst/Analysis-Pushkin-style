@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Приют любви, он вечно полн Прохлады сумрачной и влажной, Там никогда стесненных волн Не умолкает гул протяжный.
+1	Приют	приют	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=0:5
+2	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No|TokenRange=6:11
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=11:12
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	TokenRange=13:15
+5	вечно	вечно	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=16:21
+6	полн	полный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	parataxis	_	SpacesAfter=\r\n|TokenRange=22:26
+7	Прохлады	прохлада	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	TokenRange=28:36
+8	сумрачной	сумрачный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=37:46
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=47:48
+10	влажной	влажный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=49:56
+11	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=56:57
+12	Там	там	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=59:62
+13	никогда	никогда	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=63:70
+14	стесненных	стеснить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	TokenRange=71:81
+15	волн	волна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obj	_	SpacesAfter=\r\n|TokenRange=82:86
+16	Не	не	PART	NEG	Polarity=Neg	17	advmod	_	TokenRange=88:90
+17	умолкает	умолкать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=91:99
+18	гул	гул	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=100:103
+19	протяжный	протяжный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No|TokenRange=104:113
+20	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=113:114
+

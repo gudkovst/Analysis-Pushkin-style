@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Всё кончено: меж нами связи нет.
+1	Всё	всё	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	TokenRange=0:3
+2	кончено	кончить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=4:11
+3	:	:	PUNCT	:	_	2	punct	_	TokenRange=11:12
+4	меж	меж	ADP	IN	_	5	case	_	TokenRange=13:16
+5	нами	мы	PRON	PRP	Case=Ins|Number=Plur|Person=1	7	obl	_	TokenRange=17:21
+6	связи	связь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=22:27
+7	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=28:31
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+
+# sent_id = 2
+# text = В последний раз обняв твои колени, Произносил я горестные пени.
+1	В	в	ADP	IN	_	3	case	_	TokenRange=34:35
+2	последний	последний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=36:45
+3	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	TokenRange=46:49
+4	обняв	обнять	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	8	advcl	_	TokenRange=50:55
+5	твои	твой	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur	6	det	_	TokenRange=56:60
+6	колени	колено	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|TokenRange=61:67
+7	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=67:68
+8	Произносил	произносить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=70:80
+9	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=81:82
+10	горестные	горестный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	TokenRange=83:92
+11	пени	пень	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|TokenRange=93:97
+12	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+
+# sent_id = 3
+# text = Всё кончено — я слышу твой ответ.
+1	Всё	всё	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	TokenRange=100:103
+2	кончено	кончить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=104:111
+3	—	—	PUNCT	--	_	2	punct	_	TokenRange=112:113
+4	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	TokenRange=114:115
+5	слышу	слышать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=116:121
+6	твой	твой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	det	_	TokenRange=122:126
+7	ответ	ответ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=127:132
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=132:133
+
+# sent_id = 4
+# text = Обманывать себя не стану вновь, Тебя тоской преследовать не буду, Прошедшее, быть может, позабуду — Не для меня сотворена любовь.
+1	Обманывать	обманывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=135:145
+2	себя	себя	PRON	PRP	Case=Acc|Reflex=Yes	1	obj	_	TokenRange=146:150
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=151:153
+4	стану	стать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=154:159
+5	вновь	вновь	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No|TokenRange=160:165
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=165:166
+7	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	9	obj	_	TokenRange=168:172
+8	тоской	тоска	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	iobj	_	TokenRange=173:179
+9	преследовать	преследовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	TokenRange=180:192
+10	не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=193:195
+11	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	aux	_	SpaceAfter=No|TokenRange=196:200
+12	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=200:201
+13	Прошедшее	пройти	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	acl	_	SpaceAfter=No|TokenRange=203:212
+14	,	,	PUNCT	,	_	16	punct	_	TokenRange=212:213
+15	быть	быть	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	TokenRange=214:218
+16	может	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	SpaceAfter=No|TokenRange=219:224
+17	,	,	PUNCT	,	_	16	punct	_	TokenRange=224:225
+18	позабуду	позабыть	ADV	RB	Degree=Pos	4	conj	_	TokenRange=226:234
+19	—	—	PUNCT	--	_	18	punct	_	SpacesAfter=\r\n|TokenRange=235:236
+20	Не	не	PART	NEG	Polarity=Neg	22	advmod	_	TokenRange=238:240
+21	для	для	ADP	IN	_	22	case	_	TokenRange=241:244
+22	меня	я	PRON	PRP	Case=Gen|Number=Sing|Person=1	23	obl	_	TokenRange=245:249
+23	сотворена	сотворить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	TokenRange=250:259
+24	любовь	любовь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	SpaceAfter=No|TokenRange=260:266
+25	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=266:267
+
+# sent_id = 5
+# text = Ты молода: душа твоя прекрасна, И многими любима будешь ты.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=269:271
+2	молода	молодой	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=272:278
+3	:	:	PUNCT	:	_	2	punct	_	TokenRange=278:279
+4	душа	душа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=280:284
+5	твоя	твой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	4	det	_	TokenRange=285:289
+6	прекрасна	прекрасный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	parataxis	_	SpaceAfter=No|TokenRange=290:299
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=299:300
+8	И	и	CCONJ	CC	_	10	cc	_	TokenRange=302:303
+9	многими	много	NUM	JJL	Case=Ins|Number=Plur	10	amod	_	TokenRange=304:311
+10	любима	любимый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	6	conj	_	TokenRange=312:318
+11	будешь	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	10	cop	_	TokenRange=319:325
+12	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	SpaceAfter=No|TokenRange=326:328
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=328:329
+
