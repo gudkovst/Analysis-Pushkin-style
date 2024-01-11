@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Простой воспитанник природы, Так я бывало воспевал Мечту прекрасную свободы И ею сладостно дышал.
+1	Простой	простой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=0:7
+2	воспитанник	воспитанник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=8:19
+3	природы	природа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=20:27
+4	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+5	Так	так	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=30:33
+6	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=34:35
+7	бывало	бывать	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	TokenRange=36:42
+8	воспевал	воспевать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=43:51
+9	Мечту	мечта	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	TokenRange=53:58
+10	прекрасную	прекрасный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=59:69
+11	свободы	свобода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpacesAfter=\r\n|TokenRange=70:77
+12	И	и	CCONJ	CC	_	15	cc	_	TokenRange=79:80
+13	ею	она	PRON	PRP	Case=Ins|Gender=Fem|Number=Sing|Person=3	15	iobj	_	TokenRange=81:83
+14	сладостно	сладостно	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=84:93
+15	дышал	дышать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No|TokenRange=94:99
+16	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=99:100
+
+# sent_id = 2
+# text = Но вас я вижу, вам внимаю, И что же?.. слабый человек!..
+1	Но	но	CCONJ	CC	_	4	cc	_	TokenRange=102:104
+2	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	4	obj	_	TokenRange=105:108
+3	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=109:110
+4	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=111:115
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=115:116
+6	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	7	iobj	_	TokenRange=117:120
+7	внимаю	внимать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=121:127
+8	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=127:128
+9	И	и	CCONJ	CC	_	14	cc	_	TokenRange=130:131
+10	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	TokenRange=132:135
+11	же	же	PART	UH	_	10	advmod	_	SpaceAfter=No|TokenRange=136:138
+12	?..	?..	PUNCT	.	_	10	punct	_	TokenRange=138:141
+13	слабый	слабый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=142:148
+14	человек	человек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=149:156
+15	!..	!..	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=156:159
+
+# sent_id = 3
+# text = Свободу потеряв навек, Неволю сердцем обожаю.
+1	Свободу	свобода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=161:168
+2	потеряв	потерять	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	TokenRange=169:176
+3	навек	навек	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=177:182
+4	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=182:183
+5	Неволю	неволя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	TokenRange=185:191
+6	сердцем	сердце	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	TokenRange=192:199
+7	обожаю	обожать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=200:206
+8	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=206:207
+

@@ -1,0 +1,123 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = И я слыхал, что божий свет Единой дружбою прекрасен, Что без нее отрады нет, Что жизни б путь нам был ужасен.
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=0:1
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	3	nsubj	_	TokenRange=2:3
+3	слыхал	слыхать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=4:10
+4	,	,	PUNCT	,	_	10	punct	_	TokenRange=10:11
+5	что	что	SCONJ	IN	_	10	mark	_	TokenRange=12:15
+6	божий	божий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=16:21
+7	свет	свет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpacesAfter=\r\n|TokenRange=22:26
+8	Единой	единый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=28:34
+9	дружбою	дружба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	TokenRange=35:42
+10	прекрасен	прекрасный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	ccomp	_	SpaceAfter=No|TokenRange=43:52
+11	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+12	Что	что	SCONJ	IN	_	16	mark	_	TokenRange=55:58
+13	без	без	ADP	IN	_	14	case	_	TokenRange=59:62
+14	нее	она	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	obl	_	TokenRange=63:66
+15	отрады	отрада	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nsubj	_	TokenRange=67:73
+16	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=74:77
+17	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=77:78
+18	Что	что	SCONJ	IN	_	24	mark	_	TokenRange=80:83
+19	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	TokenRange=84:89
+20	б	б	PART	UH	_	24	aux	_	TokenRange=90:91
+21	путь	путь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	TokenRange=92:96
+22	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	24	iobj	_	TokenRange=97:100
+23	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	24	cop	_	TokenRange=101:104
+24	ужасен	ужасный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	16	conj	_	SpaceAfter=No|TokenRange=105:111
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=111:112
+
+# sent_id = 2
+# text = Когда б не тихой дружбы свет.
+1	Когда	когда	SCONJ	IN	_	6	mark	_	TokenRange=114:119
+2	б	б	AUX	VBC	_	6	aux	_	TokenRange=120:121
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=122:124
+4	тихой	тихий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=125:130
+5	дружбы	дружба	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	TokenRange=131:137
+6	свет	свет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=138:142
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+
+# sent_id = 3
+# text = Но слушай — чувство есть другое: Оно и нежит и томит, В трудах, заботах и в покое Всегда не дремлет и горит;
+1	Но	но	CCONJ	CC	_	5	cc	_	TokenRange=145:147
+2	слушай	слушать	VERB	VBG	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	advcl	_	TokenRange=148:154
+3	—	—	PUNCT	``	_	2	punct	_	TokenRange=155:156
+4	чувство	чувство	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=157:164
+5	есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=165:169
+6	другое	другой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=170:176
+7	:	:	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+8	Оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	nsubj	_	TokenRange=179:182
+9	и	и	PART	UH	_	10	advmod	_	TokenRange=183:184
+10	нежит	нежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=185:190
+11	и	и	CCONJ	CC	_	12	cc	_	TokenRange=191:192
+12	томит	томить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=193:198
+13	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=198:199
+14	В	в	ADP	IN	_	15	case	_	TokenRange=201:202
+15	трудах	труд	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No|TokenRange=203:209
+16	,	,	PUNCT	,	_	17	punct	_	TokenRange=209:210
+17	заботах	забота	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	conj	_	TokenRange=211:218
+18	и	и	CCONJ	CC	_	20	cc	_	TokenRange=219:220
+19	в	в	ADP	IN	_	20	case	_	TokenRange=221:222
+20	покое	покой	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	SpacesAfter=\r\n|TokenRange=223:228
+21	Всегда	всегда	ADV	RB	Degree=Pos	23	advmod	_	TokenRange=230:236
+22	не	не	PART	NEG	Polarity=Neg	23	advmod	_	TokenRange=237:239
+23	дремлет	дремать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	TokenRange=240:247
+24	и	и	CCONJ	CC	_	25	cc	_	TokenRange=248:249
+25	горит	гореть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=250:255
+26	;	;	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=255:256
+
+# sent_id = 4
+# text = Оно мучительно, жестоко, Оно всю душу в нас мертвит, Коль язвы тяжкой и глубокой Елей надежды не живит…
+1	Оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	TokenRange=258:261
+2	мучительно	мучительный	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=262:272
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=272:273
+4	жестоко	жестокий	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	SpaceAfter=No|TokenRange=274:281
+5	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=281:282
+6	Оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	11	nsubj	_	TokenRange=284:287
+7	всю	весь	DET	DT	Case=Acc|Gender=Fem|Number=Sing	8	det	_	TokenRange=288:291
+8	душу	душа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	TokenRange=292:296
+9	в	в	ADP	IN	_	10	case	_	TokenRange=297:298
+10	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	11	obl	_	TokenRange=299:302
+11	мертвит	мертвить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=303:310
+12	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=310:311
+13	Коль	коль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	TokenRange=313:317
+14	язвы	язва	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	TokenRange=318:322
+15	тяжкой	тяжкий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=323:329
+16	и	и	CCONJ	CC	_	17	cc	_	TokenRange=330:331
+17	глубокой	глубокий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	SpacesAfter=\r\n|TokenRange=332:340
+18	Елей	ель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	TokenRange=342:346
+19	надежды	надежда	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	TokenRange=347:354
+20	не	не	PART	NEG	Polarity=Neg	21	advmod	_	TokenRange=355:357
+21	живит	живить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=358:363
+22	…	…	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=363:364
+
+# sent_id = 5
+# text = Вот страсть, которой я сгораю!..
+1	Вот	вот	PART	UH	_	0	root	_	TokenRange=366:369
+2	страсть	страсть	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=370:377
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=377:378
+4	которой	который	PRON	AWP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	iobj	_	TokenRange=379:386
+5	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=387:388
+6	сгораю	сгорать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No|TokenRange=389:395
+7	!..	!..	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=395:398
+
+# sent_id = 6
+# text = Я вяну, гибну в цвете лет, Но исцелиться не желаю…
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=400:401
+2	вяну	вянуть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=402:406
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=406:407
+4	гибну	гибнуть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=408:413
+5	в	в	ADP	IN	_	6	case	_	TokenRange=414:415
+6	цвете	цвет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	TokenRange=416:421
+7	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No|TokenRange=422:425
+8	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=425:426
+9	Но	но	CCONJ	CC	_	12	cc	_	TokenRange=428:430
+10	исцелиться	исцелиться	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	TokenRange=431:441
+11	не	не	PART	NEG	Polarity=Neg	12	advmod	_	TokenRange=442:444
+12	желаю	желать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=445:450
+13	…	…	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=450:451
+

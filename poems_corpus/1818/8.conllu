@@ -1,0 +1,114 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = На лире скромной, благородной Земных богов я не хвалил И силе в гордости свободной Кадилом лести не кадил.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=0:2
+2	лире	лира	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	TokenRange=3:7
+3	скромной	скромный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=8:16
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=16:17
+5	благородной	благородный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	SpacesAfter=\r\n|TokenRange=18:29
+6	Земных	земной	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	TokenRange=31:37
+7	богов	бог	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	TokenRange=38:43
+8	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	TokenRange=44:45
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=46:48
+10	хвалил	хвалить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=49:55
+11	И	и	CCONJ	CC	_	19	cc	_	TokenRange=57:58
+12	силе	сила	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	iobj	_	TokenRange=59:63
+13	в	в	ADP	IN	_	14	case	_	TokenRange=64:65
+14	гордости	гордость	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	TokenRange=66:74
+15	свободной	свободный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	SpacesAfter=\r\n|TokenRange=75:84
+16	Кадилом	кадил	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	iobj	_	TokenRange=86:93
+17	лести	лесть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	TokenRange=94:99
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=100:102
+19	кадил	кадить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=103:108
+20	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=108:109
+
+# sent_id = 2
+# text = Свободу лишь учася славить, Стихами жертвуя лишь ей, Я не рожден царей забавить Стыдливой музою моей.
+1	Свободу	свобода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	TokenRange=111:118
+2	лишь	лишь	PART	UH	_	3	advmod	_	TokenRange=119:123
+3	учася	учиться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	TokenRange=124:129
+4	славить	славить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No|TokenRange=130:137
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=137:138
+6	Стихами	стихи	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	iobj	_	TokenRange=140:147
+7	жертвуя	жертвовать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	conj	_	TokenRange=148:155
+8	лишь	лишь	PART	UH	_	9	advmod	_	TokenRange=156:160
+9	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	7	iobj	_	SpaceAfter=No|TokenRange=161:163
+10	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=163:164
+11	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj:pass	_	TokenRange=166:167
+12	не	не	PART	NEG	Polarity=Neg	13	advmod	_	TokenRange=168:170
+13	рожден	родить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=171:177
+14	царей	царь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	TokenRange=178:183
+15	забавить	забавить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	SpacesAfter=\r\n|TokenRange=184:192
+16	Стыдливой	стыдливый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	TokenRange=194:203
+17	музою	муза	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	15	obj	_	TokenRange=204:209
+18	моей	мой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	17	det	_	SpaceAfter=No|TokenRange=210:214
+19	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\r\n|TokenRange=214:215
+
+# sent_id = 3
+# text = Но, признаюсь, под Геликоном, Где Кастилийский ток шумел, Я, вдохновенный Аполлоном, Елисавету втайне пел.
+1	Но	но	CCONJ	CC	_	20	cc	_	SpaceAfter=No|TokenRange=217:219
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=219:220
+3	признаюсь	признаваться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	20	parataxis	_	SpaceAfter=No|TokenRange=221:230
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=230:231
+5	под	под	ADP	IN	_	6	case	_	TokenRange=232:235
+6	Геликоном	Геликон	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|TokenRange=236:245
+7	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=245:246
+8	Где	где	ADV	WRB	_	11	advmod	_	TokenRange=248:251
+9	Кастилийский	кастилийский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=252:264
+10	ток	ток	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=265:268
+11	шумел	шуметь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No|TokenRange=269:274
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=274:275
+13	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	20	nsubj	_	SpaceAfter=No|TokenRange=277:278
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=278:279
+15	вдохновенный	вдохновенный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	acl	_	TokenRange=280:292
+16	Аполлоном	Аполлон	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl:agent	_	SpaceAfter=No|TokenRange=293:302
+17	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=302:303
+18	Елисавету	Елисавета	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	TokenRange=305:314
+19	втайне	втайне	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=315:321
+20	пел	петь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=322:325
+21	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\r\n|TokenRange=325:326
+
+# sent_id = 4
+# text = Небесного земной свидетель, Воспламененною душой Я пел на троне добродетель С ее приветною красой.
+1	Небесного	небесный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=328:337
+2	земной	земной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=338:344
+3	свидетель	свидетель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=345:354
+4	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=354:355
+5	Воспламененною	воспламененный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=357:371
+6	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	appos	_	SpacesAfter=\r\n|TokenRange=372:377
+7	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=379:380
+8	пел	петь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=381:384
+9	на	на	ADP	IN	_	10	case	_	TokenRange=385:387
+10	троне	трон	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	TokenRange=388:393
+11	добродетель	добродетель	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpacesAfter=\r\n|TokenRange=394:405
+12	С	с	ADP	IN	_	15	case	_	TokenRange=407:408
+13	ее	ее	DET	PRP$	_	15	det	_	TokenRange=409:411
+14	приветною	приветный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=412:421
+15	красой	краса	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|TokenRange=422:428
+16	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=428:429
+
+# sent_id = 5
+# text = Любовь и тайная свобода Внушали сердцу гимн простой, И неподкупный голос мой Был эхо русского народа.
+1	Любовь	любовь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	TokenRange=431:437
+2	и	и	CCONJ	CC	_	4	cc	_	TokenRange=438:439
+3	тайная	тайный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=440:446
+4	свобода	свобода	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpacesAfter=\r\n|TokenRange=447:454
+5	Внушали	внушать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=456:463
+6	сердцу	сердце	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	TokenRange=464:470
+7	гимн	гимн	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	TokenRange=471:475
+8	простой	простой	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=476:483
+9	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=483:484
+10	И	и	CCONJ	CC	_	15	cc	_	TokenRange=486:487
+11	неподкупный	неподкупный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	TokenRange=488:499
+12	голос	голос	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=500:505
+13	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	12	det	_	SpacesAfter=\r\n|TokenRange=506:509
+14	Был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	cop	_	TokenRange=511:514
+15	эхо	эхо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	TokenRange=515:518
+16	русского	русский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=519:527
+17	народа	народ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=528:534
+18	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=534:535
+

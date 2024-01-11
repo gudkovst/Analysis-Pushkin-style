@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Внимает он привычным ухом Свист; Марает он единым духом Лист;
+1	Внимает	внимать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:7
+2	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	nsubj	_	TokenRange=8:10
+3	привычным	привычный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	TokenRange=11:20
+4	ухом	ухо	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	iobj	_	SpacesAfter=\r\n|TokenRange=21:25
+5	Свист	свист	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=27:32
+6	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=32:33
+7	Марает	марать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=35:41
+8	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	TokenRange=42:44
+9	единым	единый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=45:51
+10	духом	дух	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	iobj	_	SpacesAfter=\r\n|TokenRange=52:57
+11	Лист	лист	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=59:63
+12	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+
+# sent_id = 2
+# text = Потом всему терзает свету Слух; Потом печатает — и в Лету Бух!
+1	Потом	потом	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=66:71
+2	всему	все	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	iobj	_	TokenRange=72:77
+3	терзает	терзать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=78:85
+4	свету	свет	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	SpacesAfter=\r\n|TokenRange=86:91
+5	Слух	слух	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=93:97
+6	;	;	PUNCT	:	_	8	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+7	Потом	потом	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=100:105
+8	печатает	печатать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=106:114
+9	—	—	PUNCT	--	_	8	punct	_	TokenRange=115:116
+10	и	и	CCONJ	CC	_	13	cc	_	TokenRange=117:118
+11	в	в	ADP	IN	_	12	case	_	TokenRange=119:120
+12	Лету	лето	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\r\n|TokenRange=121:125
+13	Бух	Бух	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=127:130
+14	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=130:131
+
