@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Внук Тредьяковского Клит гекзаметром песенки пишет, Противу ямба, хорея злобой ужасною дышит; Мера простая сия всё портит, по мнению Клита, Смысл затмевает стихов и жар охлаждает пиита.
+1	Внук	внук	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=0:4
+2	Тредьяковского	Тредьяковский	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	TokenRange=5:19
+3	Клит	Клит	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=20:24
+4	гекзаметром	гекзаметр	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	xcomp	_	TokenRange=25:36
+5	песенки	песенка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	TokenRange=37:44
+6	пишет	писать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=45:50
+7	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+8	Противу	противу	ADP	IN	_	9	case	_	TokenRange=53:60
+9	ямба	ямба	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|TokenRange=61:65
+10	,	,	PUNCT	,	_	9	punct	_	TokenRange=65:66
+11	хорея	хорея	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	TokenRange=67:72
+12	злобой	злоба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	iobj	_	TokenRange=73:79
+13	ужасною	ужасный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	xcomp	_	TokenRange=80:87
+14	дышит	дышать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No|TokenRange=88:93
+15	;	;	PUNCT	:	_	14	punct	_	SpacesAfter=\r\n|TokenRange=93:94
+16	Мера	мера	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	TokenRange=96:100
+17	простая	простой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	TokenRange=101:108
+18	сия	сей	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	TokenRange=109:112
+19	всё	всё	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	TokenRange=113:116
+20	портит	портить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	SpaceAfter=No|TokenRange=117:123
+21	,	,	PUNCT	,	_	27	punct	_	TokenRange=123:124
+22	по	по	ADP	IN	_	23	case	_	TokenRange=125:127
+23	мнению	мнение	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	parataxis	_	TokenRange=128:134
+24	Клита	Клит	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|TokenRange=135:140
+25	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=140:141
+26	Смысл	смысл	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	TokenRange=143:148
+27	затмевает	затмевать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	TokenRange=149:158
+28	стихов	стихи	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obj	_	TokenRange=159:165
+29	и	и	CCONJ	CC	_	31	cc	_	TokenRange=166:167
+30	жар	жар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	TokenRange=168:171
+31	охлаждает	охлаждать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	TokenRange=172:181
+32	пиита	пиит	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No|TokenRange=182:187
+33	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=187:188
+
+# sent_id = 2
+# text = Спорить о том я не смею, пусть он безвинных поносит, Ямб охладил рифмача, гекзаметры ж он заморозит.
+1	Спорить	спорить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	TokenRange=190:197
+2	о	о	ADP	IN	_	3	case	_	TokenRange=198:199
+3	том	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	TokenRange=200:203
+4	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=204:205
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=206:208
+6	смею	сметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=209:213
+7	,	,	PUNCT	,	_	11	punct	_	TokenRange=213:214
+8	пусть	пусть	SCONJ	IN	_	11	mark	_	TokenRange=215:220
+9	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	TokenRange=221:223
+10	безвинных	безвинный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	11	obj	_	TokenRange=224:233
+11	поносит	поносить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No|TokenRange=234:241
+12	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=241:242
+13	Ямб	Ямб	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=244:247
+14	охладил	охладить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=248:255
+15	рифмача	рифмача	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|TokenRange=256:263
+16	,	,	PUNCT	,	_	20	punct	_	TokenRange=263:264
+17	гекзаметры	гекзаметр	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	TokenRange=265:275
+18	ж	же	PART	UH	_	17	advmod	_	TokenRange=276:277
+19	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	TokenRange=278:280
+20	заморозит	заморозить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=281:290
+21	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=290:291
+
