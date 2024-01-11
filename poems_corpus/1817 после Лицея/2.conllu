@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Митрополит, хвастун бесстыдный, Тебе прислав своих плодов, Хотел уверить нас, как видно, Что сам он бог своих садов.
+1	Митрополит	митрополит	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=0:10
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=10:11
+3	хвастун	хвастун	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=12:19
+4	бесстыдный	бесстыдный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No|TokenRange=20:30
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+6	Тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	7	iobj	_	TokenRange=33:37
+7	прислав	прислать	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	root	_	TokenRange=38:45
+8	своих	свой	DET	PRP$	Animacy=Anim|Case=Acc|Number=Plur	9	det	_	TokenRange=46:51
+9	плодов	плод	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|TokenRange=52:58
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=58:59
+11	Хотел	хотеть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=61:66
+12	уверить	уверить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	TokenRange=67:74
+13	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	12	obj	_	SpaceAfter=No|TokenRange=75:78
+14	,	,	PUNCT	,	_	16	punct	_	TokenRange=78:79
+15	как	как	ADV	WRB	_	16	advmod	_	TokenRange=80:83
+16	видно	видный	ADJ	PRED	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	12	obl	_	SpaceAfter=No|TokenRange=84:89
+17	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=89:90
+18	Что	что	SCONJ	IN	_	21	mark	_	TokenRange=92:95
+19	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=96:99
+20	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	TokenRange=100:102
+21	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	ccomp	_	TokenRange=103:106
+22	своих	свой	DET	PRP$	Case=Gen|Number=Plur	23	det	_	TokenRange=107:112
+23	садов	сад	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No|TokenRange=113:118
+24	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=118:119
+
+# sent_id = 2
+# text = Возможно всё тебе — харита Улыбкой дряхлость победит, С ума сведет митрополита И пыл желаний в нем родит.
+1	Возможно	возможно	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=121:129
+2	всё	весь	DET	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	TokenRange=130:133
+3	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	8	iobj	_	TokenRange=134:138
+4	—	—	PUNCT	--	_	5	punct	_	TokenRange=139:140
+5	харита	харита	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=141:147
+6	Улыбкой	улыбка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	TokenRange=149:156
+7	дряхлость	дряхлость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=157:166
+8	победит	победить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=167:174
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=174:175
+10	С	с	ADP	IN	_	11	case	_	TokenRange=177:178
+11	ума	ум	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	TokenRange=179:182
+12	сведет	свести	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=183:189
+13	митрополита	митрополит	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpacesAfter=\r\n|TokenRange=190:201
+14	И	и	CCONJ	CC	_	19	cc	_	TokenRange=203:204
+15	пыл	пыл	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	TokenRange=205:208
+16	желаний	желание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	TokenRange=209:216
+17	в	в	ADP	IN	_	18	case	_	TokenRange=217:218
+18	нем	он	PRON	PRP	Case=Loc|Gender=Masc|Number=Sing|Person=3	19	obl	_	TokenRange=219:222
+19	родит	родить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No|TokenRange=223:228
+20	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=228:229
+
+# sent_id = 3
+# text = И он, твой встретив взор волшебный, Забудет о своем кресте И нежно станет петь молебны Твоей небесной красоте.
+1	И	и	CCONJ	CC	_	9	cc	_	TokenRange=231:232
+2	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No|TokenRange=233:235
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=235:236
+4	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=237:241
+5	встретив	встретить	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	TokenRange=242:250
+6	взор	взор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	TokenRange=251:255
+7	волшебный	волшебный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No|TokenRange=256:265
+8	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=265:266
+9	Забудет	забыть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=268:275
+10	о	о	ADP	IN	_	12	case	_	TokenRange=276:277
+11	своем	свой	DET	PRP$	Case=Loc|Gender=Masc|Number=Sing	12	det	_	TokenRange=278:283
+12	кресте	крест	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\r\n|TokenRange=284:290
+13	И	и	CCONJ	CC	_	15	cc	_	TokenRange=292:293
+14	нежно	нежно	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=294:299
+15	станет	стать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=300:306
+16	петь	петь	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	TokenRange=307:311
+17	молебны	молебна	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpacesAfter=\r\n|TokenRange=312:319
+18	Твоей	твой	DET	PRP$	Case=Dat|Gender=Fem|Number=Sing	20	det	_	TokenRange=321:326
+19	небесной	небесный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	TokenRange=327:335
+20	красоте	красота	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	iobj	_	SpaceAfter=No|TokenRange=336:343
+21	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=343:344
+

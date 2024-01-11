@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не спрашивай, зачем унылой думой Среди забав я часто омрачен, Зачем на всё подъемлю взор угрюмый, Зачем не мил мне сладкой жизни сон;
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	спрашивай	спрашивать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=3:12
+3	,	,	PUNCT	,	_	11	punct	_	TokenRange=12:13
+4	зачем	зачем	ADV	WRB	_	11	advmod	_	TokenRange=14:19
+5	унылой	унылый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=20:26
+6	думой	дума	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpacesAfter=\r\n|TokenRange=27:32
+7	Среди	среди	ADP	IN	_	8	case	_	TokenRange=34:39
+8	забав	забава	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	TokenRange=40:45
+9	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj:pass	_	TokenRange=46:47
+10	часто	часто	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=48:53
+11	омрачен	омрачить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	ccomp	_	SpaceAfter=No|TokenRange=54:61
+12	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=61:62
+13	Зачем	зачем	ADV	WRB	_	16	advmod	_	TokenRange=64:69
+14	на	на	ADP	IN	_	15	case	_	TokenRange=70:72
+15	всё	всё	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	TokenRange=73:76
+16	подъемлю	подъемать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=77:85
+17	взор	взор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	TokenRange=86:90
+18	угрюмый	угрюмый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No|TokenRange=91:98
+19	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=98:99
+20	Зачем	зачем	ADV	RB	Degree=Pos	22	advmod	_	TokenRange=101:106
+21	не	не	PART	NEG	Polarity=Neg	22	advmod	_	TokenRange=107:109
+22	мил	мить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=110:113
+23	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	22	iobj	_	TokenRange=114:117
+24	сладкой	сладкий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	TokenRange=118:125
+25	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obj	_	TokenRange=126:131
+26	сон;	сон;	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpacesAfter=\r\n|TokenRange=132:136
+
+# sent_id = 2
+# text = Не спрашивай, зачем душой остылой Я разлюбил веселую любовь И никого не называю милой — Кто раз любил, уж не полюбит вновь;
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=138:140
+2	спрашивай	спрашивать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=141:150
+3	,	,	PUNCT	,	_	8	punct	_	TokenRange=150:151
+4	зачем	зачем	ADV	WRB	_	8	advmod	_	TokenRange=152:157
+5	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	iobj	_	TokenRange=158:163
+6	остылой	остылый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\r\n|TokenRange=164:171
+7	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=173:174
+8	разлюбил	разлюбить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	TokenRange=175:183
+9	веселую	веселый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=184:191
+10	любовь	любовь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpacesAfter=\r\n|TokenRange=192:198
+11	И	и	CCONJ	CC	_	14	cc	_	TokenRange=200:201
+12	никого	никто	PRON	PRP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	TokenRange=202:208
+13	не	не	PART	NEG	Polarity=Neg	14	advmod	_	TokenRange=209:211
+14	называю	называть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=212:219
+15	милой	милый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	xcomp	_	TokenRange=220:225
+16	—	—	PUNCT	--	_	19	punct	_	SpacesAfter=\r\n|TokenRange=226:227
+17	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	TokenRange=229:232
+18	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	TokenRange=233:236
+19	любил	любить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	SpaceAfter=No|TokenRange=237:242
+20	,	,	PUNCT	,	_	23	punct	_	TokenRange=242:243
+21	уж	уж	PART	UH	_	23	advmod	_	TokenRange=244:246
+22	не	не	PART	NEG	Polarity=Neg	23	advmod	_	TokenRange=247:249
+23	полюбит	полюбить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	conj	_	TokenRange=250:257
+24	вновь	вновь	ADV	RB	Degree=Pos	23	advmod	_	SpaceAfter=No|TokenRange=258:263
+25	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=263:264
+
+# sent_id = 3
+# text = Кто счастье знал, уж не узнает счастья.
+1	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=266:269
+2	счастье	счастье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	TokenRange=270:277
+3	знал	знать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	SpaceAfter=No|TokenRange=278:282
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=282:283
+5	уж	уж	PART	UH	_	7	advmod	_	TokenRange=284:286
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=287:289
+7	узнает	узнавать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=290:296
+8	счастья	счастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=297:304
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=304:305
+
+# sent_id = 4
+# text = На краткий миг блаженство нам дано: От юности, от нег и сладострастья Останется уныние одно…
+1	На	на	ADP	IN	_	3	case	_	TokenRange=307:309
+2	краткий	краткий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=310:317
+3	миг	миг	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	TokenRange=318:321
+4	блаженство	блаженство	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	TokenRange=322:332
+5	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	6	iobj	_	TokenRange=333:336
+6	дано	дать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=337:341
+7	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=341:342
+8	От	от	ADP	IN	_	9	case	_	TokenRange=344:346
+9	юности	юность	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|TokenRange=347:353
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=353:354
+11	от	от	ADP	IN	_	12	case	_	TokenRange=355:357
+12	нег	нега	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	conj	_	TokenRange=358:361
+13	и	и	CCONJ	CC	_	14	cc	_	TokenRange=362:363
+14	сладострастья	сладострастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	_	SpacesAfter=\r\n|TokenRange=364:377
+15	Останется	остаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	parataxis	_	TokenRange=379:388
+16	уныние	уныние	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	TokenRange=389:395
+17	одно	один	NUM	CD	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=396:400
+18	…	…	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=400:401
+

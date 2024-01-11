@@ -1,1 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Есть в России город Луга Петербургского округа; Хуже не было б сего Городишки на примете, Если бы не было на свете Новоржева моего.
+1	Есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:4
+2	в	в	ADP	IN	_	3	case	_	TokenRange=5:6
+3	России	Россия	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	TokenRange=7:13
+4	город	город	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=14:19
+5	Луга	Луга	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpacesAfter=\r\n|TokenRange=20:24
+6	Петербургского	петербургский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=26:40
+7	округа	округ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=41:47
+8	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=47:48
+9	Хуже	плохой	ADV	RBR	Degree=Cmp	11	advmod	_	TokenRange=50:54
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	TokenRange=55:57
+11	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=58:62
+12	б	б	AUX	VBC	_	11	aux	_	TokenRange=63:64
+13	сего	сей	DET	DT	Case=Gen|Gender=Masc|Number=Sing	14	det	_	SpacesAfter=\r\n|TokenRange=65:69
+14	Городишки	городишка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nsubj	_	TokenRange=71:80
+15	на	на	ADP	IN	_	16	case	_	TokenRange=81:83
+16	примете	примет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|TokenRange=84:91
+17	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=91:92
+18	Если	если	SCONJ	IN	_	21	mark	_	TokenRange=94:98
+19	бы	бы	AUX	VBC	_	21	aux	_	TokenRange=99:101
+20	не	не	PART	NEG	Polarity=Neg	21	advmod	_	TokenRange=102:104
+21	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	TokenRange=105:109
+22	на	на	ADP	IN	_	23	case	_	TokenRange=110:112
+23	свете	свет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	SpacesAfter=\r\n|TokenRange=113:118
+24	Новоржева	Новоржев	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	TokenRange=120:129
+25	моего	мой	DET	PRP$	Case=Gen|Gender=Masc|Number=Sing	24	det	_	SpaceAfter=No|TokenRange=130:135
+26	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=135:136
 

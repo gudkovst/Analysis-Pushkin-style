@@ -1,0 +1,110 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Простите, верные дубравы!
+1	Простите	простить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=0:8
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=8:9
+3	верные	верный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	TokenRange=10:16
+4	дубравы	дубрава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	parataxis	_	SpaceAfter=No|TokenRange=17:24
+5	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+
+# sent_id = 2
+# text = Прости, беспечный мир полей, И легкокрылые забавы Столь быстро улетевших дней!
+1	Прости	простить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=27:33
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=33:34
+3	беспечный	беспечный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=35:44
+4	мир	мир	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	TokenRange=45:48
+5	полей	поле	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No|TokenRange=49:54
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=54:55
+7	И	и	CCONJ	CC	_	9	cc	_	TokenRange=57:58
+8	легкокрылые	легкокрылый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	TokenRange=59:70
+9	забавы	забава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	conj	_	SpacesAfter=\r\n|TokenRange=71:77
+10	Столь	столь	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=79:84
+11	быстро	быстро	ADV	RB	Degree=Pos	12	advmod	_	TokenRange=85:91
+12	улетевших	улететь	VERB	VBNL	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	TokenRange=92:101
+13	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|TokenRange=102:106
+14	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+
+# sent_id = 3
+# text = Прости, Тригорское, где радость Меня встречала столько раз!
+1	Прости	простить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=109:115
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=115:116
+3	Тригорское	тригорский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=117:127
+4	,	,	PUNCT	,	_	8	punct	_	TokenRange=127:128
+5	где	где	ADV	WRB	_	8	advmod	_	TokenRange=129:132
+6	радость	радость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=133:140
+7	Меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	8	obj	_	TokenRange=142:146
+8	встречала	встречать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	TokenRange=147:156
+9	столько	столько	NUM	RB	Case=Acc|NumType=Card	10	nummod:gov	_	TokenRange=157:164
+10	раз	раз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|TokenRange=165:168
+11	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=168:169
+
+# sent_id = 4
+# text = На то ль узнал я вашу сладость, Чтоб навсегда покинуть вас? От вас беру воспоминанье, А сердце оставляю вам.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=171:173
+2	то	тот	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	TokenRange=174:176
+3	ль	ль	PART	UH	_	2	advmod	_	TokenRange=177:179
+4	узнал	узнать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=180:185
+5	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=186:187
+6	вашу	ваш	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	7	det	_	TokenRange=188:192
+7	сладость	сладость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=193:201
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=201:202
+9	Чтоб	чтоб	SCONJ	IN	_	11	mark	_	TokenRange=204:208
+10	навсегда	навсегда	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=209:217
+11	покинуть	покинуть	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	TokenRange=218:226
+12	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	11	obj	_	SpaceAfter=No|TokenRange=227:230
+13	?	?	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=230:231
+14	От	от	ADP	IN	_	15	case	_	TokenRange=233:235
+15	вас	вы	PRON	PRP	Case=Gen|Number=Plur|Person=2	16	obl	_	TokenRange=236:239
+16	беру	брать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	TokenRange=240:244
+17	воспоминанье	воспоминанье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No|TokenRange=245:257
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=257:258
+19	А	а	CCONJ	CC	_	21	cc	_	TokenRange=260:261
+20	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	TokenRange=262:268
+21	оставляю	оставлять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	TokenRange=269:277
+22	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	21	iobj	_	SpaceAfter=No|TokenRange=278:281
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=281:282
+
+# sent_id = 5
+# text = Быть может (сладкое мечтанье!
+1	Быть	быть	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	TokenRange=284:288
+2	может	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=289:294
+3	(	(	PUNCT	(	_	5	punct	_	SpaceAfter=No|TokenRange=295:296
+4	сладкое	сладкий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	TokenRange=296:303
+5	мечтанье	мечтанье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	SpaceAfter=No|TokenRange=304:312
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=312:313
+
+# sent_id = 6
+# text = ), Я к вашим возвращусь полям, Приду под липовые своды, На скат тригорского холма, Поклонник дружеской свободы, Веселья, граций и ума.
+1	)	)	PUNCT	)	_	6	punct	_	SpaceAfter=No|TokenRange=313:314
+2	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=314:315
+3	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=317:318
+4	к	к	ADP	IN	_	5	case	_	TokenRange=319:320
+5	вашим	ваш	DET	PRP$	Case=Dat|Number=Plur	6	obl	_	TokenRange=321:326
+6	возвращусь	возвращиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=327:337
+7	полям	поле	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	iobj	_	SpaceAfter=No|TokenRange=338:343
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=343:344
+9	Приду	прийти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	TokenRange=346:351
+10	под	под	ADP	IN	_	12	case	_	TokenRange=352:355
+11	липовые	липовый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	TokenRange=356:363
+12	своды	свод	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|TokenRange=364:369
+13	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=369:370
+14	На	на	ADP	IN	_	15	case	_	TokenRange=372:374
+15	скат	скат	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	TokenRange=375:379
+16	тригорского	тригорский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=380:391
+17	холма	холм	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=392:397
+18	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=397:398
+19	Поклонник	поклонник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	TokenRange=400:409
+20	дружеской	дружеский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=410:419
+21	свободы	свобода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No|TokenRange=420:427
+22	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=427:428
+23	Веселья	веселье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	conj	_	SpaceAfter=No|TokenRange=430:437
+24	,	,	PUNCT	,	_	25	punct	_	TokenRange=437:438
+25	граций	грация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	conj	_	TokenRange=439:445
+26	и	и	CCONJ	CC	_	27	cc	_	TokenRange=446:447
+27	ума	ум	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|TokenRange=448:451
+28	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=451:452
+
