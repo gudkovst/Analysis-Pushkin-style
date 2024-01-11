@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ревет ли зверь в лесу глухом, Трубит ли рог, гремит ли гром, Поет ли дева за холмом — На всякий звук Свой отклик в воздухе пустом Родишь ты вдруг.
+1	Ревет	реветь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:5
+2	ли	ли	PART	UH	_	1	advmod	_	TokenRange=6:8
+3	зверь	зверь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=9:14
+4	в	в	ADP	IN	_	5	case	_	TokenRange=15:16
+5	лесу	лес	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	TokenRange=17:21
+6	глухом	глухой	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=22:28
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+8	Трубит	трубить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=31:37
+9	ли	ли	PART	UH	_	8	advmod	_	TokenRange=38:40
+10	рог	рог	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=41:44
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=44:45
+12	гремит	греметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=46:52
+13	ли	ли	PART	UH	_	12	advmod	_	TokenRange=53:55
+14	гром	гром	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|TokenRange=56:60
+15	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=60:61
+16	Поет	петь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=63:67
+17	ли	ли	PART	UH	_	16	advmod	_	TokenRange=68:70
+18	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	TokenRange=71:75
+19	за	за	ADP	IN	_	20	case	_	TokenRange=76:78
+20	холмом	холм	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	TokenRange=79:85
+21	—	—	PUNCT	--	_	30	punct	_	SpacesAfter=\r\n|TokenRange=86:87
+22	На	на	ADP	IN	_	24	case	_	TokenRange=89:91
+23	всякий	всякий	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	det	_	TokenRange=92:98
+24	звук	звук	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	SpacesAfter=\r\n|TokenRange=99:103
+25	Свой	свой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	det	_	TokenRange=105:109
+26	отклик	отклик	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	TokenRange=110:116
+27	в	в	ADP	IN	_	28	case	_	TokenRange=117:118
+28	воздухе	воздух	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	obl	_	TokenRange=119:126
+29	пустом	пустой	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	obl	_	SpacesAfter=\r\n|TokenRange=127:133
+30	Родишь	родить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=135:141
+31	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	30	nsubj	_	TokenRange=142:144
+32	вдруг	вдруг	ADV	RB	Degree=Pos	30	advmod	_	SpaceAfter=No|TokenRange=145:150
+33	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=150:151
+
+# sent_id = 2
+# text = Ты внемлешь грохоту громов, И гласу бури и валов, И крику сельских пастухов — И шлешь ответ; Тебе ж нет отзыва...
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=153:155
+2	внемлешь	внемлуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=156:164
+3	грохоту	грохота	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=165:172
+4	громов	гром	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No|TokenRange=173:179
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=179:180
+6	И	и	CCONJ	CC	_	7	cc	_	TokenRange=182:183
+7	гласу	глас	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	TokenRange=184:189
+8	бури	буря	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	TokenRange=190:194
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=195:196
+10	валов	вал	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|TokenRange=197:202
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=202:203
+12	И	и	CCONJ	CC	_	13	cc	_	TokenRange=205:206
+13	крику	крик	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	conj	_	TokenRange=207:212
+14	сельских	сельский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	TokenRange=213:221
+15	пастухов	пастух	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	TokenRange=222:230
+16	—	—	PUNCT	--	_	18	punct	_	SpacesAfter=\r\n|TokenRange=231:232
+17	И	и	CCONJ	CC	_	18	cc	_	TokenRange=234:235
+18	шлешь	шлать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=236:241
+19	ответ	ответ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|TokenRange=242:247
+20	;	;	PUNCT	:	_	23	punct	_	SpacesAfter=\r\n|TokenRange=247:248
+21	Тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	23	iobj	_	TokenRange=250:254
+22	ж	же	PART	UH	_	21	advmod	_	TokenRange=255:256
+23	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=257:260
+24	отзыва	отзыв	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|TokenRange=261:267
+25	...	...	PUNCT	.	_	2	punct	_	TokenRange=267:270
+
+# sent_id = 3
+# text = Таков И ты, поэт!
+1	Таков	таков	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\r\n|TokenRange=271:276
+2	И	и	PART	UH	_	3	advmod	_	TokenRange=278:279
+3	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	1	nsubj	_	SpaceAfter=No|TokenRange=280:282
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=282:283
+5	поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=284:288
+6	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=288:289
+

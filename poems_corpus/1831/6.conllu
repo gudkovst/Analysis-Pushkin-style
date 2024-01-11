@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Любезный Вяземский, поэт и камергер... (Василья Львовича узнал ли ты манер?
+1	Любезный	любезный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=0:8
+2	Вяземский	Вяземский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=9:18
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=18:19
+4	поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	TokenRange=20:24
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=25:26
+6	камергер	камергер	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=27:35
+7	...	...	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=35:38
+8	(	(	PUNCT	(	_	11	punct	_	SpaceAfter=No|TokenRange=40:41
+9	Василья	Василь	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	TokenRange=41:48
+10	Львовича	Львович	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	flat:name	_	TokenRange=49:57
+11	узнал	узнать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=58:63
+12	ли	ли	PART	UH	_	11	advmod	_	TokenRange=64:66
+13	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	11	nsubj	_	TokenRange=67:69
+14	манер	манер	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=70:75
+15	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=75:76
+
+# sent_id = 2
+# text = Так некогда письмо он начал к камергеру, Украшенну ключом за верность и за веру).
+1	Так	так	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=78:81
+2	некогда	некогда	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=82:89
+3	письмо	письмо	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	TokenRange=90:96
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	TokenRange=97:99
+5	начал	начать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=100:105
+6	к	к	ADP	IN	_	7	case	_	TokenRange=106:107
+7	камергеру	камергер	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|TokenRange=108:117
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=117:118
+9	Украшенну	Украшенна	VERB	VBNL	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	TokenRange=120:129
+10	ключом	ключ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	iobj	_	TokenRange=130:136
+11	за	за	ADP	IN	_	12	case	_	TokenRange=137:139
+12	верность	верность	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	TokenRange=140:148
+13	и	и	CCONJ	CC	_	15	cc	_	TokenRange=149:150
+14	за	за	ADP	IN	_	15	case	_	TokenRange=151:153
+15	веру	вера	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|TokenRange=154:158
+16	)	)	PUNCT	)	_	9	punct	_	SpaceAfter=No|TokenRange=158:159
+17	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=159:160
+
+# sent_id = 3
+# text = Так солнце и на нас взглянуло из-за туч!
+1	Так	так	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=162:165
+2	солнце	солнце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	TokenRange=166:172
+3	и	и	PART	UH	_	5	advmod	_	TokenRange=173:174
+4	на	на	ADP	IN	_	5	case	_	TokenRange=175:177
+5	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	6	obl	_	TokenRange=178:181
+6	взглянуло	взглянуть	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=182:191
+7	из-за	из-за	ADP	IN	_	8	case	_	TokenRange=192:197
+8	туч	туча	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|TokenRange=198:201
+9	!	!	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=201:202
+
+# sent_id = 4
+# text = На заднице твоей сияет тот же ключ.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=204:206
+2	заднице	задница	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=207:214
+3	твоей	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=215:220
+4	сияет	сиять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=221:226
+5	тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	7	det	_	TokenRange=227:230
+6	же	же	PART	UH	_	5	advmod	_	TokenRange=231:233
+7	ключ	ключ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=234:238
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=238:239
+
+# sent_id = 5
+# text = Ура! хвала и честь поэту-камергеру.
+1	Ура	ура	NOUN	NN	_	0	root	_	SpaceAfter=No|TokenRange=241:244
+2	!	!	PUNCT	.	_	1	punct	_	TokenRange=244:245
+3	хвала	хвала	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	TokenRange=246:251
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=252:253
+5	честь	честь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	TokenRange=254:259
+6	поэту	поэт	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No|TokenRange=260:265
+7	-	-	PUNCT	-	_	8	punct	_	SpaceAfter=No|TokenRange=265:266
+8	камергеру	камергер	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No|TokenRange=266:275
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=275:276
+
+# sent_id = 6
+# text = Пожалуй, от меня поздравь княгиню Веру.
+1	Пожалуй	пожалуй	ADV	RB	Degree=Pos	5	parataxis	_	SpaceAfter=No|TokenRange=278:285
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=285:286
+3	от	от	ADP	IN	_	4	case	_	TokenRange=287:289
+4	меня	я	PRON	PRP	Case=Gen|Number=Sing|Person=1	5	obl	_	TokenRange=290:294
+5	поздравь	поздравить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=295:303
+6	княгиню	княгиня	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	TokenRange=304:311
+7	Веру	Вера	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|TokenRange=312:316
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=316:317
+

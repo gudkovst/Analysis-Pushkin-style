@@ -1,0 +1,355 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = О чем шумите вы, народные витии?
+1	О	о	ADP	IN	_	2	case	_	TokenRange=0:1
+2	чем	что	PRON	WP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	TokenRange=2:5
+3	шумите	шуметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=6:12
+4	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	3	nsubj	_	SpaceAfter=No|TokenRange=13:15
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=15:16
+6	народные	народный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	TokenRange=17:25
+7	витии	вития	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	SpaceAfter=No|TokenRange=26:31
+8	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+
+# sent_id = 2
+# text = Зачем анафемой грозите вы России?
+1	Зачем	зачем	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=34:39
+2	анафемой	анафема	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obj	_	TokenRange=40:48
+3	грозите	грозить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=49:56
+4	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	3	nsubj	_	TokenRange=57:59
+5	России	Россия	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	SpaceAfter=No|TokenRange=60:66
+6	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=66:67
+
+# sent_id = 3
+# text = Что возмутило вас? волнения Литвы?
+1	Что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	TokenRange=69:72
+2	возмутило	возмутить	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=73:82
+3	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	2	obj	_	SpaceAfter=No|TokenRange=83:86
+4	?	?	PUNCT	.	_	2	punct	_	TokenRange=86:87
+5	волнения	волнение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	TokenRange=88:96
+6	Литвы	Литва	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=97:102
+7	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 4
+# text = Оставьте: это спор славян между собою, Домашний, старый спор, уж взвешенный судьбою, Вопрос, которого не разрешите вы.
+1	Оставьте	оставить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=105:113
+2	:	:	PUNCT	:	_	1	punct	_	TokenRange=113:114
+3	это	это	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	TokenRange=115:118
+4	спор	спор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=119:123
+5	славян	славянин	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	TokenRange=124:130
+6	между	между	ADP	IN	_	7	case	_	TokenRange=131:136
+7	собою	себя	PRON	PRP	Case=Ins|Reflex=Yes	4	nmod	_	SpaceAfter=No|TokenRange=137:142
+8	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+9	Домашний	домашний	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No|TokenRange=145:153
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=153:154
+11	старый	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	TokenRange=155:161
+12	спор	спор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=162:166
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=166:167
+14	уж	уж	PART	UH	_	15	advmod	_	TokenRange=168:170
+15	взвешенный	взвешенный	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	TokenRange=171:181
+16	судьбою	судьба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl:agent	_	SpaceAfter=No|TokenRange=182:189
+17	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=189:190
+18	Вопрос	вопрос	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No|TokenRange=192:198
+19	,	,	PUNCT	,	_	22	punct	_	TokenRange=198:199
+20	которого	который	PRON	AWP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obj	_	TokenRange=200:208
+21	не	не	PART	NEG	Polarity=Neg	22	advmod	_	TokenRange=209:211
+22	разрешите	разрешить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	18	acl:relcl	_	TokenRange=212:221
+23	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	22	nsubj	_	SpaceAfter=No|TokenRange=222:224
+24	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=224:225
+
+# sent_id = 5
+# text = Уже давно между собою Враждуют эти племена;
+1	Уже	уже	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=227:230
+2	давно	давно	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=231:236
+3	между	между	ADP	IN	_	4	case	_	TokenRange=237:242
+4	собою	себя	PRON	PRP	Case=Ins|Reflex=Yes	5	obl	_	SpacesAfter=\r\n|TokenRange=243:248
+5	Враждуют	враждовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=250:258
+6	эти	этот	DET	DT	Case=Nom|Number=Plur	7	det	_	TokenRange=259:262
+7	племена	племя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No|TokenRange=263:270
+8	;	;	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=270:271
+
+# sent_id = 6
+# text = Не раз клонилась под грозою То их, то наша сторона.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=273:275
+2	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=276:279
+3	клонилась	клониться	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=280:289
+4	под	под	ADP	IN	_	5	case	_	TokenRange=290:293
+5	грозою	гроза	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\r\n|TokenRange=294:300
+6	То	то	SCONJ	CC	_	7	cc	_	TokenRange=302:304
+7	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	nsubj	_	SpaceAfter=No|TokenRange=305:307
+8	,	,	PUNCT	,	_	11	punct	_	TokenRange=307:308
+9	то	то	CCONJ	CC	_	11	cc	_	TokenRange=309:311
+10	наша	наш	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	11	det	_	TokenRange=312:316
+11	сторона	сторона	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=317:324
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=324:325
+
+# sent_id = 7
+# text = Кто устоит в неравном споре: Кичливый лях иль верный росс?
+1	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=327:330
+2	устоит	устоять	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=331:337
+3	в	в	ADP	IN	_	5	case	_	TokenRange=338:339
+4	неравном	неравный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=340:348
+5	споре	спор	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=349:354
+6	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=354:355
+7	Кичливый	кичливый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=357:365
+8	лях	лях	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	TokenRange=366:369
+9	иль	иль	PART	CC	_	11	cc	_	TokenRange=370:373
+10	верный	верный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=374:380
+11	росс	росс	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=381:385
+12	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=385:386
+
+# sent_id = 8
+# text = Славянские ль ручьи сольются в русском море?
+1	Славянские	славянский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	TokenRange=388:398
+2	ль	ль	PART	UH	_	3	advmod	_	TokenRange=399:401
+3	ручьи	ручей	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=402:407
+4	сольются	сольються	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=408:416
+5	в	в	ADP	IN	_	7	case	_	TokenRange=417:418
+6	русском	русский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	TokenRange=419:426
+7	море	море	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=427:431
+8	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=431:432
+
+# sent_id = 9
+# text = Оно ль иссякнет? вот вопрос.
+1	Оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	TokenRange=434:437
+2	ль	ль	PART	UH	_	3	advmod	_	TokenRange=438:440
+3	иссякнет	иссякнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=441:449
+4	?	?	PUNCT	.	_	3	punct	_	TokenRange=449:450
+5	вот	вот	PART	UH	_	3	advmod	_	TokenRange=451:454
+6	вопрос	вопрос	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=455:461
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=461:462
+
+# sent_id = 10
+# text = Оставьте нас: вы не читали Сии кровавые скрижали;
+1	Оставьте	оставить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=464:472
+2	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	1	obj	_	SpaceAfter=No|TokenRange=473:476
+3	:	:	PUNCT	:	_	1	punct	_	TokenRange=476:477
+4	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	6	nsubj	_	TokenRange=478:480
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=481:483
+6	читали	читать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpacesAfter=\r\n|TokenRange=484:490
+7	Сии	сей	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur	9	det	_	TokenRange=492:495
+8	кровавые	кровавый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	TokenRange=496:504
+9	скрижали	скрижаль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|TokenRange=505:513
+10	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=513:514
+
+# sent_id = 11
+# text = Вам непонятна, вам чужда Сия семейная вражда;
+1	Вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	2	iobj	_	TokenRange=516:519
+2	непонятна	непонятный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=520:529
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=529:530
+4	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	5	iobj	_	TokenRange=531:534
+5	чужда	чужда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	SpacesAfter=\r\n|TokenRange=535:540
+6	Сия	сей	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	8	det	_	TokenRange=542:545
+7	семейная	семейный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=546:554
+8	вражда	вражда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=555:561
+9	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=561:562
+
+# sent_id = 12
+# text = Для вас безмолвны Кремль и Прага; Бессмысленно прельщает вас Борьбы отчаянной отвага — И ненавидите вы нас...
+1	Для	для	ADP	IN	_	2	case	_	TokenRange=564:567
+2	вас	вы	PRON	PRP	Case=Gen|Number=Plur|Person=2	3	obl	_	TokenRange=568:571
+3	безмолвны	безмолвный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=572:581
+4	Кремль	Кремль	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=582:588
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=589:590
+6	Прага	Прага	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=591:596
+7	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=596:597
+8	Бессмысленно	бессмысленно	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=599:611
+9	прельщает	прельщать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=612:621
+10	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	9	obj	_	SpacesAfter=\r\n|TokenRange=622:625
+11	Борьбы	борьба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	TokenRange=627:633
+12	отчаянной	отчаянный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	TokenRange=634:643
+13	отвага	отвага	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=644:650
+14	—	—	PUNCT	--	_	16	punct	_	SpacesAfter=\r\n|TokenRange=651:652
+15	И	и	CCONJ	CC	_	16	cc	_	TokenRange=654:655
+16	ненавидите	ненавидеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=656:666
+17	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	16	nsubj	_	TokenRange=667:669
+18	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	16	obj	_	SpaceAfter=No|TokenRange=670:673
+19	...	...	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=673:676
+
+# sent_id = 13
+# text = За что ж? ответствуйте: за то ли, Что на развалинах пылающей Москвы Мы не признали наглой воли Того, под кем дрожали вы?
+1	За	за	ADP	IN	_	2	case	_	TokenRange=678:680
+2	что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	TokenRange=681:684
+3	ж	же	PART	UH	_	2	advmod	_	SpaceAfter=No|TokenRange=685:686
+4	?	?	PUNCT	.	_	2	punct	_	TokenRange=686:687
+5	ответствуйте	ответствовать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=688:700
+6	:	:	PUNCT	:	_	5	punct	_	TokenRange=700:701
+7	за	за	ADP	IN	_	8	case	_	TokenRange=702:704
+8	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	TokenRange=705:707
+9	ли	ли	PART	UH	_	8	advmod	_	SpaceAfter=No|TokenRange=708:710
+10	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=710:711
+11	Что	что	SCONJ	IN	_	18	mark	_	TokenRange=713:716
+12	на	на	ADP	IN	_	13	case	_	TokenRange=717:719
+13	развалинах	развалина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	TokenRange=720:730
+14	пылающей	пылать	VERB	VBNL	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	_	TokenRange=731:739
+15	Москвы	Москва	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpacesAfter=\r\n|TokenRange=740:746
+16	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	18	nsubj	_	TokenRange=748:750
+17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	TokenRange=751:753
+18	признали	признать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl	_	TokenRange=754:762
+19	наглой	наглый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	TokenRange=763:769
+20	воли	воля	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obj	_	SpacesAfter=\r\n|TokenRange=770:774
+21	Того	тот	DET	DT	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|TokenRange=776:780
+22	,	,	PUNCT	,	_	25	punct	_	TokenRange=780:781
+23	под	под	ADP	IN	_	24	case	_	TokenRange=782:785
+24	кем	кто	PRON	AWP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	TokenRange=786:789
+25	дрожали	дрожать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	TokenRange=790:797
+26	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	25	nsubj	_	SpaceAfter=No|TokenRange=798:800
+27	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=800:801
+
+# sent_id = 14
+# text = За то ль, что в бездну повалили Мы тяготеющий над царствами кумир И нашей кровью искупили Европы вольность, честь и мир?
+1	За	за	ADP	IN	_	2	case	_	TokenRange=803:805
+2	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	TokenRange=806:808
+3	ль	ль	PART	UH	_	2	advmod	_	SpaceAfter=No|TokenRange=809:811
+4	,	,	PUNCT	,	_	8	punct	_	TokenRange=811:812
+5	что	что	SCONJ	IN	_	8	mark	_	TokenRange=813:816
+6	в	в	ADP	IN	_	7	case	_	TokenRange=817:818
+7	бездну	бездна	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	TokenRange=819:825
+8	повалили	повалить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	SpacesAfter=\r\n|TokenRange=826:834
+9	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	8	nsubj	_	TokenRange=836:838
+10	тяготеющий	тяготеть	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	_	TokenRange=839:849
+11	над	над	ADP	IN	_	12	case	_	TokenRange=850:853
+12	царствами	царство	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	obl	_	TokenRange=854:863
+13	кумир	кумир	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=864:869
+14	И	и	CCONJ	CC	_	17	cc	_	TokenRange=871:872
+15	нашей	наш	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	16	det	_	TokenRange=873:878
+16	кровью	кровь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	iobj	_	TokenRange=879:885
+17	искупили	искупить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpacesAfter=\r\n|TokenRange=886:894
+18	Европы	Европа	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	TokenRange=896:902
+19	вольность	вольность	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|TokenRange=903:912
+20	,	,	PUNCT	,	_	21	punct	_	TokenRange=912:913
+21	честь	честь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	conj	_	TokenRange=914:919
+22	и	и	CCONJ	CC	_	23	cc	_	TokenRange=920:921
+23	мир	мир	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No|TokenRange=922:925
+24	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=925:926
+
+# sent_id = 15
+# text = Вы грозны на словах — попробуйте на деле!
+1	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	2	nsubj	_	TokenRange=928:930
+2	грозны	грозный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=931:937
+3	на	на	ADP	IN	_	4	case	_	TokenRange=938:940
+4	словах	слово	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	nmod	_	TokenRange=941:947
+5	—	—	PUNCT	--	_	6	punct	_	TokenRange=948:949
+6	попробуйте	пробовать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=950:960
+7	на	на	ADP	IN	_	8	case	_	TokenRange=961:963
+8	деле	дело	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=964:968
+9	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=968:969
+
+# sent_id = 16
+# text = Иль старый богатырь, покойный на постеле, Не в силах завинтить свой измаильский штык?
+1	Иль	иль	CCONJ	CC	_	11	cc	_	TokenRange=971:974
+2	старый	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=975:981
+3	богатырь	богатырь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|TokenRange=982:990
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=990:991
+5	покойный	покойный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=992:1000
+6	на	на	ADP	IN	_	7	case	_	TokenRange=1001:1003
+7	постеле	постель	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=1004:1011
+8	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1011:1012
+9	Не	не	PART	NEG	Polarity=Neg	11	advmod	_	TokenRange=1014:1016
+10	в	в	ADP	IN	_	11	case	_	TokenRange=1017:1018
+11	силах	сила	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	root	_	TokenRange=1019:1024
+12	завинтить	завинтить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	acl	_	TokenRange=1025:1034
+13	свой	свой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	det	_	TokenRange=1035:1039
+14	измаильский	измаильский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=1040:1051
+15	штык	штык	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=1052:1056
+16	?	?	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=1056:1057
+
+# sent_id = 17
+# text = Иль русского царя уже бессильно слово?
+1	Иль	иль	CCONJ	CC	_	5	cc	_	TokenRange=1059:1062
+2	русского	русский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=1063:1071
+3	царя	царь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	TokenRange=1072:1076
+4	уже	уже	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=1077:1080
+5	бессильно	бессильный	ADV	RB	Degree=Pos	0	root	_	TokenRange=1081:1090
+6	слово	слово	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=1091:1096
+7	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1096:1097
+
+# sent_id = 18
+# text = Иль нам с Европой спорить ново?
+1	Иль	иль	CCONJ	CC	_	5	cc	_	TokenRange=1099:1102
+2	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	5	iobj	_	TokenRange=1103:1106
+3	с	с	ADP	IN	_	4	case	_	TokenRange=1107:1108
+4	Европой	Европа	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	TokenRange=1109:1116
+5	спорить	спорить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	TokenRange=1117:1124
+6	ново	ново	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=1125:1129
+7	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=1129:1130
+
+# sent_id = 19
+# text = Иль русский от побед отвык?
+1	Иль	иль	CCONJ	CC	_	5	cc	_	TokenRange=1132:1135
+2	русский	русский	ADJ	NN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=1136:1143
+3	от	от	ADP	IN	_	4	case	_	TokenRange=1144:1146
+4	побед	победа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	TokenRange=1147:1152
+5	отвык	отвыкнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=1153:1158
+6	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1158:1159
+
+# sent_id = 20
+# text = Иль мало нас?
+1	Иль	иль	CCONJ	CC	_	2	cc	_	TokenRange=1161:1164
+2	мало	мало	NUM	RB	Case=Nom|NumForm=Word|NumType=Card	0	root	_	TokenRange=1165:1169
+3	нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	2	obl	_	SpaceAfter=No|TokenRange=1170:1173
+4	?	?	PUNCT	.	_	2	punct	_	TokenRange=1173:1174
+
+# sent_id = 21
+# text = Или от Перми до Тавриды, От финских хладных скал до пламенной Колхиды, От потрясенного Кремля До стен недвижного Китая, Стальной щетиною сверкая, Не встанет русская земля?..
+1	Или	или	CCONJ	CC	_	28	cc	_	TokenRange=1175:1178
+2	от	от	ADP	IN	_	3	case	_	TokenRange=1179:1181
+3	Перми	Пермь	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	TokenRange=1182:1187
+4	до	до	ADP	IN	_	5	case	_	TokenRange=1188:1190
+5	Тавриды	Таврида	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=1191:1198
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=1198:1199
+7	От	от	ADP	IN	_	10	case	_	TokenRange=1201:1203
+8	финских	финский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=1204:1211
+9	хладных	хладный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=1212:1219
+10	скал	скала	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	TokenRange=1220:1224
+11	до	до	ADP	IN	_	13	case	_	TokenRange=1225:1227
+12	пламенной	пламенный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	TokenRange=1228:1237
+13	Колхиды	Колхида	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=1238:1245
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=1245:1246
+15	От	от	ADP	IN	_	17	case	_	TokenRange=1248:1250
+16	потрясенного	потрясти	VERB	VBNL	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	TokenRange=1251:1263
+17	Кремля	Кремль	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpacesAfter=\r\n|TokenRange=1264:1270
+18	До	до	ADP	IN	_	19	case	_	TokenRange=1272:1274
+19	стен	стена	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	TokenRange=1275:1279
+20	недвижного	недвижный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=1280:1290
+21	Китая	Китай	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|TokenRange=1291:1296
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=1296:1297
+23	Стальной	стальной	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	TokenRange=1299:1307
+24	щетиною	щетина	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	iobj	_	TokenRange=1308:1315
+25	сверкая	сверкать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	28	advcl	_	SpaceAfter=No|TokenRange=1316:1323
+26	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=1323:1324
+27	Не	не	PART	NEG	Polarity=Neg	28	advmod	_	TokenRange=1326:1328
+28	встанет	встать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1329:1336
+29	русская	русский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	TokenRange=1337:1344
+30	земля	земля	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	SpaceAfter=No|TokenRange=1345:1350
+31	?..	?..	PUNCT	.	_	28	punct	_	SpacesAfter=\r\n|TokenRange=1350:1353
+
+# sent_id = 22
+# text = Так высылайте ж нам, витии, Своих озлобленных сынов: Есть место им в полях России, Среди нечуждых им гробов.
+1	Так	так	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=1355:1358
+2	высылайте	высылать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1359:1368
+3	ж	же	PART	UH	_	2	advmod	_	TokenRange=1369:1370
+4	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	2	iobj	_	SpaceAfter=No|TokenRange=1371:1374
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=1374:1375
+6	витии	витии	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=1376:1381
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=1381:1382
+8	Своих	свой	DET	PRP$	Animacy=Anim|Case=Acc|Number=Plur	10	det	_	TokenRange=1384:1389
+9	озлобленных	озлобленный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	TokenRange=1390:1401
+10	сынов	сын	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|TokenRange=1402:1407
+11	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=1407:1408
+12	Есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=1410:1414
+13	место	место	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	TokenRange=1415:1420
+14	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	13	nmod	_	TokenRange=1421:1423
+15	в	в	ADP	IN	_	16	case	_	TokenRange=1424:1425
+16	полях	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	nmod	_	TokenRange=1426:1431
+17	России	Россия	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|TokenRange=1432:1438
+18	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=1438:1439
+19	Среди	среди	ADP	IN	_	22	case	_	TokenRange=1441:1446
+20	нечуждых	нечуждый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	TokenRange=1447:1455
+21	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	20	iobj	_	TokenRange=1456:1458
+22	гробов	гроб	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No|TokenRange=1459:1465
+23	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=1465:1466
+
