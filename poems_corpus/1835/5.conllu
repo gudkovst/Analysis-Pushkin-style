@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Последняя туча рассеянной бури!
+1	Последняя	последний	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=0:9
+2	туча	туча	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=10:14
+3	рассеянной	рассеять	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	TokenRange=15:25
+4	бури	буря	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=26:30
+5	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+
+# sent_id = 2
+# text = Одна ты несешься по ясной лазури, Одна ты наводишь унылую тень, Одна ты печалишь ликующий день.
+1	Одна	один	NUM	CD	Case=Nom|Gender=Fem|Number=Sing	2	det	_	TokenRange=33:37
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=38:40
+3	несешься	несешься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=41:49
+4	по	по	ADP	IN	_	6	case	_	TokenRange=50:52
+5	ясной	ясный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=53:58
+6	лазури	лазурь	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=59:65
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=65:66
+8	Одна	один	NUM	CD	Case=Nom|Gender=Fem|Number=Sing	9	nummod	_	TokenRange=68:72
+9	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=73:75
+10	наводишь	наводить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=76:84
+11	унылую	унылый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	TokenRange=85:91
+12	тень	тень	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|TokenRange=92:96
+13	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=96:97
+14	Одна	один	NUM	CD	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|NumType=Card	15	nummod	_	TokenRange=99:103
+15	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	16	nsubj	_	TokenRange=104:106
+16	печалишь	печалить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=107:115
+17	ликующий	ликующий	ADJ	VBNL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	TokenRange=116:124
+18	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|TokenRange=125:129
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=129:130
+
+# sent_id = 3
+# text = Ты небо недавно кругом облегала, И молния грозно тебя обвивала;
+1	Ты	ты	PRON	DT	Case=Nom|Number=Sing|Person=2	5	nsubj	_	TokenRange=132:134
+2	небо	небо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=135:139
+3	недавно	недавно	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=140:147
+4	кругом	кругом	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=148:154
+5	облегала	облегать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=155:163
+6	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=163:164
+7	И	и	CCONJ	CC	_	11	cc	_	TokenRange=166:167
+8	молния	молния	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	TokenRange=168:174
+9	грозно	грозно	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=175:181
+10	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	11	obj	_	TokenRange=182:186
+11	обвивала	обвивать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TokenRange=187:195
+12	;	;	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=195:196
+
+# sent_id = 4
+# text = И ты издавала таинственный гром И алчную землю поила дождем.
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=198:199
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=200:202
+3	издавала	издавать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=203:211
+4	таинственный	таинственный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=212:224
+5	гром	гром	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\r\n|TokenRange=225:229
+6	И	и	CCONJ	CC	_	9	cc	_	TokenRange=231:232
+7	алчную	алчный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=233:239
+8	землю	земля	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	TokenRange=240:245
+9	поила	поить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=246:251
+10	дождем	дождь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	iobj	_	SpaceAfter=No|TokenRange=252:258
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=258:259
+
+# sent_id = 5
+# text = Довольно, сокройся!
+1	Довольно	довольно	ADV	RB	Degree=Pos	3	parataxis	_	SpaceAfter=No|TokenRange=261:269
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=269:270
+3	сокройся	сокрояться	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=271:279
+4	!	!	PUNCT	.	_	3	punct	_	TokenRange=279:280
+
+# sent_id = 6
+# text = Пора миновалась, Земля освежилась, и буря промчалась, И ветер, лаская листочки древес, Тебя с успокоенных гонит небес.
+1	Пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=281:285
+2	миновалась	миноваться	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=286:296
+3	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=296:297
+4	Земля	земля	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	TokenRange=299:304
+5	освежилась	освежиться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No|TokenRange=305:315
+6	,	,	PUNCT	,	_	9	punct	_	TokenRange=315:316
+7	и	и	CCONJ	CC	_	9	cc	_	TokenRange=317:318
+8	буря	буря	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	TokenRange=319:323
+9	промчалась	промчаться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No|TokenRange=324:334
+10	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=334:335
+11	И	и	CCONJ	CC	_	21	cc	_	TokenRange=337:338
+12	ветер	ветер	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No|TokenRange=339:344
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=344:345
+14	лаская	ласкать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	advcl	_	TokenRange=346:352
+15	листочки	листочек	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	TokenRange=353:361
+16	древес	древес	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No|TokenRange=362:368
+17	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=368:369
+18	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	21	obj	_	TokenRange=371:375
+19	с	с	ADP	IN	_	20	case	_	TokenRange=376:377
+20	успокоенных	успокоить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	obl	_	TokenRange=378:389
+21	гонит	гнать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=390:395
+22	небес	небо	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	obj	_	SpaceAfter=No|TokenRange=396:401
+23	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=401:402
+

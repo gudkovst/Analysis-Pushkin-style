@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Отрок милый, отрок нежный, Не стыдись, навек ты мой; Тот же в нас огонь мятежный, Жизнью мы живем одной.
+1	Отрок	отрок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=0:5
+2	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=6:11
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=11:12
+4	отрок	отрок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=13:18
+5	нежный	нежный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=19:25
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+7	Не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=28:30
+8	стыдись	стыдиться	VERB	VBG	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No|TokenRange=31:38
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=38:39
+10	навек	навек	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=40:45
+11	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	12	nsubj	_	TokenRange=46:48
+12	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No|TokenRange=49:52
+13	;	;	PUNCT	:	_	19	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+14	Тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	19	det	_	TokenRange=55:58
+15	же	же	PART	UH	_	14	advmod	_	TokenRange=59:61
+16	в	в	ADP	IN	_	17	case	_	TokenRange=62:63
+17	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	19	nmod	_	TokenRange=64:67
+18	огонь	огонь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	TokenRange=68:73
+19	мятежный	мятежный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=74:82
+20	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+21	Жизнью	жизнь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	TokenRange=85:91
+22	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	23	nsubj	_	TokenRange=92:94
+23	живем	жить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	TokenRange=95:100
+24	одной	один	NUM	CD	Case=Ins|Gender=Fem|Number=Sing	23	xcomp	_	SpaceAfter=No|TokenRange=101:106
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+
+# sent_id = 2
+# text = Не боюся я насмешек: Мы сдвоились меж собой, Мы точь-в-точь двойной орешек Под единой скорлупой.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=109:111
+2	боюся	бояться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=112:117
+3	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=118:119
+4	насмешек	насмешек	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=120:128
+5	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+6	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	TokenRange=131:133
+7	сдвоились	сдвоиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	parataxis	_	TokenRange=134:143
+8	меж	меж	ADP	IN	_	9	case	_	TokenRange=144:147
+9	собой	себя	PRON	PRP	Case=Ins|Reflex=Yes	7	obl	_	SpaceAfter=No|TokenRange=148:153
+10	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=153:154
+11	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	17	nsubj	_	TokenRange=156:158
+12	точь	точь	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No|TokenRange=159:163
+13	-в	-в	PUNCT	-	_	15	punct	_	SpaceAfter=No|TokenRange=163:165
+14	-	-	PUNCT	-	_	15	punct	_	SpaceAfter=No|TokenRange=165:166
+15	точь	точь	ADV	RB	_	12	advmod	_	TokenRange=166:170
+16	двойной	двойной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=171:178
+17	орешек	орешек	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	SpacesAfter=\r\n|TokenRange=179:185
+18	Под	под	ADP	IN	_	20	case	_	TokenRange=187:190
+19	единой	единый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	TokenRange=191:197
+20	скорлупой	скорлупа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|TokenRange=198:207
+21	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=207:208
+

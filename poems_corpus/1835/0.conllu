@@ -1,1 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Узнают коней ретивых По их выжженным таврам; Узнают парфян кичливых По высоким клобукам;
+1	Узнают	узнавать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:6
+2	коней	конь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	TokenRange=7:12
+3	ретивых	ретивый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	SpacesAfter=\r\n|TokenRange=13:20
+4	По	по	ADP	IN	_	7	case	_	TokenRange=22:24
+5	их	их	DET	PRP$	_	7	det	_	TokenRange=25:27
+6	выжженным	выжечь	VERB	VBNL	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	TokenRange=28:37
+7	таврам	тавр	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No|TokenRange=38:44
+8	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=44:45
+9	Узнают	узнавать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=47:53
+10	парфян	парфянин	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	TokenRange=54:60
+11	кичливых	кичливый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\r\n|TokenRange=61:69
+12	По	по	ADP	IN	_	14	case	_	TokenRange=71:73
+13	высоким	высокий	ADJ	JJL	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	TokenRange=74:81
+14	клобукам	клобук	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|TokenRange=82:90
+15	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+
+# sent_id = 2
+# text = Я любовников счастливых Узнаю по их глазам: В них сияет пламень томный — Наслаждений знак нескромный.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=93:94
+2	любовников	любовник	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	TokenRange=95:105
+3	счастливых	счастливый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	SpacesAfter=\r\n|TokenRange=106:116
+4	Узнаю	узнавать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=118:123
+5	по	по	ADP	IN	_	7	case	_	TokenRange=124:126
+6	их	их	DET	PRP$	_	7	det	_	TokenRange=127:129
+7	глазам	глаз	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|TokenRange=130:136
+8	:	:	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+9	В	в	ADP	IN	_	10	case	_	TokenRange=139:140
+10	них	они	PRON	PRP	Case=Loc|Number=Plur|Person=3	11	obl	_	TokenRange=141:144
+11	сияет	сиять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	TokenRange=145:150
+12	пламень	пламень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=151:158
+13	томный	томный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	TokenRange=159:165
+14	—	—	PUNCT	--	_	15	punct	_	SpacesAfter=\r\n|TokenRange=166:167
+15	Наслаждений	наслаждение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	appos	_	TokenRange=169:180
+16	знак	знак	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	TokenRange=181:185
+17	нескромный	нескромный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=186:196
+18	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=196:197
 

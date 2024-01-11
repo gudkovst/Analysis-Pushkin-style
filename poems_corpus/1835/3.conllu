@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Юношу, горько рыдая, ревнивая дева бранила;
+1	Юношу	юноша	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=0:5
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=5:6
+3	горько	горько	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=7:13
+4	рыдая	рыдый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=14:19
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=19:20
+6	ревнивая	ревнивый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	TokenRange=21:29
+7	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	TokenRange=30:34
+8	бранила	бранить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=35:42
+9	;	;	PUNCT	:	_	8	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+
+# sent_id = 2
+# text = К ней на плечо преклонен, юноша вдруг задремал.
+1	К	к	ADP	IN	_	2	case	_	TokenRange=45:46
+2	ней	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	obl	_	TokenRange=47:50
+3	на	на	ADP	IN	_	4	case	_	TokenRange=51:53
+4	плечо	плечо	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	TokenRange=54:59
+5	преклонен	преклонить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=60:69
+6	,	,	PUNCT	,	_	5	punct	_	TokenRange=69:70
+7	юноша	юноша	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=71:76
+8	вдруг	вдруг	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=77:82
+9	задремал	задремать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No|TokenRange=83:91
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=91:92
+
+# sent_id = 3
+# text = Дева тотчас умолкла, сон его легкий лелея, И улыбалась ему, тихие слезы лия.
+1	Дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=94:98
+2	тотчас	тотчас	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=99:105
+3	умолкла	умолкнуть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=106:113
+4	,	,	PUNCT	,	_	8	punct	_	TokenRange=113:114
+5	сон	сон	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=115:118
+6	его	его	DET	PRP$	_	5	det	_	TokenRange=119:122
+7	легкий	легкий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=123:129
+8	лелея	лелеть	VERB	VBC	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=130:135
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=135:136
+10	И	и	CCONJ	CC	_	11	cc	_	TokenRange=138:139
+11	улыбалась	улыбаться	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	TokenRange=140:149
+12	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	iobj	_	SpaceAfter=No|TokenRange=150:153
+13	,	,	PUNCT	,	_	16	punct	_	TokenRange=153:154
+14	тихие	тихий	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	TokenRange=155:160
+15	слезы	слеза	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	TokenRange=161:166
+16	лия	лиять	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	parataxis	_	SpaceAfter=No|TokenRange=167:170
+17	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=170:171
+

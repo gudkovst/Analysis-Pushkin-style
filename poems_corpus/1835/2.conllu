@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Что же сухо в чаше дно?
+1	Что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	TokenRange=0:3
+2	же	же	PART	UH	_	1	advmod	_	TokenRange=4:6
+3	сухо	сухой	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	TokenRange=7:11
+4	в	в	ADP	IN	_	5	case	_	TokenRange=12:13
+5	чаше	чаша	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	TokenRange=14:18
+6	дно	дно	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=19:22
+7	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=22:23
+
+# sent_id = 2
+# text = Наливай мне, мальчик резвый, Только пьяное вино Раствори водою трезвой.
+1	Наливай	наливать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=25:32
+2	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	1	iobj	_	SpaceAfter=No|TokenRange=33:36
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=36:37
+4	мальчик	мальчик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=38:45
+5	резвый	резвый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No|TokenRange=46:52
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+7	Только	только	PART	UH	_	10	advmod	_	TokenRange=55:61
+8	пьяное	пьяный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	TokenRange=62:68
+9	вино	вино	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpacesAfter=\r\n|TokenRange=69:73
+10	Раствори	растворить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=75:83
+11	водою	вода	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obj	_	TokenRange=84:89
+12	трезвой	трезвый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	xcomp	_	SpaceAfter=No|TokenRange=90:97
+13	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+
+# sent_id = 3
+# text = Мы не скифы, не люблю, Други, пьянствовать бесчинно: Нет, за чашей я пою Иль беседую невинно.
+1	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	TokenRange=100:102
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=103:105
+3	скифы	скиф	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=106:111
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=111:112
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=113:115
+6	люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=116:121
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=121:122
+8	Други	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No|TokenRange=124:129
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=129:130
+10	пьянствовать	пьянствовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	TokenRange=131:143
+11	бесчинно	бесчинно	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No|TokenRange=144:152
+12	:	:	PUNCT	:	_	18	punct	_	SpacesAfter=\r\n|TokenRange=152:153
+13	Нет	нет	PART	NEG	Polarity=Neg	18	parataxis	_	SpaceAfter=No|TokenRange=155:158
+14	,	,	PUNCT	,	_	13	punct	_	TokenRange=158:159
+15	за	за	ADP	IN	_	16	case	_	TokenRange=160:162
+16	чашей	чаша	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	TokenRange=163:168
+17	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	TokenRange=169:170
+18	пою	пой	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	SpacesAfter=\r\n|TokenRange=171:174
+19	Иль	иль	PART	UH	_	20	cc	_	TokenRange=176:179
+20	беседую	беседовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	TokenRange=180:187
+21	невинно	невинно	ADV	RB	Degree=Pos	20	advmod	_	SpaceAfter=No|TokenRange=188:195
+22	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=195:196
+

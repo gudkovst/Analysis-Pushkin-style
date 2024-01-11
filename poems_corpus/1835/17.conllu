@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В Академии наук Заседает князь Дундук.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	Академии	академия	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=2:10
+3	наук	наука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpacesAfter=\r\n|TokenRange=11:15
+4	Заседает	заседать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=17:25
+5	князь	князь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=26:31
+6	Дундук	Дундук	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=32:38
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=38:39
+
+# sent_id = 2
+# text = Говорят, не подобает Дундуку такая честь; Почему ж он заседает?
+1	Говорят	говорить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=41:48
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=48:49
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=50:52
+4	подобает	подобать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=53:61
+5	Дундуку	Дундук	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	TokenRange=63:70
+6	такая	такой	DET	DT	Case=Nom|Gender=Fem|Number=Sing	7	det	_	TokenRange=71:76
+7	честь	честь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=77:82
+8	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+9	Почему	почему	ADV	WRB	Degree=Pos	12	advmod	_	TokenRange=85:91
+10	ж	же	PART	UH	_	9	advmod	_	TokenRange=92:93
+11	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	TokenRange=94:96
+12	заседает	заседать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=97:105
+13	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=105:106
+
+# sent_id = 3
+# text = Потому что есть чем сесть.
+1	Потому	потому	SCONJ	IN	_	3	mark	_	TokenRange=108:114
+2	что	что	SCONJ	IN	_	1	fixed	_	TokenRange=115:118
+3	есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=119:123
+4	чем	что	PRON	WP	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	iobj	_	TokenRange=124:127
+5	сесть	сесть	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	SpaceAfter=No|TokenRange=128:133
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=133:134
+

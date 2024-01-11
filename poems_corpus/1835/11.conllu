@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я думал, сердце позабыло Способность легкую страдать, Я говорил: тому, что было, Уж не бывать! уж не бывать!
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	думал	думать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=2:7
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=7:8
+4	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=9:15
+5	позабыло	позабыть	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	SpacesAfter=\r\n|TokenRange=16:24
+6	Способность	способность	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	TokenRange=26:37
+7	легкую	легкий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	obj	_	TokenRange=38:44
+8	страдать	страдать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	acl	_	SpaceAfter=No|TokenRange=45:53
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+10	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=56:57
+11	говорил	говорить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=58:65
+12	:	:	PUNCT	:	_	20	punct	_	TokenRange=65:66
+13	тому	то	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	iobj	_	SpaceAfter=No|TokenRange=67:71
+14	,	,	PUNCT	,	_	16	punct	_	TokenRange=71:72
+15	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	TokenRange=73:76
+16	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpaceAfter=No|TokenRange=77:81
+17	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=81:82
+18	Уж	уж	PART	RB	_	20	advmod	_	TokenRange=84:86
+19	не	не	PART	NEG	Polarity=Neg	20	advmod	_	TokenRange=87:89
+20	бывать	бывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	11	ccomp	_	SpaceAfter=No|TokenRange=90:96
+21	!	!	PUNCT	.	_	20	punct	_	TokenRange=96:97
+22	уж	уж	PART	UH	_	24	advmod	_	TokenRange=98:100
+23	не	не	PART	NEG	Polarity=Neg	24	advmod	_	TokenRange=101:103
+24	бывать	бывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	20	conj	_	SpaceAfter=No|TokenRange=104:110
+25	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=110:111
+
+# sent_id = 2
+# text = Прошли восторги, и печали!
+1	Прошли	пройти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=113:119
+2	восторги	восторг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No|TokenRange=120:128
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=128:129
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=130:131
+5	печали	печаль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=132:138
+6	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=138:139
+
+# sent_id = 3
+# text = И легковерные мечты...
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=141:142
+2	легковерные	легковерный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	TokenRange=143:154
+3	мечты	мечта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=155:160
+4	...	...	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=160:163
+
+# sent_id = 4
+# text = Но вот опять затрепетали Пред мощной властью красоты.
+1	Но	но	CCONJ	CC	_	4	cc	_	TokenRange=165:167
+2	вот	вот	PART	UH	_	4	advmod	_	TokenRange=168:171
+3	опять	опять	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=172:177
+4	затрепетали	затрепетать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=178:189
+5	Пред	пред	ADP	IN	_	7	case	_	TokenRange=191:195
+6	мощной	мощный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=196:202
+7	властью	власть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	TokenRange=203:210
+8	красоты	красота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=211:218
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=218:219
+

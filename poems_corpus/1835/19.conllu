@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ты мне советуешь, Плетнев любезный, Оставленный роман наш продолжать И строгий век, расчета век железный, Рассказами пустыми угощать.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=0:2
+2	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	3	iobj	_	TokenRange=3:6
+3	советуешь	советовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=7:16
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=16:17
+5	Плетнев	Плетнев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=18:25
+6	любезный	любезный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|TokenRange=26:34
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=34:35
+8	Оставленный	оставить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	TokenRange=37:48
+9	роман	роман	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	TokenRange=49:54
+10	наш	наш	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	det	_	TokenRange=55:58
+11	продолжать	продолжать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	SpacesAfter=\r\n|TokenRange=59:69
+12	И	и	CCONJ	CC	_	14	cc	_	TokenRange=71:72
+13	строгий	строгий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=73:80
+14	век	век	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|TokenRange=81:84
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=84:85
+16	расчета	расчет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	TokenRange=86:93
+17	век	век	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	TokenRange=94:97
+18	железный	железный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No|TokenRange=98:106
+19	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+20	Рассказами	рассказ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	iobj	_	TokenRange=109:119
+21	пустыми	пустой	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	22	xcomp	_	TokenRange=120:127
+22	угощать	угощать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=128:135
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=135:136
+
+# sent_id = 2
+# text = Ты думаешь, что с целию полезной Тревогу славы можно сочетать, И что нашему собрату Брать с публики умеренную плату.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=138:140
+2	думаешь	думать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=141:148
+3	,	,	PUNCT	,	_	10	punct	_	TokenRange=148:149
+4	что	что	SCONJ	IN	_	10	mark	_	TokenRange=150:153
+5	с	с	ADP	IN	_	6	case	_	TokenRange=154:155
+6	целию	целие	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	TokenRange=156:161
+7	полезной	полезный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\r\n|TokenRange=162:170
+8	Тревогу	тревога	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	TokenRange=172:179
+9	славы	слава	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	TokenRange=180:185
+10	можно	можно	VERB	PRED	_	2	ccomp	_	TokenRange=186:191
+11	сочетать	сочетать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No|TokenRange=192:200
+12	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=200:201
+13	И	и	CCONJ	CC	_	17	cc	_	TokenRange=203:204
+14	что	что	SCONJ	IN	_	17	mark	_	TokenRange=205:208
+15	нашему	наш	DET	PRP$	Case=Dat|Gender=Masc|Number=Sing	16	det	_	TokenRange=209:215
+16	собрату	собрат	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	SpacesAfter=\r\n|TokenRange=216:223
+17	Брать	брать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	TokenRange=225:230
+18	с	с	ADP	IN	_	19	case	_	TokenRange=231:232
+19	публики	публика	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	TokenRange=233:240
+20	умеренную	умеренный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=241:250
+21	плату	плата	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|TokenRange=251:256
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=256:257
+
+# sent_id = 3
+# text = Ты говоришь: пока Онегин жив, Дотоль роман не кончен — нет причины Его прервать... к тому же план счастлив —
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=259:261
+2	говоришь	говорить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=262:270
+3	:	:	PUNCT	:	_	2	punct	_	TokenRange=270:271
+4	пока	пока	SCONJ	IN	_	6	mark	_	TokenRange=272:276
+5	Онегин	Онегин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=277:283
+6	жив	живой	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	advcl	_	SpaceAfter=No|TokenRange=284:287
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=287:288
+8	Дотоль	дотоль	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=290:296
+9	роман	роман	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	TokenRange=297:302
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	TokenRange=303:305
+11	кончен	кончить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	ccomp	_	TokenRange=306:312
+12	—	—	PUNCT	--	_	13	punct	_	TokenRange=313:314
+13	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	TokenRange=315:318
+14	причины	причина	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	SpacesAfter=\r\n|TokenRange=319:326
+15	Его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	TokenRange=328:331
+16	прервать	прервать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	acl	_	SpaceAfter=No|TokenRange=332:340
+17	...	...	PUNCT	.	_	22	punct	_	TokenRange=340:343
+18	к	к	ADP	IN	_	19	case	_	TokenRange=344:345
+19	тому	то	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	obl	_	TokenRange=346:350
+20	же	же	PART	UH	_	19	advmod	_	TokenRange=351:353
+21	план	план	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	TokenRange=354:358
+22	счастлив	счастливый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	parataxis	_	TokenRange=359:367
+23	—	—	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=368:369
+

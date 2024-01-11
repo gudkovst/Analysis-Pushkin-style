@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Если ехать вам случится От *** на *, Там, где Л. струится Меж отлогих берегов,— От большой дороги справа, Между полем и селом, Вам представится дубрава, Слева сад и барский дом.
+1	Если	если	SCONJ	IN	_	4	mark	_	TokenRange=0:4
+2	ехать	ехать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=5:10
+3	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	2	iobj	_	TokenRange=11:14
+4	случится	случиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	31	advcl	_	SpacesAfter=\r\n|TokenRange=15:23
+5	От	от	ADP	IN	_	6	case	_	TokenRange=25:27
+6	***	***	SYM	SYM	_	4	obl	_	TokenRange=28:31
+7	на	на	ADP	IN	_	8	case	_	TokenRange=32:34
+8	*	*	SYM	SYM	_	4	obl	_	SpaceAfter=No|TokenRange=35:36
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=36:37
+10	Там	там	ADV	RB	Degree=Pos	31	advmod	_	SpaceAfter=No|TokenRange=39:42
+11	,	,	PUNCT	,	_	14	punct	_	TokenRange=42:43
+12	где	где	ADV	WRB	_	14	advmod	_	TokenRange=44:47
+13	Л.	Л.	PROPN	NNP	Abbr=Yes	14	nsubj	_	TokenRange=48:50
+14	струится	струиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	acl:relcl	_	SpacesAfter=\r\n|TokenRange=51:59
+15	Меж	меж	ADP	IN	_	17	case	_	TokenRange=61:64
+16	отлогих	отлогий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	TokenRange=65:72
+17	берегов	берег	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No|TokenRange=73:80
+18	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No|TokenRange=80:81
+19	—	—	PUNCT	--	_	31	punct	_	SpacesAfter=\r\n|TokenRange=81:82
+20	От	от	ADP	IN	_	22	case	_	TokenRange=84:86
+21	большой	большой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	TokenRange=87:94
+22	дороги	дорога	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	obl	_	TokenRange=95:101
+23	справа	справа	ADV	RB	Degree=Pos	22	advmod	_	SpaceAfter=No|TokenRange=102:108
+24	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\r\n|TokenRange=108:109
+25	Между	между	ADP	IN	_	26	case	_	TokenRange=111:116
+26	полем	поле	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	conj	_	TokenRange=117:122
+27	и	и	CCONJ	CC	_	28	cc	_	TokenRange=123:124
+28	селом	село	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	conj	_	SpaceAfter=No|TokenRange=125:130
+29	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=130:131
+30	Вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	31	iobj	_	TokenRange=133:136
+31	представится	представиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=137:149
+32	дубрава	дубрава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No|TokenRange=150:157
+33	,	,	PUNCT	,	_	35	punct	_	SpacesAfter=\r\n|TokenRange=157:158
+34	Слева	слева	ADV	RB	Degree=Pos	31	conj	_	TokenRange=160:165
+35	сад	сад	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	TokenRange=166:169
+36	и	и	CCONJ	CC	_	38	cc	_	TokenRange=170:171
+37	барский	барский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	TokenRange=172:179
+38	дом	дом	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No|TokenRange=180:183
+39	.	.	PUNCT	.	_	31	punct	_	SpacesAfter=\r\n|TokenRange=183:184
+
+# sent_id = 2
+# text = Летом, в час, как за холмами Утопает солнца шар, Дом облит его лучами, Окна блещут как пожар, И, ездой скучая, мимо развлечен, Путник смотрит невидимо На семейство, на балкон.
+1	Летом	лето	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|TokenRange=186:191
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=191:192
+3	в	в	ADP	IN	_	4	case	_	TokenRange=193:194
+4	час	час	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|TokenRange=195:198
+5	,	,	PUNCT	,	_	9	punct	_	TokenRange=198:199
+6	как	как	ADV	WRB	_	9	advmod	_	TokenRange=200:203
+7	за	за	ADP	IN	_	8	case	_	TokenRange=204:206
+8	холмами	холм	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	SpacesAfter=\r\n|TokenRange=207:214
+9	Утопает	утопать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	TokenRange=216:223
+10	солнца	солнце	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nsubj	_	TokenRange=224:230
+11	шар	шар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=231:234
+12	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=234:235
+13	Дом	дом	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=237:240
+14	облит	облить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=241:246
+15	его	его	DET	PRP$	_	16	det	_	TokenRange=247:250
+16	лучами	луч	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	iobj	_	SpaceAfter=No|TokenRange=251:257
+17	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=257:258
+18	Окна	окно	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	TokenRange=260:264
+19	блещут	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=265:271
+20	как	как	ADP	IN	_	21	case	_	TokenRange=272:275
+21	пожар	пожар	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|TokenRange=276:281
+22	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\r\n|TokenRange=281:282
+23	И	и	CCONJ	CC	_	32	cc	_	SpaceAfter=No|TokenRange=284:285
+24	,	,	PUNCT	,	_	26	punct	_	TokenRange=285:286
+25	ездой	езда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	iobj	_	TokenRange=287:292
+26	скучая	скучать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	29	advcl	_	SpaceAfter=No|TokenRange=293:299
+27	,	,	PUNCT	,	_	26	punct	_	TokenRange=299:300
+28	мимо	мимо	ADV	RB	Degree=Pos	29	advmod	_	SpacesAfter=\r\n|TokenRange=301:305
+29	развлечен	развлечь	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	conj	_	SpaceAfter=No|TokenRange=307:316
+30	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=316:317
+31	Путник	путник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	TokenRange=319:325
+32	смотрит	смотреть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=326:333
+33	невидимо	невидимо	ADV	RB	Degree=Pos	32	advmod	_	SpacesAfter=\r\n|TokenRange=334:342
+34	На	на	ADP	IN	_	35	case	_	TokenRange=344:346
+35	семейство	семейство	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obl	_	SpaceAfter=No|TokenRange=347:356
+36	,	,	PUNCT	,	_	38	punct	_	TokenRange=356:357
+37	на	на	ADP	IN	_	38	case	_	TokenRange=358:360
+38	балкон	балкон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No|TokenRange=361:367
+39	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No|TokenRange=367:368
+

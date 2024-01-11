@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Поредели, побелели Кудри, честь главы моей, Зубы в деснах ослабели, И потух огонь очей.
+1	Поредели	поредеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=0:8
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=8:9
+3	побелели	побелеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpacesAfter=\r\n|TokenRange=10:18
+4	Кудри	Кудри	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No|TokenRange=20:25
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=25:26
+6	честь	честь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	TokenRange=27:32
+7	главы	глава	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=33:38
+8	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	7	det	_	SpaceAfter=No|TokenRange=39:43
+9	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=43:44
+10	Зубы	зуб	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	TokenRange=46:50
+11	в	в	ADP	IN	_	12	case	_	TokenRange=51:52
+12	деснах	десна	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	TokenRange=53:59
+13	ослабели	ослабеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=60:68
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=68:69
+15	И	и	CCONJ	CC	_	16	cc	_	TokenRange=71:72
+16	потух	потухнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=73:78
+17	огонь	огонь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	TokenRange=79:84
+18	очей	очей	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No|TokenRange=85:89
+19	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=89:90
+
+# sent_id = 2
+# text = Сладкой жизни мне не много Провожать осталось дней: Парка счет ведет им строго, Тартар тени ждет моей.
+1	Сладкой	сладкий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=92:99
+2	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	TokenRange=100:105
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	7	iobj	_	TokenRange=106:109
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	TokenRange=110:112
+5	много	много	ADV	RB	Degree=Pos	6	advmod	_	SpacesAfter=\r\n|TokenRange=113:118
+6	Провожать	провожать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	TokenRange=120:129
+7	осталось	остаться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=130:138
+8	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|TokenRange=139:143
+9	:	:	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+10	Парка	парка	ADJ	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	amod	_	TokenRange=146:151
+11	счет	счет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=152:156
+12	ведет	вести	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	TokenRange=157:162
+13	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	12	iobj	_	TokenRange=163:165
+14	строго	строго	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No|TokenRange=166:172
+15	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=172:173
+16	Тартар	Тартар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=175:181
+17	тени	тень	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	TokenRange=182:186
+18	ждет	ждать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	TokenRange=187:191
+19	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	18	det	_	SpaceAfter=No|TokenRange=192:196
+20	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=196:197
+
+# sent_id = 3
+# text = Не воскреснем из-под спуда, Всяк навеки там забыт: Вход туда для всех открыт — Нет исхода уж оттуда.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=199:201
+2	воскреснем	воскреснуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=202:212
+3	из-под	из-под	ADP	IN	_	4	case	_	TokenRange=213:219
+4	спуда	спуд	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=220:225
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=225:226
+6	Всяк	всяк	ADV	RB	Degree=Pos	9	nsubj:pass	_	TokenRange=228:232
+7	навеки	навеки	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=233:239
+8	там	там	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=240:243
+9	забыт	забыть	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No|TokenRange=244:249
+10	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=249:250
+11	Вход	вход	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	TokenRange=252:256
+12	туда	туда	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=257:261
+13	для	для	ADP	IN	_	14	case	_	TokenRange=262:265
+14	всех	все	PRON	DT	Animacy=Anim|Case=Gen|Number=Plur	15	obl	_	TokenRange=266:270
+15	открыт	открыть	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	parataxis	_	TokenRange=271:277
+16	—	—	PUNCT	--	_	17	punct	_	SpacesAfter=\r\n|TokenRange=278:279
+17	Нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	TokenRange=281:284
+18	исхода	исход	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obj	_	TokenRange=285:291
+19	уж	уж	PART	UH	_	20	advmod	_	TokenRange=292:294
+20	оттуда	оттуда	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No|TokenRange=295:301
+21	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=301:302
+
