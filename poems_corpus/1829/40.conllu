@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В журнал совсем не европейский, Где чахнет старый журналист,
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	журнал	журнал	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	TokenRange=2:8
+3	совсем	совсем	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=9:15
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	TokenRange=16:18
+5	европейский	европейский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=19:30
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+7	Где	где	ADV	WRB	_	8	advmod	_	TokenRange=33:36
+8	чахнет	чахнуть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	TokenRange=37:43
+9	старый	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=44:50
+10	журналист	журналист	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=51:60
+11	,	,	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=60:61
+
+# sent_id = 2
+# text = С своею прозою лакейской Взошел болван семинарист.
+1	С	с	ADP	IN	_	3	case	_	TokenRange=63:64
+2	своею	свой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	3	det	_	TokenRange=65:70
+3	прозою	проза	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	TokenRange=71:77
+4	лакейской	лакейский	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpacesAfter=\r\n|TokenRange=78:87
+5	Взошел	взойти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=89:95
+6	болван	болван	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=96:102
+7	семинарист	семинарист	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No|TokenRange=103:113
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=113:114
+

@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не пленяйся бранной славой, О красавец молодой!
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	пленяйся	пленяться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=3:11
+3	бранной	бранный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=12:19
+4	славой	слава	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=20:26
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+6	О	о	INTJ	IN	_	7	discourse	_	TokenRange=29:30
+7	красавец	красавец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=31:39
+8	молодой	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=40:47
+9	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=47:48
+
+# sent_id = 2
+# text = Не бросайся в бой кровавый С карабахскою толпой!
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=50:52
+2	бросайся	бросаться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=53:61
+3	в	в	ADP	IN	_	4	case	_	TokenRange=62:63
+4	бой	бой	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	TokenRange=64:67
+5	кровавый	кровавый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	obj	_	SpacesAfter=\r\n|TokenRange=68:76
+6	С	с	ADP	IN	_	8	case	_	TokenRange=78:79
+7	карабахскою	карабахский	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=80:91
+8	толпой	толпа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=92:98
+9	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=98:99
+
+# sent_id = 3
+# text = Знаю: смерть тебя не встретит; Азраил, среди мечей, Красоту твою заметит — И пощада будет ей!
+1	Знаю	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=101:105
+2	:	:	PUNCT	:	_	1	punct	_	TokenRange=105:106
+3	смерть	смерть	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=107:113
+4	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	6	obj	_	TokenRange=114:118
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=119:121
+6	встретит	встретить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No|TokenRange=122:130
+7	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=130:131
+8	Азраил	Азраил	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No|TokenRange=133:139
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=139:140
+10	среди	среди	ADP	IN	_	11	case	_	TokenRange=141:146
+11	мечей	меч	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No|TokenRange=147:152
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=152:153
+13	Красоту	красота	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	TokenRange=155:162
+14	твою	твой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	13	det	_	TokenRange=163:167
+15	заметит	заметить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=168:175
+16	—	—	PUNCT	--	_	15	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+17	И	и	CCONJ	CC	_	19	cc	_	TokenRange=179:180
+18	пощада	пощада	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	TokenRange=181:187
+19	будет	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	conj	_	TokenRange=188:193
+20	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	19	iobj	_	SpaceAfter=No|TokenRange=194:196
+21	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=196:197
+
+# sent_id = 4
+# text = Но боюсь: среди сражений Ты утратишь навсегда Скромность робкую движений, Прелесть неги и стыда!
+1	Но	но	CCONJ	CC	_	2	cc	_	TokenRange=199:201
+2	боюсь	бояться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=202:207
+3	:	:	PUNCT	:	_	2	punct	_	TokenRange=207:208
+4	среди	среди	ADP	IN	_	5	case	_	TokenRange=209:214
+5	сражений	сражение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	obl	_	SpacesAfter=\r\n|TokenRange=215:223
+6	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=225:227
+7	утратишь	утратить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	_	TokenRange=228:236
+8	навсегда	навсегда	ADV	RB	Degree=Pos	7	advmod	_	SpacesAfter=\r\n|TokenRange=237:245
+9	Скромность	скромность	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	TokenRange=247:257
+10	робкую	робкий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=258:264
+11	движений	движение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No|TokenRange=265:273
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=273:274
+13	Прелесть	прелесть	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	TokenRange=276:284
+14	неги	нега	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	TokenRange=285:289
+15	и	и	CCONJ	CC	_	16	cc	_	TokenRange=290:291
+16	стыда	стыд	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No|TokenRange=292:297
+17	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=297:298
+

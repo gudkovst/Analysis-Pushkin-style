@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = На холмах Грузии лежит ночная мгла; Шумит Арагва предо мною.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=0:2
+2	холмах	холм	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	TokenRange=3:9
+3	Грузии	Грузия	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	TokenRange=10:16
+4	лежит	лежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=17:22
+5	ночная	ночной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=23:29
+6	мгла	мгла	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=30:34
+7	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=34:35
+8	Шумит	шуметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	TokenRange=37:42
+9	Арагва	Арагва	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=43:49
+10	предо	предо	ADP	IN	_	11	case	_	TokenRange=50:55
+11	мною	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	8	obl	_	SpaceAfter=No|TokenRange=56:60
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=60:61
+
+# sent_id = 2
+# text = Мне грустно и легко; печаль моя светла; Печаль моя полна тобою, Тобой, одной тобой...
+1	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	2	iobj	_	TokenRange=63:66
+2	грустно	грустный	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	TokenRange=67:74
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=75:76
+4	легко	легкий	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	SpaceAfter=No|TokenRange=77:82
+5	;	;	PUNCT	:	_	8	punct	_	TokenRange=82:83
+6	печаль	печаль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=84:90
+7	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	6	det	_	TokenRange=91:94
+8	светла	светлый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	parataxis	_	SpaceAfter=No|TokenRange=95:101
+9	;	;	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=101:102
+10	Печаль	печаль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	TokenRange=104:110
+11	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	10	det	_	TokenRange=111:114
+12	полна	полный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	conj	_	TokenRange=115:120
+13	тобою	ты	PRON	DT	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	iobj	_	SpaceAfter=No|TokenRange=121:126
+14	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=126:127
+15	Тобой	ты	PRON	DT	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=129:134
+16	,	,	PUNCT	,	_	18	punct	_	TokenRange=134:135
+17	одной	один	NUM	CD	Case=Ins|Gender=Fem|Number=Sing	18	nummod	_	TokenRange=136:141
+18	тобой	ты	PRON	DT	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=142:147
+19	...	...	PUNCT	.	_	2	punct	_	TokenRange=147:150
+
+# sent_id = 3
+# text = Унынья моего Ничто не мучит, не тревожит, И сердце вновь горит и любит — оттого, Что не любить оно не может.
+1	Унынья	унынье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	TokenRange=151:157
+2	моего	мой	DET	PRP$	Case=Gen|Gender=Neut|Number=Sing	1	det	_	SpacesAfter=\r\n|TokenRange=158:163
+3	Ничто	ничто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=165:170
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	TokenRange=171:173
+5	мучит	мучить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=174:179
+6	,	,	PUNCT	,	_	8	punct	_	TokenRange=179:180
+7	не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=181:183
+8	тревожит	тревожить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TokenRange=184:192
+9	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=192:193
+10	И	и	CCONJ	CC	_	13	cc	_	TokenRange=195:196
+11	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	TokenRange=197:203
+12	вновь	вновь	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=204:209
+13	горит	гореть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=210:215
+14	и	и	CCONJ	CC	_	15	cc	_	TokenRange=216:217
+15	любит	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=218:223
+16	—	—	PUNCT	--	_	17	punct	_	TokenRange=224:225
+17	оттого	оттого	ADV	RB	Degree=Pos	15	advmod	_	SpaceAfter=No|TokenRange=226:232
+18	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=232:233
+19	Что	что	SCONJ	IN	_	24	mark	_	TokenRange=235:238
+20	не	не	PART	NEG	Polarity=Neg	21	advmod	_	TokenRange=239:241
+21	любить	любить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	TokenRange=242:248
+22	оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	24	nsubj	_	TokenRange=249:252
+23	не	не	PART	NEG	Polarity=Neg	24	advmod	_	TokenRange=253:255
+24	может	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No|TokenRange=256:261
+25	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=261:262
+

@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Напрасно видишь тут ошибку: Рука искусства навела На мрамор этих уст улыбку, А гнев на хладный лоск чела.
+1	Напрасно	напрасно	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=0:8
+2	видишь	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=9:15
+3	тут	тут	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=16:19
+4	ошибку	ошибка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=20:26
+5	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+6	Рука	рука	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=29:33
+7	искусства	искусство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	TokenRange=34:43
+8	навела	навести	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpacesAfter=\r\n|TokenRange=44:50
+9	На	на	ADP	IN	_	10	case	_	TokenRange=52:54
+10	мрамор	мрамор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	TokenRange=55:61
+11	этих	этот	DET	DT	Case=Gen|Number=Plur	12	det	_	TokenRange=62:66
+12	уст	уста	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	TokenRange=67:70
+13	улыбку	улыбка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=71:77
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=77:78
+15	А	а	CCONJ	CC	_	16	cc	_	TokenRange=80:81
+16	гнев	гнев	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	TokenRange=82:86
+17	на	на	ADP	IN	_	19	case	_	TokenRange=87:89
+18	хладный	хладный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	TokenRange=90:97
+19	лоск	лоск	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	orphan	_	TokenRange=98:102
+20	чела	чело	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|TokenRange=103:107
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+
+# sent_id = 2
+# text = Недаром лик сей двуязычен.
+1	Недаром	недаром	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=110:117
+2	лик	лик	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=118:121
+3	сей	сей	DET	DT	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=122:125
+4	двуязычен	двуязычный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=126:135
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=135:136
+
+# sent_id = 3
+# text = Таков и был сей властелин, К противочувствиям привычен,
+1	Таков	таков	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=138:143
+2	и	и	PART	UH	_	1	advmod	_	TokenRange=144:145
+3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	cop	_	TokenRange=146:149
+4	сей	сей	DET	DT	Case=Nom|Gender=Masc|Number=Sing	5	det	_	TokenRange=150:153
+5	властелин	властелин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=154:163
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=163:164
+7	К	к	ADP	IN	_	8	case	_	TokenRange=166:167
+8	противочувствиям	противочувствие	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	TokenRange=168:184
+9	привычен	привычный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	conj	_	SpaceAfter=No|TokenRange=185:193
+10	,	,	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=193:194
+
+# sent_id = 4
+# text = В лице и в жизни арлекин.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=196:197
+2	лице	лицо	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	TokenRange=198:202
+3	и	и	CCONJ	CC	_	5	cc	_	TokenRange=203:204
+4	в	в	ADP	IN	_	5	case	_	TokenRange=205:206
+5	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	TokenRange=207:212
+6	арлекин	арлекин	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=213:220
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=220:221
+

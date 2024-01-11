@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Блеща средь полей широких, Вон он льется!..
+1	Блеща	блеть	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	root	_	TokenRange=0:5
+2	средь	средь	ADP	IN	_	3	case	_	TokenRange=6:11
+3	полей	поле	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	obl	_	TokenRange=12:17
+4	широких	широкий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	SpaceAfter=No|TokenRange=18:25
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+6	Вон	вон	PART	RB	_	8	advmod	_	TokenRange=28:31
+7	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	TokenRange=32:34
+8	льется	литься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	_	SpaceAfter=No|TokenRange=35:41
+9	!..	!..	PUNCT	.	_	1	punct	_	TokenRange=41:44
+
+# sent_id = 2
+# text = Здравствуй, Дон!
+1	Здравствуй	здравствовать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=45:55
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=55:56
+3	Дон	Дон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No|TokenRange=57:60
+4	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=60:61
+
+# sent_id = 3
+# text = От сынов твоих далеких Я привез тебе поклон.
+1	От	от	ADP	IN	_	2	case	_	TokenRange=63:65
+2	сынов	сын	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	TokenRange=66:71
+3	твоих	твой	DET	PRP$	Case=Gen|Number=Plur	4	det	_	TokenRange=72:77
+4	далеких	далекий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	2	nmod	_	SpacesAfter=\r\n|TokenRange=78:85
+5	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=87:88
+6	привез	привезти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=89:95
+7	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	6	iobj	_	TokenRange=96:100
+8	поклон	поклон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=101:107
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+
+# sent_id = 4
+# text = Как прославленного брата, Реки знают тихий Дон: От Аракса и Эвфрата Я привез тебе поклон.
+1	Как	как	ADP	IN	_	3	case	_	TokenRange=110:113
+2	прославленного	прославленный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=114:128
+3	брата	брат	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=129:134
+4	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=134:135
+5	Реки	река	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	TokenRange=137:141
+6	знают	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=142:147
+7	тихий	тихий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=148:153
+8	Дон	Дон	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=154:157
+9	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=157:158
+10	От	от	ADP	IN	_	11	case	_	TokenRange=160:162
+11	Аракса	Аракс	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	TokenRange=163:169
+12	и	и	CCONJ	CC	_	13	cc	_	TokenRange=170:171
+13	Эвфрата	Эвфрат	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	SpacesAfter=\r\n|TokenRange=172:179
+14	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	15	nsubj	_	TokenRange=181:182
+15	привез	привезти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=183:189
+16	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	15	iobj	_	TokenRange=190:194
+17	поклон	поклон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|TokenRange=195:201
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=201:202
+
+# sent_id = 5
+# text = Отдохнув от злой погони, Чуя родину свою, Пьют уже донские кони Арпачайскую струю.
+1	Отдохнув	отдохнуть	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	TokenRange=204:212
+2	от	от	ADP	IN	_	4	case	_	TokenRange=213:215
+3	злой	злой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=216:220
+4	погони	погоня	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=221:227
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=227:228
+6	Чуя	чевать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	TokenRange=230:233
+7	родину	родина	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	TokenRange=234:240
+8	свою	свой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	7	det	_	SpaceAfter=No|TokenRange=241:245
+9	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=245:246
+10	Пьют	пить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=248:252
+11	уже	уже	ADV	RB	Degree=Pos	12	advmod	_	TokenRange=253:256
+12	донские	донский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	TokenRange=257:264
+13	кони	конь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpacesAfter=\r\n|TokenRange=265:269
+14	Арпачайскую	арпачайский	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=271:282
+15	струю	струя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|TokenRange=283:288
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=288:289
+
+# sent_id = 6
+# text = Приготовь же, Дон заветный, Для наездников лихих Сок кипучий, искрометный Виноградников твоих.
+1	Приготовь	приготовить	VERB	VBC	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=291:300
+2	же	же	PART	UH	_	1	advmod	_	SpaceAfter=No|TokenRange=301:303
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=303:304
+4	Дон	Дон	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=305:308
+5	заветный	заветный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No|TokenRange=309:317
+6	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=317:318
+7	Для	для	ADP	IN	_	8	case	_	TokenRange=320:323
+8	наездников	наездник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	TokenRange=324:334
+9	лихих	лихой	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\r\n|TokenRange=335:340
+10	Сок	сок	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obj	_	TokenRange=342:345
+11	кипучий	кипучий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No|TokenRange=346:353
+12	,	,	PUNCT	,	_	14	punct	_	TokenRange=353:354
+13	искрометный	искрометный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpacesAfter=\r\n|TokenRange=355:366
+14	Виноградников	виноградник	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	TokenRange=368:381
+15	твоих	твой	DET	PRP$	Case=Gen|Number=Plur	14	det	_	SpaceAfter=No|TokenRange=382:387
+16	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=387:388
+

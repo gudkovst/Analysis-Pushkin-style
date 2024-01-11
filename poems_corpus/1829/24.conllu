@@ -1,0 +1,120 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Поедем, я готов; куда бы вы, друзья, Куда б ни вздумали, готов за вами я Повсюду следовать, надменной убегая: К подножию ль стены далекого Китая, В кипящий ли Париж, туда ли наконец, Где Тасса не поет уже ночной гребец, Где древних городов под пеплом дремлют мощи, Где кипарисные благоухают рощи, Повсюду я готов.
+1	Поедем	поехать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=0:6
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=6:7
+3	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=8:9
+4	готов	готовый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	parataxis	_	SpaceAfter=No|TokenRange=10:15
+5	;	;	PUNCT	:	_	17	punct	_	TokenRange=15:16
+6	куда	куда	ADV	WRB	_	17	advmod	_	TokenRange=17:21
+7	бы	бы	AUX	CD	_	17	aux	_	TokenRange=22:24
+8	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	17	nsubj	_	SpaceAfter=No|TokenRange=25:27
+9	,	,	PUNCT	,	_	10	punct	_	TokenRange=27:28
+10	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No|TokenRange=29:35
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=35:36
+12	Куда	куда	ADV	WRB	Degree=Pos	15	advmod	_	TokenRange=38:42
+13	б	б	AUX	PRP	_	15	aux	_	TokenRange=43:44
+14	ни	ни	PART	NEG	Polarity=Neg	15	advmod	_	TokenRange=45:47
+15	вздумали	вздумать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No|TokenRange=48:56
+16	,	,	PUNCT	,	_	15	punct	_	TokenRange=56:57
+17	готов	готовый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	parataxis	_	TokenRange=58:63
+18	за	за	ADP	IN	_	19	case	_	TokenRange=64:66
+19	вами	вы	PRON	PRP	Case=Ins|Number=Plur|Person=2	22	obl	_	TokenRange=67:71
+20	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	17	nsubj	_	SpacesAfter=\r\n|TokenRange=72:73
+21	Повсюду	повсюду	ADV	RB	Degree=Pos	22	advmod	_	TokenRange=75:82
+22	следовать	следовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	SpaceAfter=No|TokenRange=83:92
+23	,	,	PUNCT	,	_	25	punct	_	TokenRange=92:93
+24	надменной	надменная	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	iobj	_	TokenRange=94:103
+25	убегая	убегать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	advcl	_	SpaceAfter=No|TokenRange=104:110
+26	:	:	PUNCT	:	_	25	punct	_	SpacesAfter=\r\n|TokenRange=110:111
+27	К	к	ADP	IN	_	28	case	_	TokenRange=113:114
+28	подножию	подножие	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	obl	_	TokenRange=115:123
+29	ль	ль	PART	UH	_	28	advmod	_	TokenRange=124:126
+30	стены	стена	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	TokenRange=127:132
+31	далекого	далекий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	TokenRange=133:141
+32	Китая	Китай	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No|TokenRange=142:147
+33	,	,	PUNCT	,	_	37	punct	_	SpacesAfter=\r\n|TokenRange=147:148
+34	В	в	ADP	IN	_	37	case	_	TokenRange=150:151
+35	кипящий	кипеть	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	37	acl	_	TokenRange=152:159
+36	ли	ли	PART	UH	_	35	advmod	_	TokenRange=160:162
+37	Париж	Париж	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No|TokenRange=163:168
+38	,	,	PUNCT	,	_	41	punct	_	TokenRange=168:169
+39	туда	туда	ADV	RB	Degree=Pos	41	advmod	_	TokenRange=170:174
+40	ли	ли	PART	UH	_	39	advmod	_	TokenRange=175:177
+41	наконец	наконец	ADV	RB	Degree=Pos	28	conj	_	SpaceAfter=No|TokenRange=178:185
+42	,	,	PUNCT	,	_	46	punct	_	SpacesAfter=\r\n|TokenRange=185:186
+43	Где	где	ADV	WRB	_	46	advmod	_	TokenRange=188:191
+44	Тасса	Тасса	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	46	nsubj	_	TokenRange=192:197
+45	не	не	PART	NEG	Polarity=Neg	46	advmod	_	TokenRange=198:200
+46	поет	петь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	TokenRange=201:205
+47	уже	уже	ADV	RB	Degree=Pos	48	advmod	_	TokenRange=206:209
+48	ночной	ночной	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	TokenRange=210:216
+49	гребец	гребец	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	46	obj	_	SpaceAfter=No|TokenRange=217:223
+50	,	,	PUNCT	,	_	56	punct	_	SpacesAfter=\r\n|TokenRange=223:224
+51	Где	где	ADV	WRB	_	56	advmod	_	TokenRange=226:229
+52	древних	древний	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	53	amod	_	TokenRange=230:237
+53	городов	город	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	56	obl	_	TokenRange=238:245
+54	под	под	ADP	IN	_	55	case	_	TokenRange=246:249
+55	пеплом	пепел	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	56	obl	_	TokenRange=250:256
+56	дремлют	дремать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	conj	_	TokenRange=257:264
+57	мощи	мощь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	56	nsubj	_	SpaceAfter=No|TokenRange=265:269
+58	,	,	PUNCT	,	_	61	punct	_	SpacesAfter=\r\n|TokenRange=269:270
+59	Где	где	ADV	WRB	_	61	advmod	_	TokenRange=272:275
+60	кипарисные	кипарисный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	61	nsubj	_	TokenRange=276:286
+61	благоухают	благоухать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	56	conj	_	TokenRange=287:297
+62	рощи	рощь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	61	obj	_	SpaceAfter=No|TokenRange=298:302
+63	,	,	PUNCT	,	_	61	punct	_	SpacesAfter=\r\n|TokenRange=302:303
+64	Повсюду	повсюду	ADV	RB	Degree=Pos	66	advmod	_	TokenRange=305:312
+65	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	66	nsubj	_	TokenRange=313:314
+66	готов	готовый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	46	conj	_	SpaceAfter=No|TokenRange=315:320
+67	.	.	PUNCT	.	_	1	punct	_	TokenRange=320:321
+
+# sent_id = 2
+# text = Поедем... но, друзья, Скажите: в странствиях умрет ли страсть моя?
+1	Поедем	поехать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=322:328
+2	...	...	PUNCT	.	_	1	punct	_	TokenRange=328:331
+3	но	но	CCONJ	CC	_	7	cc	_	SpaceAfter=No|TokenRange=332:334
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=334:335
+5	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	vocative	_	SpaceAfter=No|TokenRange=336:342
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=342:343
+7	Скажите	сказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=345:352
+8	:	:	PUNCT	:	_	7	punct	_	TokenRange=352:353
+9	в	в	ADP	IN	_	10	case	_	TokenRange=354:355
+10	странствиях	странствие	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	obl	_	TokenRange=356:367
+11	умрет	умереть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	ccomp	_	TokenRange=368:373
+12	ли	ли	PART	UH	_	11	advmod	_	TokenRange=374:376
+13	страсть	страсть	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	TokenRange=377:384
+14	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	13	det	_	SpaceAfter=No|TokenRange=385:388
+15	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=388:389
+
+# sent_id = 3
+# text = Забуду ль гордую, мучительную деву, Или к ее ногам, ее младому гневу, Как дань привычную, любовь я принесу?
+1	Забуду	забыть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=391:397
+2	ль	ль	PART	UH	_	1	advmod	_	TokenRange=398:400
+3	гордую	гордый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No|TokenRange=401:407
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=407:408
+5	мучительную	мучительный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	TokenRange=409:420
+6	деву	дева	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=421:425
+7	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=425:426
+8	Или	или	CCONJ	CC	_	11	cc	_	TokenRange=428:431
+9	к	к	ADP	IN	_	11	case	_	TokenRange=432:433
+10	ее	ее	DET	PRP$	_	11	det	_	TokenRange=434:436
+11	ногам	нога	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No|TokenRange=437:442
+12	,	,	PUNCT	,	_	15	punct	_	TokenRange=442:443
+13	ее	ее	DET	PRP$	_	15	det	_	TokenRange=444:446
+14	младому	младый	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=447:454
+15	гневу	гнев	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|TokenRange=455:460
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=460:461
+17	Как	как	ADP	IN	_	18	case	_	TokenRange=463:466
+18	дань	дань	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	TokenRange=467:471
+19	привычную	привычный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No|TokenRange=472:481
+20	,	,	PUNCT	,	_	19	punct	_	TokenRange=481:482
+21	любовь	любовь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	TokenRange=483:489
+22	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	23	nsubj	_	TokenRange=490:491
+23	принесу	принести	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=492:499
+24	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=499:500
+

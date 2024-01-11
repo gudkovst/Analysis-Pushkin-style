@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я ехал к вам: живые сны За мной вились толпой игривой, И месяц с правой стороны Сопровождал мой бег ретивый.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	ехал	ехать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2:6
+3	к	к	ADP	IN	_	4	case	_	TokenRange=7:8
+4	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	2	obl	_	SpaceAfter=No|TokenRange=9:12
+5	:	:	PUNCT	:	_	2	punct	_	TokenRange=12:13
+6	живые	живой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	TokenRange=14:19
+7	сны	сон	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpacesAfter=\r\n|TokenRange=20:23
+8	За	за	ADP	IN	_	9	case	_	TokenRange=25:27
+9	мной	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	10	obl	_	TokenRange=28:32
+10	вились	виться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	parataxis	_	TokenRange=33:39
+11	толпой	толпа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	iobj	_	TokenRange=40:46
+12	игривой	игривый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No|TokenRange=47:54
+13	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=54:55
+14	И	и	CCONJ	CC	_	19	cc	_	TokenRange=57:58
+15	месяц	месяц	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	TokenRange=59:64
+16	с	с	ADP	IN	_	18	case	_	TokenRange=65:66
+17	правой	правый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=67:73
+18	стороны	сторона	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	SpacesAfter=\r\n|TokenRange=74:81
+19	Сопровождал	сопровождать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	TokenRange=83:94
+20	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	21	det	_	TokenRange=95:98
+21	бег	бег	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	TokenRange=99:102
+22	ретивый	ретивый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No|TokenRange=103:110
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=110:111
+
+# sent_id = 2
+# text = Я ехал прочь: иные сны...
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=113:114
+2	ехал	ехать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=115:119
+3	прочь	прочь	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=120:125
+4	:	:	PUNCT	:	_	2	punct	_	TokenRange=125:126
+5	иные	иной	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	TokenRange=127:131
+6	сны	сон	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	SpaceAfter=No|TokenRange=132:135
+7	...	...	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=135:138
+
+# sent_id = 3
+# text = Душе влюбленной грустно было, И месяц с левой стороны Сопровождал меня уныло.
+1	Душе	душа	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	TokenRange=140:144
+2	влюбленной	влюбленная	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	TokenRange=145:155
+3	грустно	грустный	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	TokenRange=156:163
+4	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No|TokenRange=164:168
+5	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=168:169
+6	И	и	CCONJ	CC	_	11	cc	_	TokenRange=171:172
+7	месяц	месяц	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=173:178
+8	с	с	ADP	IN	_	10	case	_	TokenRange=179:180
+9	левой	левый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=181:186
+10	стороны	сторона	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\r\n|TokenRange=187:194
+11	Сопровождал	сопровождать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=196:207
+12	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	11	obj	_	TokenRange=208:212
+13	уныло	уныло	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No|TokenRange=213:218
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=218:219
+
+# sent_id = 4
+# text = Мечтанью вечному в тиши Так предаемся мы, поэты;
+1	Мечтанью	мечтань	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	iobj	_	TokenRange=221:229
+2	вечному	вечный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	TokenRange=230:237
+3	в	в	ADP	IN	_	4	case	_	TokenRange=238:239
+4	тиши	тиша	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\r\n|TokenRange=240:244
+5	Так	так	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=246:249
+6	предаемся	предаваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=250:259
+7	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	6	nsubj	_	SpaceAfter=No|TokenRange=260:262
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=262:263
+9	поэты	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	appos	_	SpaceAfter=No|TokenRange=264:269
+10	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=269:270
+
+# sent_id = 5
+# text = Так суеверные приметы Согласны с чувствами души.
+1	Так	так	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=272:275
+2	суеверные	суеверный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	TokenRange=276:285
+3	приметы	примета	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpacesAfter=\r\n|TokenRange=286:293
+4	Согласны	согласный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=295:303
+5	с	с	ADP	IN	_	6	case	_	TokenRange=304:305
+6	чувствами	чувство	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	nmod	_	TokenRange=306:315
+7	души	душа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=316:320
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=320:321
+

@@ -1,0 +1,101 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вот перешед чрез мост Кокушкин, Опершись жопой о гранит, Сам Александр Сергеич Пушкин С мосьё Онегиным стоит.
+1	Вот	вот	PART	UH	_	2	advmod	_	TokenRange=0:3
+2	перешед	перешить	VERB	VBC	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	19	advcl	_	TokenRange=4:11
+3	чрез	чрез	ADP	IN	_	4	case	_	TokenRange=12:16
+4	мост	мост	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	TokenRange=17:21
+5	Кокушкин	Кокушкин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=22:30
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+7	Опершись	опереться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	TokenRange=33:41
+8	жопой	жопа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	TokenRange=42:47
+9	о	о	ADP	IN	_	10	case	_	TokenRange=48:49
+10	гранит	гранит	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=50:56
+11	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=56:57
+12	Сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	TokenRange=59:62
+13	Александр	Александр	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	TokenRange=63:72
+14	Сергеич	Сергеич	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	TokenRange=73:80
+15	Пушкин	Пушкин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	SpacesAfter=\r\n|TokenRange=81:87
+16	С	с	ADP	IN	_	17	case	_	TokenRange=89:90
+17	мосьё	мосье	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	TokenRange=91:96
+18	Онегиным	Онегин	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	flat:name	_	TokenRange=97:105
+19	стоит	стоять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=106:111
+20	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\r\n|TokenRange=111:112
+
+# sent_id = 2
+# text = Не удостоивая взглядом Твердыню власти роковой, Он к крепости стал гордо задом: Не плюй в колодец, милый мой.
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=114:116
+2	удостоивая	удостоивать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	TokenRange=117:127
+3	взглядом	взгляд	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	iobj	_	SpacesAfter=\r\n|TokenRange=128:136
+4	Твердыню	твердыня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=138:146
+5	власти	власть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	TokenRange=147:153
+6	роковой	роковой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=154:161
+7	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=161:162
+8	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	TokenRange=164:166
+9	к	к	ADP	IN	_	10	case	_	TokenRange=167:168
+10	крепости	крепость	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	TokenRange=169:177
+11	стал	стать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=178:182
+12	гордо	гордо	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=183:188
+13	задом	зад	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=189:194
+14	:	:	PUNCT	:	_	16	punct	_	SpacesAfter=\r\n|TokenRange=194:195
+15	Не	не	PART	NEG	Polarity=Neg	16	advmod	_	TokenRange=197:199
+16	плюй	плють	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	11	parataxis	_	TokenRange=200:204
+17	в	в	ADP	IN	_	18	case	_	TokenRange=205:206
+18	колодец	колодец	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=207:214
+19	,	,	PUNCT	,	_	20	punct	_	TokenRange=214:215
+20	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	parataxis	_	TokenRange=216:221
+21	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	20	det	_	SpaceAfter=No|TokenRange=222:225
+22	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=225:226
+
+# sent_id = 3
+# text = Пупок чернеет сквозь рубашку, Наружу титька — милый вид!
+1	Пупок	пупок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=228:233
+2	чернеет	чернеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=234:241
+3	сквозь	сквозь	ADP	IN	_	4	case	_	TokenRange=242:248
+4	рубашку	рубашка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=249:256
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=256:257
+6	Наружу	наружу	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=259:265
+7	титька	титька	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=266:272
+8	—	—	PUNCT	--	_	10	punct	_	TokenRange=273:274
+9	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=275:280
+10	вид	вид	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=281:284
+11	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=284:285
+
+# sent_id = 4
+# text = Татьяна мнет в руке бумажку, Зане живот у ней болит:
+1	Татьяна	Татьяна	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=287:294
+2	мнет	мнуть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=295:299
+3	в	в	ADP	IN	_	4	case	_	TokenRange=300:301
+4	руке	рука	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	TokenRange=302:306
+5	бумажку	бумажка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=307:314
+6	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=314:315
+7	Зане	зане	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=317:321
+8	живот	живот	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=322:327
+9	у	у	ADP	IN	_	10	case	_	TokenRange=328:329
+10	ней	она	PRON	PRP	Case=Ins|Gender=Fem|Number=Sing|Person=3	11	obl	_	TokenRange=330:333
+11	болит	болеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=334:339
+12	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=339:340
+
+# sent_id = 5
+# text = Она затем поутру встала При бледных месяца лучах И на потирку изорвала Конечно «Невский Альманах».
+1	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	TokenRange=342:345
+2	затем	затем	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=346:351
+3	поутру	поутру	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=352:358
+4	встала	встать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=359:365
+5	При	при	ADP	IN	_	8	case	_	TokenRange=367:370
+6	бледных	бледный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	TokenRange=371:378
+7	месяца	месяц	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	TokenRange=379:385
+8	лучах	луч	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	SpacesAfter=\r\n|TokenRange=386:391
+9	И	и	CCONJ	CC	_	12	cc	_	TokenRange=393:394
+10	на	на	ADP	IN	_	11	case	_	TokenRange=395:397
+11	потирку	потирка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	TokenRange=398:405
+12	изорвала	изорвать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpacesAfter=\r\n|TokenRange=406:414
+13	Конечно	конечно	ADV	RB	Degree=Pos	12	advmod	_	TokenRange=416:423
+14	«Невский	«невский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=424:432
+15	Альманах»	альманах»	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=433:442
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=442:443
+

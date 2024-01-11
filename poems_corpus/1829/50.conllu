@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Полюби меня, девица.
+1	Полюби	полюбить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:6
+2	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	1	obj	_	SpaceAfter=No|TokenRange=7:11
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=11:12
+4	девица	девица	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	vocative	_	SpaceAfter=No|TokenRange=13:19
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=19:20
+
+# sent_id = 2
+# text = Нет.
+1	Нет	нет	PART	NEG	Polarity=Neg	0	root	_	SpaceAfter=No|TokenRange=22:25
+2	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+
+# sent_id = 3
+# text = Что же скажет вся станица?
+1	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	TokenRange=28:31
+2	же	же	PART	UH	_	1	advmod	_	TokenRange=32:34
+3	скажет	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=35:41
+4	вся	весь	DET	DT	Case=Nom|Gender=Fem|Number=Sing	5	det	_	TokenRange=42:45
+5	станица	станица	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=46:53
+6	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+
+# sent_id = 4
+# text = Я с другим обручена.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj:pass	_	TokenRange=56:57
+2	с	с	ADP	IN	_	3	case	_	TokenRange=58:59
+3	другим	другой	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	TokenRange=60:66
+4	обручена	обручить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=67:75
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=75:76
+
+# sent_id = 5
+# text = Твой жених теперь далече
+1	Твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=78:82
+2	жених	жених	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=83:88
+3	теперь	теперь	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=89:95
+4	далече	далече	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No|TokenRange=96:102
+

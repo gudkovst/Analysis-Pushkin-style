@@ -1,0 +1,111 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Картину раз высматривал сапожник И в обуви ошибку указал; Взяв тотчас кисть, исправился художник.
+1	Картину	картина	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	TokenRange=0:7
+2	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=8:11
+3	высматривал	высматривать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=12:23
+4	сапожник	сапожник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter=\r\n|TokenRange=24:32
+5	И	и	CCONJ	CC	_	9	cc	_	TokenRange=34:35
+6	в	в	ADP	IN	_	7	case	_	TokenRange=36:37
+7	обуви	обувь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	TokenRange=38:43
+8	ошибку	ошибка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	TokenRange=44:50
+9	указал	указать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=51:57
+10	;	;	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=57:58
+11	Взяв	взять	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	15	advcl	_	TokenRange=60:64
+12	тотчас	тотчас	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=65:71
+13	кисть	кисть	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=72:77
+14	,	,	PUNCT	,	_	11	punct	_	TokenRange=77:78
+15	исправился	исправиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	parataxis	_	TokenRange=79:89
+16	художник	художник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No|TokenRange=90:98
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=98:99
+
+# sent_id = 2
+# text = Вот, подбочась, сапожник продолжал: «Мне кажется, лицо немного криво...
+1	Вот	вот	PART	UH	_	6	advmod	_	SpaceAfter=No|TokenRange=101:104
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=104:105
+3	подбочась	подбочиться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	SpaceAfter=No|TokenRange=106:115
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=115:116
+5	сапожник	сапожник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=117:125
+6	продолжал	продолжать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=126:135
+7	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=135:136
+8	«Мне	«мне	PRON	PRP	_	9	iobj	_	TokenRange=138:142
+9	кажется	казаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	SpaceAfter=No|TokenRange=143:150
+10	,	,	PUNCT	,	_	9	punct	_	TokenRange=150:151
+11	лицо	лицо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	TokenRange=152:156
+12	немного	немного	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=157:164
+13	криво	кривый	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	parataxis	_	SpaceAfter=No|TokenRange=165:170
+14	...	...	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=170:173
+
+# sent_id = 3
+# text = А эта грудь не слишком ли нага?»...
+1	А	а	CCONJ	CC	_	7	cc	_	TokenRange=175:176
+2	эта	этот	DET	DT	Case=Nom|Gender=Fem|Number=Sing	3	det	_	TokenRange=177:180
+3	грудь	грудь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=181:186
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	TokenRange=187:189
+5	слишком	слишком	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=190:197
+6	ли	ли	PART	UH	_	5	advmod	_	TokenRange=198:200
+7	нага	нага	ADJ	JJH	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=201:205
+8	?»	?»	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=205:207
+9	...	...	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=207:210
+
+# sent_id = 4
+# text = Тут Апеллес прервал нетерпеливо: «Суди, дружок, не свыше сапога!»
+1	Тут	тут	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=212:215
+2	Апеллес	Апеллес	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=216:223
+3	прервал	прервать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=224:231
+4	нетерпеливо	нетерпеливо	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=232:243
+5	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=243:244
+6	«Суди	«судить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No|TokenRange=246:251
+7	,	,	PUNCT	,	_	8	punct	_	TokenRange=251:252
+8	дружок	дружок	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	vocative	_	SpaceAfter=No|TokenRange=253:259
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=259:260
+10	не	не	PART	NEG	Polarity=Neg	12	advmod	_	TokenRange=261:263
+11	свыше	свыше	ADP	IN	_	12	case	_	TokenRange=264:269
+12	сапога	сапог	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=270:276
+13	!»	!»	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=276:278
+
+# sent_id = 5
+# text = Есть у меня приятель на примете: Не ведаю, в каком бы он предмете Был знатоком, хоть строг он на словах, Но черт его несет судить о свете: Попробуй он судить о сапогах!
+1	Есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=280:284
+2	у	у	ADP	IN	_	3	case	_	TokenRange=285:286
+3	меня	я	PRON	PRP	Case=Gen|Number=Sing|Person=1	1	obl	_	TokenRange=287:291
+4	приятель	приятель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=292:300
+5	на	на	ADP	IN	_	6	case	_	TokenRange=301:303
+6	примете	примет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=304:311
+7	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=311:312
+8	Не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=314:316
+9	ведаю	ведать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=317:322
+10	,	,	PUNCT	,	_	17	punct	_	TokenRange=322:323
+11	в	в	ADP	IN	_	15	case	_	TokenRange=324:325
+12	каком	какой	DET	DT	Case=Loc|Gender=Masc|Number=Sing	15	det	_	TokenRange=326:331
+13	бы	бы	AUX	UH	_	17	aux	_	TokenRange=332:334
+14	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	TokenRange=335:337
+15	предмете	предмет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	SpacesAfter=\r\n|TokenRange=338:346
+16	Был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	17	cop	_	TokenRange=348:351
+17	знатоком	знаток	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No|TokenRange=352:360
+18	,	,	PUNCT	,	_	20	punct	_	TokenRange=360:361
+19	хоть	хоть	SCONJ	IN	_	20	mark	_	TokenRange=362:366
+20	строг	строгий	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	advcl	_	TokenRange=367:372
+21	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	TokenRange=373:375
+22	на	на	ADP	IN	_	23	case	_	TokenRange=376:378
+23	словах	слово	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|TokenRange=379:385
+24	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\r\n|TokenRange=385:386
+25	Но	но	CCONJ	CC	_	28	cc	_	TokenRange=388:390
+26	черт	черт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	TokenRange=391:395
+27	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	obj	_	TokenRange=396:399
+28	несет	нести	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	TokenRange=400:405
+29	судить	судить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	TokenRange=406:412
+30	о	о	ADP	IN	_	31	case	_	TokenRange=413:414
+31	свете	свет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No|TokenRange=415:420
+32	:	:	PUNCT	:	_	33	punct	_	SpacesAfter=\r\n|TokenRange=420:421
+33	Попробуй	попробовать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	28	parataxis	_	TokenRange=423:431
+34	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj	_	TokenRange=432:434
+35	судить	судить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	33	xcomp	_	TokenRange=435:441
+36	о	о	ADP	IN	_	37	case	_	TokenRange=442:443
+37	сапогах	сапог	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No|TokenRange=444:451
+38	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=451:452
+

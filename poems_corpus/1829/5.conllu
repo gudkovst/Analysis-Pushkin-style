@@ -1,0 +1,114 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Журналами обиженный жестоко, Зоил Пахом печалился глубоко;
+1	Журналами	журнал	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	iobj	_	TokenRange=0:9
+2	обиженный	обидеть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	TokenRange=10:19
+3	жестоко	жестоко	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=20:27
+4	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+5	Зоил	Зоил	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=30:34
+6	Пахом	Пахом	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	TokenRange=35:40
+7	печалился	печалиться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=41:50
+8	глубоко	глубоко	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No|TokenRange=51:58
+9	;	;	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=58:59
+
+# sent_id = 2
+# text = На цензора вот подал он донос;
+1	На	на	ADP	IN	_	2	case	_	TokenRange=61:63
+2	цензора	цензор	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	TokenRange=64:71
+3	вот	вот	PART	UH	_	4	advmod	_	TokenRange=72:75
+4	подал	подать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=76:81
+5	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	TokenRange=82:84
+6	донос	донос	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=85:90
+7	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+
+# sent_id = 3
+# text = Но цензор прав, нам смех, зоилу нос.
+1	Но	но	CCONJ	CC	_	3	cc	_	TokenRange=93:95
+2	цензор	цензор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=96:102
+3	прав	прав	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=103:107
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=107:108
+5	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	6	iobj	_	TokenRange=109:112
+6	смех	смех	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=113:117
+7	,	,	PUNCT	,	_	8	punct	_	TokenRange=117:118
+8	зоилу	зоить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=119:124
+9	нос	нос	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=125:128
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+
+# sent_id = 4
+# text = Иная брань, конечно, неприличность, Нельзя писать: Такой-то де старик, Козел в очках, плюгавый клеветник, И зол и подл: всё это будет личность.
+1	Иная	иной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=131:135
+2	брань	брань	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=136:141
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=141:142
+4	конечно	конечно	ADV	RB	Degree=Pos	6	parataxis	_	SpaceAfter=No|TokenRange=143:150
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=150:151
+6	неприличность	неприличность	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=152:165
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=165:166
+8	Нельзя	нельзя	VERB	PRED	_	0	root	_	TokenRange=168:174
+9	писать	писать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No|TokenRange=175:181
+10	:	:	PUNCT	:	_	9	punct	_	TokenRange=181:182
+11	Такой-то	такой-то	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	TokenRange=183:191
+12	де	де	PART	UH	_	13	advmod	_	TokenRange=192:194
+13	старик	старик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No|TokenRange=195:201
+14	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=201:202
+15	Козел	козел	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	TokenRange=204:209
+16	в	в	ADP	IN	_	17	case	_	TokenRange=210:211
+17	очках	очки	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No|TokenRange=212:217
+18	,	,	PUNCT	,	_	20	punct	_	TokenRange=217:218
+19	плюгавый	плюгавый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	TokenRange=219:227
+20	клеветник	клеветник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=228:237
+21	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=237:238
+22	И	и	CCONJ	CC	_	23	cc	_	TokenRange=240:241
+23	зол	зол	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	TokenRange=242:245
+24	и	и	CCONJ	CC	_	25	cc	_	TokenRange=246:247
+25	подл	подл	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=248:252
+26	:	:	PUNCT	:	_	30	punct	_	TokenRange=252:253
+27	всё	весь	DET	DT	Case=Nom|Gender=Neut|Number=Sing	28	det	_	TokenRange=254:257
+28	это	это	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	TokenRange=258:261
+29	будет	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	TokenRange=262:267
+30	личность	личность	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No|TokenRange=268:276
+31	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=276:277
+
+# sent_id = 5
+# text = Но можете печатать, например, Что господин парнасский старовер (В своих статьях) бессмыслицы оратор, Отменно вял, отменно скучноват, Тяжеловат и даже глуповат; Тут не лицо, а только литератор.
+1	Но	но	CCONJ	CC	_	2	cc	_	TokenRange=279:281
+2	можете	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=282:288
+3	печатать	печатать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No|TokenRange=289:297
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=297:298
+5	например	например	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=299:307
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=307:308
+7	Что	что	SCONJ	IN	_	17	mark	_	TokenRange=310:313
+8	господин	господин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=314:322
+9	парнасский	парнасский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=323:333
+10	старовер	старовер	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpacesAfter=\r\n|TokenRange=334:342
+11	(	(	PUNCT	(	_	14	punct	_	SpaceAfter=No|TokenRange=344:345
+12	В	в	ADP	IN	_	14	case	_	TokenRange=345:346
+13	своих	свой	DET	PRP$	Case=Loc|Number=Plur	14	det	_	TokenRange=347:352
+14	статьях	статья	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No|TokenRange=353:360
+15	)	)	PUNCT	)	_	14	punct	_	TokenRange=360:361
+16	бессмыслицы	бессмыслица	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	TokenRange=362:373
+17	оратор	оратор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No|TokenRange=374:380
+18	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=380:381
+19	Отменно	отменно	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=383:390
+20	вял	вять	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No|TokenRange=391:394
+21	,	,	PUNCT	,	_	23	punct	_	TokenRange=394:395
+22	отменно	отменно	ADV	RB	Degree=Pos	23	advmod	_	TokenRange=396:403
+23	скучноват	скучноватый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	conj	_	SpaceAfter=No|TokenRange=404:413
+24	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=413:414
+25	Тяжеловат	тяжеловатый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	conj	_	TokenRange=416:425
+26	и	и	CCONJ	CC	_	28	cc	_	TokenRange=426:427
+27	даже	даже	PART	UH	_	28	advmod	_	TokenRange=428:432
+28	глуповат	глуповатый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	conj	_	SpaceAfter=No|TokenRange=433:441
+29	;	;	PUNCT	:	_	32	punct	_	SpacesAfter=\r\n|TokenRange=441:442
+30	Тут	тут	ADV	RB	Degree=Pos	32	advmod	_	TokenRange=444:447
+31	не	не	PART	NEG	Polarity=Neg	32	advmod	_	TokenRange=448:450
+32	лицо	лицо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No|TokenRange=451:455
+33	,	,	PUNCT	,	_	36	punct	_	TokenRange=455:456
+34	а	а	CCONJ	CC	_	36	cc	_	TokenRange=457:458
+35	только	только	PART	UH	_	36	advmod	_	TokenRange=459:465
+36	литератор	литератор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No|TokenRange=466:475
+37	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=475:476
+

@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Надеясь на мое презренье, Седой зоил меня ругал, И, потеряв уже терпенье, Я эпиграммой отвечал.
+1	Надеясь	надеяться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	TokenRange=0:7
+2	на	на	ADP	IN	_	4	case	_	TokenRange=8:10
+3	мое	мой	DET	PRP$	Case=Acc|Gender=Neut|Number=Sing	4	det	_	TokenRange=11:14
+4	презренье	презренье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=15:24
+5	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+6	Седой	седой	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=27:32
+7	зоил	зоить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=33:37
+8	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	obj	_	TokenRange=38:42
+9	ругал	ругать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	xcomp	_	SpaceAfter=No|TokenRange=43:48
+10	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+11	И	и	CCONJ	CC	_	19	cc	_	SpaceAfter=No|TokenRange=51:52
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=52:53
+13	потеряв	потерять	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	19	advcl	_	TokenRange=54:61
+14	уже	уже	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=62:65
+15	терпенье	терпенье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No|TokenRange=66:74
+16	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=74:75
+17	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	19	nsubj	_	TokenRange=77:78
+18	эпиграммой	эпиграмма	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	iobj	_	TokenRange=79:89
+19	отвечал	отвечать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|TokenRange=90:97
+20	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+
+# sent_id = 2
+# text = Укушенный желаньем славы, Теперь, надеясь на ответ, Журнальный шут, холоп лукавый, Ругать бы также стал.— О, нет!
+1	Укушенный	укушить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	TokenRange=100:109
+2	желаньем	желанье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl:agent	_	TokenRange=110:118
+3	славы	слава	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=119:124
+4	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=124:125
+5	Теперь	теперь	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No|TokenRange=127:133
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=133:134
+7	надеясь	надеяться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	17	advcl	_	TokenRange=135:142
+8	на	на	ADP	IN	_	9	case	_	TokenRange=143:145
+9	ответ	ответ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=146:151
+10	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+11	Журнальный	журнальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	TokenRange=154:164
+12	шут	шут	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=165:168
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=168:169
+14	холоп	холоп	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	TokenRange=170:175
+15	лукавый	лукавый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No|TokenRange=176:183
+16	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=183:184
+17	Ругать	ругать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	12	parataxis	_	TokenRange=186:192
+18	бы	бы	AUX	VBC	_	17	aux	_	TokenRange=193:195
+19	также	также	PART	IN	_	17	advmod	_	TokenRange=196:201
+20	стал.—	стал.—	NOUN	NN	_	17	parataxis	_	TokenRange=202:208
+21	О	о	INTJ	UH	_	23	discourse	_	SpaceAfter=No|TokenRange=209:210
+22	,	,	PUNCT	,	_	21	punct	_	TokenRange=210:211
+23	нет	нет	PART	NEG	Polarity=Neg	20	parataxis	_	SpaceAfter=No|TokenRange=212:215
+24	!	!	PUNCT	.	_	23	punct	_	SpacesAfter=\r\n|TokenRange=215:216
+
+# sent_id = 3
+# text = Пусть он, как бес перед обедней, Себе покоя не дает: Лакей, сиди себе в передней, А будет с барином расчет.
+1	Пусть	пусть	SCONJ	IN	_	12	advmod	_	TokenRange=218:223
+2	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	SpaceAfter=No|TokenRange=224:226
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=226:227
+4	как	как	ADP	IN	_	5	case	_	TokenRange=228:231
+5	бес	бес	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	obl	_	TokenRange=232:235
+6	перед	перед	ADP	IN	_	7	case	_	TokenRange=236:241
+7	обедней	обедня	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=242:249
+8	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=249:250
+9	Себе	себя	PRON	PRP	Case=Dat	12	iobj	_	TokenRange=252:256
+10	покоя	покой	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obj	_	TokenRange=257:262
+11	не	не	PART	NEG	Polarity=Neg	12	advmod	_	TokenRange=263:265
+12	дает	давать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=266:270
+13	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=270:271
+14	Лакей	Лакей	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	vocative	_	SpaceAfter=No|TokenRange=273:278
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=278:279
+16	сиди	сидеть	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	parataxis	_	TokenRange=280:284
+17	себе	себя	PRON	PRP	Case=Dat	16	iobj	_	TokenRange=285:289
+18	в	в	ADP	IN	_	19	case	_	TokenRange=290:291
+19	передней	передняя	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=292:300
+20	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=300:301
+21	А	а	CCONJ	CC	_	22	cc	_	TokenRange=303:304
+22	будет	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	TokenRange=305:310
+23	с	с	ADP	IN	_	24	case	_	TokenRange=311:312
+24	барином	барин	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	TokenRange=313:320
+25	расчет	расчет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No|TokenRange=321:327
+26	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No|TokenRange=327:328
+

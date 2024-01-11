@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Мальчишка Фебу гимн поднес.
+1	Мальчишка	мальчишка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=0:9
+2	Фебу	Фебу	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	appos	_	TokenRange=10:14
+3	гимн	гимн	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	TokenRange=15:19
+4	поднес	поднести	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=20:26
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+
+# sent_id = 2
+# text = «Охота есть, да мало мозгу.
+1	«Охота	«охота	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=29:35
+2	есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=36:40
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=40:41
+4	да	да	CCONJ	CC	_	5	cc	_	TokenRange=42:44
+5	мало	мало	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	2	conj	_	TokenRange=45:49
+6	мозгу	мозг	NOUN	NN	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=50:55
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+
+# sent_id = 3
+# text = А сколько лет ему, вопрос?» — «Пятнадцать».— «Только-то? Эй, розгу!» За сим принес семинарист Тетрадь лакейских диссертаций, И Фебу вслух прочел Гораций, Кусая губы, первый лист.
+1	А	а	CCONJ	CC	_	20	cc	_	TokenRange=58:59
+2	сколько	сколько	NUM	RB	Case=Nom|NumType=Card	3	nummod:gov	_	TokenRange=60:67
+3	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	TokenRange=68:71
+4	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	20	iobj	_	SpaceAfter=No|TokenRange=72:75
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=75:76
+6	вопрос	вопрос	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=77:83
+7	?»	?»	PUNCT	.	_	6	punct	_	TokenRange=83:85
+8	—	—	PUNCT	--	_	10	punct	_	SpacesAfter=\r\n|TokenRange=86:87
+9	«Пятнадцать».—	«пятнадцать».—	NUM	CD	Case=Nom|NumType=Card	10	nummod:gov	_	TokenRange=89:103
+10	«Только	«только	PART	RB	_	14	parataxis	_	SpaceAfter=No|TokenRange=104:111
+11	-	-	PUNCT	-	_	12	punct	_	SpaceAfter=No|TokenRange=111:112
+12	то	то	PART	UH	_	10	discourse	_	SpaceAfter=No|TokenRange=112:114
+13	?	?	PUNCT	.	_	10	punct	_	TokenRange=114:115
+14	Эй	эй	INTJ	UH	_	20	parataxis	_	SpaceAfter=No|TokenRange=116:118
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=118:119
+16	розгу!	розгу!	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No|TokenRange=120:126
+17	»	»	PUNCT	)	_	10	punct	_	SpacesAfter=\r\n|TokenRange=126:127
+18	За	за	ADP	IN	_	19	case	_	TokenRange=129:131
+19	сим	сим	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	TokenRange=132:135
+20	принес	принести	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=136:142
+21	семинарист	семинарист	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpacesAfter=\r\n|TokenRange=143:153
+22	Тетрадь	тетрадь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	TokenRange=155:162
+23	лакейских	лакейский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	TokenRange=163:172
+24	диссертаций	диссертация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No|TokenRange=173:184
+25	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=184:185
+26	И	и	CCONJ	CC	_	29	cc	_	TokenRange=187:188
+27	Фебу	Фебу	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	29	obj	_	TokenRange=189:193
+28	вслух	вслух	ADV	RB	Degree=Pos	29	advmod	_	TokenRange=194:199
+29	прочел	прочесть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	TokenRange=200:206
+30	Гораций	Гораций	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No|TokenRange=207:214
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\r\n|TokenRange=214:215
+32	Кусая	кусать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	29	advcl	_	TokenRange=217:222
+33	губы	губа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No|TokenRange=223:227
+34	,	,	PUNCT	,	_	32	punct	_	TokenRange=227:228
+35	первый	первый	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	TokenRange=229:235
+36	лист	лист	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No|TokenRange=236:240
+37	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\r\n|TokenRange=240:241
+
+# sent_id = 4
+# text = Отяжелев, как от дурмана, Сердито Феб его прервал И тотчас взрослого болвана Поставить в палки приказал.
+1	Отяжелев	отяжелеть	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	SpaceAfter=No|TokenRange=243:251
+2	,	,	PUNCT	,	_	5	punct	_	TokenRange=251:252
+3	как	как	SCONJ	IN	_	5	case	_	TokenRange=253:256
+4	от	от	ADP	IN	_	5	case	_	TokenRange=257:259
+5	дурмана	дурман	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=260:267
+6	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=267:268
+7	Сердито	Сердито	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=270:277
+8	Феб	Феб	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	TokenRange=278:281
+9	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	TokenRange=282:285
+10	прервал	прервать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=286:293
+11	И	и	CCONJ	CC	_	18	cc	_	TokenRange=295:296
+12	тотчас	тотчас	ADV	RB	Degree=Pos	18	advmod	_	TokenRange=297:303
+13	взрослого	взрослый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=304:313
+14	болвана	болван	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpacesAfter=\r\n|TokenRange=314:321
+15	Поставить	поставить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	TokenRange=323:332
+16	в	в	ADP	IN	_	17	case	_	TokenRange=333:334
+17	палки	палка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obl	_	TokenRange=335:340
+18	приказал	приказать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=341:349
+19	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No|TokenRange=349:350
+

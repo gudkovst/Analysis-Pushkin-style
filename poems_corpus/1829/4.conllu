@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В Элизии Василий Тредьяковский (Преострый муж, достойный много хвал) С усердием принялся за журнал.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	Элизии	Элизия	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	TokenRange=2:8
+3	Василий	Василий	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=9:16
+4	Тредьяковский	Тредьяковский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	SpacesAfter=\r\n|TokenRange=17:30
+5	(	(	PUNCT	(	_	7	punct	_	SpaceAfter=No|TokenRange=32:33
+6	Преострый	преострый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=33:42
+7	муж	муж	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=43:46
+8	,	,	PUNCT	,	_	11	punct	_	TokenRange=46:47
+9	достойный	достойный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=48:57
+10	много	много	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=58:63
+11	хвал	хвать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|TokenRange=64:68
+12	)	)	PUNCT	)	_	7	punct	_	SpacesAfter=\r\n|TokenRange=68:69
+13	С	с	ADP	IN	_	14	case	_	TokenRange=71:72
+14	усердием	усердие	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	TokenRange=73:81
+15	принялся	приняться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=82:90
+16	за	за	ADP	IN	_	17	case	_	TokenRange=91:93
+17	журнал	журнал	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|TokenRange=94:100
+18	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\r\n|TokenRange=100:101
+
+# sent_id = 2
+# text = В сотрудники сам вызвался Поповский, Свои статьи Елагин обещал; Курганов сам над критикой хлопочет, Блеснуть умом Письмовник снова хочет; И, говорят, на днях они начнут, Благословясь, сей преполезный труд,— И только ждет Василий Тредьяковский, Чтоб подоспел Михайло Каченовский.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=103:104
+2	сотрудники	сотрудник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	obl	_	TokenRange=105:115
+3	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	TokenRange=116:119
+4	вызвался	вызваться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=120:128
+5	Поповский	Поповский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=129:138
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=138:139
+7	Свои	свой	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur	8	det	_	TokenRange=141:145
+8	статьи	статья	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	TokenRange=146:152
+9	Елагин	Елагин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=153:159
+10	обещал	обещать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=160:166
+11	;	;	PUNCT	:	_	16	punct	_	SpacesAfter=\r\n|TokenRange=166:167
+12	Курганов	Курганов	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=169:177
+13	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	TokenRange=178:181
+14	над	над	ADP	IN	_	15	case	_	TokenRange=182:185
+15	критикой	критика	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	TokenRange=186:194
+16	хлопочет	хлопотать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=195:203
+17	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=203:204
+18	Блеснуть	блеснуть	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	TokenRange=206:214
+19	умом	ум	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	iobj	_	TokenRange=215:219
+20	Письмовник	письмовник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	TokenRange=220:230
+21	снова	снова	ADV	RB	Degree=Pos	22	advmod	_	TokenRange=231:236
+22	хочет	хотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No|TokenRange=237:242
+23	;	;	PUNCT	:	_	31	punct	_	SpacesAfter=\r\n|TokenRange=242:243
+24	И	и	CCONJ	CC	_	31	cc	_	SpaceAfter=No|TokenRange=245:246
+25	,	,	PUNCT	,	_	26	punct	_	TokenRange=246:247
+26	говорят	говорить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	parataxis	_	SpaceAfter=No|TokenRange=248:255
+27	,	,	PUNCT	,	_	26	punct	_	TokenRange=255:256
+28	на	на	ADP	IN	_	29	case	_	TokenRange=257:259
+29	днях	день	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	TokenRange=260:264
+30	они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	31	nsubj	_	TokenRange=265:268
+31	начнут	начать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=269:275
+32	,	,	PUNCT	,	_	33	punct	_	SpacesAfter=\r\n|TokenRange=275:276
+33	Благословясь	благословиться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	31	advcl	_	SpaceAfter=No|TokenRange=278:290
+34	,	,	PUNCT	,	_	33	punct	_	TokenRange=290:291
+35	сей	сей	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	det	_	TokenRange=292:295
+36	преполезный	преполезный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	TokenRange=296:307
+37	труд	труд	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No|TokenRange=308:312
+38	,	,	PUNCT	,	_	42	punct	_	SpaceAfter=No|TokenRange=312:313
+39	—	—	PUNCT	--	_	42	punct	_	SpacesAfter=\r\n|TokenRange=313:314
+40	И	и	CCONJ	CC	_	42	cc	_	TokenRange=316:317
+41	только	только	PART	UH	_	42	advmod	_	TokenRange=318:324
+42	ждет	ждать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	TokenRange=325:329
+43	Василий	Василий	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	TokenRange=330:337
+44	Тредьяковский	Тредьяковский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	43	flat:name	_	SpaceAfter=No|TokenRange=338:351
+45	,	,	PUNCT	,	_	47	punct	_	SpacesAfter=\r\n|TokenRange=351:352
+46	Чтоб	чтоб	SCONJ	IN	_	47	mark	_	TokenRange=354:358
+47	подоспел	подоспеть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	42	advcl	_	TokenRange=359:367
+48	Михайло	Михайло	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	47	nsubj	_	TokenRange=368:375
+49	Каченовский	Каченовский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	flat:name	_	SpaceAfter=No|TokenRange=376:387
+50	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=387:388
+

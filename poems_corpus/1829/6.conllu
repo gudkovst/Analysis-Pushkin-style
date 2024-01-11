@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Поэт-игрок, о Беверлей-Гораций, Проигрывал ты кучки ассигнаций, И серебро, наследие отцов, И лошадей, и даже кучеров — И с радостью на карту б, на злодейку, Поставил бы тетрадь своих стихов, Когда б твой стих ходил хотя в копейку.
+1	Поэт-игрок	поэт-игрок	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=0:10
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=10:11
+3	о	о	ADP	IN	_	4	case	_	TokenRange=12:13
+4	Беверлей-	Беверлей-	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=14:23
+5	Гораций	Гораций	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No|TokenRange=23:30
+6	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+7	Проигрывал	проигрывать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=33:43
+8	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=44:46
+9	кучки	кучка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	TokenRange=47:52
+10	ассигнаций	ассигнация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No|TokenRange=53:63
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+12	И	и	CCONJ	CC	_	13	cc	_	TokenRange=66:67
+13	серебро	серебро	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|TokenRange=68:75
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=75:76
+15	наследие	наследие	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	conj	_	TokenRange=77:85
+16	отцов	отец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No|TokenRange=86:91
+17	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=91:92
+18	И	и	CCONJ	CC	_	19	cc	_	TokenRange=94:95
+19	лошадей	лошадь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No|TokenRange=96:103
+20	,	,	PUNCT	,	_	23	punct	_	TokenRange=103:104
+21	и	и	CCONJ	CC	_	23	cc	_	TokenRange=105:106
+22	даже	даже	PART	UH	_	23	advmod	_	TokenRange=107:111
+23	кучеров	кучер	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	TokenRange=112:119
+24	—	—	PUNCT	``	_	35	punct	_	SpacesAfter=\r\n|TokenRange=120:121
+25	И	и	CCONJ	CC	_	35	cc	_	TokenRange=123:124
+26	с	с	ADP	IN	_	27	case	_	TokenRange=125:126
+27	радостью	радость	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	35	obl	_	TokenRange=127:135
+28	на	на	ADP	IN	_	29	case	_	TokenRange=136:138
+29	карту	карта	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obl	_	TokenRange=139:144
+30	б	б	NOUN	UH	_	35	nsubj	_	SpaceAfter=No|TokenRange=145:146
+31	,	,	PUNCT	,	_	33	punct	_	TokenRange=146:147
+32	на	на	ADP	IN	_	33	case	_	TokenRange=148:150
+33	злодейку	злодейка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No|TokenRange=151:159
+34	,	,	PUNCT	,	_	33	punct	_	SpacesAfter=\r\n|TokenRange=159:160
+35	Поставил	поставить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=162:170
+36	бы	бы	AUX	VBC	_	35	aux	_	TokenRange=171:173
+37	тетрадь	тетрадь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	TokenRange=174:181
+38	своих	свой	DET	PRP$	Case=Gen|Number=Plur	39	det	_	TokenRange=182:187
+39	стихов	стихи	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No|TokenRange=188:194
+40	,	,	PUNCT	,	_	45	punct	_	SpacesAfter=\r\n|TokenRange=194:195
+41	Когда	когда	SCONJ	WRB	_	45	mark	_	TokenRange=197:202
+42	б	б	AUX	VBC	_	45	aux	_	TokenRange=203:204
+43	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	44	det	_	TokenRange=205:209
+44	стих	стих	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	TokenRange=210:214
+45	ходил	ходить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	35	advcl	_	TokenRange=215:220
+46	хотя	хотя	PART	UH	_	48	advmod	_	TokenRange=221:225
+47	в	в	ADP	IN	_	48	case	_	TokenRange=226:227
+48	копейку	копейка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No|TokenRange=228:235
+49	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=235:236
+

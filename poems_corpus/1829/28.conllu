@@ -1,0 +1,108 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Перестрелка за холмами; Смотрит лагерь их и наш;
+1	Перестрелка	перестрелка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=0:11
+2	за	за	ADP	IN	_	3	case	_	TokenRange=12:14
+3	холмами	холм	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No|TokenRange=15:22
+4	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=22:23
+5	Смотрит	смотреть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=25:32
+6	лагерь	лагерь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=33:39
+7	их	их	DET	PRP$	_	6	det	_	TokenRange=40:42
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=43:44
+9	наш;	наш;	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	6	det	_	SpacesAfter=\r\n|TokenRange=45:49
+
+# sent_id = 2
+# text = На холме пред казаками Вьется красный делибаш.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=51:53
+2	холме	холм	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	TokenRange=54:59
+3	пред	пред	ADP	IN	_	4	case	_	TokenRange=60:64
+4	казаками	казак	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter=\r\n|TokenRange=65:73
+5	Вьется	литься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=75:81
+6	красный	красный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=82:89
+7	делибаш	делибаш	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=90:97
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=97:98
+
+# sent_id = 3
+# text = Делибаш! не суйся к лаве, Пожалей свое житье;
+1	Делибаш	Делибаш	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=100:107
+2	!	!	PUNCT	.	_	1	punct	_	TokenRange=107:108
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=109:111
+4	суйся	суйся	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=112:117
+5	к	к	ADP	IN	_	6	case	_	TokenRange=118:119
+6	лаве	лава	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=120:124
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=124:125
+8	Пожалей	пожалеть	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=127:134
+9	свое	свой	DET	PRP$	Case=Acc|Gender=Neut|Number=Sing	10	det	_	TokenRange=135:139
+10	житье	житье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=140:145
+11	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=145:146
+
+# sent_id = 4
+# text = Вмиг аминь лихой забаве: Попадешься на копье.
+1	Вмиг	вмичь	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=148:152
+2	аминь	аминь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	TokenRange=153:158
+3	лихой	лихой	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=159:164
+4	забаве	забава	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	iobj	_	SpaceAfter=No|TokenRange=165:171
+5	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=171:172
+6	Попадешься	попадесть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	1	parataxis	_	TokenRange=174:184
+7	на	на	ADP	IN	_	8	case	_	TokenRange=185:187
+8	копье	копье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=188:193
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=193:194
+
+# sent_id = 5
+# text = Эй, казак! не рвися к бою: Делибаш на всем скаку Срежет саблею кривою С плеч удалую башку.
+1	Эй	эй	INTJ	UH	_	3	discourse	_	SpaceAfter=No|TokenRange=196:198
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=198:199
+3	казак	казак	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=200:205
+4	!	!	PUNCT	.	_	3	punct	_	TokenRange=205:206
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=207:209
+6	рвися	рвисти	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	TokenRange=210:215
+7	к	к	ADP	IN	_	8	case	_	TokenRange=216:217
+8	бою	бой	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=218:221
+9	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=221:222
+10	Делибаш	Делибаш	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=224:231
+11	на	на	ADP	IN	_	13	case	_	TokenRange=232:234
+12	всем	весь	DET	DT	Case=Loc|Gender=Masc|Number=Sing	13	det	_	TokenRange=235:239
+13	скаку	скак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpacesAfter=\r\n|TokenRange=240:245
+14	Срежет	срезать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=247:253
+15	саблею	сабля	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obj	_	TokenRange=254:260
+16	кривою	кривой	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	SpacesAfter=\r\n|TokenRange=261:267
+17	С	с	ADP	IN	_	18	case	_	TokenRange=269:270
+18	плеч	плечо	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	TokenRange=271:275
+19	удалую	удалый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	TokenRange=276:282
+20	башку	башка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No|TokenRange=283:288
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=288:289
+
+# sent_id = 6
+# text = Мчатся, сшиблись в общем крике...
+1	Мчатся	мчиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=291:297
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=297:298
+3	сшиблись	сшибиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=299:307
+4	в	в	ADP	IN	_	6	case	_	TokenRange=308:309
+5	общем	общий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=310:315
+6	крике	крик	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=316:321
+7	...	...	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=321:324
+
+# sent_id = 7
+# text = Посмотрите! каковы?..
+1	Посмотрите	посмотреть	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=326:336
+2	!	!	PUNCT	.	_	1	punct	_	TokenRange=336:337
+3	каковы	каков	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	1	parataxis	_	SpaceAfter=No|TokenRange=338:344
+4	?..	?..	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=344:347
+
+# sent_id = 8
+# text = Делибаш уже на пике, А казак без головы.
+1	Делибаш	Делибаш	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=349:356
+2	уже	уже	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=357:360
+3	на	на	ADP	IN	_	4	case	_	TokenRange=361:363
+4	пике	пик	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=364:368
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=368:369
+6	А	а	CCONJ	CC	_	9	cc	_	TokenRange=371:372
+7	казак	казак	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	TokenRange=373:378
+8	без	без	ADP	IN	_	9	case	_	TokenRange=379:382
+9	головы	голова	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	orphan	_	SpaceAfter=No|TokenRange=383:389
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=389:390
+

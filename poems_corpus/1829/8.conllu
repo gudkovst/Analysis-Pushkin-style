@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Кто на снегах возрастил Феокритовы нежные розы?
+1	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=0:3
+2	на	на	ADP	IN	_	3	case	_	TokenRange=4:6
+3	снегах	снег	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	TokenRange=7:13
+4	возрастил	возрастить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=14:23
+5	Феокритовы	Феокритов	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	TokenRange=24:34
+6	нежные	нежный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	TokenRange=35:41
+7	розы	роза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|TokenRange=42:46
+8	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=46:47
+
+# sent_id = 2
+# text = В веке железном, скажи, кто золотой угадал?
+1	В	в	ADP	IN	_	2	case	_	TokenRange=49:50
+2	веке	век	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	TokenRange=51:55
+3	железном	железный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=56:64
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=64:65
+5	скажи	сказать	VERB	VBG	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No|TokenRange=66:71
+6	,	,	PUNCT	,	_	5	punct	_	TokenRange=71:72
+7	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=73:76
+8	золотой	золотой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=77:84
+9	угадал	угадать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=85:91
+10	?	?	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=91:92
+
+# sent_id = 3
+# text = Кто славянин молодой, грек духом, а родом германец?
+1	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=94:97
+2	славянин	славянин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=98:106
+3	молодой	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=107:114
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=114:115
+5	грек	грек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=116:120
+6	духом	дух	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=121:126
+7	,	,	PUNCT	,	_	10	punct	_	TokenRange=126:127
+8	а	а	CCONJ	CC	_	10	cc	_	TokenRange=128:129
+9	родом	родом	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=130:135
+10	германец	германец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=136:144
+11	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=144:145
+
+# sent_id = 4
+# text = Вот загадка моя: хитрый Эдип, разреши!
+1	Вот	вот	PART	UH	_	2	advmod	_	TokenRange=147:150
+2	загадка	загадка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=151:158
+3	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	2	det	_	SpaceAfter=No|TokenRange=159:162
+4	:	:	PUNCT	:	_	6	punct	_	TokenRange=162:163
+5	хитрый	хитрый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=164:170
+6	Эдип	Эдип	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=171:175
+7	,	,	PUNCT	,	_	6	punct	_	TokenRange=175:176
+8	разреши	разрешить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No|TokenRange=177:184
+9	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=184:185
+
