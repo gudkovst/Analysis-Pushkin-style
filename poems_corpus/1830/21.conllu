@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Эхо, бессонная нимфа, скиталась по брегу Пенея.
+1	Эхо	Эхо	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=0:3
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=3:4
+3	бессонная	бессонный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=5:14
+4	нимфа	нимфа	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=15:20
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=20:21
+6	скиталась	скитаться	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=22:31
+7	по	по	ADP	IN	_	8	case	_	TokenRange=32:34
+8	брегу	брег	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	TokenRange=35:40
+9	Пенея	Пеней	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=41:46
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=46:47
+
+# sent_id = 2
+# text = Феб, увидев ее, страстию к ней воспылал.
+1	Феб	Феб	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=49:52
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=52:53
+3	увидев	увидеть	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	TokenRange=54:60
+4	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	obj	_	SpaceAfter=No|TokenRange=61:63
+5	,	,	PUNCT	,	_	3	punct	_	TokenRange=63:64
+6	страстию	страстия	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	TokenRange=65:73
+7	к	к	ADP	IN	_	8	case	_	TokenRange=74:75
+8	ней	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl	_	TokenRange=76:79
+9	воспылал	воспылать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=80:88
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=88:89
+
+# sent_id = 3
+# text = Нимфа плод понесла восторгов влюбленного бога; Меж говорливых наяд, мучась, она родила Милую дочь.
+1	Нимфа	Нимфа	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=91:96
+2	плод	плод	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=97:101
+3	понесла	понести	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=102:109
+4	восторгов	восторг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	TokenRange=110:119
+5	влюбленного	влюбленный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=120:131
+6	бога	бог	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=132:136
+7	;	;	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+8	Меж	меж	ADP	IN	_	10	case	_	TokenRange=139:142
+9	говорливых	говорливый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=143:153
+10	наяд	наяда	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No|TokenRange=154:158
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=158:159
+12	мучась	мучиться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	SpaceAfter=No|TokenRange=160:166
+13	,	,	PUNCT	,	_	12	punct	_	TokenRange=166:167
+14	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	TokenRange=168:171
+15	родила	родить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpacesAfter=\r\n|TokenRange=172:178
+16	Милую	милый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	TokenRange=180:185
+17	дочь	дочь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|TokenRange=186:190
+18	.	.	PUNCT	.	_	3	punct	_	TokenRange=190:191
+
+# sent_id = 4
+# text = Ее прияла сама Мнемозина.
+1	Ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	TokenRange=192:194
+2	прияла	приять	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=195:201
+3	сама	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=202:206
+4	Мнемозина	Мнемозина	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=207:216
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+
+# sent_id = 5
+# text = Резвая дева росла в хоре богинь-аонид, Матери чуткой подобна, послушна памяти строгой, Музам мила; на земле Рифмой зовется она.
+1	Резвая	резвый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=219:225
+2	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=226:230
+3	росла	расти	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=231:236
+4	в	в	ADP	IN	_	5	case	_	TokenRange=237:238
+5	хоре	хор	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=239:243
+6	богинь	богиня	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|TokenRange=244:250
+7	-аонид	-аонид	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|TokenRange=250:256
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=256:257
+9	Матери	мать	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	TokenRange=259:265
+10	чуткой	чуткий	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=266:272
+11	подобна	подобный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	parataxis	_	SpaceAfter=No|TokenRange=273:280
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=280:281
+13	послушна	послушный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	conj	_	TokenRange=282:290
+14	памяти	память	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	iobj	_	TokenRange=291:297
+15	строгой	строгий	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No|TokenRange=298:305
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=305:306
+17	Музам	муза	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	18	iobj	_	TokenRange=308:313
+18	мила	милый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No|TokenRange=314:318
+19	;	;	PUNCT	:	_	23	punct	_	TokenRange=318:319
+20	на	на	ADP	IN	_	21	case	_	TokenRange=320:322
+21	земле	земля	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	TokenRange=323:328
+22	Рифмой	Рифма	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	iobj	_	TokenRange=329:335
+23	зовется	зоваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	TokenRange=336:343
+24	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nsubj	_	SpaceAfter=No|TokenRange=344:347
+25	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=347:348
+

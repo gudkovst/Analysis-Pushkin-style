@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Глухой глухого звал к суду судьи глухого, Глухой кричал: «Моя им сведена корова».
+1	Глухой	глухой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=0:6
+2	глухого	глухой	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	TokenRange=7:14
+3	звал	звать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=15:19
+4	к	к	ADP	IN	_	5	case	_	TokenRange=20:21
+5	суду	суд	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	TokenRange=22:26
+6	судьи	судья	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	TokenRange=27:32
+7	глухого	глухой	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No|TokenRange=33:40
+8	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=40:41
+9	Глухой	глухой	ADJ	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=43:49
+10	кричал	кричать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=50:56
+11	:	:	PUNCT	:	_	14	punct	_	TokenRange=56:57
+12	«Моя	«мой	DET	JJL	_	14	obl	_	TokenRange=58:62
+13	им	он	PRON	PRP	Case=Dat|Number=Plur|Person=3	14	iobj	_	TokenRange=63:65
+14	сведена	свести	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	_	TokenRange=66:73
+15	корова».	корова».	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	SpaceAfter=No|TokenRange=74:82
+
+# sent_id = 2
+# text = — «Помилуй,— возопил глухой тому в ответ,— Сей пустошью владел еще покойный дед».
+1	—	—	PUNCT	--	_	2	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+2	«Помилуй	«помиловать	ADV	RB	Degree=Pos	14	parataxis	_	SpaceAfter=No|TokenRange=85:93
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|TokenRange=93:94
+4	—	—	PUNCT	--	_	5	punct	_	TokenRange=94:95
+5	возопил	возопить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=96:103
+6	глухой	глухой	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	obj	_	TokenRange=104:110
+7	тому	то	PRON	DT	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	TokenRange=111:115
+8	в	в	ADP	IN	_	9	case	_	TokenRange=116:117
+9	ответ	ответ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|TokenRange=118:123
+10	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|TokenRange=123:124
+11	—	—	PUNCT	--	_	14	punct	_	SpacesAfter=\r\n|TokenRange=124:125
+12	Сей	сей	DET	DT	Case=Ins|Gender=Fem|Number=Sing	13	det	_	TokenRange=127:130
+13	пустошью	пустошье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	iobj	_	TokenRange=131:139
+14	владел	владеть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=140:146
+15	еще	еще	ADV	RB	Degree=Pos	16	advmod	_	TokenRange=147:150
+16	покойный	покойный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=151:159
+17	дед»	дед»	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|TokenRange=160:164
+18	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\r\n|TokenRange=164:165
+
+# sent_id = 3
+# text = Судья решил: «Почто ж идти вам брат на брата, Не тот и не другой, а девка виновата».
+1	Судья	судья	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=167:172
+2	решил	решить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=173:178
+3	:	:	PUNCT	:	_	2	punct	_	TokenRange=178:179
+4	«Почто	«почто	ADV	RB	_	6	advmod	_	TokenRange=180:186
+5	ж	же	PART	UH	_	4	advmod	_	TokenRange=187:188
+6	идти	идти	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	TokenRange=189:193
+7	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	6	iobj	_	TokenRange=194:197
+8	брат	брат	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=198:202
+9	на	на	ADP	IN	_	10	case	_	TokenRange=203:205
+10	брата	брат	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=206:211
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=211:212
+12	Не	не	PART	NEG	Polarity=Neg	13	advmod	_	TokenRange=214:216
+13	тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	TokenRange=217:220
+14	и	и	CCONJ	CC	_	16	cc	_	TokenRange=221:222
+15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	TokenRange=223:225
+16	другой	другой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=226:232
+17	,	,	PUNCT	,	_	19	punct	_	TokenRange=232:233
+18	а	а	CCONJ	CC	_	19	cc	_	TokenRange=234:235
+19	девка	девка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	TokenRange=236:241
+20	виновата»	виновата»	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No|TokenRange=242:251
+21	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=251:252
+

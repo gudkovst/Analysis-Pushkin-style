@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не розу пафосскую, Росой оживленную, Я ныне пою;
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	розу	роза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	TokenRange=3:7
+3	пафосскую	пафосский	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=8:17
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=17:18
+5	Росой	Роса	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	TokenRange=20:25
+6	оживленную	оживленный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=26:36
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=36:37
+8	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	TokenRange=39:40
+9	ныне	ныне	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=41:45
+10	пою	пой	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=46:49
+11	;	;	PUNCT	:	_	10	punct	_	SpacesAfter=\r\n|TokenRange=49:50
+
+# sent_id = 2
+# text = Не розу феосскую, Вином окропленную, Стихами хвалю; Но розу счастливую, На персях увядшую Элизы моей...
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=52:54
+2	розу	роза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	TokenRange=55:59
+3	феосскую	феосский	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=60:68
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=68:69
+5	Вином	вино	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	TokenRange=71:76
+6	окропленную	окропить	VERB	VBNL	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No|TokenRange=77:88
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=88:89
+8	Стихами	стихи	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	iobj	_	TokenRange=91:98
+9	хвалю	хвалить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=99:104
+10	;	;	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+11	Но	но	CCONJ	CC	_	12	cc	_	TokenRange=107:109
+12	розу	роза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	TokenRange=110:114
+13	счастливую	счастливый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|TokenRange=115:125
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=125:126
+15	На	на	ADP	IN	_	16	case	_	TokenRange=128:130
+16	персях	перся	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	TokenRange=131:137
+17	увядшую	увядший	VERB	VBNL	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	acl	_	SpacesAfter=\r\n|TokenRange=138:145
+18	Элизы	Элиза	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	TokenRange=147:152
+19	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	18	det	_	SpaceAfter=No|TokenRange=153:157
+20	...	...	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=157:160
+

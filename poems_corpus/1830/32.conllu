@@ -1,0 +1,98 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Пред испанкой благородной Двое рыцарей стоят.
+1	Пред	пред	ADP	IN	_	2	case	_	TokenRange=0:4
+2	испанкой	испанка	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	TokenRange=5:13
+3	благородной	благородный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesAfter=\r\n|TokenRange=14:25
+4	Двое	двое	NUM	CD	Case=Nom|NumType=Card	5	nummod:gov	_	TokenRange=27:31
+5	рыцарей	рыцарь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	TokenRange=32:39
+6	стоят	стоять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=40:45
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=45:46
+
+# sent_id = 2
+# text = Оба смело и свободно В очи прямо ей глядят.
+1	Оба	оба	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	9	nsubj	_	TokenRange=48:51
+2	смело	смело	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=52:57
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=58:59
+4	свободно	свободно	ADV	RB	Degree=Pos	2	conj	_	SpacesAfter=\r\n|TokenRange=60:68
+5	В	в	ADP	IN	_	6	case	_	TokenRange=70:71
+6	очи	очи	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	TokenRange=72:75
+7	прямо	прямо	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=76:81
+8	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	iobj	_	TokenRange=82:84
+9	глядят	глядеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=85:91
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=91:92
+
+# sent_id = 3
+# text = Блещут оба красотою, Оба сердцем горячи, Оба мощною рукою Оперлися на мечи.
+1	Блещут	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=94:100
+2	оба	оба	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	3	nummod:gov	_	TokenRange=101:104
+3	красотою	красота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=105:113
+4	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=113:114
+5	Оба	оба	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	7	nsubj	_	TokenRange=116:119
+6	сердцем	сердце	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	TokenRange=120:127
+7	горячи	горячий	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=128:134
+8	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=134:135
+9	Оба	оба	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	11	nummod:gov	_	TokenRange=137:140
+10	мощною	мощный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=141:147
+11	рукою	рука	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=148:153
+12	Оперлися	опереться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=155:163
+13	на	на	ADP	IN	_	14	case	_	TokenRange=164:166
+14	мечи	меч	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|TokenRange=167:171
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=171:172
+
+# sent_id = 4
+# text = Жизни им она дороже И, как слава, им мила;
+1	Жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	TokenRange=174:179
+2	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	4	iobj	_	TokenRange=180:182
+3	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	TokenRange=183:186
+4	дороже	дорогой	ADJ	RBR	Degree=Cmp	0	root	_	SpacesAfter=\r\n|TokenRange=187:193
+5	И	и	CCONJ	CC	_	11	cc	_	SpaceAfter=No|TokenRange=195:196
+6	,	,	PUNCT	,	_	8	punct	_	TokenRange=196:197
+7	как	как	ADP	IN	_	8	case	_	TokenRange=198:201
+8	слава	слава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|TokenRange=202:207
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=207:208
+10	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	11	iobj	_	TokenRange=209:211
+11	мила	милый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No|TokenRange=212:216
+12	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+
+# sent_id = 5
+# text = Но один ей мил — кого же Дева сердцем избрала?
+1	Но	но	CCONJ	CC	_	4	cc	_	TokenRange=219:221
+2	один	один	NUM	CD	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Card	4	nummod	_	TokenRange=222:226
+3	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	4	iobj	_	TokenRange=227:229
+4	мил	мил	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=230:233
+5	—	—	PUNCT	--	_	4	punct	_	TokenRange=234:235
+6	кого	кто	PRON	WP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	TokenRange=236:240
+7	же	же	PART	UH	_	6	advmod	_	SpacesAfter=\r\n|TokenRange=241:243
+8	Дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=245:249
+9	сердцем	сердце	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	iobj	_	TokenRange=250:257
+10	избрала	избрать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=258:265
+11	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=265:266
+
+# sent_id = 6
+# text = «Кто, реши, любим тобою?»- Оба деве говорят И с надеждой молодою В очи прямо ей глядят.
+1	«Кто	«кто	ADJ	ORD	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=268:272
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=272:273
+3	реши	решить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No|TokenRange=274:278
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=278:279
+5	любим	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=280:285
+6	тобою	ты	PRON	PRP	Case=Ins|Number=Sing|Person=2	5	obj	_	SpaceAfter=No|TokenRange=286:291
+7	?»-	?»-	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=291:294
+8	Оба	оба	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	9	nummod:gov	_	TokenRange=296:299
+9	деве	дева	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=300:304
+10	говорят	говорить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpacesAfter=\r\n|TokenRange=305:312
+11	И	и	CCONJ	CC	_	19	cc	_	TokenRange=314:315
+12	с	с	ADP	IN	_	13	case	_	TokenRange=316:317
+13	надеждой	надежда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	TokenRange=318:326
+14	молодою	молодой	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	nsubj	_	SpacesAfter=\r\n|TokenRange=327:334
+15	В	в	ADP	IN	_	16	case	_	TokenRange=336:337
+16	очи	очи	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obl	_	TokenRange=338:341
+17	прямо	прямо	ADV	RB	Degree=Pos	19	advmod	_	TokenRange=342:347
+18	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	19	iobj	_	TokenRange=348:350
+19	глядят	глядеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TokenRange=351:357
+20	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=357:358
+

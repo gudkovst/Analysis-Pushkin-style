@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не то беда, что ты поляк: Костюшко лях, Мицкевич лях!
+1	Не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=0:2
+2	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	TokenRange=3:5
+3	беда	беда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=6:10
+4	,	,	PUNCT	,	_	7	punct	_	TokenRange=10:11
+5	что	что	SCONJ	IN	_	7	mark	_	TokenRange=12:15
+6	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=16:18
+7	поляк	поляк	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No|TokenRange=19:24
+8	:	:	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+9	Костюшко	Костюшко	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	TokenRange=27:35
+10	лях	лях	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No|TokenRange=36:39
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=39:40
+12	Мицкевич	Мицкевич	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	TokenRange=41:49
+13	лях	лях	NOUN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No|TokenRange=50:53
+14	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+
+# sent_id = 2
+# text = Пожалуй, будь себе татарин,— И тут не вижу я стыда; Будь жид — и это не беда; Беда, что ты Видок Фиглярин.
+1	Пожалуй	пожалуй	ADV	RB	Degree=Pos	3	parataxis	_	SpaceAfter=No|TokenRange=56:63
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=63:64
+3	будь	быть	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=65:69
+4	себе	себя	PRON	PRP	Case=Dat	3	iobj	_	TokenRange=70:74
+5	татарин	татарин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=75:82
+6	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No|TokenRange=82:83
+7	—	—	PUNCT	``	_	11	punct	_	SpacesAfter=\r\n|TokenRange=83:84
+8	И	и	CCONJ	CC	_	11	cc	_	TokenRange=86:87
+9	тут	тут	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=88:91
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	TokenRange=92:94
+11	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=95:99
+12	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=100:101
+13	стыда	стыда	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	advmod	_	SpaceAfter=No|TokenRange=102:107
+14	;	;	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+15	Будь	быть	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	11	conj	_	TokenRange=110:114
+16	жид	жид	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=115:118
+17	—	—	PUNCT	--	_	21	punct	_	TokenRange=119:120
+18	и	и	CCONJ	CC	_	21	cc	_	TokenRange=121:122
+19	это	это	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	TokenRange=123:126
+20	не	не	PART	NEG	Polarity=Neg	21	advmod	_	TokenRange=127:129
+21	беда	беда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No|TokenRange=130:134
+22	;	;	PUNCT	:	_	23	punct	_	SpacesAfter=\r\n|TokenRange=134:135
+23	Беда	беда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	parataxis	_	SpaceAfter=No|TokenRange=137:141
+24	,	,	PUNCT	,	_	27	punct	_	TokenRange=141:142
+25	что	что	SCONJ	IN	_	27	mark	_	TokenRange=143:146
+26	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	27	nsubj	_	TokenRange=147:149
+27	Видок	Видок	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	ccomp	_	TokenRange=150:155
+28	Фиглярин	Фиглярин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No|TokenRange=156:164
+29	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No|TokenRange=164:165
+

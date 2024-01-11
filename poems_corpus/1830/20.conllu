@@ -1,0 +1,117 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я здесь, Инезилья, Я здесь под окном.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	здесь	здесь	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=2:7
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=7:8
+4	Инезилья	Инезилья	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=9:17
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=17:18
+6	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj	_	TokenRange=20:21
+7	здесь	здесь	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=22:27
+8	под	под	ADP	IN	_	9	case	_	TokenRange=28:31
+9	окном	окно	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=32:37
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=37:38
+
+# sent_id = 2
+# text = Объята Севилья И мраком и сном.
+1	Объята	объять	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=40:46
+2	Севилья	Севилья	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj:pass	_	SpacesAfter=\r\n|TokenRange=47:54
+3	И	и	CCONJ	CC	_	4	cc	_	TokenRange=56:57
+4	мраком	мрак	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl:agent	_	TokenRange=58:64
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=65:66
+6	сном	сон	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=67:71
+7	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=71:72
+
+# sent_id = 3
+# text = Исполнен отвагой, Окутан плащом, С гитарой и шпагой Я здесь под окном.
+1	Исполнен	исполнить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=74:82
+2	отвагой	отвага	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl:agent	_	SpaceAfter=No|TokenRange=83:90
+3	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+4	Окутан	окутать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	TokenRange=93:99
+5	плащом	плащ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	iobj	_	SpaceAfter=No|TokenRange=100:106
+6	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+7	С	с	ADP	IN	_	8	case	_	TokenRange=109:110
+8	гитарой	гитара	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	TokenRange=111:118
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=119:120
+10	шпагой	шпага	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	SpacesAfter=\r\n|TokenRange=121:127
+11	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	14	nsubj	_	TokenRange=129:130
+12	здесь	здесь	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=131:136
+13	под	под	ADP	IN	_	14	case	_	TokenRange=137:140
+14	окном	окно	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=141:146
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=146:147
+
+# sent_id = 4
+# text = Ты спишь ли?
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=149:151
+2	спишь	спать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=152:157
+3	ли	ли	PART	UH	_	2	advmod	_	SpaceAfter=No|TokenRange=158:160
+4	?	?	PUNCT	.	_	2	punct	_	TokenRange=160:161
+
+# sent_id = 5
+# text = Гитарой Тебя разбужу.
+1	Гитарой	гитара	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	iobj	_	SpacesAfter=\r\n|TokenRange=162:169
+2	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	3	obj	_	TokenRange=171:175
+3	разбужу	разбудить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=176:183
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=183:184
+
+# sent_id = 6
+# text = Проснется ли старый, Мечом уложу.
+1	Проснется	проснуться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	advcl	_	TokenRange=186:195
+2	ли	ли	PART	UH	_	1	advmod	_	TokenRange=196:198
+3	старый	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=199:205
+4	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=205:206
+5	Мечом	меч	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	iobj	_	TokenRange=208:213
+6	уложу	уложить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=214:219
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=219:220
+
+# sent_id = 7
+# text = Шелковые петли К окошку привесь...
+1	Шелковые	шелковый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	TokenRange=222:230
+2	петли	петля	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpacesAfter=\r\n|TokenRange=231:236
+3	К	к	ADP	IN	_	4	case	_	TokenRange=238:239
+4	окошку	окошко	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	TokenRange=240:246
+5	привесь	привесить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=247:254
+6	...	...	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=254:257
+
+# sent_id = 8
+# text = Что медлишь?..
+1	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	TokenRange=259:262
+2	медлишь	медлить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=263:270
+3	?..	?..	PUNCT	.	_	2	punct	_	TokenRange=270:273
+
+# sent_id = 9
+# text = Уж нет ли Соперника здесь?..
+1	Уж	уж	PART	UH	_	2	advmod	_	TokenRange=274:276
+2	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=277:280
+3	ли	ли	PART	UH	_	2	advmod	_	SpacesAfter=\r\n|TokenRange=281:283
+4	Соперника	соперник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=285:294
+5	здесь	здесь	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=295:300
+6	?..	?..	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=300:303
+
+# sent_id = 10
+# text = Я здесь, Инезилья, Я здесь под окном.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=305:306
+2	здесь	здесь	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=307:312
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=312:313
+4	Инезилья	Инезилья	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=314:322
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=322:323
+6	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj	_	TokenRange=325:326
+7	здесь	здесь	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=327:332
+8	под	под	ADP	IN	_	9	case	_	TokenRange=333:336
+9	окном	окно	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=337:342
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=342:343
+
+# sent_id = 11
+# text = Объята Севилья И мраком и сном.
+1	Объята	объять	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=345:351
+2	Севилья	Севилья	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj:pass	_	SpacesAfter=\r\n|TokenRange=352:359
+3	И	и	CCONJ	CC	_	4	cc	_	TokenRange=361:362
+4	мраком	мрак	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl:agent	_	TokenRange=363:369
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=370:371
+6	сном	сон	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=372:376
+7	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=376:377
+

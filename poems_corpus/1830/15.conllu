@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Урну с водой уронив, об утес ее дева разбила.
+1	Урну	урна	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	TokenRange=0:4
+2	с	с	ADP	IN	_	3	case	_	TokenRange=5:6
+3	водой	вода	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	TokenRange=7:12
+4	уронив	уронить	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	SpaceAfter=No|TokenRange=13:19
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=19:20
+6	об	об	ADP	IN	_	7	case	_	TokenRange=21:23
+7	утес	утес	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	TokenRange=24:28
+8	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obj	_	TokenRange=29:31
+9	дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=32:36
+10	разбила	разбить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=37:44
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=44:45
+
+# sent_id = 2
+# text = Дева печально сидит, праздный держа черепок.
+1	Дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=47:51
+2	печально	печально	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=52:60
+3	сидит	сидеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=61:66
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=66:67
+5	праздный	праздный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=68:76
+6	держа	держать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	TokenRange=77:82
+7	черепок	черепок	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=83:90
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+
+# sent_id = 3
+# text = Чудо! не сякнет вода, изливаясь из урны разбитой; Дева, над вечной струей, вечно печальна сидит.
+1	Чудо	чудо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No|TokenRange=93:97
+2	!	!	PUNCT	.	_	1	punct	_	TokenRange=97:98
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=99:101
+4	сякнет	сякнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=102:108
+5	вода	вода	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=109:113
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=113:114
+7	изливаясь	изливаться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	TokenRange=115:124
+8	из	из	ADP	IN	_	9	case	_	TokenRange=125:127
+9	урны	урна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	TokenRange=128:132
+10	разбитой	разбить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	SpaceAfter=No|TokenRange=133:141
+11	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=141:142
+12	Дева	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No|TokenRange=144:148
+13	,	,	PUNCT	,	_	16	punct	_	TokenRange=148:149
+14	над	над	ADP	IN	_	16	case	_	TokenRange=150:153
+15	вечной	вечный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	TokenRange=154:160
+16	струей	струя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=161:167
+17	,	,	PUNCT	,	_	16	punct	_	TokenRange=167:168
+18	вечно	вечно	ADV	RB	Degree=Pos	19	advmod	_	TokenRange=169:174
+19	печальна	печальный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	20	advmod	_	TokenRange=175:183
+20	сидит	сидеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=184:189
+21	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=189:190
+

@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Два чувства дивно близки нам,
+1	Два	два	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	2	nummod:gov	_	TokenRange=0:3
+2	чувства	чувство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	TokenRange=4:11
+3	дивно	дивно	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=12:17
+4	близки	близкий	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=18:24
+5	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	4	iobj	_	SpaceAfter=No|TokenRange=25:28
+6	,	,	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+
+# sent_id = 2
+# text = В них обретает сердце пищу: Любовь к родному пепелищу, Любовь к отеческим гробам.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=31:32
+2	них	они	PRON	PRP	Case=Loc|Number=Plur|Person=3	3	obl	_	TokenRange=33:36
+3	обретает	обретать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=37:45
+4	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	TokenRange=46:52
+5	пищу	пища	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=53:57
+6	:	:	PUNCT	:	_	5	punct	_	SpacesAfter=\r\n|TokenRange=57:58
+7	Любовь	любовь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	TokenRange=60:66
+8	к	к	ADP	IN	_	10	case	_	TokenRange=67:68
+9	родному	родной	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	TokenRange=69:76
+10	пепелищу	пепелище	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=77:85
+11	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=85:86
+12	Любовь	любовь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	TokenRange=88:94
+13	к	к	ADP	IN	_	15	case	_	TokenRange=95:96
+14	отеческим	отеческий	ADJ	JJL	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	TokenRange=97:106
+15	гробам	гроб	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No|TokenRange=107:113
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=113:114
+
+# sent_id = 3
+# text = Животворящая святыня!
+1	Животворящая	животворить	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	acl	_	TokenRange=116:128
+2	святыня	святыня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=129:136
+3	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+
+# sent_id = 4
+# text = Земля была б без них мертва, Как пустыня.
+1	Земля	земля	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=139:144
+2	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	cop	_	TokenRange=145:149
+3	б	б	AUX	PRP	_	6	aux	_	TokenRange=150:151
+4	без	без	ADP	IN	_	5	case	_	TokenRange=152:155
+5	них	они	PRON	PRP	Case=Gen|Number=Plur|Person=3	6	nmod	_	TokenRange=156:159
+6	мертва	мертвый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=160:166
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=166:167
+8	Как	как	ADP	IN	_	9	case	_	TokenRange=169:172
+9	пустыня	пустыня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=173:180
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=180:181
+
+# sent_id = 5
+# text = И как алтарь без божества».
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=183:184
+2	как	как	ADP	IN	_	3	case	_	TokenRange=185:188
+3	алтарь	алтарь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=189:195
+4	без	без	ADP	IN	_	5	case	_	TokenRange=196:199
+5	божества»	божества»	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No|TokenRange=200:209
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=209:210
+

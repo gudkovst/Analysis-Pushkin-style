@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Шумит кустарник...
+1	Шумит	шуметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:5
+2	кустарник	кустарник	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=6:15
+3	...	...	PUNCT	.	_	1	punct	_	TokenRange=15:18
+
+# sent_id = 2
+# text = На утес Олень веселый выбегает, Пугливо он подножный лес С вершины острой озирает, Глядит на светлые луга, Глядит на синий свод небесный И на днепровские брега, Венчанны чащею древесной.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=19:21
+2	утес	утес	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\r\n|TokenRange=22:26
+3	Олень	олень	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=28:33
+4	веселый	веселый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=34:41
+5	выбегает	выбегать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=42:50
+6	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+7	Пугливо	пугливо	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=53:60
+8	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	TokenRange=61:63
+9	подножный	подножный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=64:73
+10	лес	лес	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpacesAfter=\r\n|TokenRange=74:77
+11	С	с	ADP	IN	_	12	case	_	TokenRange=79:80
+12	вершины	вершина	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	TokenRange=81:88
+13	острой	острый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	TokenRange=89:95
+14	озирает	озирать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TokenRange=96:103
+15	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=103:104
+16	Глядит	глядеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=106:112
+17	на	на	ADP	IN	_	19	case	_	TokenRange=113:115
+18	светлые	светлый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	TokenRange=116:123
+19	луга	луг	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|TokenRange=124:128
+20	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+21	Глядит	глядеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=131:137
+22	на	на	ADP	IN	_	24	case	_	TokenRange=138:140
+23	синий	синий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	TokenRange=141:146
+24	свод	свод	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	TokenRange=147:151
+25	небесный	небесный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpacesAfter=\r\n|TokenRange=152:160
+26	И	и	CCONJ	CC	_	29	cc	_	TokenRange=162:163
+27	на	на	ADP	IN	_	29	case	_	TokenRange=164:166
+28	днепровские	днепровский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	TokenRange=167:178
+29	брега	брег	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No|TokenRange=179:184
+30	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\r\n|TokenRange=184:185
+31	Венчанны	венчать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	advcl	_	TokenRange=187:195
+32	чащею	чащ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	obl:agent	_	TokenRange=196:201
+33	древесной	древесный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No|TokenRange=202:211
+34	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=211:212
+
+# sent_id = 3
+# text = Недвижим, строен он стоит И чутким ухом шевелит...
+1	Недвижим	недвижимый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=214:222
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=222:223
+3	строен	стройный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	conj	_	TokenRange=224:230
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	TokenRange=231:233
+5	стоит	стоять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpacesAfter=\r\n|TokenRange=234:239
+6	И	и	CCONJ	CC	_	9	cc	_	TokenRange=241:242
+7	чутким	чуткий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	TokenRange=243:249
+8	ухом	ухо	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	iobj	_	TokenRange=250:254
+9	шевелит	шевелить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=255:262
+10	...	...	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=262:265
+
+# sent_id = 4
+# text = Но дрогнул он — незапный звук Его коснулся — боязливо Он шею вытянул и вдруг С вершины прянул...
+1	Но	но	CCONJ	CC	_	2	cc	_	TokenRange=267:269
+2	дрогнул	дрогнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=270:277
+3	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	TokenRange=278:280
+4	—	—	PUNCT	--	_	8	punct	_	TokenRange=281:282
+5	незапный	незапный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=283:291
+6	звук	звук	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=292:296
+7	Его	его	DET	PRP$	_	6	det	_	TokenRange=298:301
+8	коснулся	коснуться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	parataxis	_	TokenRange=302:310
+9	—	—	PUNCT	--	_	13	punct	_	TokenRange=311:312
+10	боязливо	боязливо	ADV	RB	Degree=Pos	13	advmod	_	SpacesAfter=\r\n|TokenRange=313:321
+11	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	TokenRange=323:325
+12	шею	шея	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	TokenRange=326:329
+13	вытянул	вытянуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	TokenRange=330:337
+14	и	и	CCONJ	CC	_	18	cc	_	TokenRange=338:339
+15	вдруг	вдруг	ADV	RB	Degree=Pos	18	advmod	_	SpacesAfter=\r\n|TokenRange=340:345
+16	С	с	ADP	IN	_	17	case	_	TokenRange=347:348
+17	вершины	вершина	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	TokenRange=349:356
+18	прянул	прянуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No|TokenRange=357:363
+19	...	...	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=363:366
+
