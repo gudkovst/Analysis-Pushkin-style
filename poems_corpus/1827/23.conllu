@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Весна, весна, пора любви, Как тяжко мне твое явленье, Какое томное волненье В моей душе, в моей крови...
+1	Весна	весна	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=0:5
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=5:6
+3	весна	весна	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=7:12
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=12:13
+5	пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	TokenRange=14:18
+6	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=19:24
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+8	Как	как	ADV	WRB	_	9	advmod	_	TokenRange=27:30
+9	тяжко	тяжкий	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	TokenRange=31:36
+10	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	9	iobj	_	TokenRange=37:40
+11	твое	твой	DET	PRP$	Case=Nom|Gender=Neut|Number=Sing	12	det	_	TokenRange=41:45
+12	явленье	явление	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=46:53
+13	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+14	Какое	какой	DET	DT	Case=Nom|Gender=Neut|Number=Sing	16	det	_	TokenRange=56:61
+15	томное	томный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	TokenRange=62:68
+16	волненье	волненье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	appos	_	SpacesAfter=\r\n|TokenRange=69:77
+17	В	в	ADP	IN	_	19	case	_	TokenRange=79:80
+18	моей	мой	DET	PRP$	Case=Loc|Gender=Fem|Number=Sing	19	det	_	TokenRange=81:85
+19	душе	душа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|TokenRange=86:90
+20	,	,	PUNCT	,	_	23	punct	_	TokenRange=90:91
+21	в	в	ADP	IN	_	23	case	_	TokenRange=92:93
+22	моей	мой	DET	PRP$	Case=Loc|Gender=Fem|Number=Sing	23	det	_	TokenRange=94:98
+23	крови	кровь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No|TokenRange=99:104
+24	...	...	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=104:107
+
+# sent_id = 2
+# text = Как чуждо сердцу наслажденье... Всё, что ликует и блестит, Наводит скуку и томленье.
+1	Как	как	SCONJ	IN	_	2	case	_	TokenRange=109:112
+2	чуждо	чуждо	ADJ	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	amod	_	TokenRange=113:118
+3	сердцу	сердце	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	iobj	_	TokenRange=119:125
+4	наслажденье	наслажденье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No|TokenRange=126:137
+5	...	...	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=137:140
+6	Всё	всё	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No|TokenRange=142:145
+7	,	,	PUNCT	,	_	9	punct	_	TokenRange=145:146
+8	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	TokenRange=147:150
+9	ликует	ликовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	TokenRange=151:157
+10	и	и	CCONJ	CC	_	11	cc	_	TokenRange=158:159
+11	блестит	блестеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No|TokenRange=160:167
+12	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=167:168
+13	Наводит	наводить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=170:177
+14	скуку	скука	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	TokenRange=178:183
+15	и	и	CCONJ	CC	_	16	cc	_	TokenRange=184:185
+16	томленье	томленье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No|TokenRange=186:194
+17	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\r\n|TokenRange=194:195
+
+# sent_id = 3
+# text = Отдайте мне метель и вьюгу И зимний долгий мрак ночей.
+1	Отдайте	отдать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=197:204
+2	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	1	iobj	_	TokenRange=205:208
+3	метель	метель	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	TokenRange=209:215
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=216:217
+5	вьюгу	вьюга	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	SpacesAfter=\r\n|TokenRange=218:223
+6	И	и	CCONJ	CC	_	9	cc	_	TokenRange=225:226
+7	зимний	зимний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=227:233
+8	долгий	долгий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=234:240
+9	мрак	мрак	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	TokenRange=241:245
+10	ночей	ночь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No|TokenRange=246:251
+11	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=251:252
+

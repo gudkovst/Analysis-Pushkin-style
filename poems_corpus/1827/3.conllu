@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Есть роза дивная: она Пред изумленною Киферой Цветет, румяна и пышна, Благословенная Венерой.
+1	Есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:4
+2	роза	роза	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	TokenRange=5:9
+3	дивная	дивный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=10:16
+4	:	:	PUNCT	:	_	9	punct	_	TokenRange=16:17
+5	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	SpacesAfter=\r\n|TokenRange=18:21
+6	Пред	пред	ADP	IN	_	8	case	_	TokenRange=23:27
+7	изумленною	изумленный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=28:38
+8	Киферой	Кифера	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpacesAfter=\r\n|TokenRange=39:46
+9	Цветет	цвести	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=48:54
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=54:55
+11	румяна	румяный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	9	conj	_	TokenRange=56:62
+12	и	и	CCONJ	CC	_	13	cc	_	TokenRange=63:64
+13	пышна	пышный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	11	conj	_	SpaceAfter=No|TokenRange=65:70
+14	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=70:71
+15	Благословенная	благословенный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	TokenRange=73:87
+16	Венерой	Венера	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	iobj	_	SpaceAfter=No|TokenRange=88:95
+17	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=95:96
+
+# sent_id = 2
+# text = Вотще Киферу и Пафос Мертвит дыхание мороза, Блестит между минутных роз Неувядаемая роза...
+1	Вотще	вотще	ADV	RBR	Degree=Cmp	5	advmod	_	TokenRange=98:103
+2	Киферу	Кифер	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	obj	_	TokenRange=104:110
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=111:112
+4	Пафос	Пафос	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\r\n|TokenRange=113:118
+5	Мертвит	мертвить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=120:127
+6	дыхание	дыхание	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=128:135
+7	мороза	мороз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=136:142
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+9	Блестит	блестеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=145:152
+10	между	между	ADP	IN	_	12	case	_	TokenRange=153:158
+11	минутных	минутный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	TokenRange=159:167
+12	роз	роза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpacesAfter=\r\n|TokenRange=168:171
+13	Неувядаемая	неувядаемый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	TokenRange=173:184
+14	роза	роза	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=185:189
+15	...	...	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=189:192
+

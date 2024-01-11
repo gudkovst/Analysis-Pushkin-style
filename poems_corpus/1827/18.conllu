@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Блажен в златом кругу вельмож Пиит, внимаемый царями.
+1	Блажен	блаженный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=0:6
+2	в	в	ADP	IN	_	4	case	_	TokenRange=7:8
+3	златом	златый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=9:15
+4	кругу	круг	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	TokenRange=16:21
+5	вельмож	вельмож	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpacesAfter=\r\n|TokenRange=22:29
+6	Пиит	Пиит	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=31:35
+7	,	,	PUNCT	,	_	8	punct	_	TokenRange=35:36
+8	внимаемый	внимать	VERB	VBNL	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	acl	_	TokenRange=37:46
+9	царями	царь	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	obl:agent	_	SpaceAfter=No|TokenRange=47:53
+10	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+
+# sent_id = 2
+# text = Владея смехом и слезами, Приправя горькой правдой ложь, Он вкус притупленный щекотит И к славе спесь бояр охотит, Он украшает их пиры И внемлет умные хвалы.
+1	Владея	владеть	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	TokenRange=56:62
+2	смехом	смех	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obj	_	TokenRange=63:69
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=70:71
+4	слезами	слеза	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=72:79
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=79:80
+6	Приправя	приправить	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	conj	_	TokenRange=82:90
+7	горькой	горький	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=91:98
+8	правдой	правда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	iobj	_	TokenRange=99:106
+9	ложь	ложь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=107:111
+10	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=111:112
+11	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	TokenRange=114:116
+12	вкус	вкус	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	TokenRange=117:121
+13	притупленный	притупить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	TokenRange=122:134
+14	щекотит	щекотить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=135:142
+15	И	и	CCONJ	CC	_	20	cc	_	TokenRange=144:145
+16	к	к	ADP	IN	_	17	case	_	TokenRange=146:147
+17	славе	слава	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	obl	_	TokenRange=148:153
+18	спесь	спесь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nsubj	_	TokenRange=154:159
+19	бояр	боярин	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	TokenRange=160:164
+20	охотит	охотить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No|TokenRange=165:171
+21	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=171:172
+22	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	TokenRange=174:176
+23	украшает	украшать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=177:185
+24	их	их	DET	PRP$	_	25	det	_	TokenRange=186:188
+25	пиры	пир	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	SpacesAfter=\r\n|TokenRange=189:193
+26	И	и	CCONJ	CC	_	27	cc	_	TokenRange=195:196
+27	внемлет	внемлть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	TokenRange=197:204
+28	умные	умный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	TokenRange=205:210
+29	хвалы	хвал	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No|TokenRange=211:216
+30	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+
+# sent_id = 3
+# text = Меж тем за тяжкими дверями, Теснясь у черного крыльца, Народ, гоняемый слугами, Поодаль слушает певца.
+1	Меж	меж	ADP	IN	_	2	case	_	TokenRange=219:222
+2	тем	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	TokenRange=223:226
+3	за	за	ADP	IN	_	5	case	_	TokenRange=227:229
+4	тяжкими	тяжкий	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	TokenRange=230:237
+5	дверями	дверь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No|TokenRange=238:245
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=245:246
+7	Теснясь	тесниться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	TokenRange=248:255
+8	у	у	ADP	IN	_	10	case	_	TokenRange=256:257
+9	черного	черный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	TokenRange=258:265
+10	крыльца	крыльцо	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=266:273
+11	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=273:274
+12	Народ	народ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No|TokenRange=276:281
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=281:282
+14	гоняемый	гонять	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	TokenRange=283:291
+15	слугами	слуга	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	14	obl:agent	_	SpaceAfter=No|TokenRange=292:299
+16	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=299:300
+17	Поодаль	Поодаль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=302:309
+18	слушает	слушать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=310:317
+19	певца	певец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|TokenRange=318:323
+20	.	.	PUNCT	.	_	18	punct	_	SpaceAfter=No|TokenRange=323:324
+

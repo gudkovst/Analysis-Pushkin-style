@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Любимец моды легкокрылой, Хоть не британец, не француз, Ты вновь создал, волшебник милый, Меня, питомца чистых муз,— И я смеюся над могилой, Ушед навек от смертных уз.
+1	Любимец	любимец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=0:7
+2	моды	мода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	TokenRange=8:12
+3	легкокрылой	легкокрылый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=13:24
+4	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+5	Хоть	хоть	SCONJ	IN	_	7	mark	_	TokenRange=27:31
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=32:34
+7	британец	британец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|TokenRange=35:43
+8	,	,	PUNCT	,	_	10	punct	_	TokenRange=43:44
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=45:47
+10	француз	француз	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=48:55
+11	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+12	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	14	nsubj	_	TokenRange=58:60
+13	вновь	вновь	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=61:66
+14	создал	создать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=67:73
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=73:74
+16	волшебник	волшебник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	parataxis	_	TokenRange=75:84
+17	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=85:90
+18	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+19	Меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	16	appos	_	SpaceAfter=No|TokenRange=93:97
+20	,	,	PUNCT	,	_	21	punct	_	TokenRange=97:98
+21	питомца	питомец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	appos	_	TokenRange=99:106
+22	чистых	чистый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	TokenRange=107:113
+23	муз	муза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No|TokenRange=114:117
+24	,	,	PUNCT	,	_	28	punct	_	SpaceAfter=No|TokenRange=117:118
+25	—	—	PUNCT	--	_	28	punct	_	SpacesAfter=\r\n|TokenRange=118:119
+26	И	и	CCONJ	CC	_	28	cc	_	TokenRange=121:122
+27	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	28	nsubj	_	TokenRange=123:124
+28	смеюся	смеяться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	14	conj	_	TokenRange=125:131
+29	над	над	ADP	IN	_	30	case	_	TokenRange=132:135
+30	могилой	могила	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No|TokenRange=136:143
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+32	Ушед	ушедть	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	28	advcl	_	TokenRange=146:150
+33	навек	навек	ADV	RB	Degree=Pos	32	advmod	_	TokenRange=151:156
+34	от	от	ADP	IN	_	36	case	_	TokenRange=157:159
+35	смертных	смертный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	TokenRange=160:168
+36	уз	уза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	32	obl	_	SpaceAfter=No|TokenRange=169:171
+37	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\r\n|TokenRange=171:172
+
+# sent_id = 2
+# text = Себя как в зеркале я вижу, Но это зеркало мне льстит: Оно гласит, что не унижу Пристрастья важных аонид.
+1	Себя	себя	PRON	PRP	Case=Acc|Reflex=Yes	6	obj	_	TokenRange=174:178
+2	как	как	ADP	IN	_	4	case	_	TokenRange=179:182
+3	в	в	ADP	IN	_	4	case	_	TokenRange=183:184
+4	зеркале	зеркало	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	TokenRange=185:192
+5	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=193:194
+6	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=195:199
+7	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=199:200
+8	Но	но	CCONJ	CC	_	12	cc	_	TokenRange=202:204
+9	это	этот	DET	DT	Case=Nom|Gender=Neut|Number=Sing	10	det	_	TokenRange=205:208
+10	зеркало	зеркало	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	TokenRange=209:216
+11	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	12	iobj	_	TokenRange=217:220
+12	льстит	льстить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=221:227
+13	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=227:228
+14	Оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	15	nsubj	_	TokenRange=230:233
+15	гласит	гласить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No|TokenRange=234:240
+16	,	,	PUNCT	,	_	19	punct	_	TokenRange=240:241
+17	что	что	SCONJ	IN	_	19	mark	_	TokenRange=242:245
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=246:248
+19	унижу	унидеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	15	ccomp	_	SpacesAfter=\r\n|TokenRange=249:254
+20	Пристрастья	пристрастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obj	_	TokenRange=256:267
+21	важных	важный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	TokenRange=268:274
+22	аонид	аонида	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No|TokenRange=275:280
+23	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=280:281
+
+# sent_id = 3
+# text = Так Риму, Дрездену, Парижу Известен впредь мой будет вид.
+1	Так	так	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=283:286
+2	Риму	Рим	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No|TokenRange=287:291
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=291:292
+4	Дрездену	Дрезден	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=293:301
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=301:302
+6	Парижу	Париж	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\r\n|TokenRange=303:309
+7	Известен	известный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=311:319
+8	впредь	впредь	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=320:326
+9	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	11	det	_	TokenRange=327:330
+10	будет	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	TokenRange=331:336
+11	вид	вид	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=337:340
+12	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=340:341
+

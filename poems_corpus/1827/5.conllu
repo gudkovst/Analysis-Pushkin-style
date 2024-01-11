@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Среди рассеянной Москвы, При толках виста и бостона, При бальном лепете молвы Ты любишь игры Аполлона.
+1	Среди	среди	ADP	IN	_	3	case	_	TokenRange=0:5
+2	рассеянной	рассеять	ADJ	VBNL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=6:16
+3	Москвы	Москва	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=17:23
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+5	При	при	ADP	IN	_	6	case	_	TokenRange=26:29
+6	толках	толк	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	conj	_	TokenRange=30:36
+7	виста	вист	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=37:42
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=43:44
+9	бостона	бостон	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=45:52
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+11	При	при	ADP	IN	_	13	case	_	TokenRange=55:58
+12	бальном	бальный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	TokenRange=59:66
+13	лепете	лепет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	TokenRange=67:73
+14	молвы	молва	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpacesAfter=\r\n|TokenRange=74:79
+15	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	16	nsubj	_	TokenRange=81:83
+16	любишь	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=84:90
+17	игры	игра	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	TokenRange=91:95
+18	Аполлона	Аполлон	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|TokenRange=96:104
+19	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+
+# sent_id = 2
+# text = Царица муз и красоты, Рукою нежной держишь ты Волшебный скипетр вдохновений, И над задумчивым челом, Двойным увенчанным венком, И вьется и пылает гений.
+1	Царица	царица	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=107:113
+2	муз	муза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	TokenRange=114:117
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=118:119
+4	красоты	красота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=120:127
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=127:128
+6	Рукою	рука	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	iobj	_	TokenRange=130:135
+7	нежной	нежный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=136:142
+8	держишь	держать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=143:150
+9	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	8	nsubj	_	SpacesAfter=\r\n|TokenRange=151:153
+10	Волшебный	волшебный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=155:164
+11	скипетр	скипетр	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	TokenRange=165:172
+12	вдохновений	вдохновение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|TokenRange=173:184
+13	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=184:185
+14	И	и	CCONJ	CC	_	24	cc	_	TokenRange=187:188
+15	над	над	ADP	IN	_	17	case	_	TokenRange=189:192
+16	задумчивым	задумчивый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	TokenRange=193:203
+17	челом	чело	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|TokenRange=204:209
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=209:210
+19	Двойным	двойной	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=212:219
+20	увенчанным	увенчать	VERB	VBNL	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	TokenRange=220:230
+21	венком	венок	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No|TokenRange=231:237
+22	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=237:238
+23	И	и	CCONJ	CC	_	24	cc	_	TokenRange=240:241
+24	вьется	литься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	TokenRange=242:248
+25	и	и	CCONJ	CC	_	26	cc	_	TokenRange=249:250
+26	пылает	пылать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=251:257
+27	гений	гений	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No|TokenRange=258:263
+28	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=263:264
+
+# sent_id = 3
+# text = Певца, плененного тобой, Не отвергай смиренной дани, Внемли с улыбкой голос мой, Как мимоездом Каталани Цыганке внемлет кочевой.
+1	Певца	певец	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=266:271
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=271:272
+3	плененного	пленить	VERB	VBNL	Animacy=Anim|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	TokenRange=273:283
+4	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	3	obl:agent	_	SpaceAfter=No|TokenRange=284:289
+5	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=289:290
+6	Не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=292:294
+7	отвергай	отвергать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=295:303
+8	смиренной	смиренный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=304:313
+9	дани	дань	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=314:318
+10	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=318:319
+11	Внемли	внемли	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=321:327
+12	с	с	ADP	IN	_	13	case	_	TokenRange=328:329
+13	улыбкой	улыбка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	TokenRange=330:337
+14	голос	голос	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	TokenRange=338:343
+15	мой	мой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	det	_	SpaceAfter=No|TokenRange=344:347
+16	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\r\n|TokenRange=347:348
+17	Как	как	SCONJ	WRB	_	21	mark	_	TokenRange=350:353
+18	мимоездом	мимоезд	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	TokenRange=354:363
+19	Каталани	Каталани	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpacesAfter=\r\n|TokenRange=364:372
+20	Цыганке	Цыганка	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	21	iobj	_	TokenRange=374:381
+21	внемлет	внемлть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	TokenRange=382:389
+22	кочевой	кочевой	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No|TokenRange=390:397
+23	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No|TokenRange=397:398
+

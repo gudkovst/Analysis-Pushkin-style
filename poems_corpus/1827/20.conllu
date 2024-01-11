@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Бог помочь вам, друзья мои, В заботах жизни, царской службы, И на пирах разгульной дружбы, И в сладких таинствах любви!
+1	Бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=0:3
+2	помочь	помочь	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=4:10
+3	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	2	iobj	_	SpaceAfter=No|TokenRange=11:14
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=14:15
+5	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	TokenRange=16:22
+6	мои	мой	DET	PRP$	Case=Nom|Number=Plur	5	det	_	SpaceAfter=No|TokenRange=23:26
+7	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+8	В	в	ADP	IN	_	9	case	_	TokenRange=29:30
+9	заботах	забота	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	TokenRange=31:38
+10	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=39:44
+11	,	,	PUNCT	,	_	13	punct	_	TokenRange=44:45
+12	царской	царский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	TokenRange=46:53
+13	службы	служба	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|TokenRange=54:60
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=60:61
+15	И	и	CCONJ	CC	_	17	cc	_	TokenRange=63:64
+16	на	на	ADP	IN	_	17	case	_	TokenRange=65:67
+17	пирах	пира	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	conj	_	TokenRange=68:73
+18	разгульной	разгульный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=74:84
+19	дружбы	дружба	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|TokenRange=85:91
+20	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=91:92
+21	И	и	CCONJ	CC	_	24	cc	_	TokenRange=94:95
+22	в	в	ADP	IN	_	24	case	_	TokenRange=96:97
+23	сладких	сладкий	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	TokenRange=98:105
+24	таинствах	таинство	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	conj	_	TokenRange=106:115
+25	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No|TokenRange=116:121
+26	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=121:122
+
+# sent_id = 2
+# text = Бог помочь вам, друзья мои, И в бурях, и в житейском горе, В краю чужом, в пустынном море, И в мрачных пропастях земли!
+1	Бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=124:127
+2	помочь	помочь	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=128:134
+3	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	2	iobj	_	SpaceAfter=No|TokenRange=135:138
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=138:139
+5	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	appos	_	TokenRange=140:146
+6	мои	мой	DET	PRP$	Case=Nom|Number=Plur	5	det	_	SpaceAfter=No|TokenRange=147:150
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=150:151
+8	И	и	CCONJ	CC	_	10	cc	_	TokenRange=153:154
+9	в	в	ADP	IN	_	10	case	_	TokenRange=155:156
+10	бурях	буря	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|TokenRange=157:162
+11	,	,	PUNCT	,	_	15	punct	_	TokenRange=162:163
+12	и	и	CCONJ	CC	_	15	cc	_	TokenRange=164:165
+13	в	в	ADP	IN	_	15	case	_	TokenRange=166:167
+14	житейском	житейский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	TokenRange=168:177
+15	горе	горе	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|TokenRange=178:182
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=182:183
+17	В	в	ADP	IN	_	18	case	_	TokenRange=185:186
+18	краю	край	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	conj	_	TokenRange=187:191
+19	чужом	чужой	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No|TokenRange=192:197
+20	,	,	PUNCT	,	_	23	punct	_	TokenRange=197:198
+21	в	в	ADP	IN	_	23	case	_	TokenRange=199:200
+22	пустынном	пустынный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	TokenRange=201:210
+23	море	море	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|TokenRange=211:215
+24	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\r\n|TokenRange=215:216
+25	И	и	CCONJ	CC	_	28	cc	_	TokenRange=218:219
+26	в	в	ADP	IN	_	28	case	_	TokenRange=220:221
+27	мрачных	мрачный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	TokenRange=222:229
+28	пропастях	пропасть	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	conj	_	TokenRange=230:239
+29	земли	земля	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No|TokenRange=240:245
+30	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=245:246
+

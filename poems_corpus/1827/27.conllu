@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я знаю край: там на брега Уединенно море плещет; Там редко падают снега, Безоблачно там солнце блещет На опаленные луга; Дубрав не видно — степь нагая Над морем стелется одна.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	знаю	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2:6
+3	край	край	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=7:11
+4	:	:	PUNCT	:	_	10	punct	_	TokenRange=11:12
+5	там	там	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=13:16
+6	на	на	ADP	IN	_	7	case	_	TokenRange=17:19
+7	брега	брег	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpacesAfter=\r\n|TokenRange=20:25
+8	Уединенно	уединенно	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=27:36
+9	море	море	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	TokenRange=37:41
+10	плещет	плистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No|TokenRange=42:48
+11	;	;	PUNCT	:	_	14	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+12	Там	там	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=51:54
+13	редко	редко	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=55:60
+14	падают	падать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	TokenRange=61:67
+15	снега	снег	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No|TokenRange=68:73
+16	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=73:74
+17	Безоблачно	безоблачно	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=76:86
+18	там	там	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=87:90
+19	солнце	солнце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	TokenRange=91:97
+20	блещет	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpacesAfter=\r\n|TokenRange=98:104
+21	На	на	ADP	IN	_	23	case	_	TokenRange=106:108
+22	опаленные	опалить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	TokenRange=109:118
+23	луга	луг	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No|TokenRange=119:123
+24	;	;	PUNCT	:	_	27	punct	_	SpacesAfter=\r\n|TokenRange=123:124
+25	Дубрав	Дубрав	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nsubj	_	TokenRange=126:132
+26	не	не	PART	NEG	Polarity=Neg	27	advmod	_	TokenRange=133:135
+27	видно	видный	ADJ	PRED	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	conj	_	TokenRange=136:141
+28	—	—	PUNCT	--	_	33	punct	_	TokenRange=142:143
+29	степь	степь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	TokenRange=144:149
+30	нагая	нагый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	SpacesAfter=\r\n|TokenRange=150:155
+31	Над	над	ADP	IN	_	32	case	_	TokenRange=157:160
+32	морем	море	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	obl	_	TokenRange=161:166
+33	стелется	стелиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	27	parataxis	_	TokenRange=167:175
+34	одна	один	NUM	CD	Case=Nom|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No|TokenRange=176:180
+35	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=180:181
+

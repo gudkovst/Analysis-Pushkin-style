@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Куда ты холоден и сух!
+1	Куда	куда	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=0:4
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=5:7
+3	холоден	холодный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=8:15
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=16:17
+5	сух	сухой	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No|TokenRange=18:21
+6	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=21:22
+
+# sent_id = 2
+# text = Как слог твой чопорен и бледен!
+1	Как	как	SCONJ	IN	_	4	mark	_	TokenRange=24:27
+2	слог	слог	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=28:32
+3	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=33:37
+4	чопорен	чопорный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=38:45
+5	и	и	CCONJ	CC	_	6	cc	_	TokenRange=46:47
+6	бледен	бледный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No|TokenRange=48:54
+7	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=54:55
+
+# sent_id = 3
+# text = Как в изобретеньях ты беден!
+1	Как	как	SCONJ	IN	_	5	mark	_	TokenRange=57:60
+2	в	в	ADP	IN	_	3	case	_	TokenRange=61:62
+3	изобретеньях	изобретенье	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	nmod	_	TokenRange=63:75
+4	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	5	nsubj	_	TokenRange=76:78
+5	беден	бедный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=79:84
+6	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=84:85
+
+# sent_id = 4
+# text = Как утомляешь ты мой слух!
+1	Как	как	ADV	WRB	_	2	advmod	_	TokenRange=87:90
+2	утомляешь	утомлять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=91:100
+3	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=101:103
+4	мой	мой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	det	_	TokenRange=104:107
+5	слух	слух	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=108:112
+6	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=112:113
+
+# sent_id = 5
+# text = Твоя пастушка, твой пастух Должны ходить в овчинной шубе.
+1	Твоя	твой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	2	det	_	TokenRange=115:119
+2	пастушка	пастушка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=120:128
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=128:129
+4	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	5	det	_	TokenRange=130:134
+5	пастух	пастух	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\r\n|TokenRange=135:141
+6	Должны	должен	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=143:149
+7	ходить	ходить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	TokenRange=150:156
+8	в	в	ADP	IN	_	10	case	_	TokenRange=157:158
+9	овчинной	овчинный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=159:167
+10	шубе	шуба	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=168:172
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=172:173
+
+# sent_id = 6
+# text = Ты их морозишь налегке!
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=175:177
+2	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	obj	_	TokenRange=178:180
+3	морозишь	морозить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=181:189
+4	налегке	налегке	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=190:197
+5	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=197:198
+
+# sent_id = 7
+# text = Где ты нашел их: в шустер-клубе Или на Красном кабачке?
+1	Где	где	ADV	WRB	Degree=Pos	3	advmod	_	TokenRange=200:203
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=204:206
+3	нашел	найти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=207:212
+4	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	obj	_	SpaceAfter=No|TokenRange=213:215
+5	:	:	PUNCT	:	_	3	punct	_	TokenRange=215:216
+6	в	в	ADP	IN	_	7	case	_	TokenRange=217:218
+7	шустер-клубе	шустер-клуб	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\r\n|TokenRange=219:231
+8	Или	или	CCONJ	CC	_	11	cc	_	TokenRange=233:236
+9	на	на	ADP	IN	_	11	case	_	TokenRange=237:239
+10	Красном	красный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=240:247
+11	кабачке	кабачок	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=248:255
+12	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=255:256
+

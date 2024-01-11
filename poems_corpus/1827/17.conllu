@@ -1,0 +1,237 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Всем красны боярские конюшни: Чистотой, прислугой и конями; Всем довольны добрые кони: Кормом, стойлами и надзором.
+1	Всем	все	PRON	DT	Animacy=Anim|Case=Dat|Number=Plur	2	iobj	_	TokenRange=0:4
+2	красны	красный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=5:11
+3	боярские	боярский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	TokenRange=12:20
+4	конюшни	конюшня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|TokenRange=21:28
+5	:	:	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+6	Чистотой	чистота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=31:39
+7	,	,	PUNCT	,	_	8	punct	_	TokenRange=39:40
+8	прислугой	прислуга	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	TokenRange=41:50
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=51:52
+10	конями	конь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=53:59
+11	;	;	PUNCT	:	_	13	punct	_	SpacesAfter=\r\n|TokenRange=59:60
+12	Всем	все	PRON	DT	Animacy=Anim|Case=Dat|Number=Plur	13	iobj	_	TokenRange=62:66
+13	довольны	довольный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	2	parataxis	_	TokenRange=67:75
+14	добрые	добрый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	TokenRange=76:82
+15	кони	конь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No|TokenRange=83:87
+16	:	:	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=87:88
+17	Кормом	корм	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No|TokenRange=90:96
+18	,	,	PUNCT	,	_	19	punct	_	TokenRange=96:97
+19	стойлами	стойло	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	17	conj	_	TokenRange=98:106
+20	и	и	CCONJ	CC	_	21	cc	_	TokenRange=107:108
+21	надзором	надзор	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No|TokenRange=109:117
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=117:118
+
+# sent_id = 2
+# text = Сбруя блещет на стойках дубовых,
+1	Сбруя	сбруя	VERB	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=120:125
+2	блещет	блистать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=126:132
+3	на	на	ADP	IN	_	4	case	_	TokenRange=133:135
+4	стойках	стойка	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	TokenRange=136:143
+5	дубовых	дубовый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	SpaceAfter=No|TokenRange=144:151
+6	,	,	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+
+# sent_id = 3
+# text = В стойлах лоснятся борзые кони.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=154:155
+2	стойлах	стойло	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	obl	_	TokenRange=156:163
+3	лоснятся	лосниться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=164:172
+4	борзые	борзый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	TokenRange=173:179
+5	кони	конь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No|TokenRange=180:184
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=184:185
+
+# sent_id = 4
+# text = Лишь одним конюшни непригожи — Домовой повадился в конюшни.
+1	Лишь	лишь	PART	UH	_	2	advmod	_	TokenRange=187:191
+2	одним	один	NUM	CD	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|NumType=Card	3	nummod	_	TokenRange=192:197
+3	конюшни	конюшня	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	TokenRange=198:205
+4	непригожи	непригожи	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=206:215
+5	—	—	PUNCT	--	_	4	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+6	Домовой	Домовой	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=219:226
+7	повадился	повадиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=227:236
+8	в	в	ADP	IN	_	9	case	_	TokenRange=237:238
+9	конюшни	конюшня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|TokenRange=239:246
+10	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=246:247
+
+# sent_id = 5
+# text = По ночам ходит он в конюшни, Чистит, холит коней боярских, Заплетает гриву им в косички, Туго хвост завязывает в узел.
+1	По	по	ADP	IN	_	2	case	_	TokenRange=249:251
+2	ночам	ночь	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	obl	_	TokenRange=252:257
+3	ходит	ходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=258:263
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	TokenRange=264:266
+5	в	в	ADP	IN	_	6	case	_	TokenRange=267:268
+6	конюшни	конюшня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|TokenRange=269:276
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=276:277
+8	Чистит	чистить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=279:285
+9	,	,	PUNCT	,	_	10	punct	_	TokenRange=285:286
+10	холит	холить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=287:292
+11	коней	конь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	TokenRange=293:298
+12	боярских	боярский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	11	nmod	_	SpaceAfter=No|TokenRange=299:307
+13	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=307:308
+14	Заплетает	заплетать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=310:319
+15	гриву	грива	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	TokenRange=320:325
+16	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	14	iobj	_	TokenRange=326:328
+17	в	в	ADP	IN	_	18	case	_	TokenRange=329:330
+18	косички	косичка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|TokenRange=331:338
+19	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=338:339
+20	Туго	туго	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	det	_	TokenRange=341:345
+21	хвост	хвост	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	TokenRange=346:351
+22	завязывает	завязывать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=352:362
+23	в	в	ADP	IN	_	24	case	_	TokenRange=363:364
+24	узел	узел	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|TokenRange=365:369
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=369:370
+
+# sent_id = 6
+# text = Как не взлюбит он вороного.
+1	Как	как	ADV	IN	_	3	advmod	_	TokenRange=372:375
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=376:378
+3	взлюбит	взлюбить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=379:386
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	TokenRange=387:389
+5	вороного	вороный	ADJ	NN	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=390:398
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=398:399
+
+# sent_id = 7
+# text = На вечерней заре с водопою Обойду я боярские конюшни И зайду в стойло к вороному — Конь стоит исправен и смирен.
+1	На	на	ADP	IN	_	3	case	_	TokenRange=401:403
+2	вечерней	вечерний	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=404:412
+3	заре	заря	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	TokenRange=413:417
+4	с	с	ADP	IN	_	5	case	_	TokenRange=418:419
+5	водопою	водопа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\r\n|TokenRange=420:427
+6	Обойду	обойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=429:435
+7	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=436:437
+8	боярские	боярский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	TokenRange=438:446
+9	конюшни	конюшня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpacesAfter=\r\n|TokenRange=447:454
+10	И	и	CCONJ	CC	_	11	cc	_	TokenRange=456:457
+11	зайду	зайти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	TokenRange=458:463
+12	в	в	ADP	IN	_	13	case	_	TokenRange=464:465
+13	стойло	стойло	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	TokenRange=466:472
+14	к	к	ADP	IN	_	15	case	_	TokenRange=473:474
+15	вороному	вороный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	TokenRange=475:483
+16	—	—	PUNCT	--	_	18	punct	_	SpacesAfter=\r\n|TokenRange=484:485
+17	Конь	конь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=487:491
+18	стоит	стоять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=492:497
+19	исправен	исправный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	18	obl	_	TokenRange=498:506
+20	и	и	CCONJ	CC	_	21	cc	_	TokenRange=507:508
+21	смирен	смирный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	19	conj	_	SpaceAfter=No|TokenRange=509:515
+22	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=515:516
+
+# sent_id = 8
+# text = А поутру отопрешь конюшню, Конь не тих, весь в мыле, жаром пышет, С морды каплет кровавая пена.
+1	А	а	CCONJ	CC	_	3	cc	_	TokenRange=518:519
+2	поутру	поутру	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=520:526
+3	отопрешь	отопреть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=527:535
+4	конюшню	конюшня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=536:543
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=543:544
+6	Конь	конь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=546:550
+7	не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=551:553
+8	тих	тихий	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No|TokenRange=554:557
+9	,	,	PUNCT	,	_	12	punct	_	TokenRange=557:558
+10	весь	весь	DET	DT	Case=Nom|Gender=Masc|Number=Sing	8	det	_	TokenRange=559:563
+11	в	в	ADP	IN	_	12	case	_	TokenRange=564:565
+12	мыле	мыль	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=566:570
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=570:571
+14	жаром	жар	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	iobj	_	TokenRange=572:577
+15	пышет	пысать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=578:583
+16	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=583:584
+17	С	с	ADP	IN	_	18	case	_	TokenRange=586:587
+18	морды	морда	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	TokenRange=588:593
+19	каплет	капить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=594:600
+20	кровавая	кровавый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=601:609
+21	пена	пена	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No|TokenRange=610:614
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=614:615
+
+# sent_id = 9
+# text = Во всю ночь домовой на нем ездил По горам, по лесам, по болотам, С полуночи до белого света — До заката месяца...
+1	Во	во	ADP	IN	_	3	case	_	TokenRange=617:619
+2	всю	весь	DET	DT	Case=Acc|Gender=Fem|Number=Sing	3	det	_	TokenRange=620:623
+3	ночь	ночь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	TokenRange=624:628
+4	домовой	домовой	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=629:636
+5	на	на	ADP	IN	_	6	case	_	TokenRange=637:639
+6	нем	он	PRON	PRP	Case=Loc|Gender=Masc|Number=Sing|Person=3	7	obl	_	TokenRange=640:643
+7	ездил	ездить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=644:649
+8	По	по	ADP	IN	_	9	case	_	TokenRange=651:653
+9	горам	гора	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|TokenRange=654:659
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=659:660
+11	по	по	ADP	IN	_	12	case	_	TokenRange=661:663
+12	лесам	лес	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No|TokenRange=664:669
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=669:670
+14	по	по	ADP	IN	_	15	case	_	TokenRange=671:673
+15	болотам	болото	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	conj	_	SpaceAfter=No|TokenRange=674:681
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=681:682
+17	С	с	ADP	IN	_	18	case	_	TokenRange=684:685
+18	полуночи	полночь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	TokenRange=686:694
+19	до	до	ADP	IN	_	21	case	_	TokenRange=695:697
+20	белого	белый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=698:704
+21	света	свет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	TokenRange=705:710
+22	—	—	PUNCT	--	_	24	punct	_	SpacesAfter=\r\n|TokenRange=711:712
+23	До	до	ADP	IN	_	24	case	_	TokenRange=714:716
+24	заката	закат	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	TokenRange=717:723
+25	месяца	месяц	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No|TokenRange=724:730
+26	...	...	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=730:733
+
+# sent_id = 10
+# text = Ах ты, старый конюх, неразумный, Разгадаешь ли, старый, загадку?
+1	Ах	ах	CCONJ	CC	_	9	cc	_	TokenRange=735:737
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	SpaceAfter=No|TokenRange=738:740
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=740:741
+4	старый	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=742:748
+5	конюх	конюх	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=749:754
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=754:755
+7	неразумный	неразумный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No|TokenRange=756:766
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=766:767
+9	Разгадаешь	разгадать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=769:779
+10	ли	ли	PART	UH	_	9	advmod	_	SpaceAfter=No|TokenRange=780:782
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=782:783
+12	старый	старый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	vocative	_	SpaceAfter=No|TokenRange=784:790
+13	,	,	PUNCT	,	_	12	punct	_	TokenRange=790:791
+14	загадку	загадка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|TokenRange=792:799
+15	?	?	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=799:800
+
+# sent_id = 11
+# text = Полюбил красну девку младой конюх, Младой конюх, разгульный парень — Он конюшню ночью отпирает, Потихонько вороного седлает, Полегонько выводит за ворота, На коня на борзого садится, К красной девке в гости скачет.
+1	Полюбил	полюбить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=802:809
+2	красну	красна	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=810:816
+3	девку	девка	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	TokenRange=817:822
+4	младой	младой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=823:829
+5	конюх	конюх	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=830:835
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=835:836
+7	Младой	младой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=838:844
+8	конюх	конюх	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=845:850
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=850:851
+10	разгульный	разгульный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=852:862
+11	парень	парень	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	TokenRange=863:869
+12	—	—	PUNCT	--	_	16	punct	_	SpacesAfter=\r\n|TokenRange=870:871
+13	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	TokenRange=873:875
+14	конюшню	конюшня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	TokenRange=876:883
+15	ночью	ночь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	TokenRange=884:889
+16	отпирает	отпирать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=890:898
+17	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=898:899
+18	Потихонько	потихонько	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=901:911
+19	вороного	вороный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	obj	_	TokenRange=912:920
+20	седлает	седлать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No|TokenRange=921:928
+21	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=928:929
+22	Полегонько	Полегонько	PROPN	RB	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	advmod	_	TokenRange=931:941
+23	выводит	выводить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	TokenRange=942:949
+24	за	за	ADP	IN	_	25	case	_	TokenRange=950:952
+25	ворота	ворота	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|TokenRange=953:959
+26	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\r\n|TokenRange=959:960
+27	На	на	ADP	IN	_	28	case	_	TokenRange=962:964
+28	коня	конь	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	TokenRange=965:969
+29	на	на	ADP	IN	_	30	case	_	TokenRange=970:972
+30	борзого	борзый	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	TokenRange=973:980
+31	садится	садиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	SpaceAfter=No|TokenRange=981:988
+32	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\r\n|TokenRange=988:989
+33	К	к	ADP	IN	_	35	case	_	TokenRange=991:992
+34	красной	красный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	TokenRange=993:1000
+35	девке	девка	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	38	obl	_	TokenRange=1001:1006
+36	в	в	ADP	IN	_	37	case	_	TokenRange=1007:1008
+37	гости	гость	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	38	obl	_	TokenRange=1009:1014
+38	скачет	скакать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No|TokenRange=1015:1021
+39	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=1021:1022
+

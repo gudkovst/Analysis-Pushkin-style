@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В отдалении от вас С вами буду неразлучен, Томных уст и томных глаз Буду памятью размучен; Изнывая в тишине, Не хочу я быть утешен,— Вы ж вздохнете ль обо мне, Если буду я повешен?
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	отдалении	отдаление	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	TokenRange=2:11
+3	от	от	ADP	IN	_	4	case	_	TokenRange=12:14
+4	вас	вы	PRON	PRP	Case=Gen|Number=Plur|Person=2	2	nmod	_	SpacesAfter=\r\n|TokenRange=15:18
+5	С	с	ADP	IN	_	6	case	_	TokenRange=20:21
+6	вами	вы	PRON	PRP	Case=Ins|Number=Plur|Person=2	8	obl	_	TokenRange=22:26
+7	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	8	cop	_	TokenRange=27:31
+8	неразлучен	неразлучный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=32:42
+9	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+10	Томных	томный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	TokenRange=45:51
+11	уст	уста	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nsubj:pass	_	TokenRange=52:55
+12	и	и	CCONJ	CC	_	14	cc	_	TokenRange=56:57
+13	томных	томный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	TokenRange=58:64
+14	глаз	глаз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	SpacesAfter=\r\n|TokenRange=65:69
+15	Буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	17	aux:pass	_	TokenRange=71:75
+16	памятью	память	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	TokenRange=76:83
+17	размучен	размучить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	SpaceAfter=No|TokenRange=84:92
+18	;	;	PUNCT	:	_	17	punct	_	SpacesAfter=\r\n|TokenRange=92:93
+19	Изнывая	изнывать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	_	TokenRange=95:102
+20	в	в	ADP	IN	_	21	case	_	TokenRange=103:104
+21	тишине	тишина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|TokenRange=105:111
+22	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=111:112
+23	Не	не	PART	NEG	Polarity=Neg	24	advmod	_	TokenRange=114:116
+24	хочу	хотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	TokenRange=117:121
+25	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	24	nsubj	_	TokenRange=122:123
+26	быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf	27	aux:pass	_	TokenRange=124:128
+27	утешен	утешить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	xcomp	_	SpaceAfter=No|TokenRange=129:135
+28	,	,	PUNCT	,	_	32	punct	_	SpaceAfter=No|TokenRange=135:136
+29	—	—	PUNCT	--	_	32	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+30	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	32	nsubj	_	TokenRange=139:141
+31	ж	же	PART	UH	_	30	advmod	_	TokenRange=142:143
+32	вздохнете	вздохнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	8	parataxis	_	TokenRange=144:153
+33	ль	ль	PART	UH	_	32	advmod	_	TokenRange=154:156
+34	обо	обо	ADP	IN	_	35	case	_	TokenRange=157:160
+35	мне	я	PRON	PRP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	SpaceAfter=No|TokenRange=161:164
+36	,	,	PUNCT	,	_	40	punct	_	SpacesAfter=\r\n|TokenRange=164:165
+37	Если	если	SCONJ	IN	_	40	mark	_	TokenRange=167:171
+38	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	40	aux:pass	_	TokenRange=172:176
+39	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	40	nsubj:pass	_	TokenRange=177:178
+40	повешен	повесить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	32	advcl	_	SpaceAfter=No|TokenRange=179:186
+41	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=186:187
+

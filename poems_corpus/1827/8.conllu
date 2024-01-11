@@ -1,0 +1,105 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Нас было много на челне; Иные парус напрягали, Другие дружно упирали В глубь мощны веслы.
+1	Нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	3	nsubj	_	TokenRange=0:3
+2	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	cop	_	TokenRange=4:8
+3	много	много	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	0	root	_	TokenRange=9:14
+4	на	на	ADP	IN	_	5	case	_	TokenRange=15:17
+5	челне	челно	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=18:23
+6	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+7	Иные	иной	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	TokenRange=26:30
+8	парус	парус	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	TokenRange=31:36
+9	напрягали	напрягать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No|TokenRange=37:46
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=46:47
+11	Другие	другой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	13	nsubj	_	TokenRange=49:55
+12	дружно	дружно	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=56:62
+13	упирали	упирать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	SpacesAfter=\r\n|TokenRange=63:70
+14	В	в	ADP	IN	_	15	case	_	TokenRange=72:73
+15	глубь	глубь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	TokenRange=74:79
+16	мощны	мощный	ADJ	JJH	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	TokenRange=80:85
+17	веслы	весла	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No|TokenRange=86:91
+18	.	.	PUNCT	.	_	3	punct	_	TokenRange=91:92
+
+# sent_id = 2
+# text = В тишине На руль склонясь, наш кормщик умный В молчанье правил грузный челн;
+1	В	в	ADP	IN	_	2	case	_	TokenRange=93:94
+2	тишине	тишина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\r\n|TokenRange=95:101
+3	На	на	ADP	IN	_	4	case	_	TokenRange=103:105
+4	руль	руль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	TokenRange=106:110
+5	склонясь	склониться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	SpaceAfter=No|TokenRange=111:119
+6	,	,	PUNCT	,	_	5	punct	_	TokenRange=119:120
+7	наш	наш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	8	det	_	TokenRange=121:124
+8	кормщик	кормщик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=125:132
+9	умный	умный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpacesAfter=\r\n|TokenRange=133:138
+10	В	в	ADP	IN	_	11	case	_	TokenRange=140:141
+11	молчанье	молчанье	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	TokenRange=142:150
+12	правил	править	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=151:157
+13	грузный	грузный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=158:165
+14	челн	челн	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=166:170
+15	;	;	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=170:171
+
+# sent_id = 3
+# text = А я — беспечной веры полн,— Пловцам я пел...
+1	А	а	CCONJ	CC	_	6	cc	_	TokenRange=173:174
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=175:176
+3	—	—	PUNCT	--	_	6	punct	_	TokenRange=177:178
+4	беспечной	беспечный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=179:188
+5	веры	вера	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	TokenRange=189:193
+6	полн	полный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=194:198
+7	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No|TokenRange=198:199
+8	—	—	PUNCT	``	_	11	punct	_	SpacesAfter=\r\n|TokenRange=199:200
+9	Пловцам	пловец	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	TokenRange=202:209
+10	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=210:211
+11	пел	петь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No|TokenRange=212:215
+12	...	...	PUNCT	.	_	6	punct	_	TokenRange=215:218
+
+# sent_id = 4
+# text = Вдруг лоно волн Измял с налету вихорь шумный...
+1	Вдруг	вдруг	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=219:224
+2	лоно	лоно	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	TokenRange=225:229
+3	волн	волна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpacesAfter=\r\n|TokenRange=230:234
+4	Измял	измять	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=236:241
+5	с	с	ADP	IN	_	6	case	_	TokenRange=242:243
+6	налету	налет	NOUN	NN	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	4	obl	_	TokenRange=244:250
+7	вихорь	вихорь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	TokenRange=251:257
+8	шумный	шумный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=258:264
+9	...	...	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=264:267
+
+# sent_id = 5
+# text = Погиб и кормщик и пловец!— Лишь я, таинственный певец, На берег выброшен грозою, Я гимны прежние пою И ризу влажную мою Сушу на солнце под скалою.
+1	Погиб	погибнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=269:274
+2	и	и	CCONJ	CC	_	3	cc	_	TokenRange=275:276
+3	кормщик	кормщик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=277:284
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=285:286
+5	пловец!	пловец!	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=287:294
+6	—	—	PUNCT	--	_	15	punct	_	SpacesAfter=\r\n|TokenRange=294:295
+7	Лишь	лишь	PART	UH	_	8	advmod	_	TokenRange=297:301
+8	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	15	nsubj:pass	_	SpaceAfter=No|TokenRange=302:303
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=303:304
+10	таинственный	таинственный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=305:317
+11	певец	певец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No|TokenRange=318:323
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=323:324
+13	На	на	ADP	IN	_	14	case	_	TokenRange=326:328
+14	берег	берег	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	TokenRange=329:334
+15	выброшен	выбросить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	parataxis	_	TokenRange=335:343
+16	грозою	гроза	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	iobj	_	SpaceAfter=No|TokenRange=344:350
+17	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=350:351
+18	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	15	nsubj:pass	_	TokenRange=353:354
+19	гимны	гимн	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	conj	_	TokenRange=355:360
+20	прежние	прежний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	TokenRange=361:368
+21	пою	пой	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	SpacesAfter=\r\n|TokenRange=369:372
+22	И	и	CCONJ	CC	_	23	cc	_	TokenRange=374:375
+23	ризу	ризти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=376:380
+24	влажную	влажный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	TokenRange=381:388
+25	мою	мой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	26	det	_	SpacesAfter=\r\n|TokenRange=389:392
+26	Сушу	суша	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	TokenRange=394:398
+27	на	на	ADP	IN	_	28	case	_	TokenRange=399:401
+28	солнце	солнце	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	TokenRange=402:408
+29	под	под	ADP	IN	_	30	case	_	TokenRange=409:412
+30	скалою	скала	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No|TokenRange=413:419
+31	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=419:420
+
