@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Чу, пушки грянули! крылатых кораблей Покрылась облаком станица боевая, Корабль вбежал в Неву — и вот среди зыбей Качаясь плавает, как лебедь молодая.
+1	Чу	чу	INTJ	IN	_	4	parataxis	_	SpaceAfter=No|TokenRange=0:2
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=2:3
+3	пушки	пушка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	TokenRange=4:9
+4	грянули	грянуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=10:17
+5	!	!	PUNCT	.	_	4	punct	_	TokenRange=17:18
+6	крылатых	крылатый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	TokenRange=19:27
+7	кораблей	корабль	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obj	_	SpacesAfter=\r\n|TokenRange=28:36
+8	Покрылась	покрыться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	parataxis	_	TokenRange=38:47
+9	облаком	облако	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	iobj	_	TokenRange=48:55
+10	станица	станица	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=56:63
+11	боевая	боевой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No|TokenRange=64:70
+12	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=70:71
+13	Корабль	корабль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=73:80
+14	вбежал	вбежать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=81:87
+15	в	в	ADP	IN	_	16	case	_	TokenRange=88:89
+16	Неву	Нева	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	TokenRange=90:94
+17	—	—	PUNCT	--	_	23	punct	_	TokenRange=95:96
+18	и	и	CCONJ	CC	_	23	cc	_	TokenRange=97:98
+19	вот	вот	PART	UH	_	21	advmod	_	TokenRange=99:102
+20	среди	среди	ADP	IN	_	21	case	_	TokenRange=103:108
+21	зыбей	зыбь	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	23	obl	_	SpacesAfter=\r\n|TokenRange=109:114
+22	Качаясь	качаться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	23	advcl	_	TokenRange=116:123
+23	плавает	плавать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=124:131
+24	,	,	PUNCT	,	_	26	punct	_	TokenRange=131:132
+25	как	как	ADP	IN	_	26	case	_	TokenRange=133:136
+26	лебедь	лебедь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	obl	_	TokenRange=137:143
+27	молодая	молодой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No|TokenRange=144:151
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+
+# sent_id = 2
+# text = Ликует русский флот.
+1	Ликует	ликовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=154:160
+2	русский	русский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=161:168
+3	флот	флот	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=169:173
+4	.	.	PUNCT	.	_	1	punct	_	TokenRange=173:174
+
+# sent_id = 3
+# text = Широкая Нева Без ветра, в ясный день глубоко взволновалась, Широкая волна плеснула в острова
+1	Широкая	широкий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=175:182
+2	Нева	нева	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpacesAfter=\r\n|TokenRange=183:187
+3	Без	без	ADP	IN	_	4	case	_	TokenRange=189:192
+4	ветра	ветер	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=193:198
+5	,	,	PUNCT	,	_	10	punct	_	TokenRange=198:199
+6	в	в	ADP	IN	_	8	case	_	TokenRange=200:201
+7	ясный	ясный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=202:207
+8	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	TokenRange=208:212
+9	глубоко	глубоко	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=213:220
+10	взволновалась	взволноваться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=221:234
+11	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=234:235
+12	Широкая	широкий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	TokenRange=237:244
+13	волна	волна	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	TokenRange=245:250
+14	плеснула	плеснуть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	parataxis	_	TokenRange=251:259
+15	в	в	ADP	IN	_	16	case	_	TokenRange=260:261
+16	острова	остров	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No|TokenRange=262:269
+

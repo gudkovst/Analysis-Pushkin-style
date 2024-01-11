@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В славной в Муромской земле, В Карачарове селе Жил-был дьяк с своей дьячихой.
+1	В	в	ADP	IN	_	9	case	_	TokenRange=0:1
+2	славной	славный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=2:9
+3	в	в	ADP	IN	_	5	case	_	TokenRange=10:11
+4	Муромской	муромский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=12:21
+5	земле	земля	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|TokenRange=22:27
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+7	В	в	ADP	IN	_	9	case	_	TokenRange=30:31
+8	Карачарове	Карачаров	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	amod	_	TokenRange=32:42
+9	селе	село	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	SpacesAfter=\r\n|TokenRange=43:47
+10	Жил-был	жил-быть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=49:56
+11	дьяк	дьяк	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=57:61
+12	с	с	ADP	IN	_	14	case	_	TokenRange=62:63
+13	своей	свой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	14	det	_	TokenRange=64:69
+14	дьячихой	дьячиха	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|TokenRange=70:78
+15	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=78:79
+
+# sent_id = 2
+# text = Под конец их жизни тихой Бог отраду им послал — Сына им он даровал.
+1	Под	под	ADP	IN	_	2	case	_	TokenRange=81:84
+2	конец	конец	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	TokenRange=85:90
+3	их	их	DET	PRP$	_	4	det	_	TokenRange=91:93
+4	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	TokenRange=94:99
+5	тихой	тихий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\r\n|TokenRange=100:105
+6	Бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=107:110
+7	отраду	отрад	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obj	_	TokenRange=111:117
+8	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	9	iobj	_	TokenRange=118:120
+9	послал	послать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=121:127
+10	—	—	PUNCT	--	_	14	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+11	Сына	сын	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	TokenRange=131:135
+12	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3	14	iobj	_	TokenRange=136:138
+13	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	TokenRange=139:141
+14	даровал	даровать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No|TokenRange=142:149
+15	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=149:150
+

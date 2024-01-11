@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В поле чистом серебрится Снег волнистый и рябой, Светит месяц, тройка мчится По дороге столбовой.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	поле	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	TokenRange=2:6
+3	чистом	чистый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	TokenRange=7:13
+4	серебрится	серебриться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\r\n|TokenRange=14:24
+5	Снег	снег	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=26:30
+6	волнистый	волнистый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=31:40
+7	и	и	CCONJ	CC	_	8	cc	_	TokenRange=41:42
+8	рябой	рябой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=43:48
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+10	Светит	светить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=51:57
+11	месяц	месяц	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|TokenRange=58:63
+12	,	,	PUNCT	,	_	14	punct	_	TokenRange=63:64
+13	тройка	тройка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	TokenRange=65:71
+14	мчится	мчиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	SpacesAfter=\r\n|TokenRange=72:78
+15	По	по	ADP	IN	_	16	case	_	TokenRange=80:82
+16	дороге	дорога	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	TokenRange=83:89
+17	столбовой	столбовой	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=90:99
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=99:100
+
+# sent_id = 2
+# text = Пой: в часы дорожной скуки, На дороге, в тьме ночной Сладки мне родные звуки Звонкой песни удалой.
+1	Пой	пой	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=102:105
+2	:	:	PUNCT	:	_	1	punct	_	TokenRange=105:106
+3	в	в	ADP	IN	_	4	case	_	TokenRange=107:108
+4	часы	часы	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	TokenRange=109:113
+5	дорожной	дорожный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=114:122
+6	скуки	скука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=123:128
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+8	На	на	ADP	IN	_	9	case	_	TokenRange=131:133
+9	дороге	дорога	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=134:140
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=140:141
+11	в	в	ADP	IN	_	12	case	_	TokenRange=142:143
+12	тьме	тьма	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	TokenRange=144:148
+13	ночной	ночной	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\r\n|TokenRange=149:155
+14	Сладки	сладка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	TokenRange=157:163
+15	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	17	iobj	_	TokenRange=164:167
+16	родные	родной	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	TokenRange=168:174
+17	звуки	звук	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	SpacesAfter=\r\n|TokenRange=175:180
+18	Звонкой	звонкий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=182:189
+19	песни	песня	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	TokenRange=190:195
+20	удалой	удалый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No|TokenRange=196:202
+21	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=202:203
+
+# sent_id = 3
+# text = Пой, ямщик!
+1	Пой	пой	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=205:208
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=208:209
+3	ямщик	ямщик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No|TokenRange=210:215
+4	!	!	PUNCT	.	_	1	punct	_	TokenRange=215:216
+
+# sent_id = 4
+# text = Я молча, жадно Буду слушать голос твой.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=217:218
+2	молча	молча	ADV	RB	Degree=Pos	4	parataxis	_	SpaceAfter=No|TokenRange=219:224
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=224:225
+4	жадно	жадно	ADV	RB	Degree=Pos	0	root	_	SpacesAfter=\r\n|TokenRange=226:231
+5	Буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	TokenRange=233:237
+6	слушать	слушать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=238:245
+7	голос	голос	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	TokenRange=246:251
+8	твой	твой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	det	_	SpaceAfter=No|TokenRange=252:256
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=256:257
+
+# sent_id = 5
+# text = Месяц ясный светит хладно, Грустен ветра дальный вой.
+1	Месяц	месяц	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=259:264
+2	ясный	ясный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	TokenRange=265:270
+3	светит	светить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=271:277
+4	хладно	хладно	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=278:284
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=284:285
+6	Грустен	грустный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	TokenRange=287:294
+7	ветра	ветер	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=295:300
+8	дальный	дальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=301:308
+9	вой	вой	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=309:312
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=312:313
+
+# sent_id = 6
+# text = Пой: «Лучинушка, лучина, Что же не светло горишь?»
+1	Пой	пой	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=315:318
+2	:	:	PUNCT	:	_	1	punct	_	TokenRange=318:319
+3	«Лучинушка	«лучинушка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|TokenRange=320:330
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=330:331
+5	лучина	лучина	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No|TokenRange=332:338
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=338:339
+7	Что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	obj	_	TokenRange=341:344
+8	же	же	PART	UH	_	7	advmod	_	TokenRange=345:347
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=348:350
+10	светло	светло	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=351:357
+11	горишь	горить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=358:364
+12	?»	?»	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=364:366
+
