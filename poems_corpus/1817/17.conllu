@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Недавно, обольщен прелестным сновиденьем, В венце сияющем, царем я зрел себя; Мечталось, я любил тебя — И сердце билось наслажденьем.
+1	Недавно	недавно	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No|TokenRange=0:7
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=7:8
+3	обольщен	обольщить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	advcl	_	TokenRange=9:17
+4	прелестным	прелестный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	TokenRange=18:28
+5	сновиденьем	сновиденье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl:agent	_	SpaceAfter=No|TokenRange=29:40
+6	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=40:41
+7	В	в	ADP	IN	_	8	case	_	TokenRange=43:44
+8	венце	венец	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=45:50
+9	сияющем	сиять	VERB	VBNL	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	acl	_	SpaceAfter=No|TokenRange=51:58
+10	,	,	PUNCT	,	_	9	punct	_	TokenRange=58:59
+11	царем	царь	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	xcomp	_	TokenRange=60:65
+12	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj	_	TokenRange=66:67
+13	зрел	зреть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=68:72
+14	себя	себя	PRON	PRP	Case=Acc|Reflex=Yes	13	obj	_	SpaceAfter=No|TokenRange=73:77
+15	;	;	PUNCT	:	_	16	punct	_	SpacesAfter=\r\n|TokenRange=77:78
+16	Мечталось	мечтаться	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	parataxis	_	SpaceAfter=No|TokenRange=80:89
+17	,	,	PUNCT	,	_	19	punct	_	TokenRange=89:90
+18	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	19	nsubj	_	TokenRange=91:92
+19	любил	любить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	ccomp	_	TokenRange=93:98
+20	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	19	obj	_	TokenRange=99:103
+21	—	—	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+22	И	и	CCONJ	CC	_	24	cc	_	TokenRange=107:108
+23	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	TokenRange=109:115
+24	билось	биться	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	conj	_	TokenRange=116:122
+25	наслажденьем	наслажденье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	xcomp	_	SpaceAfter=No|TokenRange=123:135
+26	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\r\n|TokenRange=135:136
+
+# sent_id = 2
+# text = Я страсть у ног твоих в восторгах изъяснял, Мечты! ах! отчего вы счастья не продлили?
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	TokenRange=138:139
+2	страсть	страсть	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	TokenRange=140:147
+3	у	у	ADP	IN	_	4	case	_	TokenRange=148:149
+4	ног	нога	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	TokenRange=150:153
+5	твоих	твой	DET	PRP$	Case=Gen|Number=Plur	4	det	_	TokenRange=154:159
+6	в	в	ADP	IN	_	7	case	_	TokenRange=160:161
+7	восторгах	восторг	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	TokenRange=162:171
+8	изъяснял	изъяснять	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=172:180
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=180:181
+10	Мечты	мечта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	parataxis	_	SpaceAfter=No|TokenRange=183:188
+11	!	!	PUNCT	.	_	10	punct	_	TokenRange=188:189
+12	ах	ах	INTJ	UH	_	18	discourse	_	SpaceAfter=No|TokenRange=190:192
+13	!	!	PUNCT	.	_	12	punct	_	TokenRange=192:193
+14	отчего	отчего	ADV	RB	Degree=Pos	18	advmod	_	TokenRange=194:200
+15	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	18	nsubj	_	TokenRange=201:203
+16	счастья	счастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obj	_	TokenRange=204:211
+17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	TokenRange=212:214
+18	продлили	продлить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No|TokenRange=215:223
+19	?	?	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=223:224
+
+# sent_id = 3
+# text = Но боги не всего теперь меня лишили: Я только — царство потерял.
+1	Но	но	CCONJ	CC	_	7	cc	_	TokenRange=226:228
+2	боги	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	TokenRange=229:233
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=234:236
+4	всего	всё	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obj	_	TokenRange=237:242
+5	теперь	теперь	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=243:249
+6	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	7	obj	_	TokenRange=250:254
+7	лишили	лишить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=255:261
+8	:	:	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=261:262
+9	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj	_	TokenRange=264:265
+10	только	только	PART	UH	_	13	advmod	_	TokenRange=266:272
+11	—	—	PUNCT	--	_	13	punct	_	TokenRange=273:274
+12	царство	царство	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	TokenRange=275:282
+13	потерял	потерять	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No|TokenRange=283:290
+14	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=290:291
+

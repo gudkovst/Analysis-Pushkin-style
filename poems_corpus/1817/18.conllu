@@ -1,0 +1,129 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Печален ты; признайся, что с тобой».
+1	«Печален	«печальный	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=0:8
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	1	nsubj:pass	_	SpaceAfter=No|TokenRange=9:11
+3	;	;	PUNCT	:	_	4	punct	_	TokenRange=11:12
+4	признайся	признаться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	SpaceAfter=No|TokenRange=13:22
+5	,	,	PUNCT	,	_	8	punct	_	TokenRange=22:23
+6	что	что	SCONJ	IN	_	8	mark	_	TokenRange=24:27
+7	с	с	ADP	IN	_	8	case	_	TokenRange=28:29
+8	тобой».	тобой».	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	ccomp	_	SpacesAfter=\r\n|TokenRange=30:37
+
+# sent_id = 2
+# text = — Люблю, мой друг!
+1	—	—	PUNCT	--	_	2	punct	_	TokenRange=39:40
+2	Люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=41:46
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=46:47
+4	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	5	det	_	TokenRange=48:51
+5	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No|TokenRange=52:56
+6	!	!	PUNCT	.	_	2	punct	_	TokenRange=56:57
+
+# sent_id = 3
+# text = — «Но кто ж тебя пленила?» — Она.
+1	—	—	PUNCT	--	_	6	punct	_	TokenRange=58:59
+2	«Но	«но	CCONJ	CC	_	6	cc	_	TokenRange=60:63
+3	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=64:67
+4	ж	же	PART	UH	_	3	advmod	_	TokenRange=68:69
+5	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	6	obj	_	TokenRange=70:74
+6	пленила	пленить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=75:82
+7	?»	?»	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=82:84
+8	—	—	PUNCT	--	_	9	punct	_	TokenRange=86:87
+9	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	parataxis	_	SpaceAfter=No|TokenRange=88:91
+10	.	.	PUNCT	.	_	6	punct	_	TokenRange=91:92
+
+# sent_id = 4
+# text = — «Да кто ж?
+1	—	—	PUNCT	--	_	3	punct	_	TokenRange=93:94
+2	«Да	«да	CCONJ	IN	_	3	advmod	_	TokenRange=95:98
+3	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=99:102
+4	ж	же	PART	UH	_	3	advmod	_	SpaceAfter=No|TokenRange=103:104
+5	?	?	PUNCT	.	_	3	punct	_	TokenRange=104:105
+
+# sent_id = 5
+# text = Глицера ль, Хлоя, Лила?» — О, нет! — «Кому ж ты жертвуешь душой?» — Ах, ей!
+1	Глицера	глицер	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	root	_	TokenRange=106:113
+2	ль	ль	PART	UH	_	1	advmod	_	SpaceAfter=No|TokenRange=114:116
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=116:117
+4	Хлоя	Хлоя	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=118:122
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=122:123
+6	Лила	Лила	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=124:128
+7	?»	?»	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=128:130
+8	—	—	PUNCT	``	_	11	punct	_	TokenRange=132:133
+9	О	о	INTJ	UH	_	11	discourse	_	SpaceAfter=No|TokenRange=134:135
+10	,	,	PUNCT	,	_	9	punct	_	TokenRange=135:136
+11	нет	нет	PART	NEG	_	1	parataxis	_	SpaceAfter=No|TokenRange=137:140
+12	!	!	PUNCT	.	_	11	punct	_	TokenRange=140:141
+13	—	—	PUNCT	--	_	17	punct	_	TokenRange=142:143
+14	«Кому	«кому	PRON	WP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	TokenRange=144:149
+15	ж	же	PART	UH	_	14	advmod	_	TokenRange=150:151
+16	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	17	nsubj	_	TokenRange=152:154
+17	жертвуешь	жертвовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=155:164
+18	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|TokenRange=165:170
+19	?»	?»	PUNCT	.	_	17	punct	_	SpacesAfter=\r\n|TokenRange=170:172
+20	—	—	PUNCT	``	_	17	punct	_	TokenRange=174:175
+21	Ах	ах	INTJ	UH	_	23	discourse	_	SpaceAfter=No|TokenRange=176:178
+22	,	,	PUNCT	,	_	21	punct	_	TokenRange=178:179
+23	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	17	iobj	_	SpaceAfter=No|TokenRange=180:182
+24	!	!	PUNCT	.	_	1	punct	_	TokenRange=182:183
+
+# sent_id = 6
+# text = — «Ты скромен, друг сердечный!
+1	—	—	PUNCT	--	_	3	punct	_	TokenRange=184:185
+2	«Ты	«ты	PRON	PRP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=186:189
+3	скромен	скромный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=190:197
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=197:198
+5	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	TokenRange=199:203
+6	сердечный	сердечный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No|TokenRange=204:213
+7	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=213:214
+
+# sent_id = 7
+# text = Но почему ж ты столько огорчен?
+1	Но	но	CCONJ	CC	_	6	cc	_	TokenRange=216:218
+2	почему	почему	ADV	WRB	Degree=Pos	6	advmod	_	TokenRange=219:225
+3	ж	же	PART	UH	_	2	advmod	_	TokenRange=226:227
+4	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	TokenRange=228:230
+5	столько	столько	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=231:238
+6	огорчен	огорченный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=239:246
+7	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=246:247
+
+# sent_id = 8
+# text = И кто виной?
+1	И	и	CCONJ	CC	_	3	cc	_	TokenRange=249:250
+2	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=251:254
+3	виной	вина	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=255:260
+4	?	?	PUNCT	.	_	3	punct	_	TokenRange=260:261
+
+# sent_id = 9
+# text = Супруг, отец, конечно…» — Не то, мой друг!
+1	Супруг	супруг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=262:268
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=268:269
+3	отец	отец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=270:274
+4	,	,	PUNCT	,	_	1	punct	_	TokenRange=274:275
+5	конечно…»	конечно…»	ADV	RB	Degree=Pos	8	parataxis	_	SpacesAfter=\r\n|TokenRange=276:285
+6	—	—	PUNCT	--	_	8	punct	_	TokenRange=287:288
+7	Не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=289:291
+8	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=292:294
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=294:295
+10	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	11	det	_	TokenRange=296:299
+11	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	vocative	_	SpaceAfter=No|TokenRange=300:304
+12	!	!	PUNCT	.	_	8	punct	_	TokenRange=304:305
+
+# sent_id = 10
+# text = — «Но что ж?» — Я ей не он.
+1	—	—	PUNCT	``	_	3	punct	_	TokenRange=306:307
+2	«Но	«но	CCONJ	UH	_	3	cc	_	TokenRange=308:311
+3	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	TokenRange=312:315
+4	ж	же	PART	UH	_	3	advmod	_	SpaceAfter=No|TokenRange=316:317
+5	?»	?»	PUNCT	.	_	3	punct	_	TokenRange=317:319
+6	—	—	PUNCT	--	_	10	punct	_	TokenRange=320:321
+7	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	TokenRange=322:323
+8	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	10	iobj	_	TokenRange=324:326
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=327:329
+10	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	parataxis	_	SpaceAfter=No|TokenRange=330:332
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=332:333
+

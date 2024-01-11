@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Пожарский, Минин, Гермоген, или Спасенная Россия.
+1	Пожарский	Пожарский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=0:9
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=9:10
+3	Минин	Минин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=11:16
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=16:17
+5	Гермоген	Гермоген	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=18:26
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+7	или	или	CCONJ	CC	_	9	cc	_	TokenRange=29:32
+8	Спасенная	спасти	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	TokenRange=33:42
+9	Россия	Россия	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=43:49
+10	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=49:50
+
+# sent_id = 2
+# text = Слог дурен, темен, напыщен — И тяжки словеса пустые.
+1	Слог	слог	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=52:56
+2	дурен	дурный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=57:62
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=62:63
+4	темен	темный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	SpaceAfter=No|TokenRange=64:69
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=69:70
+6	напыщен	напытить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	TokenRange=71:78
+7	—	—	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=79:80
+8	И	и	CCONJ	CC	_	11	cc	_	TokenRange=82:83
+9	тяжки	тяжка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	TokenRange=84:89
+10	словеса	словес	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	TokenRange=90:97
+11	пустые	пустой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=98:104
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=104:105
+

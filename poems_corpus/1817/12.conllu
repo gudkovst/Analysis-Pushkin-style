@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вот здесь лежит больной студент;
+1	Вот	вот	PART	UH	_	2	advmod	_	TokenRange=0:3
+2	здесь	здесь	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=4:9
+3	лежит	лежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=10:15
+4	больной	больной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=16:23
+5	студент	студент	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=24:31
+6	;	;	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+
+# sent_id = 2
+# text = Его судьба неумолима.
+1	Его	его	DET	PRP$	_	2	det	_	TokenRange=34:37
+2	судьба	судьба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=38:44
+3	неумолима	неумолимый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=45:54
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=54:55
+
+# sent_id = 3
+# text = Несите прочь медикамент: Болезнь любви неизлечима!
+1	Несите	нести	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=57:63
+2	прочь	прочь	ADV	RB	Degree=Pos	1	advmod	_	TokenRange=64:69
+3	медикамент	медикамент	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=70:80
+4	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=80:81
+5	Болезнь	болезнь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=83:90
+6	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	TokenRange=91:96
+7	неизлечима	неизлечимый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	parataxis	_	SpaceAfter=No|TokenRange=97:107
+8	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=107:108
+

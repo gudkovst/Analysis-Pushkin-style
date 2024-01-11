@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вот карапузик наш, монах, Поэт, писец и воин; Всегда, за всё, во всех местах, Крапивы он достоин: С Мартыном поп он записной, С Фроловым математик; Вступает Энгельгардт-герой — И вмиг он дипломатик.
+1	Вот	вот	PART	UH	_	0	root	_	TokenRange=0:3
+2	карапузик	карапузик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=4:13
+3	наш	наш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No|TokenRange=14:17
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=17:18
+5	монах	монах	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=19:24
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+7	Поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=27:31
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=31:32
+9	писец	писец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	TokenRange=33:38
+10	и	и	CCONJ	CC	_	11	cc	_	TokenRange=39:40
+11	воин	воин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=41:45
+12	;	;	PUNCT	:	_	24	punct	_	SpacesAfter=\r\n|TokenRange=45:46
+13	Всегда	всегда	ADV	RB	Degree=Pos	24	advmod	_	SpaceAfter=No|TokenRange=48:54
+14	,	,	PUNCT	,	_	16	punct	_	TokenRange=54:55
+15	за	за	ADP	IN	_	16	case	_	TokenRange=56:58
+16	всё	всё	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|TokenRange=59:62
+17	,	,	PUNCT	,	_	20	punct	_	TokenRange=62:63
+18	во	во	ADP	IN	_	20	case	_	TokenRange=64:66
+19	всех	весь	DET	DT	Case=Loc|Number=Plur	20	det	_	TokenRange=67:71
+20	местах	место	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	16	conj	_	SpaceAfter=No|TokenRange=72:78
+21	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=78:79
+22	Крапивы	Крапива	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	TokenRange=81:88
+23	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	TokenRange=89:91
+24	достоин	достойный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	conj	_	SpaceAfter=No|TokenRange=92:99
+25	:	:	PUNCT	:	_	24	punct	_	SpacesAfter=\r\n|TokenRange=99:100
+26	С	с	ADP	IN	_	27	case	_	TokenRange=102:103
+27	Мартыном	Мартын	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	TokenRange=104:112
+28	поп	поп	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	flat:name	_	TokenRange=113:116
+29	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	nsubj	_	TokenRange=117:119
+30	записной	записной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	parataxis	_	SpaceAfter=No|TokenRange=120:128
+31	,	,	PUNCT	,	_	34	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+32	С	с	ADP	IN	_	33	case	_	TokenRange=131:132
+33	Фроловым	Фролов	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	nmod	_	TokenRange=133:141
+34	математик	математик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No|TokenRange=142:151
+35	;	;	PUNCT	:	_	36	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+36	Вступает	вступать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	TokenRange=154:162
+37	Энгельгардт-герой	энгельгардт-герой	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	TokenRange=163:180
+38	—	—	PUNCT	--	_	42	punct	_	SpacesAfter=\r\n|TokenRange=181:182
+39	И	и	CCONJ	CC	_	42	cc	_	TokenRange=184:185
+40	вмиг	вмиг	ADV	RB	Degree=Pos	42	advmod	_	TokenRange=186:190
+41	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	42	nsubj	_	TokenRange=191:193
+42	дипломатик	дипломатик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No|TokenRange=194:204
+43	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=204:205
+

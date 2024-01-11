@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Покойник Клит в раю не будет: Творил он тяжкие грехи.
+1	Покойник	покойник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=0:8
+2	Клит	Клит	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=9:13
+3	в	в	ADP	IN	_	4	case	_	TokenRange=14:15
+4	раю	рай	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	TokenRange=16:19
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=20:22
+6	будет	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=23:28
+7	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+8	Творил	творить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=31:37
+9	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	TokenRange=38:40
+10	тяжкие	тяжкий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	TokenRange=41:47
+11	грехи	грех	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|TokenRange=48:53
+12	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=53:54
+
+# sent_id = 2
+# text = Пусть бог дела его забудет, Как свет забыл его стихи!
+1	Пусть	пусть	PART	IN	_	5	advmod	_	TokenRange=56:61
+2	бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=62:65
+3	дела	дело	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	TokenRange=66:70
+4	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	TokenRange=71:74
+5	забудет	забыть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=75:82
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+7	Как	как	SCONJ	WRB	_	9	mark	_	TokenRange=85:88
+8	свет	свет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=89:93
+9	забыл	забыть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	TokenRange=94:99
+10	его	его	DET	PRP$	_	11	det	_	TokenRange=100:103
+11	стихи	стихи	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|TokenRange=104:109
+12	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=109:110
+
