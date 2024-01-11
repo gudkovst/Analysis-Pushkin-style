@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ваш дед портной, ваш дядя повар, А вы, вы модный господин,— Таков об вас народный говор, И дива нет — не вы один.
+1	Ваш	ваш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=0:3
+2	дед	дед	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=4:7
+3	портной	портный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8:15
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=15:16
+5	ваш	ваш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	6	det	_	TokenRange=17:20
+6	дядя	дядя	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=21:25
+7	повар	повар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No|TokenRange=26:31
+8	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+9	А	а	CCONJ	CC	_	17	cc	_	TokenRange=34:35
+10	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	17	nsubj	_	SpaceAfter=No|TokenRange=36:38
+11	,	,	PUNCT	,	_	14	punct	_	TokenRange=38:39
+12	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	14	nsubj	_	TokenRange=40:42
+13	модный	модный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=43:49
+14	господин	господин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No|TokenRange=50:58
+15	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No|TokenRange=58:59
+16	—	—	PUNCT	--	_	17	punct	_	SpacesAfter=\r\n|TokenRange=59:60
+17	Таков	таков	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	TokenRange=62:67
+18	об	об	ADP	IN	_	19	case	_	TokenRange=68:70
+19	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	17	nmod	_	TokenRange=71:74
+20	народный	народный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=75:83
+21	говор	говор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|TokenRange=84:89
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=89:90
+23	И	и	CCONJ	CC	_	25	cc	_	TokenRange=92:93
+24	дива	диво	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nsubj	_	TokenRange=94:98
+25	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	TokenRange=99:102
+26	—	—	PUNCT	``	_	29	punct	_	TokenRange=103:104
+27	не	не	PART	NEG	Polarity=Neg	28	advmod	_	TokenRange=105:107
+28	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	29	nsubj	_	TokenRange=108:110
+29	один	один	NUM	CD	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Card	25	parataxis	_	SpaceAfter=No|TokenRange=111:115
+30	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=115:116
+
+# sent_id = 2
+# text = Потомку предков благородных, Увы, никто в моей родне Не шьет мне даром фраков модных И не варит обеда мне.
+1	Потомку	потомок	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	TokenRange=118:125
+2	предков	предок	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	TokenRange=126:133
+3	благородных	благородный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=134:145
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=145:146
+5	Увы	увы	ADV	RB	Degree=Pos	12	parataxis	_	SpaceAfter=No|TokenRange=148:151
+6	,	,	PUNCT	,	_	5	punct	_	TokenRange=151:152
+7	никто	никто	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=153:158
+8	в	в	ADP	IN	_	10	case	_	TokenRange=159:160
+9	моей	мой	DET	PRP$	Case=Loc|Gender=Fem|Number=Sing	10	det	_	TokenRange=161:165
+10	родне	родня	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=166:171
+11	Не	не	PART	NEG	Polarity=Neg	12	advmod	_	TokenRange=173:175
+12	шьет	шить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=176:180
+13	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	12	iobj	_	TokenRange=181:184
+14	даром	даром	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obj	_	TokenRange=185:190
+15	фраков	фрак	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	TokenRange=191:197
+16	модных	модный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\r\n|TokenRange=198:204
+17	И	и	CCONJ	CC	_	19	cc	_	TokenRange=206:207
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=208:210
+19	варит	варить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	TokenRange=211:216
+20	обеда	обед	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obj	_	TokenRange=217:222
+21	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	19	iobj	_	SpaceAfter=No|TokenRange=223:226
+22	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No|TokenRange=226:227
+

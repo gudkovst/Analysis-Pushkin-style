@@ -1,1 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В чужбине свято наблюдаю Родной обычай старины:
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	чужбине	чужбина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=2:9
+3	свято	свято	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=10:15
+4	наблюдаю	наблюдать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=16:24
+5	Родной	родной	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=26:32
+6	обычай	обычай	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	TokenRange=33:39
+7	старины	старина	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=40:47
+8	:	:	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=47:48
+
+# sent_id = 2
+# text = На волю птичку выпускаю При светлом празднике весны.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=50:52
+2	волю	воля	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=53:57
+3	птичку	птичка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	TokenRange=58:64
+4	выпускаю	выпускать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=65:73
+5	При	при	ADP	IN	_	7	case	_	TokenRange=75:78
+6	светлом	светлый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=79:86
+7	празднике	праздник	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	TokenRange=87:96
+8	весны	весна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=97:102
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 3
+# text = Я стал доступен утешенью; За что на бога мне роптать, Когда хоть одному творенью Я мог свободу даровать!
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=105:106
+2	стал	стать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=107:111
+3	доступен	доступный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	xcomp	_	TokenRange=112:120
+4	утешенью	утешень	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	iobj	_	SpaceAfter=No|TokenRange=121:129
+5	;	;	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=129:130
+6	За	за	ADP	IN	_	7	case	_	TokenRange=132:134
+7	что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	TokenRange=135:138
+8	на	на	ADP	IN	_	9	case	_	TokenRange=139:141
+9	бога	бог	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	TokenRange=142:146
+10	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	11	iobj	_	TokenRange=147:150
+11	роптать	роптать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=151:158
+12	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=158:159
+13	Когда	когда	SCONJ	WRB	_	18	mark	_	TokenRange=161:166
+14	хоть	хоть	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=167:171
+15	одному	один	NUM	CD	Case=Dat|Gender=Neut|NumType=Card	16	nummod	_	TokenRange=172:178
+16	творенью	творень	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	iobj	_	SpacesAfter=\r\n|TokenRange=179:187
+17	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	TokenRange=189:190
+18	мог	мочь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	TokenRange=191:194
+19	свободу	свобода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	TokenRange=195:202
+20	даровать	даровать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	SpaceAfter=No|TokenRange=203:211
+21	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=211:212
 

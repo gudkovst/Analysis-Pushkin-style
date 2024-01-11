@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Зима мне рыхлою стеною К воротам заградила путь;
+1	Зима	зима	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=0:4
+2	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	7	iobj	_	TokenRange=5:8
+3	рыхлою	рыхлый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=9:15
+4	стеною	стена	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	SpacesAfter=\r\n|TokenRange=16:22
+5	К	к	ADP	IN	_	6	case	_	TokenRange=24:25
+6	воротам	ворота	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	TokenRange=26:33
+7	заградила	заградить	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=34:43
+8	путь	путь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=44:48
+9	;	;	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+
+# sent_id = 2
+# text = Пока тропинки пред собою Не протопчу я как-нибудь, Сижу я дома, как бездельник;
+1	Пока	пока	SCONJ	IN	_	6	mark	_	TokenRange=51:55
+2	тропинки	тропинка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	TokenRange=56:64
+3	пред	пред	ADP	IN	_	4	case	_	TokenRange=65:69
+4	собою	себя	PRON	PRP	Case=Ins|Reflex=Yes	6	obl	_	SpacesAfter=\r\n|TokenRange=70:75
+5	Не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=77:79
+6	протопчу	протопчить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	TokenRange=80:88
+7	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=89:90
+8	как-нибудь	как-нибудь	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No|TokenRange=91:101
+9	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=101:102
+10	Сижу	сидеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=104:108
+11	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	10	nsubj	_	TokenRange=109:110
+12	дома	дома	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No|TokenRange=111:115
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=115:116
+14	как	как	ADP	IN	_	15	case	_	TokenRange=117:120
+15	бездельник	бездельник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|TokenRange=121:131
+16	;	;	PUNCT	:	_	10	punct	_	SpacesAfter=\r\n|TokenRange=131:132
+
+# sent_id = 3
+# text = Но ты, душа души моей, Узнай, что будет в понедельник, Что скажет наш Варфоломей.
+1	Но	но	CCONJ	CC	_	8	cc	_	TokenRange=134:136
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	8	nsubj	_	SpaceAfter=No|TokenRange=137:139
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=139:140
+4	душа	душа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	TokenRange=141:145
+5	души	душа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	TokenRange=146:150
+6	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	5	det	_	SpaceAfter=No|TokenRange=151:155
+7	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=155:156
+8	Узнай	узнать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=158:163
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=163:164
+10	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	TokenRange=165:168
+11	будет	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	TokenRange=169:174
+12	в	в	ADP	IN	_	13	case	_	TokenRange=175:176
+13	понедельник	понедельник	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|TokenRange=177:188
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=188:189
+15	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	TokenRange=191:194
+16	скажет	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	ccomp	_	TokenRange=195:201
+17	наш	наш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	18	det	_	TokenRange=202:205
+18	Варфоломей	Варфоломей	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No|TokenRange=206:216
+19	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=216:217
+

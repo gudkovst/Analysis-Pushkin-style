@@ -1,0 +1,98 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Придет ужасный час... твои небесны очи Покроются, мой друг, туманом вечной ночи, Молчанье вечное твои сомкнет уста, Ты навсегда сойдешь в те мрачные места, Где прадедов твоих почиют мощи хладны.
+1	Придет	прийти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:6
+2	ужасный	ужасный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=7:14
+3	час	час	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=15:18
+4	...	...	PUNCT	.	_	1	punct	_	TokenRange=18:21
+5	твои	твой	DET	PRP$	Case=Nom|Number=Plur	7	det	_	TokenRange=22:26
+6	небесны	небесный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	TokenRange=27:34
+7	очи	очи	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpacesAfter=\r\n|TokenRange=35:38
+8	Покроются	покрыться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	1	parataxis	_	SpaceAfter=No|TokenRange=40:49
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=49:50
+10	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	11	det	_	TokenRange=51:54
+11	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=55:59
+12	,	,	PUNCT	,	_	11	punct	_	TokenRange=59:60
+13	туманом	туман	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	iobj	_	TokenRange=61:68
+14	вечной	вечный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=69:75
+15	ночи	ночь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|TokenRange=76:80
+16	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=80:81
+17	Молчанье	молчанье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	TokenRange=83:91
+18	вечное	вечный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	TokenRange=92:98
+19	твои	твой	DET	PRP$	Case=Nom|Number=Plur	17	det	_	TokenRange=99:103
+20	сомкнет	сомкнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	parataxis	_	TokenRange=104:111
+21	уста	усто	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No|TokenRange=112:116
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=116:117
+23	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	25	nsubj	_	TokenRange=119:121
+24	навсегда	навсегда	ADV	RB	Degree=Pos	25	advmod	_	TokenRange=122:130
+25	сойдешь	сойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	20	conj	_	TokenRange=131:138
+26	в	в	ADP	IN	_	29	case	_	TokenRange=139:140
+27	те	тот	DET	DT	Animacy=Inan|Case=Acc|Number=Plur	29	det	_	TokenRange=141:143
+28	мрачные	мрачный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	TokenRange=144:151
+29	места	место	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obl	_	SpaceAfter=No|TokenRange=152:157
+30	,	,	PUNCT	,	_	34	punct	_	SpacesAfter=\r\n|TokenRange=157:158
+31	Где	где	ADV	WRB	_	34	advmod	_	TokenRange=160:163
+32	прадедов	прадед	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	obj	_	TokenRange=164:172
+33	твоих	твой	DET	PRP$	Case=Gen|Number=Plur	32	det	_	TokenRange=173:178
+34	почиют	почить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	TokenRange=179:185
+35	мощи	мощь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	TokenRange=186:190
+36	хладны	хладный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	29	acl:relcl	_	SpaceAfter=No|TokenRange=191:197
+37	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=197:198
+
+# sent_id = 2
+# text = Но я, дотоле твой поклонник безотрадный, В обитель скорбную сойду я за тобой И сяду близ тебя, печальный и немой, У милых ног твоих — себе их на колена Сложу — и буду ждать печально... но чего?
+1	Но	но	CCONJ	CC	_	12	cc	_	TokenRange=200:202
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	nsubj	_	SpaceAfter=No|TokenRange=203:204
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=204:205
+4	дотоле	дотоле	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=206:212
+5	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	6	det	_	TokenRange=213:217
+6	поклонник	поклонник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	TokenRange=218:227
+7	безотрадный	безотрадный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No|TokenRange=228:239
+8	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=239:240
+9	В	в	ADP	IN	_	10	case	_	TokenRange=242:243
+10	обитель	обитель	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	TokenRange=244:251
+11	скорбную	скорбный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=252:260
+12	сойду	сойти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=261:266
+13	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	nsubj	_	TokenRange=267:268
+14	за	за	ADP	IN	_	15	case	_	TokenRange=269:271
+15	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	12	obl	_	SpacesAfter=\r\n|TokenRange=272:277
+16	И	и	CCONJ	CC	_	17	cc	_	TokenRange=279:280
+17	сяду	сесть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	TokenRange=281:285
+18	близ	близ	ADP	IN	_	19	case	_	TokenRange=286:290
+19	тебя	ты	PRON	PRP	Case=Gen|Number=Sing|Person=2	17	obl	_	SpaceAfter=No|TokenRange=291:295
+20	,	,	PUNCT	,	_	21	punct	_	TokenRange=295:296
+21	печальный	печальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	obl	_	TokenRange=297:306
+22	и	и	CCONJ	CC	_	23	cc	_	TokenRange=307:308
+23	немой	немой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|TokenRange=309:314
+24	,	,	PUNCT	,	_	34	punct	_	SpacesAfter=\r\n|TokenRange=314:315
+25	У	у	ADP	IN	_	27	case	_	TokenRange=317:318
+26	милых	милый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	TokenRange=319:324
+27	ног	нога	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	obl	_	TokenRange=325:328
+28	твоих	твой	DET	PRP$	Case=Gen|Number=Plur	27	det	_	TokenRange=329:334
+29	—	—	PUNCT	&#39;&#39;	_	34	punct	_	TokenRange=335:336
+30	себе	себя	PRON	PRP	Case=Dat|PronType=Prs|Reflex=Yes	34	iobj	_	TokenRange=337:341
+31	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	34	obj	_	TokenRange=342:344
+32	на	на	ADP	IN	_	33	case	_	TokenRange=345:347
+33	колена	колено	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	34	obl	_	SpacesAfter=\r\n|TokenRange=348:354
+34	Сложу	сложить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	TokenRange=356:361
+35	—	—	PUNCT	--	_	38	punct	_	TokenRange=362:363
+36	и	и	CCONJ	CC	_	38	cc	_	TokenRange=364:365
+37	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	38	aux	_	TokenRange=366:370
+38	ждать	ждать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	34	conj	_	TokenRange=371:376
+39	печально	печально	ADV	RB	Degree=Pos	38	advmod	_	SpaceAfter=No|TokenRange=377:385
+40	...	...	PUNCT	.	_	38	punct	_	TokenRange=385:388
+41	но	но	CCONJ	CC	_	42	cc	_	TokenRange=389:391
+42	чего	что	PRON	WP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	conj	_	SpaceAfter=No|TokenRange=392:396
+43	?	?	PUNCT	.	_	12	punct	_	SpacesAfter=\r\n|TokenRange=396:397
+
+# sent_id = 3
+# text = Что силою мечтанья моего
+1	Что	что	SCONJ	IN	_	3	mark	_	TokenRange=399:402
+2	силою	сила	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	TokenRange=403:408
+3	мечтанья	мечтание	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	TokenRange=409:417
+4	моего	мой	DET	PRP$	Case=Gen|Gender=Masc|Number=Sing	3	det	_	SpaceAfter=No|TokenRange=418:423
+
