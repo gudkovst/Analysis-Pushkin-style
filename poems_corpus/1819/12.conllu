@@ -1,0 +1,435 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Прости, счастливый сын пиров, Балованный дитя свободы!
+1	Прости	простить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=0:6
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=6:7
+3	счастливый	счастливый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=8:18
+4	сын	сын	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=19:22
+5	пиров	пиров	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=23:28
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+7	Балованный	балованный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=31:41
+8	дитя	дитя	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	TokenRange=42:46
+9	свободы	свобода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=47:54
+10	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=54:55
+
+# sent_id = 2
+# text = Итак, от наших берегов, От мертвой области рабов, Капральства, прихотей и моды Ты скачешь в мирную Москву, Где наслажденьям знают цену, Беспечно дремлют наяву И в жизни любят перемену.
+1	Итак	итак	ADV	RB	Degree=Pos	18	parataxis	_	SpaceAfter=No|TokenRange=57:61
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=61:62
+3	от	от	ADP	IN	_	5	case	_	TokenRange=63:65
+4	наших	наш	DET	PRP$	Case=Gen|Number=Plur	5	det	_	TokenRange=66:71
+5	берегов	берег	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|TokenRange=72:79
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=79:80
+7	От	от	ADP	IN	_	9	case	_	TokenRange=82:84
+8	мертвой	мертвый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=85:92
+9	области	область	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	TokenRange=93:100
+10	рабов	раб	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|TokenRange=101:106
+11	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=106:107
+12	Капральства	капральство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|TokenRange=109:120
+13	,	,	PUNCT	,	_	14	punct	_	TokenRange=120:121
+14	прихотей	прихоть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	TokenRange=122:130
+15	и	и	CCONJ	CC	_	16	cc	_	TokenRange=131:132
+16	моды	мода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpacesAfter=\r\n|TokenRange=133:137
+17	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	18	nsubj	_	TokenRange=139:141
+18	скачешь	скачеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=142:149
+19	в	в	ADP	IN	_	21	case	_	TokenRange=150:151
+20	мирную	мирный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=152:158
+21	Москву	Москва	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|TokenRange=159:165
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=165:166
+23	Где	где	ADV	WRB	_	25	advmod	_	TokenRange=168:171
+24	наслажденьям	наслажденье	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	iobj	_	TokenRange=172:184
+25	знают	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	TokenRange=185:190
+26	цену	цена	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No|TokenRange=191:195
+27	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=195:196
+28	Беспечно	беспечно	ADV	RB	Degree=Pos	29	advmod	_	TokenRange=198:206
+29	дремлют	дремать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	TokenRange=207:214
+30	наяву	наява	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	SpacesAfter=\r\n|TokenRange=215:220
+31	И	и	CCONJ	CC	_	34	cc	_	TokenRange=222:223
+32	в	в	ADP	IN	_	33	case	_	TokenRange=224:225
+33	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	TokenRange=226:231
+34	любят	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	TokenRange=232:237
+35	перемену	перемена	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No|TokenRange=238:246
+36	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\r\n|TokenRange=246:247
+
+# sent_id = 3
+# text = В сей азиатской стороне, Нас уверяют, жизнь игрушка!
+1	В	в	ADP	IN	_	4	case	_	TokenRange=249:250
+2	сей	сей	DET	DT	Case=Loc|Gender=Fem|Number=Sing	4	det	_	TokenRange=251:254
+3	азиатской	азиатский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=255:264
+4	стороне	сторона	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=265:272
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=272:273
+6	Нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	7	obj	_	TokenRange=275:278
+7	уверяют	уверять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	SpaceAfter=No|TokenRange=279:286
+8	,	,	PUNCT	,	_	7	punct	_	TokenRange=286:287
+9	жизнь	жизнь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=288:293
+10	игрушка	игрушка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=294:301
+11	!	!	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=301:302
+
+# sent_id = 4
+# text = В почтенной кичке, в шушуне Москва премилая старушка.
+1	В	в	ADP	IN	_	3	case	_	TokenRange=304:305
+2	почтенной	почтенный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=306:315
+3	кичке	кичка	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=316:321
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=321:322
+5	в	в	ADP	IN	_	6	case	_	TokenRange=323:324
+6	шушуне	шушун	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\r\n|TokenRange=325:331
+7	Москва	Москва	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	TokenRange=333:339
+8	премилая	премилый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=340:348
+9	старушка	старушка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=349:357
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\r\n|TokenRange=357:358
+
+# sent_id = 5
+# text = Разнообразной и живой Она пленяет пестротой, Старинной роскошью, пирами, Невестами, колоколами, Забавной, легкой суетой, Невинной прозой и стихами.
+1	Разнообразной	разнообразный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	xcomp	_	TokenRange=360:373
+2	и	и	CCONJ	CC	_	3	cc	_	TokenRange=374:375
+3	живой	живой	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	SpacesAfter=\r\n|TokenRange=376:381
+4	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	TokenRange=383:386
+5	пленяет	пленять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=387:394
+6	пестротой	пестрота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=395:404
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=404:405
+8	Старинной	старинный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=407:416
+9	роскошью	роскошь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=417:425
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=425:426
+11	пирами	пир	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=427:433
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=433:434
+13	Невестами	невеста	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=436:445
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=445:446
+15	колоколами	колокол	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=447:457
+16	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\r\n|TokenRange=457:458
+17	Забавной	забавный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No|TokenRange=460:468
+18	,	,	PUNCT	,	_	19	punct	_	TokenRange=468:469
+19	легкой	легкий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	conj	_	TokenRange=470:476
+20	суетой	суета	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=477:483
+21	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\r\n|TokenRange=483:484
+22	Невинной	невинный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	TokenRange=486:494
+23	прозой	проза	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	TokenRange=495:501
+24	и	и	CCONJ	CC	_	25	cc	_	TokenRange=502:503
+25	стихами	стихи	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=504:511
+26	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=511:512
+
+# sent_id = 6
+# text = Ты там на шумных вечерах Увидишь важное безделье, Жеманство в тонких кружевах И глупость в золотых очках, И тяжкой знатности веселье, И скуку с картами в руках.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	TokenRange=514:516
+2	там	там	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=517:520
+3	на	на	ADP	IN	_	5	case	_	TokenRange=521:523
+4	шумных	шумный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	TokenRange=524:530
+5	вечерах	вечер	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	SpacesAfter=\r\n|TokenRange=531:538
+6	Увидишь	увидеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=540:547
+7	важное	важный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	TokenRange=548:554
+8	безделье	безделье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=555:563
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=563:564
+10	Жеманство	жеманство	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	conj	_	TokenRange=566:575
+11	в	в	ADP	IN	_	13	case	_	TokenRange=576:577
+12	тонких	тонкий	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	TokenRange=578:584
+13	кружевах	кружево	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	SpacesAfter=\r\n|TokenRange=585:593
+14	И	и	CCONJ	CC	_	15	cc	_	TokenRange=595:596
+15	глупость	глупость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	TokenRange=597:605
+16	в	в	ADP	IN	_	18	case	_	TokenRange=606:607
+17	золотых	золотой	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	TokenRange=608:615
+18	очках	очки	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No|TokenRange=616:621
+19	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=621:622
+20	И	и	CCONJ	CC	_	22	cc	_	TokenRange=624:625
+21	тяжкой	тяжкий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	TokenRange=626:632
+22	знатности	знатность	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	TokenRange=633:642
+23	веселье	веселье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	appos	_	SpaceAfter=No|TokenRange=643:650
+24	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\r\n|TokenRange=650:651
+25	И	и	CCONJ	CC	_	26	cc	_	TokenRange=653:654
+26	скуку	скука	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	TokenRange=655:660
+27	с	с	ADP	IN	_	28	case	_	TokenRange=661:662
+28	картами	карта	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	26	nmod	_	TokenRange=663:670
+29	в	в	ADP	IN	_	30	case	_	TokenRange=671:672
+30	руках	рука	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No|TokenRange=673:678
+31	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=678:679
+
+# sent_id = 7
+# text = Всего минутный наблюдатель, Ты посмеешься под рукой;
+1	Всего	всего	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=681:686
+2	минутный	минутный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=687:695
+3	наблюдатель	наблюдатель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=696:707
+4	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\r\n|TokenRange=707:708
+5	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	TokenRange=710:712
+6	посмеешься	посмеяться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	3	conj	_	TokenRange=713:723
+7	под	под	ADP	IN	_	8	case	_	TokenRange=724:727
+8	рукой	рука	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=728:733
+9	;	;	PUNCT	:	_	3	punct	_	SpacesAfter=\r\n|TokenRange=733:734
+
+# sent_id = 8
+# text = Но вскоре, верный обожатель Забав и лени золотой, Держася моего совета И волю всей душой любя, Оставишь круг большого света И жить решишься для себя.
+1	Но	но	CCONJ	CC	_	20	cc	_	TokenRange=736:738
+2	вскоре	вскоре	ADV	RB	Degree=Pos	20	advmod	_	SpaceAfter=No|TokenRange=739:745
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=745:746
+4	верный	верный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=747:753
+5	обожатель	обожатель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpacesAfter=\r\n|TokenRange=754:763
+6	Забав	забава	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	TokenRange=765:770
+7	и	и	CCONJ	CC	_	8	cc	_	TokenRange=771:772
+8	лени	лень	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	TokenRange=773:777
+9	золотой	золотой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=778:785
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=785:786
+11	Держася	дерться	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	TokenRange=788:795
+12	моего	мой	DET	PRP$	Case=Gen|Gender=Masc|Number=Sing	13	det	_	TokenRange=796:801
+13	совета	совет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obj	_	SpacesAfter=\r\n|TokenRange=802:808
+14	И	и	CCONJ	CC	_	15	cc	_	TokenRange=810:811
+15	волю	воля	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	conj	_	TokenRange=812:816
+16	всей	весь	DET	DT	Case=Ins|Gender=Fem|Number=Sing	17	det	_	TokenRange=817:821
+17	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	iobj	_	TokenRange=822:827
+18	любя	любить	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	conj	_	SpaceAfter=No|TokenRange=828:832
+19	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=832:833
+20	Оставишь	оставить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=835:843
+21	круг	круг	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	TokenRange=844:848
+22	большого	большой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	TokenRange=849:857
+23	света	свет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpacesAfter=\r\n|TokenRange=858:863
+24	И	и	CCONJ	CC	_	26	cc	_	TokenRange=865:866
+25	жить	жить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	26	xcomp	_	TokenRange=867:871
+26	решишься	решиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	20	conj	_	TokenRange=872:880
+27	для	для	ADP	IN	_	28	case	_	TokenRange=881:884
+28	себя	себя	PRON	PRP	Case=Gen	26	obl	_	SpaceAfter=No|TokenRange=885:889
+29	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\r\n|TokenRange=889:890
+
+# sent_id = 9
+# text = Уже в приюте отдаленном Я вижу мысленно тебя: Кипит в бокале опененном Аи холодная струя;
+1	Уже	уже	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=892:895
+2	в	в	ADP	IN	_	3	case	_	TokenRange=896:897
+3	приюте	приют	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	TokenRange=898:904
+4	отдаленном	отдаленный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesAfter=\r\n|TokenRange=905:915
+5	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=917:918
+6	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=919:923
+7	мысленно	мысленно	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=924:932
+8	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	6	obj	_	SpaceAfter=No|TokenRange=933:937
+9	:	:	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=937:938
+10	Кипит	кипеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=940:945
+11	в	в	ADP	IN	_	12	case	_	TokenRange=946:947
+12	бокале	бокал	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	TokenRange=948:954
+13	опененном	опенить	VERB	VBNL	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	SpacesAfter=\r\n|TokenRange=955:964
+14	Аи	аи	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	TokenRange=966:968
+15	холодная	холодный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	TokenRange=969:977
+16	струя	струя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No|TokenRange=978:983
+17	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=983:984
+
+# sent_id = 10
+# text = В густом дыму ленивых трубок, В халатах, новые друзья Шумят и пьют; задорный кубок Обходит их безумный круг, И мчится в радостях досуг; А там египетские девы Летают, вьются пред тобой;
+1	В	в	ADP	IN	_	3	case	_	TokenRange=986:987
+2	густом	густой	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=988:994
+3	дыму	дым	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	TokenRange=995:999
+4	ленивых	ленивый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	TokenRange=1000:1007
+5	трубок	трубка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|TokenRange=1008:1014
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=1014:1015
+7	В	в	ADP	IN	_	8	case	_	TokenRange=1017:1018
+8	халатах	халат	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|TokenRange=1019:1026
+9	,	,	PUNCT	,	_	8	punct	_	TokenRange=1026:1027
+10	новые	новый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	TokenRange=1028:1033
+11	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpacesAfter=\r\n|TokenRange=1034:1040
+12	Шумят	шумить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1042:1047
+13	и	и	CCONJ	CC	_	14	cc	_	TokenRange=1048:1049
+14	пьют	пить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=1050:1054
+15	;	;	PUNCT	:	_	12	punct	_	TokenRange=1054:1055
+16	задорный	задорный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=1056:1064
+17	кубок	кубок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpacesAfter=\r\n|TokenRange=1065:1070
+18	Обходит	обходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	TokenRange=1072:1079
+19	их	их	DET	PRP$	_	21	det	_	TokenRange=1080:1082
+20	безумный	безумный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	TokenRange=1083:1091
+21	круг	круг	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|TokenRange=1092:1096
+22	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=1096:1097
+23	И	и	CCONJ	CC	_	24	cc	_	TokenRange=1099:1100
+24	мчится	мчиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	conj	_	TokenRange=1101:1107
+25	в	в	ADP	IN	_	26	case	_	TokenRange=1108:1109
+26	радостях	радость	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	obl	_	TokenRange=1110:1118
+27	досуг;	досуг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpacesAfter=\r\n|TokenRange=1119:1125
+28	А	а	CCONJ	CC	_	32	cc	_	TokenRange=1127:1128
+29	там	там	ADV	RB	Degree=Pos	32	advmod	_	TokenRange=1129:1132
+30	египетские	египетский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	TokenRange=1133:1143
+31	девы	дева	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	SpacesAfter=\r\n|TokenRange=1144:1148
+32	Летают	летать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=1150:1156
+33	,	,	PUNCT	,	_	34	punct	_	TokenRange=1156:1157
+34	вьются	литься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	32	conj	_	TokenRange=1158:1164
+35	пред	пред	ADP	IN	_	36	case	_	TokenRange=1165:1169
+36	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	34	obl	_	SpaceAfter=No|TokenRange=1170:1175
+37	;	;	PUNCT	:	_	12	punct	_	SpacesAfter=\r\n|TokenRange=1175:1176
+
+# sent_id = 11
+# text = Я слышу звонкие напевы, Стон неги, вопли, дикий вой;
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=1178:1179
+2	слышу	слышать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1180:1185
+3	звонкие	звонкий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	TokenRange=1186:1193
+4	напевы	напева	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|TokenRange=1194:1200
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=1200:1201
+6	Стон	стон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	appos	_	TokenRange=1203:1207
+7	неги	нега	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=1208:1212
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=1212:1213
+9	вопли	вопль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=1214:1219
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=1219:1220
+11	дикий	дикий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	TokenRange=1221:1226
+12	вой	вой	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=1227:1230
+13	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=1230:1231
+
+# sent_id = 12
+# text = Их исступленные движенья, Огонь неистовых очей И всё, мой друг, в душе твоей Рождает трепет упоенья…
+1	Их	их	DET	PRP$	_	3	det	_	TokenRange=1233:1235
+2	исступленные	исступленный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	TokenRange=1236:1248
+3	движенья	движение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	SpaceAfter=No|TokenRange=1249:1257
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1257:1258
+5	Огонь	огонь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	TokenRange=1260:1265
+6	неистовых	неистовый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	TokenRange=1266:1275
+7	очей	очей	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpacesAfter=\r\n|TokenRange=1276:1280
+8	И	и	CCONJ	CC	_	9	cc	_	TokenRange=1282:1283
+9	всё	всё	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=1284:1287
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=1287:1288
+11	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	12	det	_	TokenRange=1289:1292
+12	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No|TokenRange=1293:1297
+13	,	,	PUNCT	,	_	12	punct	_	TokenRange=1297:1298
+14	в	в	ADP	IN	_	15	case	_	TokenRange=1299:1300
+15	душе	душа	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	TokenRange=1301:1305
+16	твоей	твой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	15	det	_	SpacesAfter=\r\n|TokenRange=1306:1311
+17	Рождает	рождать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1313:1320
+18	трепет	трепет	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	TokenRange=1321:1327
+19	упоенья	упоенье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|TokenRange=1328:1335
+20	…	…	PUNCT	.	_	17	punct	_	SpacesAfter=\r\n|TokenRange=1335:1336
+
+# sent_id = 13
+# text = Но вспомни, милый: здесь одна, Тебя всечасно ожидая, Вздыхает пленница младая;
+1	Но	но	CCONJ	CC	_	2	cc	_	TokenRange=1338:1340
+2	вспомни	вспомянуть	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=1341:1348
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=1348:1349
+4	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No|TokenRange=1350:1355
+5	:	:	PUNCT	:	_	13	punct	_	TokenRange=1355:1356
+6	здесь	здесь	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=1357:1362
+7	одна	один	NUM	CD	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No|TokenRange=1363:1367
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=1367:1368
+9	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	11	obj	_	TokenRange=1370:1374
+10	всечасно	всечасно	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=1375:1383
+11	ожидая	ожидать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	SpaceAfter=No|TokenRange=1384:1390
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=1390:1391
+13	Вздыхает	вздыхать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=1393:1401
+14	пленница	пленница	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	TokenRange=1402:1410
+15	младая	младой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No|TokenRange=1411:1417
+16	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=1417:1418
+
+# sent_id = 14
+# text = Весь день уныла и томна, В своей задумчивости сладкой Тихонько плачет под окном От грозных аргусов украдкой И смотрит на пустынный дом, Где мы так часто пировали С Кипридой, Вакхом и тобой, Куда с надеждой и тоской Ее желанья улетали.
+1	Весь	весь	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	det	_	TokenRange=1420:1424
+2	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=1425:1429
+3	уныла	уныть	ADJ	VBC	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	TokenRange=1430:1435
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=1436:1437
+5	томна	томна	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=1438:1443
+6	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=1443:1444
+7	В	в	ADP	IN	_	9	case	_	TokenRange=1446:1447
+8	своей	свой	DET	PRP$	Case=Loc|Gender=Fem|Number=Sing	9	det	_	TokenRange=1448:1453
+9	задумчивости	задумчивость	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	TokenRange=1454:1466
+10	сладкой	сладкий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpacesAfter=\r\n|TokenRange=1467:1474
+11	Тихонько	Тихонько	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=1476:1484
+12	плачет	плакать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=1485:1491
+13	под	под	ADP	IN	_	14	case	_	TokenRange=1492:1495
+14	окном	окно	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=1496:1501
+15	От	от	ADP	IN	_	17	case	_	TokenRange=1503:1505
+16	грозных	грозный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	TokenRange=1506:1513
+17	аргусов	аргус	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	TokenRange=1514:1521
+18	украдкой	украдка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	iobj	_	SpacesAfter=\r\n|TokenRange=1522:1530
+19	И	и	CCONJ	CC	_	20	cc	_	TokenRange=1532:1533
+20	смотрит	смотреть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=1534:1541
+21	на	на	ADP	IN	_	23	case	_	TokenRange=1542:1544
+22	пустынный	пустынный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	TokenRange=1545:1554
+23	дом	дом	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|TokenRange=1555:1558
+24	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=1558:1559
+25	Где	где	ADV	WRB	_	29	advmod	_	TokenRange=1561:1564
+26	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	29	nsubj	_	TokenRange=1565:1567
+27	так	так	ADV	RB	Degree=Pos	28	advmod	_	TokenRange=1568:1571
+28	часто	часто	ADV	RB	Degree=Pos	29	advmod	_	TokenRange=1572:1577
+29	пировали	пировать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	SpacesAfter=\r\n|TokenRange=1578:1586
+30	С	с	ADP	IN	_	31	case	_	TokenRange=1588:1589
+31	Кипридой	Киприда	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No|TokenRange=1590:1598
+32	,	,	PUNCT	,	_	33	punct	_	TokenRange=1598:1599
+33	Вакхом	Вакх	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	31	conj	_	TokenRange=1600:1606
+34	и	и	CCONJ	CC	_	35	cc	_	TokenRange=1607:1608
+35	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	31	conj	_	SpaceAfter=No|TokenRange=1609:1614
+36	,	,	PUNCT	,	_	44	punct	_	SpacesAfter=\r\n|TokenRange=1614:1615
+37	Куда	куда	ADV	WRB	_	44	advmod	_	TokenRange=1617:1621
+38	с	с	ADP	IN	_	39	case	_	TokenRange=1622:1623
+39	надеждой	надежда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	44	obl	_	TokenRange=1624:1632
+40	и	и	CCONJ	CC	_	41	cc	_	TokenRange=1633:1634
+41	тоской	тоска	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	conj	_	SpacesAfter=\r\n|TokenRange=1635:1641
+42	Ее	ее	DET	PRP$	_	43	det	_	TokenRange=1643:1645
+43	желанья	желание	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	44	nsubj	_	TokenRange=1646:1653
+44	улетали	улетать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	35	acl:relcl	_	SpaceAfter=No|TokenRange=1654:1661
+45	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=1661:1662
+
+# sent_id = 15
+# text = О, скоро ль милого найдут Ее потупленные взоры, И пред любовью упадут Замков ревнивые затворы?
+1	О	о	INTJ	UH	_	6	discourse	_	SpaceAfter=No|TokenRange=1664:1665
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=1665:1666
+3	скоро	скоро	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=1667:1672
+4	ль	ль	PART	UH	_	5	advmod	_	TokenRange=1673:1675
+5	милого	милый	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	obj	_	TokenRange=1676:1682
+6	найдут	найти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=1683:1689
+7	Ее	ее	DET	PRP$	_	9	det	_	TokenRange=1691:1693
+8	потупленные	потупить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	TokenRange=1694:1705
+9	взоры	взор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No|TokenRange=1706:1711
+10	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=1711:1712
+11	И	и	CCONJ	CC	_	14	cc	_	TokenRange=1714:1715
+12	пред	пред	ADP	IN	_	13	case	_	TokenRange=1716:1720
+13	любовью	любовь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	TokenRange=1721:1728
+14	упадут	падать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	SpacesAfter=\r\n|TokenRange=1729:1735
+15	Замков	замок	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obj	_	TokenRange=1737:1743
+16	ревнивые	ревнивый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	TokenRange=1744:1752
+17	затворы	затвор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No|TokenRange=1753:1760
+18	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=1760:1761
+
+# sent_id = 16
+# text = А наш осиротелый круг, Товарищ, скоро ль оживится?
+1	А	а	CCONJ	CC	_	10	cc	_	TokenRange=1763:1764
+2	наш	наш	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	4	det	_	TokenRange=1765:1768
+3	осиротелый	осиротелый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=1769:1779
+4	круг	круг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|TokenRange=1780:1784
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=1784:1785
+6	Товарищ	товарищ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=1787:1794
+7	,	,	PUNCT	,	_	6	punct	_	TokenRange=1794:1795
+8	скоро	скоро	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=1796:1801
+9	ль	ль	PART	UH	_	10	advmod	_	TokenRange=1802:1804
+10	оживится	оживиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=1805:1813
+11	?	?	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=1813:1814
+
+# sent_id = 17
+# text = Когда прискачешь, милый друг?
+1	Когда	когда	SCONJ	IN	_	2	mark	_	TokenRange=1816:1821
+2	прискачешь	прискачеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No|TokenRange=1822:1832
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=1832:1833
+4	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=1834:1839
+5	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=1840:1844
+6	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=1844:1845
+
+# sent_id = 18
+# text = Душа вослед тебе стремится.
+1	Душа	душа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=1847:1851
+2	вослед	вослед	ADP	RB	_	3	case	_	TokenRange=1852:1858
+3	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	4	obl	_	TokenRange=1859:1863
+4	стремится	стремиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=1864:1873
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=1873:1874
+
+# sent_id = 19
+# text = Где б ни был ты, возьми венок Из рук младого сладострастья И докажи, что ты знаток В неведомой науке счастья.
+1	Где	где	ADV	WRB	_	4	advmod	_	TokenRange=1876:1879
+2	б	б	AUX	UH	_	4	aux	_	TokenRange=1880:1881
+3	ни	ни	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=1882:1884
+4	был	быть	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	advcl	_	TokenRange=1885:1888
+5	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	4	nsubj	_	SpaceAfter=No|TokenRange=1889:1891
+6	,	,	PUNCT	,	_	4	punct	_	TokenRange=1891:1892
+7	возьми	взять	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1893:1899
+8	венок	венок	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpacesAfter=\r\n|TokenRange=1900:1905
+9	Из	из	ADP	IN	_	10	case	_	TokenRange=1907:1909
+10	рук	рука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	TokenRange=1910:1913
+11	младого	младый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	TokenRange=1914:1921
+12	сладострастья	сладострастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpacesAfter=\r\n|TokenRange=1922:1935
+13	И	и	CCONJ	CC	_	14	cc	_	TokenRange=1937:1938
+14	докажи	доказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|TokenRange=1939:1945
+15	,	,	PUNCT	,	_	18	punct	_	TokenRange=1945:1946
+16	что	что	SCONJ	IN	_	18	mark	_	TokenRange=1947:1950
+17	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	18	nsubj	_	TokenRange=1951:1953
+18	знаток	знаток	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	ccomp	_	SpacesAfter=\r\n|TokenRange=1954:1960
+19	В	в	ADP	IN	_	21	case	_	TokenRange=1962:1963
+20	неведомой	неведомый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=1964:1973
+21	науке	наука	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	TokenRange=1974:1979
+22	счастья	счастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|TokenRange=1980:1987
+23	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=1987:1988
+

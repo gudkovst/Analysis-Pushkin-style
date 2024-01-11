@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вы съединить могли с холодностью сердечной Чудесный жар пленительных очей.
+1	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	3	nsubj	_	TokenRange=0:2
+2	съединить	съединить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	TokenRange=3:12
+3	могли	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=13:18
+4	с	с	ADP	IN	_	5	case	_	TokenRange=19:20
+5	холодностью	холодность	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	TokenRange=21:32
+6	сердечной	сердечный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\r\n|TokenRange=33:42
+7	Чудесный	чудесный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=44:52
+8	жар	жар	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	TokenRange=53:56
+9	пленительных	пленительный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=57:69
+10	очей	очей	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|TokenRange=70:74
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=74:75
+
+# sent_id = 2
+# text = Кто любит вас, тот очень глуп, конечно;
+1	Кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=77:80
+2	любит	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	TokenRange=81:86
+3	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	2	obj	_	SpaceAfter=No|TokenRange=87:90
+4	,	,	PUNCT	,	_	2	punct	_	TokenRange=90:91
+5	тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=92:95
+6	очень	очень	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=96:101
+7	глуп	глупый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=102:106
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=106:107
+9	конечно	конечно	ADV	RB	Degree=Pos	7	parataxis	_	SpaceAfter=No|TokenRange=108:115
+10	;	;	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=115:116
+
+# sent_id = 3
+# text = Но кто не любит вас, тот во сто раз глупей.
+1	Но	но	CCONJ	CC	_	11	cc	_	TokenRange=118:120
+2	кто	кто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=121:124
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=125:127
+4	любит	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	TokenRange=128:133
+5	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	4	obj	_	SpaceAfter=No|TokenRange=134:137
+6	,	,	PUNCT	,	_	4	punct	_	TokenRange=137:138
+7	тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=139:142
+8	во	во	ADP	IN	_	10	case	_	TokenRange=143:145
+9	сто	сто	NUM	CD	Case=Acc|NumType=Card	10	nummod:gov	_	TokenRange=146:149
+10	раз	раз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	TokenRange=150:153
+11	глупей	глупый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=154:160
+12	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No|TokenRange=160:161
+

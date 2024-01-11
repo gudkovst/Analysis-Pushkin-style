@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Что можем наскоро стихами молвить ей?
+1	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	TokenRange=0:3
+2	можем	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=4:9
+3	наскоро	наскоро	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=10:17
+4	стихами	стихи	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	iobj	_	TokenRange=18:25
+5	молвить	молвить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	TokenRange=26:33
+6	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	iobj	_	SpaceAfter=No|TokenRange=34:36
+7	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=36:37
+
+# sent_id = 2
+# text = Мне истина всего дороже.
+1	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	4	iobj	_	TokenRange=39:42
+2	истина	истина	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=43:49
+3	всего	всего	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=50:55
+4	дороже	дорогой	ADJ	RBR	Degree=Cmp	0	root	_	SpaceAfter=No|TokenRange=56:62
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=62:63
+
+# sent_id = 3
+# text = Подумать не успев, скажу: ты всех милей; Подумав, я скажу всё то же.
+1	Подумать	подумать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	TokenRange=65:73
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=74:76
+3	успев	успеть	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	5	advcl	_	SpaceAfter=No|TokenRange=77:82
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=82:83
+5	скажу	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=84:89
+6	:	:	PUNCT	:	_	5	punct	_	TokenRange=89:90
+7	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	TokenRange=91:93
+8	всех	все	DET	DT	Animacy=Anim|Case=Acc|Number=Plur	9	det	_	TokenRange=94:98
+9	милей	милый	ADJ	JJH	Degree=Cmp	5	ccomp	_	SpaceAfter=No|TokenRange=99:104
+10	;	;	PUNCT	:	_	14	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+11	Подумав	подумать	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	14	advcl	_	SpaceAfter=No|TokenRange=107:114
+12	,	,	PUNCT	,	_	11	punct	_	TokenRange=114:115
+13	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	14	nsubj	_	TokenRange=116:117
+14	скажу	сказать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	parataxis	_	TokenRange=118:123
+15	всё	весь	DET	DT	Case=Acc|Gender=Neut|Number=Sing	16	det	_	TokenRange=124:127
+16	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	TokenRange=128:130
+17	же	же	PART	UH	_	16	advmod	_	SpaceAfter=No|TokenRange=131:133
+18	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=133:134
+

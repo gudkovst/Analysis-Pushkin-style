@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Умножайте шум и радость;
+1	Умножайте	умножать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:9
+2	шум	шум	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	TokenRange=10:13
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=14:15
+4	радость	радость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=16:23
+5	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+
+# sent_id = 2
+# text = Пойте песни в добрый час: Дружба, Грация и Младость Именинницы у нас.
+1	Пойте	поеть	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=26:31
+2	песни	песня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	TokenRange=32:37
+3	в	в	ADP	IN	_	5	case	_	TokenRange=38:39
+4	добрый	добрый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=40:46
+5	час	час	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=47:50
+6	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+7	Дружба	дружба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=53:59
+8	,	,	PUNCT	,	_	9	punct	_	TokenRange=59:60
+9	Грация	грация	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	TokenRange=61:67
+10	и	и	CCONJ	CC	_	11	cc	_	TokenRange=68:69
+11	Младость	младость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpacesAfter=\r\n|TokenRange=70:78
+12	Именинницы	именинница	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=80:90
+13	у	у	ADP	IN	_	14	case	_	TokenRange=91:92
+14	нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	11	nmod	_	SpaceAfter=No|TokenRange=93:96
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=96:97
+
+# sent_id = 3
+# text = Между тем дитя крылато, Вас приветствуя, друзья, Втайне думает: когда-то Именинник буду я!
+1	Между	между	ADP	IN	_	2	case	_	TokenRange=99:104
+2	тем	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	TokenRange=105:108
+3	дитя	дитя	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	TokenRange=109:113
+4	крылато	крылато	NOUN	RB	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No|TokenRange=114:121
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=121:122
+6	Вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	7	obj	_	TokenRange=124:127
+7	приветствуя	приветствовать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	SpaceAfter=No|TokenRange=128:139
+8	,	,	PUNCT	,	_	7	punct	_	TokenRange=139:140
+9	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No|TokenRange=141:147
+10	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=147:148
+11	Втайне	втайне	ADV	RB	Degree=Pos	12	advmod	_	TokenRange=150:156
+12	думает	думать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=157:163
+13	:	:	PUNCT	:	_	12	punct	_	TokenRange=163:164
+14	когда-то	когда-то	ADV	RB	Degree=Pos	17	advmod	_	SpacesAfter=\r\n|TokenRange=165:173
+15	Именинник	именинник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=175:184
+16	буду	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	17	cop	_	TokenRange=185:189
+17	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	parataxis	_	SpaceAfter=No|TokenRange=190:191
+18	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No|TokenRange=191:192
+

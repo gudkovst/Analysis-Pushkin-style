@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Се самый Дельвиг тот, что нам всегда твердил, Что коль судьбой ему даны б Нерон и Тит, То не в Нерона меч, но в Тита сей вонзил — Нерон же без него правдиву смерть узрит.
+1	Се	се	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	det	_	TokenRange=0:2
+2	самый	самый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	TokenRange=3:8
+3	Дельвиг	Дельвиг	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=9:16
+4	тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	det	_	SpaceAfter=No|TokenRange=17:20
+5	,	,	PUNCT	,	_	9	punct	_	TokenRange=20:21
+6	что	что	PRON	WP	_	9	nsubj	_	TokenRange=22:25
+7	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	9	iobj	_	TokenRange=26:29
+8	всегда	всегда	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=30:36
+9	твердил	твердить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No|TokenRange=37:44
+10	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=44:45
+11	Что	что	SCONJ	IN	_	15	mark	_	TokenRange=47:50
+12	коль	коль	SCONJ	IN	_	15	mark	_	TokenRange=51:55
+13	судьбой	судьба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	TokenRange=56:63
+14	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	15	iobj	_	TokenRange=64:67
+15	даны	дать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	ccomp	_	TokenRange=68:72
+16	б	б	AUX	UH	_	15	aux	_	TokenRange=73:74
+17	Нерон	Нерон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	TokenRange=75:80
+18	и	и	CCONJ	CC	_	19	cc	_	TokenRange=81:82
+19	Тит	Тит	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No|TokenRange=83:86
+20	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=86:87
+21	То	то	CCONJ	CC	_	25	cc	_	TokenRange=89:91
+22	не	не	PART	NEG	Polarity=Neg	24	advmod	_	TokenRange=92:94
+23	в	в	ADP	IN	_	24	case	_	TokenRange=95:96
+24	Нерона	Нерон	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	TokenRange=97:103
+25	меч	меч	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No|TokenRange=104:107
+26	,	,	PUNCT	,	_	31	punct	_	TokenRange=107:108
+27	но	но	CCONJ	CC	_	31	cc	_	TokenRange=109:111
+28	в	в	ADP	IN	_	29	case	_	TokenRange=112:113
+29	Тита	Тит	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	TokenRange=114:118
+30	сей	сей	DET	DT	Case=Nom|Gender=Masc|Number=Sing	31	det	_	TokenRange=119:122
+31	вонзил	вонзить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	TokenRange=123:129
+32	—	—	PUNCT	--	_	39	punct	_	SpacesAfter=\r\n|TokenRange=130:131
+33	Нерон	Нерон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	TokenRange=133:138
+34	же	же	PART	UH	_	33	advmod	_	TokenRange=139:141
+35	без	без	ADP	IN	_	36	case	_	TokenRange=142:145
+36	него	он	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	39	obl	_	TokenRange=146:150
+37	правдиву	правдивый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	TokenRange=151:159
+38	смерть	смерть	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	TokenRange=160:166
+39	узрит	узрить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	31	parataxis	_	SpaceAfter=No|TokenRange=167:172
+40	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=172:173
+

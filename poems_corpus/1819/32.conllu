@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Лила, Лила! я страдаю Безотрадною тоской, Я томлюсь, я умираю, Гасну пламенной душой;
+1	Лила	Лила	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|TokenRange=0:4
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=4:5
+3	Лила	Лила	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=6:10
+4	!	!	PUNCT	.	_	1	punct	_	TokenRange=10:11
+5	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=12:13
+6	страдаю	страдать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=14:21
+7	Безотрадною	безотрадный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	TokenRange=23:34
+8	тоской	тоска	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No|TokenRange=35:41
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=41:42
+10	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=44:45
+11	томлюсь	томиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	SpaceAfter=No|TokenRange=46:53
+12	,	,	PUNCT	,	_	14	punct	_	TokenRange=53:54
+13	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	14	nsubj	_	TokenRange=55:56
+14	умираю	умирать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=57:63
+15	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+16	Гасну	Гасна	VERB	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	TokenRange=66:71
+17	пламенной	пламенный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=72:81
+18	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	iobj	_	SpaceAfter=No|TokenRange=82:87
+19	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=87:88
+
+# sent_id = 2
+# text = Но любовь моя напрасна: Ты смеешься надо мной.
+1	Но	но	CCONJ	CC	_	4	cc	_	TokenRange=90:92
+2	любовь	любовь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=93:99
+3	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	2	det	_	TokenRange=100:103
+4	напрасна	напрасный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=104:112
+5	:	:	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=112:113
+6	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=115:117
+7	смеешься	смеяться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	TokenRange=118:126
+8	надо	надо	ADP	IN	_	9	case	_	TokenRange=127:131
+9	мной	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	7	obl	_	SpaceAfter=No|TokenRange=132:136
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=136:137
+
+# sent_id = 3
+# text = Смейся, Лила: ты прекрасна И бесчувственной красой.
+1	Смейся	Смейся	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=139:145
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=145:146
+3	Лила	Лила	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	vocative	_	SpaceAfter=No|TokenRange=147:151
+4	:	:	PUNCT	:	_	1	punct	_	TokenRange=151:152
+5	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	TokenRange=153:155
+6	прекрасна	прекрасный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	parataxis	_	SpacesAfter=\r\n|TokenRange=156:165
+7	И	и	CCONJ	CC	_	9	cc	_	TokenRange=167:168
+8	бесчувственной	бесчувственный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	TokenRange=169:183
+9	красой	краса	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=184:190
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=190:191
+

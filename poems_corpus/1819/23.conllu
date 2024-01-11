@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Веселый вечер в жизни нашей Запомним, юные друзья; Шампанского в стеклянной чаше Шипела хладная струя.
+1	Веселый	веселый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=0:7
+2	вечер	вечер	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=8:13
+3	в	в	ADP	IN	_	4	case	_	TokenRange=14:15
+4	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	TokenRange=16:21
+5	нашей	наш	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	4	det	_	SpacesAfter=\r\n|TokenRange=22:27
+6	Запомним	запомнить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=29:37
+7	,	,	PUNCT	,	_	9	punct	_	TokenRange=37:38
+8	юные	юный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	TokenRange=39:43
+9	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No|TokenRange=44:50
+10	;	;	PUNCT	:	_	6	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+11	Шампанского	Шампанский	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	obj	_	TokenRange=53:64
+12	в	в	ADP	IN	_	14	case	_	TokenRange=65:66
+13	стеклянной	стеклянный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	TokenRange=67:77
+14	чаше	чаша	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpacesAfter=\r\n|TokenRange=78:82
+15	Шипела	шипеть	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=84:90
+16	хладная	хладной	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	TokenRange=91:98
+17	струя	струя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No|TokenRange=99:104
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+
+# sent_id = 2
+# text = Мы пили — и Венера с нами Сидела прея за столом.
+1	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	2	nsubj	_	TokenRange=107:109
+2	пили	пить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=110:114
+3	—	—	PUNCT	--	_	8	punct	_	TokenRange=115:116
+4	и	и	CCONJ	CC	_	8	cc	_	TokenRange=117:118
+5	Венера	Венера	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=119:125
+6	с	с	ADP	IN	_	7	case	_	TokenRange=126:127
+7	нами	мы	PRON	PRP	Case=Ins|Number=Plur|Person=1	8	obl	_	SpacesAfter=\r\n|TokenRange=128:132
+8	Сидела	сидеть	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=134:140
+9	прея	прея	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=141:145
+10	за	за	ADP	IN	_	11	case	_	TokenRange=146:148
+11	столом	стол	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|TokenRange=149:155
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=155:156
+
+# sent_id = 3
+# text = Когда ж вновь сядем вчетвером С вином и чубуками?
+1	Когда	когда	ADV	WRB	_	4	advmod	_	TokenRange=158:163
+2	ж	же	PART	UH	_	1	advmod	_	TokenRange=164:165
+3	вновь	вновь	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=166:171
+4	сядем	сядеть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=172:177
+5	вчетвером	вчетвером	ADV	RB	Degree=Pos	4	advmod	_	SpacesAfter=\r\n|TokenRange=178:187
+6	С	с	ADP	IN	_	7	case	_	TokenRange=189:190
+7	вином	вино	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	TokenRange=191:196
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=197:198
+9	чубуками	чубук	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No|TokenRange=199:207
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=207:208
+

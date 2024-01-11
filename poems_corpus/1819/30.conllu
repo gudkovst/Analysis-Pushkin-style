@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Напрасно, милый друг, я мыслил утаить Обманутой души холодное волненье.
+1	Напрасно	напрасно	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No|TokenRange=0:8
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=8:9
+3	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=10:15
+4	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=16:20
+5	,	,	PUNCT	,	_	4	punct	_	TokenRange=20:21
+6	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	7	nsubj	_	TokenRange=22:23
+7	мыслил	мыслить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=24:30
+8	утаить	утаить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	SpacesAfter=\r\n|TokenRange=31:37
+9	Обманутой	обмануть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	TokenRange=39:48
+10	души	душа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obj	_	TokenRange=49:53
+11	холодное	холодный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	TokenRange=54:62
+12	волненье	волненье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=63:71
+13	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=71:72
+
+# sent_id = 2
+# text = Ты поняла меня — проходит упоенье, Перестаю тебя любить…
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=74:76
+2	поняла	понять	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=77:83
+3	меня	я	PRON	PRP	Case=Acc|Number=Sing|Person=1	2	obj	_	TokenRange=84:88
+4	—	—	PUNCT	--	_	5	punct	_	TokenRange=89:90
+5	проходит	проходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=91:99
+6	упоенье	упоенье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=100:107
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=107:108
+8	Перестаю	перестать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=110:118
+9	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	10	obj	_	TokenRange=119:123
+10	любить	любить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No|TokenRange=124:130
+11	…	…	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=130:131
+
+# sent_id = 3
+# text = Исчезли навсегда часы очарованья, Пора прекрасная прошла, Погасли юные желанья, Надежда в сердце умерла.
+1	Исчезли	исчезнуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=133:140
+2	навсегда	навсегда	ADV	RB	Degree=Pos	1	advmod	_	TokenRange=141:149
+3	часы	часы	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	TokenRange=150:154
+4	очарованья	очарованье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=155:165
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=165:166
+6	Пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	TokenRange=168:172
+7	прекрасная	прекрасный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=173:183
+8	прошла	пройти	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=184:190
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=190:191
+10	Погасли	погаснуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=193:200
+11	юные	юный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	TokenRange=201:205
+12	желанья	желание	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No|TokenRange=206:213
+13	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=213:214
+14	Надежда	Надежда	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	TokenRange=216:223
+15	в	в	ADP	IN	_	16	case	_	TokenRange=224:225
+16	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	TokenRange=226:232
+17	умерла	умереть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=233:239
+18	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=239:240
+

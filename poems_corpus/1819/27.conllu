@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вкруг я Стурдзы хожу, Вкруг библического, Я на Стурдзу гляжу Монархического.
+1	Вкруг	вкруг	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=0:5
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=6:7
+3	Стурдзы	стурдза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	TokenRange=8:15
+4	хожу	ходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=16:20
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=20:21
+6	Вкруг	вкруг	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=23:28
+7	библического	библический	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No|TokenRange=29:41
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=41:42
+9	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	nsubj	_	TokenRange=44:45
+10	на	на	ADP	IN	_	11	case	_	TokenRange=46:48
+11	Стурдзу	Стурдза	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	TokenRange=49:56
+12	гляжу	глядеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpacesAfter=\r\n|TokenRange=57:62
+13	Монархического	монархический	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=64:78
+14	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=78:79
+

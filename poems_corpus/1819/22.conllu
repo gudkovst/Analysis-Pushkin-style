@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Недавно тихим вечерком Пришел гулять я в рощу нашу И там у речки под дубком Увидел спящую Наташу.
+1	Недавно	недавно	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=0:7
+2	тихим	тихий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=8:13
+3	вечерком	вечерок	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\r\n|TokenRange=14:22
+4	Пришел	прийти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=24:30
+5	гулять	гулять	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	TokenRange=31:37
+6	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	TokenRange=38:39
+7	в	в	ADP	IN	_	8	case	_	TokenRange=40:41
+8	рощу	роща	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	TokenRange=42:46
+9	нашу	наш	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	8	det	_	SpacesAfter=\r\n|TokenRange=47:51
+10	И	и	CCONJ	CC	_	16	cc	_	TokenRange=53:54
+11	там	там	ADV	RB	Degree=Pos	16	advmod	_	TokenRange=55:58
+12	у	у	ADP	IN	_	13	case	_	TokenRange=59:60
+13	речки	речка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	TokenRange=61:66
+14	под	под	ADP	IN	_	15	case	_	TokenRange=67:70
+15	дубком	дубок	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpacesAfter=\r\n|TokenRange=71:77
+16	Увидел	увидеть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=79:85
+17	спящую	спать	VERB	VBNL	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	acl	_	TokenRange=86:92
+18	Наташу	Наташа	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No|TokenRange=93:99
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=99:100
+
+# sent_id = 2
+# text = Вы знаете, мои друзья, К Наташе… подкравшись, я Поцеловал два раза смело, Спокойно девица моя Во сне вздохнула, покраснела; Я дал и третий поцелуй, Она проснуться не желала, И тут уже затрепетала.
+1	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	2	nsubj	_	TokenRange=102:104
+2	знаете	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=105:111
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=111:112
+4	мои	мой	DET	PRP$	Case=Nom|Number=Plur	5	det	_	TokenRange=113:116
+5	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	vocative	_	SpaceAfter=No|TokenRange=117:123
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=123:124
+7	К	к	ADP	IN	_	8	case	_	TokenRange=126:127
+8	Наташе…	Наташе…	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	TokenRange=128:135
+9	подкравшись	подкраться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	12	advcl	_	SpaceAfter=No|TokenRange=136:147
+10	,	,	PUNCT	,	_	9	punct	_	TokenRange=147:148
+11	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	nsubj	_	SpacesAfter=\r\n|TokenRange=149:150
+12	Поцеловал	поцеловать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=152:161
+13	два	два	NUM	CD	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	14	nummod:gov	_	TokenRange=162:165
+14	раза	раз	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	TokenRange=166:170
+15	смело	смело	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No|TokenRange=171:176
+16	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+17	Спокойно	спокойно	ADV	RB	Degree=Pos	22	advmod	_	TokenRange=179:187
+18	девица	девица	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	TokenRange=188:194
+19	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	18	det	_	SpacesAfter=\r\n|TokenRange=195:198
+20	Во	во	ADP	IN	_	21	case	_	TokenRange=200:202
+21	сне	сон	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	TokenRange=203:206
+22	вздохнула	вздохнуть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=207:216
+23	,	,	PUNCT	,	_	24	punct	_	TokenRange=216:217
+24	покраснела	покраснеть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	conj	_	SpaceAfter=No|TokenRange=218:228
+25	;	;	PUNCT	:	_	27	punct	_	SpacesAfter=\r\n|TokenRange=228:229
+26	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	27	nsubj	_	TokenRange=231:232
+27	дал	дать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	TokenRange=233:236
+28	и	и	PART	UH	_	29	advmod	_	TokenRange=237:238
+29	третий	третий	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	TokenRange=239:245
+30	поцелуй	поцелуй	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No|TokenRange=246:253
+31	,	,	PUNCT	,	_	35	punct	_	SpacesAfter=\r\n|TokenRange=253:254
+32	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	35	nsubj	_	TokenRange=256:259
+33	проснуться	проснуться	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	35	xcomp	_	TokenRange=260:270
+34	не	не	PART	NEG	Polarity=Neg	35	advmod	_	TokenRange=271:273
+35	желала	желать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	_	SpaceAfter=No|TokenRange=274:280
+36	,	,	PUNCT	,	_	40	punct	_	SpacesAfter=\r\n|TokenRange=280:281
+37	И	и	CCONJ	CC	_	40	cc	_	TokenRange=283:284
+38	тут	тут	ADV	RB	Degree=Pos	40	advmod	_	TokenRange=285:288
+39	уже	уже	ADV	RB	Degree=Pos	40	advmod	_	TokenRange=289:292
+40	затрепетала	затрепетать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No|TokenRange=293:304
+41	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=304:305
+

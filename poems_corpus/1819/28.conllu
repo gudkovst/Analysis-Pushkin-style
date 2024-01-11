@@ -1,0 +1,122 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Здорово, Юрьев именинник!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=0:7
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=7:8
+3	Юрьев	Юрьев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	amod	_	TokenRange=9:14
+4	именинник	именинник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=15:24
+5	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+
+# sent_id = 2
+# text = Здорово, Юрьев лейб-улан!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=27:34
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=34:35
+3	Юрьев	Юрьев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=36:41
+4	лейб-улан	лейб-улан	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No|TokenRange=42:51
+5	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=51:52
+
+# sent_id = 3
+# text = Сегодня для тебя пустынник Осушит пенистый стакан.
+1	Сегодня	сегодня	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=54:61
+2	для	для	ADP	IN	_	3	case	_	TokenRange=62:65
+3	тебя	ты	PRON	PRP	Case=Gen|Number=Sing|Person=2	5	obl	_	TokenRange=66:70
+4	пустынник	пустынник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\r\n|TokenRange=71:80
+5	Осушит	осушить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=82:88
+6	пенистый	пенистый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=89:97
+7	стакан	стакан	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=98:104
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+
+# sent_id = 4
+# text = Здорово, Юрьев именинник!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=107:114
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=114:115
+3	Юрьев	Юрьев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	amod	_	TokenRange=116:121
+4	именинник	именинник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=122:131
+5	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=131:132
+
+# sent_id = 5
+# text = Здорово, Юрьев лейб-улан!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=134:141
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=141:142
+3	Юрьев	Юрьев	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=143:148
+4	лейб-улан	лейб-улан	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No|TokenRange=149:158
+5	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=158:159
+
+# sent_id = 6
+# text = Здорово, рыцари лихие Любви, свободы и вина!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=161:168
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=168:169
+3	рыцари	рыцарь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	TokenRange=170:176
+4	лихие	лихой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\r\n|TokenRange=177:182
+5	Любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=184:189
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=189:190
+7	свободы	свобода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	TokenRange=191:198
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=199:200
+9	вина	вино	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=201:205
+10	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=205:206
+
+# sent_id = 7
+# text = Для нас, союзники младые, Надежды лампа зажжена.
+1	Для	для	ADP	IN	_	2	case	_	TokenRange=208:211
+2	нас	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1	5	nmod	_	SpaceAfter=No|TokenRange=212:215
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=215:216
+4	союзники	союзник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	TokenRange=217:225
+5	младые	младой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=226:232
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=232:233
+7	Надежды	надежда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	TokenRange=235:242
+8	лампа	лампа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	TokenRange=243:248
+9	зажжена	зажжена	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	parataxis	_	SpaceAfter=No|TokenRange=249:256
+10	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=256:257
+
+# sent_id = 8
+# text = Здорово, рыцари лихие Любви, свободы и вина!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=259:266
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=266:267
+3	рыцари	рыцарь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	TokenRange=268:274
+4	лихие	лихой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\r\n|TokenRange=275:280
+5	Любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=282:287
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=287:288
+7	свободы	свобода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	TokenRange=289:296
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=297:298
+9	вина	вино	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|TokenRange=299:303
+10	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=303:304
+
+# sent_id = 9
+# text = Здорово, молодость и счастье, Застольный кубок и бордель, Где с громким смехом сладострастье Ведет нас пьяных на постель. 3дорово, молодость и счастье, Застольный кубок и бордель!
+1	Здорово	здорово	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=306:313
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=313:314
+3	молодость	молодость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	TokenRange=315:324
+4	и	и	CCONJ	CC	_	5	cc	_	TokenRange=325:326
+5	счастье	счастье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=327:334
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=334:335
+7	Застольный	застольный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=337:347
+8	кубок	кубок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	TokenRange=348:353
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=354:355
+10	бордель	бордель	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=356:363
+11	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=363:364
+12	Где	где	ADV	WRB	_	17	advmod	_	TokenRange=366:369
+13	с	с	ADP	IN	_	15	case	_	TokenRange=370:371
+14	громким	громкий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	TokenRange=372:379
+15	смехом	смех	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	TokenRange=380:386
+16	сладострастье	сладострастье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	SpacesAfter=\r\n|TokenRange=387:400
+17	Ведет	вести	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	TokenRange=402:407
+18	нас	мы	PRON	PRP	Case=Acc|Number=Plur|Person=1	17	obj	_	TokenRange=408:411
+19	пьяных	пьяный	ADJ	NN	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	17	obj	_	TokenRange=412:418
+20	на	на	ADP	IN	_	21	case	_	TokenRange=419:421
+21	постель.	постель.	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpacesAfter=\r\n|TokenRange=422:430
+22	3дорово	3дорово	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No|TokenRange=432:439
+23	,	,	PUNCT	,	_	24	punct	_	TokenRange=439:440
+24	молодость	молодость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	conj	_	TokenRange=441:450
+25	и	и	CCONJ	CC	_	26	cc	_	TokenRange=451:452
+26	счастье	счастье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	conj	_	SpaceAfter=No|TokenRange=453:460
+27	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\r\n|TokenRange=460:461
+28	Застольный	застольный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	TokenRange=463:473
+29	кубок	кубок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	TokenRange=474:479
+30	и	и	CCONJ	CC	_	31	cc	_	TokenRange=480:481
+31	бордель	бордель	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No|TokenRange=482:489
+32	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=489:490
+

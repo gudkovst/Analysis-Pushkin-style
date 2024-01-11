@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Чья мысль восторгом угадала, Постигла тайну красоты?
+1	Чья	чей	DET	DT	Case=Nom|Gender=Fem|Number=Sing	2	det	_	TokenRange=0:3
+2	мысль	мысль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=4:9
+3	восторгом	восторг	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	iobj	_	TokenRange=10:19
+4	угадала	угадать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=20:27
+5	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+6	Постигла	постичь	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=30:38
+7	тайну	тайна	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	TokenRange=39:44
+8	красоты	красота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=45:52
+9	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+
+# sent_id = 2
+# text = Чья кисть, о небо, означала Сии небесные черты?
+1	Чья	чей	DET	DT	Case=Nom|Gender=Fem|Number=Sing	2	det	_	TokenRange=55:58
+2	кисть	кисть	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=59:64
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=64:65
+4	о	о	ADP	IN	_	5	case	_	TokenRange=66:67
+5	небо	небо	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=68:72
+6	,	,	PUNCT	,	_	5	punct	_	TokenRange=72:73
+7	означала	означать	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=74:82
+8	Сии	сей	DET	JJL	Animacy=Inan|Case=Acc|Number=Plur	10	det	_	TokenRange=84:87
+9	небесные	небесный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	TokenRange=88:96
+10	черты	черта	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No|TokenRange=97:102
+11	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 3
+# text = Ты гений!..
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	2	nsubj	_	TokenRange=105:107
+2	гений	гений	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=108:113
+3	!..	!..	PUNCT	.	_	2	punct	_	TokenRange=113:116
+
+# sent_id = 4
+# text = Но любви страданья Его сразили.
+1	Но	но	CCONJ	CC	_	5	cc	_	TokenRange=117:119
+2	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obj	_	TokenRange=120:125
+3	страданья	страданье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpacesAfter=\r\n|TokenRange=126:135
+4	Его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	TokenRange=137:140
+5	сразили	сразить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=141:148
+6	.	.	PUNCT	.	_	5	punct	_	TokenRange=148:149
+
+# sent_id = 5
+# text = Взор немой Вперил он на свое созданье И гаснет пламенной душой.
+1	Взор	взор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	TokenRange=150:154
+2	немой	нема	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\r\n|TokenRange=155:160
+3	Вперил	вперить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=162:168
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	TokenRange=169:171
+5	на	на	ADP	IN	_	7	case	_	TokenRange=172:174
+6	свое	свой	DET	PRP$	Case=Acc|Gender=Neut|Number=Sing	7	det	_	TokenRange=175:179
+7	созданье	созданье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpacesAfter=\r\n|TokenRange=180:188
+8	И	и	CCONJ	CC	_	9	cc	_	TokenRange=190:191
+9	гаснет	гаснуть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=192:198
+10	пламенной	пламенный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=199:208
+11	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|TokenRange=209:214
+12	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=214:215
+

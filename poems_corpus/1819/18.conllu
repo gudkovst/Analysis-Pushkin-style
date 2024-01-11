@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Художник-варвар кистью сонной Картину гения чернит.
+1	Художник-	художник-	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=0:9
+2	варвар	варвар	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=9:15
+3	кистью	кисть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	TokenRange=16:22
+4	сонной	сонный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\r\n|TokenRange=23:29
+5	Картину	картина	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	TokenRange=31:38
+6	гения	гений	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	TokenRange=39:44
+7	чернит	чернить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=45:51
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=51:52
+
+# sent_id = 2
+# text = И свой рисунок беззаконный Над ней бессмысленно чертит.
+1	И	и	CCONJ	CC	_	8	cc	_	TokenRange=54:55
+2	свой	свой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	det	_	TokenRange=56:60
+3	рисунок	рисунок	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	TokenRange=61:68
+4	беззаконный	беззаконный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesAfter=\r\n|TokenRange=69:80
+5	Над	над	ADP	IN	_	6	case	_	TokenRange=82:85
+6	ней	она	PRON	PRP	Case=Ins|Gender=Fem|Number=Sing|Person=3	8	obl	_	TokenRange=86:89
+7	бессмысленно	бессмысленно	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=90:102
+8	чертит	чертить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=103:109
+9	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=109:110
+
+# sent_id = 3
+# text = Но краски чуждые, с летами, Спадают ветхой чешуей; Созданье гения пред нами Выходит с прежней красотой.
+1	Но	но	CCONJ	CC	_	8	cc	_	TokenRange=112:114
+2	краски	краска	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	TokenRange=115:121
+3	чуждые	чуждый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpaceAfter=No|TokenRange=122:128
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=128:129
+5	с	с	ADP	IN	_	6	case	_	TokenRange=130:131
+6	летами	лета	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|TokenRange=132:138
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=138:139
+8	Спадают	спадать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=141:148
+9	ветхой	ветхий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=149:155
+10	чешуей	чешуя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=156:162
+11	;	;	PUNCT	:	_	8	punct	_	SpacesAfter=\r\n|TokenRange=162:163
+12	Созданье	созданье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	TokenRange=165:173
+13	гения	гений	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	TokenRange=174:179
+14	пред	пред	ADP	IN	_	15	case	_	TokenRange=180:184
+15	нами	мы	PRON	PRP	Case=Ins|Number=Plur|Person=1	16	obl	_	SpacesAfter=\r\n|TokenRange=185:189
+16	Выходит	выходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	TokenRange=191:198
+17	с	с	ADP	IN	_	19	case	_	TokenRange=199:200
+18	прежней	прежний	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=201:208
+19	красотой	красота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=209:217
+20	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\r\n|TokenRange=217:218
+
+# sent_id = 4
+# text = Так исчезают заблужденья С измученной души моей, И возникают в ней виденья Первоначальных, чистых дней.
+1	Так	так	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=220:223
+2	исчезают	исчезать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=224:232
+3	заблужденья	заблуждение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpacesAfter=\r\n|TokenRange=233:244
+4	С	с	ADP	IN	_	6	case	_	TokenRange=246:247
+5	измученной	измучить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	TokenRange=248:258
+6	души	душа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	TokenRange=259:263
+7	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	6	det	_	SpaceAfter=No|TokenRange=264:268
+8	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=268:269
+9	И	и	CCONJ	CC	_	10	cc	_	TokenRange=271:272
+10	возникают	возникать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=273:282
+11	в	в	ADP	IN	_	12	case	_	TokenRange=283:284
+12	ней	она	PRON	PRP	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	obl	_	TokenRange=285:288
+13	виденья	виденье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	SpacesAfter=\r\n|TokenRange=289:296
+14	Первоначальных	первоначальный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	SpaceAfter=No|TokenRange=298:312
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=312:313
+16	чистых	чистый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	14	conj	_	TokenRange=314:320
+17	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|TokenRange=321:325
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=325:326
+

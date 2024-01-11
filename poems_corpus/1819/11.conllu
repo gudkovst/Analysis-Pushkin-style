@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я люблю вечерний пир, Где веселье председатель, А свобода, мой кумир, За столом законодатель, Где до утра слово пей!
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2:7
+3	вечерний	вечерний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=8:16
+4	пир	пир	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=17:20
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=20:21
+6	Где	где	ADV	WRB	_	8	advmod	_	TokenRange=23:26
+7	веселье	веселье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	TokenRange=27:34
+8	председатель	председатель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|TokenRange=35:47
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=47:48
+10	А	а	CCONJ	CC	_	18	cc	_	TokenRange=50:51
+11	свобода	свобода	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No|TokenRange=52:59
+12	,	,	PUNCT	,	_	14	punct	_	TokenRange=59:60
+13	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	14	det	_	TokenRange=61:64
+14	кумир	кумир	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No|TokenRange=65:70
+15	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=70:71
+16	За	за	ADP	IN	_	17	case	_	TokenRange=73:75
+17	столом	стол	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	TokenRange=76:82
+18	законодатель	законодатель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=83:95
+19	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=95:96
+20	Где	где	ADV	WRB	_	24	advmod	_	TokenRange=98:101
+21	до	до	ADP	IN	_	22	case	_	TokenRange=102:104
+22	утра	утро	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	TokenRange=105:109
+23	слово	слово	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	TokenRange=110:115
+24	пей	пить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	18	acl:relcl	_	SpaceAfter=No|TokenRange=116:119
+25	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=119:120
+
+# sent_id = 2
+# text = Заглушает крики песен, Где просторен круг гостей, А кружок бутылок тесен.
+1	Заглушает	заглушать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=122:131
+2	крики	крик	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	TokenRange=132:137
+3	песен	песня	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=138:143
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+5	Где	где	ADV	WRB	_	6	advmod	_	TokenRange=146:149
+6	просторен	просторить	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	acl:relcl	_	TokenRange=150:159
+7	круг	круг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=160:164
+8	гостей	гость	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|TokenRange=165:171
+9	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=171:172
+10	А	а	CCONJ	CC	_	13	cc	_	TokenRange=174:175
+11	кружок	кружок	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	TokenRange=176:182
+12	бутылок	бутылка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	TokenRange=183:190
+13	тесен	тесный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	conj	_	SpaceAfter=No|TokenRange=191:196
+14	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=196:197
+

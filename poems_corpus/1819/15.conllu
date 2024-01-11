@@ -1,0 +1,110 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Раевский, молоденец прежний, А там уже отважный сын, И Пушкин, школьник неприлежный Парнасских девственниц-богинь, К тебе, Жуковский, заезжали, Но, к неописанной печали, Поэта дома не нашли — И, увенчавшись кипарисом, С французской повестью Борисом Домой уныло побрели.
+1	Раевский	Раевский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No|TokenRange=0:8
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=8:9
+3	молоденец	молоденец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=10:19
+4	прежний	прежний	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No|TokenRange=20:27
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+6	А	а	CCONJ	CC	_	10	cc	_	TokenRange=30:31
+7	там	там	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=32:35
+8	уже	уже	ADV	RB	Degree=Pos	9	advmod	_	TokenRange=36:39
+9	отважный	отважный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=40:48
+10	сын	сын	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=49:52
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+12	И	и	CCONJ	CC	_	13	cc	_	TokenRange=55:56
+13	Пушкин	Пушкин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=57:63
+14	,	,	PUNCT	,	_	15	punct	_	TokenRange=63:64
+15	школьник	школьник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	TokenRange=65:73
+16	неприлежный	неприлежный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	SpacesAfter=\r\n|TokenRange=74:85
+17	Парнасских	парнасский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	TokenRange=87:97
+18	девственниц-богинь	девственниц-богиня	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No|TokenRange=98:116
+19	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=116:117
+20	К	к	ADP	IN	_	21	case	_	TokenRange=119:120
+21	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	25	obl	_	SpaceAfter=No|TokenRange=121:125
+22	,	,	PUNCT	,	_	23	punct	_	TokenRange=125:126
+23	Жуковский	Жуковский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No|TokenRange=127:136
+24	,	,	PUNCT	,	_	23	punct	_	TokenRange=136:137
+25	заезжали	заезжать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=138:146
+26	,	,	PUNCT	,	_	36	punct	_	SpacesAfter=\r\n|TokenRange=146:147
+27	Но	но	CCONJ	CC	_	36	cc	_	SpaceAfter=No|TokenRange=149:151
+28	,	,	PUNCT	,	_	31	punct	_	TokenRange=151:152
+29	к	к	ADP	IN	_	31	case	_	TokenRange=153:154
+30	неописанной	неописанный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	TokenRange=155:166
+31	печали	печаль	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No|TokenRange=167:173
+32	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\r\n|TokenRange=173:174
+33	Поэта	поэт	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	TokenRange=176:181
+34	дома	дома	ADV	RB	Degree=Pos	36	advmod	_	TokenRange=182:186
+35	не	не	PART	NEG	Polarity=Neg	36	advmod	_	TokenRange=187:189
+36	нашли	найти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	TokenRange=190:195
+37	—	—	PUNCT	--	_	49	punct	_	SpacesAfter=\r\n|TokenRange=196:197
+38	И	и	CCONJ	CC	_	49	cc	_	SpaceAfter=No|TokenRange=199:200
+39	,	,	PUNCT	,	_	40	punct	_	TokenRange=200:201
+40	увенчавшись	увенчаться	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	49	advcl	_	TokenRange=202:213
+41	кипарисом	кипарис	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No|TokenRange=214:223
+42	,	,	PUNCT	,	_	40	punct	_	SpacesAfter=\r\n|TokenRange=223:224
+43	С	с	ADP	IN	_	45	case	_	TokenRange=226:227
+44	французской	французский	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	TokenRange=228:239
+45	повестью	повесть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	49	obl	_	TokenRange=240:248
+46	Борисом	Борис	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	45	appos	_	SpacesAfter=\r\n|TokenRange=249:256
+47	Домой	домой	ADV	RB	Degree=Pos	49	advmod	_	TokenRange=258:263
+48	уныло	уныло	ADV	RB	Degree=Pos	49	advmod	_	TokenRange=264:269
+49	побрели	побрести	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No|TokenRange=270:277
+50	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\r\n|TokenRange=277:278
+
+# sent_id = 2
+# text = Какой святой, какая сводня Сведет Жуковского со мной?
+1	Какой	какой	DET	DT	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=280:285
+2	святой	святой	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=286:292
+3	,	,	PUNCT	,	_	6	punct	_	TokenRange=292:293
+4	какая	какой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	5	det	_	TokenRange=294:299
+5	сводня	сводня	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpacesAfter=\r\n|TokenRange=300:306
+6	Сведет	свести	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	acl:relcl	_	TokenRange=308:314
+7	Жуковского	Жуковский	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	TokenRange=315:325
+8	со	со	ADP	IN	_	9	case	_	TokenRange=326:328
+9	мной	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	6	obl	_	SpaceAfter=No|TokenRange=329:333
+10	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=333:334
+
+# sent_id = 3
+# text = Скажи — не будешь ли сегодня С Карамзиным, с Карамзиной?
+1	Скажи	сказать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=336:341
+2	—	—	PUNCT	--	_	1	punct	_	TokenRange=342:343
+3	не	не	PART	NEG	Polarity=Neg	8	advmod	_	TokenRange=344:346
+4	будешь	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	aux	_	TokenRange=347:353
+5	ли	ли	PART	UH	_	8	advmod	_	TokenRange=354:356
+6	сегодня	сегодня	ADV	RB	Degree=Pos	8	advmod	_	SpacesAfter=\r\n|TokenRange=357:364
+7	С	с	ADP	IN	_	8	case	_	TokenRange=366:367
+8	Карамзиным	Карамзин	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=368:378
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=378:379
+10	с	с	ADP	IN	_	11	case	_	TokenRange=380:381
+11	Карамзиной	Карамзина	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=382:392
+12	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=392:393
+
+# sent_id = 4
+# text = На всякий случай — ожидаю, Тронися просьбою моей, Тебя зовет на чашку чаю Раевский — слава наших дней.
+1	На	на	ADP	IN	_	3	case	_	TokenRange=395:397
+2	всякий	всякий	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	det	_	TokenRange=398:404
+3	случай	случай	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	TokenRange=405:411
+4	—	—	PUNCT	--	_	5	punct	_	TokenRange=412:413
+5	ожидаю	ожидать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=414:420
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=420:421
+7	Тронися	трониться	VERB	VBG	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	5	advcl	_	TokenRange=423:430
+8	просьбою	просьба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obj	_	TokenRange=431:439
+9	моей	мой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	8	det	_	SpaceAfter=No|TokenRange=440:444
+10	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=444:445
+11	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	12	obj	_	TokenRange=447:451
+12	зовет	звать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	TokenRange=452:457
+13	на	на	ADP	IN	_	14	case	_	TokenRange=458:460
+14	чашку	чашка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	TokenRange=461:466
+15	чаю	чай	NOUN	NN	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	12	iobj	_	SpacesAfter=\r\n|TokenRange=467:470
+16	Раевский	раевский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=472:480
+17	—	—	PUNCT	--	_	18	punct	_	TokenRange=481:482
+18	слава	слава	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	TokenRange=483:488
+19	наших	наш	DET	PRP$	Case=Gen|Number=Plur	20	det	_	TokenRange=489:494
+20	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No|TokenRange=495:499
+21	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=499:500
+
