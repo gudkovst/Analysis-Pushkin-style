@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = На языке, тебе невнятном, Стихи прощальные пишу;
+1	На	на	ADP	IN	_	2	case	_	TokenRange=0:2
+2	языке	язык	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=3:8
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=8:9
+4	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	5	iobj	_	TokenRange=10:14
+5	невнятном	невнятный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=15:24
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=24:25
+7	Стихи	стихи	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	TokenRange=27:32
+8	прощальные	прощальный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	TokenRange=33:43
+9	пишу	писать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=44:48
+10	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+
+# sent_id = 2
+# text = Но в заблуждении приятном Вниманья твоего прошу: Мой друг, доколе не увяну, В разлуке чувство погубя, Боготворить не перестану Тебя, мой друг, одну тебя.
+1	Но	но	CCONJ	CC	_	7	cc	_	TokenRange=51:53
+2	в	в	ADP	IN	_	3	case	_	TokenRange=54:55
+3	заблуждении	заблуждение	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	TokenRange=56:67
+4	приятном	приятный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpacesAfter=\r\n|TokenRange=68:76
+5	Вниманья	вниманье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obj	_	TokenRange=78:86
+6	твоего	твой	DET	PRP$	Case=Gen|Gender=Neut|Number=Sing	5	det	_	TokenRange=87:93
+7	прошу	просить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=94:99
+8	:	:	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=99:100
+9	Мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	10	det	_	TokenRange=102:105
+10	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No|TokenRange=106:110
+11	,	,	PUNCT	,	_	14	punct	_	TokenRange=110:111
+12	доколе	доколе	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=112:118
+13	не	не	PART	NEG	Polarity=Neg	14	advmod	_	TokenRange=119:121
+14	увяну	увянуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	23	advcl	_	SpaceAfter=No|TokenRange=122:127
+15	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=127:128
+16	В	в	ADP	IN	_	17	case	_	TokenRange=130:131
+17	разлуке	разлука	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	TokenRange=132:139
+18	чувство	чувство	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	TokenRange=140:147
+19	погубя	погубить	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	23	advcl	_	SpaceAfter=No|TokenRange=148:154
+20	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=154:155
+21	Боготворить	боготворить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	TokenRange=157:168
+22	не	не	PART	NEG	Polarity=Neg	23	advmod	_	TokenRange=169:171
+23	перестану	перестать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	7	parataxis	_	SpacesAfter=\r\n|TokenRange=172:181
+24	Тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	23	obj	_	SpaceAfter=No|TokenRange=183:187
+25	,	,	PUNCT	,	_	27	punct	_	TokenRange=187:188
+26	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	27	det	_	TokenRange=189:192
+27	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	parataxis	_	SpaceAfter=No|TokenRange=193:197
+28	,	,	PUNCT	,	_	27	punct	_	TokenRange=197:198
+29	одну	один	NUM	CD	Case=Acc|Gender=Fem|Number=Sing	30	nummod	_	TokenRange=199:203
+30	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	23	obj	_	SpaceAfter=No|TokenRange=204:208
+31	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=208:209
+
+# sent_id = 3
+# text = На чуждые черты взирая, Верь только сердцу моему, Как прежде верила ему, Его страстей не понимая.
+1	На	на	ADP	IN	_	3	case	_	TokenRange=211:213
+2	чуждые	чуждый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	TokenRange=214:220
+3	черты	черта	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	TokenRange=221:226
+4	взирая	взирать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	SpaceAfter=No|TokenRange=227:233
+5	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=233:234
+6	Верь	верить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=236:240
+7	только	только	PART	UH	_	8	advmod	_	TokenRange=241:247
+8	сердцу	сердце	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	iobj	_	TokenRange=248:254
+9	моему	мой	DET	PRP$	Case=Dat|Gender=Masc|Number=Sing	8	det	_	SpaceAfter=No|TokenRange=255:260
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=260:261
+11	Как	как	ADV	WRB	_	13	mark	_	TokenRange=263:266
+12	прежде	прежде	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=267:273
+13	верила	верить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	TokenRange=274:280
+14	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	iobj	_	SpaceAfter=No|TokenRange=281:284
+15	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=284:285
+16	Его	его	DET	PRP$	_	17	det	_	TokenRange=287:290
+17	страстей	страсть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obj	_	TokenRange=291:299
+18	не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=300:302
+19	понимая	понимать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	SpaceAfter=No|TokenRange=303:310
+20	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=310:311
+

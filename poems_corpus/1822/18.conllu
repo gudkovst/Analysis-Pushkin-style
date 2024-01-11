@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Бранись, ворчи, болван болванов, Ты не дождешься, друг мой Ланов, Пощечин от руки моей.
+1	Бранись	браниться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=0:7
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=7:8
+3	ворчи	ворчать	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=9:14
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=14:15
+5	болван	болвать	VERB	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=16:22
+6	болванов	болван	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No|TokenRange=23:31
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+8	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=34:36
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=37:39
+10	дождешься	дождаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	1	parataxis	_	SpaceAfter=No|TokenRange=40:49
+11	,	,	PUNCT	,	_	10	punct	_	TokenRange=49:50
+12	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	TokenRange=51:55
+13	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	14	det	_	TokenRange=56:59
+14	Ланов	Ланов	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No|TokenRange=60:65
+15	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\r\n|TokenRange=65:66
+16	Пощечин	Пощечин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	TokenRange=68:75
+17	от	от	ADP	IN	_	18	case	_	TokenRange=76:78
+18	руки	рука	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	TokenRange=79:83
+19	моей	мой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	18	det	_	SpaceAfter=No|TokenRange=84:88
+20	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=88:89
+
+# sent_id = 2
+# text = Твоя торжественная рожа На бабье гузно так похожа, Что только просит киселей.
+1	Твоя	твой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	3	det	_	TokenRange=91:95
+2	торжественная	торжественный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=96:109
+3	рожа	рожа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=110:114
+4	На	на	ADP	IN	_	5	case	_	TokenRange=116:118
+5	бабье	бабье	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	TokenRange=119:124
+6	гузно	гузно	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	appos	_	TokenRange=125:130
+7	так	так	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=131:134
+8	похожа	похожий	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=135:141
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=141:142
+10	Что	что	SCONJ	IN	_	12	mark	_	TokenRange=144:147
+11	только	только	PART	UH	_	12	advmod	_	TokenRange=148:154
+12	просит	просить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	TokenRange=155:161
+13	киселей	кисель	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|TokenRange=162:169
+14	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=169:170
+

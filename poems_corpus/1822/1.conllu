@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я жду обещанной тетради: Что ж медлишь, милый трубадур!
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	жду	ждать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2:5
+3	обещанной	обещать	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	TokenRange=6:15
+4	тетради	тетрадь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=16:23
+5	:	:	PUNCT	:	_	8	punct	_	SpacesAfter=\r\n|TokenRange=23:24
+6	Что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	TokenRange=26:29
+7	ж	же	PART	UH	_	6	advmod	_	TokenRange=30:31
+8	медлишь	медлить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No|TokenRange=32:39
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=39:40
+10	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=41:46
+11	трубадур	трубадур	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No|TokenRange=47:55
+12	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+
+# sent_id = 2
+# text = Пришли ее мне, Феба ради, И награди тебя Амур.
+1	Пришли	прийти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=58:64
+2	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	1	obj	_	TokenRange=65:67
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	1	iobj	_	SpaceAfter=No|TokenRange=68:71
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=71:72
+5	Феба	Феба	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=73:77
+6	ради	ради	ADP	IN	_	5	case	_	SpaceAfter=No|TokenRange=78:82
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+8	И	и	CCONJ	CC	_	9	cc	_	TokenRange=85:86
+9	награди	награть	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=87:94
+10	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	9	obj	_	TokenRange=95:99
+11	Амур	Амур	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|TokenRange=100:104
+12	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=104:105
+

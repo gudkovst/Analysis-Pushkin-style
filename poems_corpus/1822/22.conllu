@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = На тихих берегах Москвы Церквей, венчанные крестами, Сияют ветхие главы Над монастырскими стенами.
+1	На	на	ADP	IN	_	3	case	_	TokenRange=0:2
+2	тихих	тихий	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	TokenRange=3:8
+3	берегах	берег	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	TokenRange=9:16
+4	Москвы	Москва	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\r\n|TokenRange=17:23
+5	Церквей	церковь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|TokenRange=25:32
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=32:33
+7	венчанные	венчать	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	TokenRange=34:43
+8	крестами	крест	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No|TokenRange=44:52
+9	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+10	Сияют	сиять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=55:60
+11	ветхие	ветхий	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	TokenRange=61:67
+12	главы	глава	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpacesAfter=\r\n|TokenRange=68:73
+13	Над	над	ADP	IN	_	15	case	_	TokenRange=75:78
+14	монастырскими	монастырский	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	TokenRange=79:92
+15	стенами	стена	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|TokenRange=93:100
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=100:101
+
+# sent_id = 2
+# text = Кругом простерлись по холмам Вовек не рубленные рощи, Издавна почивают там Угодника святые мощи.
+1	Кругом	кругом	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=103:109
+2	простерлись	простерться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=110:121
+3	по	по	ADP	IN	_	4	case	_	TokenRange=122:124
+4	холмам	холм	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpacesAfter=\r\n|TokenRange=125:131
+5	Вовек	вовек	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=133:138
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=139:141
+7	рубленные	рубить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	TokenRange=142:151
+8	рощи	рощь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|TokenRange=152:156
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=156:157
+10	Издавна	издавна	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=159:166
+11	почивают	почивать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=167:175
+12	там	там	ADV	RB	Degree=Pos	11	advmod	_	SpacesAfter=\r\n|TokenRange=176:179
+13	Угодника	угодник	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	TokenRange=181:189
+14	святые	святой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	TokenRange=190:196
+15	мощи	мощь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No|TokenRange=197:201
+16	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=201:202
+

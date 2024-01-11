@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В лесах Гаргафии счастливой За ланью быстрой и пугливой Стремился долго Актеон.
+1	В	в	ADP	IN	_	2	case	_	TokenRange=0:1
+2	лесах	лес	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	TokenRange=2:7
+3	Гаргафии	Гаргафия	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	TokenRange=8:16
+4	счастливой	счастливый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	obl	_	SpacesAfter=\r\n|TokenRange=17:27
+5	За	за	ADP	IN	_	6	case	_	TokenRange=29:31
+6	ланью	лань	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	TokenRange=32:37
+7	быстрой	быстрый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=38:45
+8	и	и	CCONJ	CC	_	9	cc	_	TokenRange=46:47
+9	пугливой	пугливый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	SpacesAfter=\r\n|TokenRange=48:56
+10	Стремился	стремиться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=58:67
+11	долго	долго	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=68:73
+12	Актеон	Актеон	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|TokenRange=74:80
+13	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\r\n|TokenRange=80:81
+
+# sent_id = 2
+# text = Уже на тихий небосклон Восходит бледная Диана, И в сумраке пускает он Последнюю стрелу колчана.
+1	Уже	уже	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=83:86
+2	на	на	ADP	IN	_	4	case	_	TokenRange=87:89
+3	тихий	тихий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=90:95
+4	небосклон	небосклон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\r\n|TokenRange=96:105
+5	Восходит	восходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=107:115
+6	бледная	бледный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=116:123
+7	Диана	Диана	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=124:129
+8	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=129:130
+9	И	и	CCONJ	CC	_	12	cc	_	TokenRange=132:133
+10	в	в	ADP	IN	_	11	case	_	TokenRange=134:135
+11	сумраке	сумрак	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	TokenRange=136:143
+12	пускает	пускать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=144:151
+13	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	SpacesAfter=\r\n|TokenRange=152:154
+14	Последнюю	последний	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=156:165
+15	стрелу	стрела	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	TokenRange=166:172
+16	колчана	колчан	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=173:180
+17	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=180:181
+
