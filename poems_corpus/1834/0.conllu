@@ -1,1 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Пора, мой друг, пора! покоя сердце просит — Летят за днями дни, и каждый час уносит Частичку бытия, а мы с тобой вдвоем Предполагаем жить...
+1	Пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No|TokenRange=0:4
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=4:5
+3	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	4	det	_	TokenRange=6:9
+4	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|TokenRange=10:14
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=14:15
+6	пора	пора	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=16:20
+7	!	!	PUNCT	.	_	6	punct	_	TokenRange=20:21
+8	покоя	покой	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obj	_	TokenRange=22:27
+9	сердце	сердце	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	TokenRange=28:34
+10	просит	просить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=35:41
+11	—	—	PUNCT	--	_	12	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+12	Летят	лететь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	TokenRange=45:50
+13	за	за	ADP	IN	_	14	case	_	TokenRange=51:53
+14	днями	день	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	TokenRange=54:59
+15	дни	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No|TokenRange=60:63
+16	,	,	PUNCT	,	_	20	punct	_	TokenRange=63:64
+17	и	и	CCONJ	CC	_	20	cc	_	TokenRange=65:66
+18	каждый	каждый	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	det	_	TokenRange=67:73
+19	час	час	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	TokenRange=74:77
+20	уносит	уносить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	SpacesAfter=\r\n|TokenRange=78:84
+21	Частичку	частичка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	TokenRange=86:94
+22	бытия	бытие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|TokenRange=95:100
+23	,	,	PUNCT	,	_	29	punct	_	TokenRange=100:101
+24	а	а	CCONJ	CC	_	29	cc	_	TokenRange=102:103
+25	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	29	nsubj	_	TokenRange=104:106
+26	с	с	ADP	IN	_	27	case	_	TokenRange=107:108
+27	тобой	ты	PRON	PRP	Case=Ins|Number=Sing|Person=2	29	obl	_	TokenRange=109:114
+28	вдвоем	вдвоем	ADV	RB	Degree=Pos	29	advmod	_	SpacesAfter=\r\n|TokenRange=115:121
+29	Предполагаем	предполагать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	TokenRange=123:135
+30	жить	жить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	SpaceAfter=No|TokenRange=136:140
+31	...	...	PUNCT	.	_	10	punct	_	TokenRange=140:143
+
+# sent_id = 2
+# text = И глядь — как раз — умрем.
+1	И	и	CCONJ	CC	_	7	cc	_	TokenRange=144:145
+2	глядь	глядь	VERB	VBG	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	7	advcl	_	TokenRange=146:151
+3	—	—	PUNCT	--	_	2	punct	_	TokenRange=152:153
+4	как	как	ADP	IN	_	5	case	_	TokenRange=154:157
+5	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	TokenRange=158:161
+6	—	—	PUNCT	--	_	2	punct	_	TokenRange=162:163
+7	умрем	умереть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=164:169
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\r\n|TokenRange=169:170
+
+# sent_id = 3
+# text = На свете счастья нет, но есть покой и воля.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=172:174
+2	свете	свет	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	TokenRange=175:180
+3	счастья	счастье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	TokenRange=181:188
+4	нет	нет	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=189:192
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=192:193
+6	но	но	CCONJ	CC	_	7	cc	_	TokenRange=194:196
+7	есть	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=197:201
+8	покой	покой	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=202:207
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=208:209
+10	воля	воля	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|TokenRange=210:214
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=214:215
+
+# sent_id = 4
+# text = Давно завидная мечтается мне доля — Давно, усталый раб, замыслил я побег В обитель дальную трудов и чистых нег.
+1	Давно	давно	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=217:222
+2	завидная	завидный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=223:231
+3	мечтается	мечтаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=232:241
+4	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	3	iobj	_	TokenRange=242:245
+5	доля	доля	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=246:250
+6	—	—	PUNCT	--	_	12	punct	_	SpacesAfter=\r\n|TokenRange=251:252
+7	Давно	давно	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No|TokenRange=254:259
+8	,	,	PUNCT	,	_	10	punct	_	TokenRange=259:260
+9	усталый	усталый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=261:268
+10	раб	раб	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=269:272
+11	,	,	PUNCT	,	_	10	punct	_	TokenRange=272:273
+12	замыслил	замыслить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=274:282
+13	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	12	nsubj	_	TokenRange=283:284
+14	побег	побег	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	xcomp	_	SpacesAfter=\r\n|TokenRange=285:290
+15	В	в	ADP	IN	_	16	case	_	TokenRange=292:293
+16	обитель	обитель	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	TokenRange=294:301
+17	дальную	дальный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=302:309
+18	трудов	труд	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obj	_	TokenRange=310:316
+19	и	и	CCONJ	CC	_	21	cc	_	TokenRange=317:318
+20	чистых	чистый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	TokenRange=319:325
+21	нег	нега	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No|TokenRange=326:329
+22	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=329:330
 

@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я возмужал среди печальных бурь, И дней моих поток, так долго мутный, Теперь утих дремотою минутной И отразил небесную лазурь.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=0:1
+2	возмужал	возмужать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2:10
+3	среди	среди	ADP	IN	_	5	case	_	TokenRange=11:16
+4	печальных	печальный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	TokenRange=17:26
+5	бурь	буря	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|TokenRange=27:31
+6	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+7	И	и	CCONJ	CC	_	17	cc	_	TokenRange=34:35
+8	дней	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	TokenRange=36:40
+9	моих	мой	DET	PRP$	Case=Gen|Number=Plur	10	det	_	TokenRange=41:45
+10	поток	поток	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|TokenRange=46:51
+11	,	,	PUNCT	,	_	14	punct	_	TokenRange=51:52
+12	так	так	ADV	RB	Degree=Pos	13	advmod	_	TokenRange=53:56
+13	долго	долго	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=57:62
+14	мутный	мутный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No|TokenRange=63:69
+15	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=69:70
+16	Теперь	теперь	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=72:78
+17	утих	утихнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=79:83
+18	дремотою	дремота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obj	_	TokenRange=84:92
+19	минутной	минутный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	SpacesAfter=\r\n|TokenRange=93:101
+20	И	и	CCONJ	CC	_	21	cc	_	TokenRange=103:104
+21	отразил	отразить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=105:112
+22	небесную	небесный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	TokenRange=113:121
+23	лазурь	лазурь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|TokenRange=122:128
+24	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=128:129
+
+# sent_id = 2
+# text = Надолго ли?.. а кажется прошли Дни мрачных бурь, дни горьких искушений.
+1	Надолго	надолго	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=131:138
+2	ли	ли	PART	UH	_	1	advmod	_	SpaceAfter=No|TokenRange=139:141
+3	?..	?..	PUNCT	.	_	1	punct	_	TokenRange=141:144
+4	а	а	CCONJ	CC	_	6	cc	_	TokenRange=145:146
+5	кажется	казаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	TokenRange=147:154
+6	прошли	пройти	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=155:161
+7	Дни	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	TokenRange=163:166
+8	мрачных	мрачный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	TokenRange=167:174
+9	бурь	буря	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No|TokenRange=175:179
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=179:180
+11	дни	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	TokenRange=181:184
+12	горьких	горький	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	TokenRange=185:192
+13	искушений	искушение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|TokenRange=193:202
+14	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=202:203
+

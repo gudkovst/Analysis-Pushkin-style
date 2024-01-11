@@ -1,0 +1,154 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Что ты ржешь, мой конь ретивый, Что ты шею опустил, Не потряхиваешь гривой, Не грызешь своих удил?
+1	«Что	«что	SCONJ	IN	_	3	obj	_	TokenRange=0:4
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=5:7
+3	ржешь	ржешь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=8:13
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=13:14
+5	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	6	det	_	TokenRange=15:18
+6	конь	конь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=19:23
+7	ретивый	ретивый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No|TokenRange=24:31
+8	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=31:32
+9	Что	что	SCONJ	IN	_	12	mark	_	TokenRange=34:37
+10	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	12	nsubj	_	TokenRange=38:40
+11	шею	шея	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	TokenRange=41:44
+12	опустил	опустить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=45:52
+13	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\r\n|TokenRange=52:53
+14	Не	не	PART	NEG	Polarity=Neg	15	advmod	_	TokenRange=55:57
+15	потряхиваешь	потряхивать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=58:70
+16	гривой	грива	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|TokenRange=71:77
+17	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=77:78
+18	Не	не	PART	NEG	Polarity=Neg	19	advmod	_	TokenRange=80:82
+19	грызешь	грызеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=83:90
+20	своих	свой	DET	PRP$	Case=Gen|Number=Plur	21	det	_	TokenRange=91:96
+21	удил	удила	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No|TokenRange=97:101
+22	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=101:102
+
+# sent_id = 2
+# text = Али я тебя не холю?
+1	Али	Али	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	obj	_	TokenRange=104:107
+2	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	TokenRange=108:109
+3	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	5	obj	_	TokenRange=110:114
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	TokenRange=115:117
+5	холю	холить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=118:122
+6	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=122:123
+
+# sent_id = 3
+# text = Али ешь овса не вволю?
+1	Али	Али	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	obj	_	TokenRange=125:128
+2	ешь	ешь	VERB	VBC	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	xcomp	_	TokenRange=129:132
+3	овса	овса	ADV	RB	Degree=Pos	5	advmod	_	TokenRange=133:137
+4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	TokenRange=138:140
+5	вволю	вволить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=141:146
+6	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=146:147
+
+# sent_id = 4
+# text = Али сбруя не красна?
+1	Али	Али	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	TokenRange=149:152
+2	сбруя	сбруя	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=153:158
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=159:161
+4	красна	красный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=162:168
+5	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=168:169
+
+# sent_id = 5
+# text = Аль поводья не шелковы, Не серебряны подковы, Не злачены стремена?» Отвечает конь печальный: «Оттого я присмирел, Что я слышу топот дальный, Трубный звук и пенье стрел; Оттого я ржу, что в поле Уж не долго мне гулять, Проживать в красе и в холе, Светлой сбруей щеголять;
+1	Аль	аль	CCONJ	IN	_	4	cc	_	TokenRange=171:174
+2	поводья	поводье	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	TokenRange=175:182
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=183:185
+4	шелковы	шелков	ADJ	NN	Degree=Pos|Number=Plur|Variant=Short	14	advcl	_	SpaceAfter=No|TokenRange=186:193
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=193:194
+6	Не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=196:198
+7	серебряны	серебряный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	4	conj	_	TokenRange=199:208
+8	подковы	подкова	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No|TokenRange=209:216
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=216:217
+10	Не	не	PART	NEG	Polarity=Neg	11	advmod	_	TokenRange=219:221
+11	злачены	злачить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	TokenRange=222:229
+12	стремена	стремен	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj:pass	_	SpaceAfter=No|TokenRange=230:238
+13	?»	?»	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=238:240
+14	Отвечает	отвечать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=242:250
+15	конь	конь	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=251:255
+16	печальный	печальный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No|TokenRange=256:265
+17	:	:	PUNCT	:	_	20	punct	_	SpacesAfter=\r\n|TokenRange=265:266
+18	«Оттого	«оттого	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=268:275
+19	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	20	nsubj	_	TokenRange=276:277
+20	присмирел	присмиреть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	SpaceAfter=No|TokenRange=278:287
+21	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=287:288
+22	Что	что	SCONJ	IN	_	24	mark	_	TokenRange=290:293
+23	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	24	nsubj	_	TokenRange=294:295
+24	слышу	слышать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	_	TokenRange=296:301
+25	топот	топот	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	TokenRange=302:307
+26	дальный	дальный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No|TokenRange=308:315
+27	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\r\n|TokenRange=315:316
+28	Трубный	трубный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	conj	_	TokenRange=318:325
+29	звук	звук	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	TokenRange=326:330
+30	и	и	CCONJ	CC	_	31	cc	_	TokenRange=331:332
+31	пенье	пенье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	conj	_	TokenRange=333:338
+32	стрел	стрела	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No|TokenRange=339:344
+33	;	;	PUNCT	:	_	36	punct	_	SpacesAfter=\r\n|TokenRange=344:345
+34	Оттого	оттого	ADV	RB	Degree=Pos	36	advmod	_	TokenRange=347:353
+35	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	36	nsubj	_	TokenRange=354:355
+36	ржу	ржать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No|TokenRange=356:359
+37	,	,	PUNCT	,	_	45	punct	_	TokenRange=359:360
+38	что	что	SCONJ	IN	_	45	mark	_	TokenRange=361:364
+39	в	в	ADP	IN	_	40	case	_	TokenRange=365:366
+40	поле	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	45	obl	_	SpacesAfter=\r\n|TokenRange=367:371
+41	Уж	уж	PART	UH	_	43	advmod	_	TokenRange=373:375
+42	не	не	PART	NEG	Polarity=Neg	43	advmod	_	TokenRange=376:378
+43	долго	долго	ADV	RB	Degree=Pos	45	advmod	_	TokenRange=379:384
+44	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	45	iobj	_	TokenRange=385:388
+45	гулять	гулять	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	36	ccomp	_	SpaceAfter=No|TokenRange=389:395
+46	,	,	PUNCT	,	_	47	punct	_	SpacesAfter=\r\n|TokenRange=395:396
+47	Проживать	проживать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	45	conj	_	TokenRange=398:407
+48	в	в	ADP	IN	_	49	case	_	TokenRange=408:409
+49	красе	краса	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	47	obl	_	TokenRange=410:415
+50	и	и	CCONJ	CC	_	52	cc	_	TokenRange=416:417
+51	в	в	ADP	IN	_	52	case	_	TokenRange=418:419
+52	холе	хол	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	49	conj	_	SpaceAfter=No|TokenRange=420:424
+53	,	,	PUNCT	,	_	56	punct	_	SpacesAfter=\r\n|TokenRange=424:425
+54	Светлой	светлый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	TokenRange=427:434
+55	сбруей	сбруя	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	56	iobj	_	TokenRange=435:441
+56	щеголять	щеголять	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	45	conj	_	SpaceAfter=No|TokenRange=442:450
+57	;	;	PUNCT	:	_	14	punct	_	SpacesAfter=\r\n|TokenRange=450:451
+
+# sent_id = 6
+# text = Что уж скоро враг суровый Сбрую всю мою возьмет И серебряны подковы С легких ног моих сдерет; Оттого мой дух и ноет, Что наместо чепрака Кожей он твоей покроет Мне вспотевшие бока».
+1	Что	что	SCONJ	IN	_	6	mark	_	TokenRange=453:456
+2	уж	уж	PART	UH	_	3	advmod	_	TokenRange=457:459
+3	скоро	скоро	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=460:465
+4	враг	враг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=466:470
+5	суровый	суровый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpacesAfter=\r\n|TokenRange=471:478
+6	Сбрую	сбрый	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=480:485
+7	всю	весь	DET	DT	Case=Acc|Gender=Fem|Number=Sing	12	det	_	TokenRange=486:489
+8	мою	мой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	9	det	_	TokenRange=490:493
+9	возьмет	брать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	SpacesAfter=\r\n|TokenRange=494:501
+10	И	и	CCONJ	CC	_	17	cc	_	TokenRange=503:504
+11	серебряны	серебряный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	TokenRange=505:514
+12	подковы	подкова	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpacesAfter=\r\n|TokenRange=515:522
+13	С	с	ADP	IN	_	15	case	_	TokenRange=524:525
+14	легких	легкий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	TokenRange=526:532
+15	ног	нога	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	TokenRange=533:536
+16	моих	мой	DET	PRP$	Case=Gen|Number=Plur	15	det	_	TokenRange=537:541
+17	сдерет	сдрать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=542:548
+18	;	;	PUNCT	:	_	23	punct	_	SpacesAfter=\r\n|TokenRange=548:549
+19	Оттого	оттого	ADV	RB	Degree=Pos	23	advmod	_	TokenRange=551:557
+20	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	21	det	_	TokenRange=558:561
+21	дух	дух	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	TokenRange=562:565
+22	и	и	PART	UH	_	23	advmod	_	TokenRange=566:567
+23	ноет	ныть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	SpaceAfter=No|TokenRange=568:572
+24	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\r\n|TokenRange=572:573
+25	Что	что	SCONJ	IN	_	31	mark	_	TokenRange=575:578
+26	наместо	наместо	ADP	IN	_	27	case	_	TokenRange=579:586
+27	чепрака	чепрак	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	SpacesAfter=\r\n|TokenRange=587:594
+28	Кожей	Кожея	NOUN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	TokenRange=596:601
+29	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	nsubj	_	TokenRange=602:604
+30	твоей	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	31	det	_	TokenRange=605:610
+31	покроет	покрыть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	23	ccomp	_	SpacesAfter=\r\n|TokenRange=611:618
+32	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	31	iobj	_	TokenRange=620:623
+33	вспотевшие	вспотеть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	34	acl	_	TokenRange=624:634
+34	бока»	бока»	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obj	_	SpaceAfter=No|TokenRange=635:640
+35	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No|TokenRange=640:641
+
