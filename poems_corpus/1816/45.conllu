@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вот Виля — он любовью дышит, Он песни пишет зло, Как Геркулес, сатиры пишет, Влюблен, как Буало.
+1	Вот	вот	PART	UH	_	2	advmod	_	TokenRange=0:3
+2	Виля	Виля	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	TokenRange=4:8
+3	—	—	PUNCT	--	_	2	punct	_	TokenRange=9:10
+4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	TokenRange=11:13
+5	любовью	любовь	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	TokenRange=14:21
+6	дышит	дышать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=22:27
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=27:28
+8	Он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	TokenRange=30:32
+9	песни	песня	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	TokenRange=33:38
+10	пишет	писать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	TokenRange=39:44
+11	зло	зло	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|TokenRange=45:48
+12	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+13	Как	как	ADP	IN	_	14	case	_	TokenRange=51:54
+14	Геркулес	Геркулес	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|TokenRange=55:63
+15	,	,	PUNCT	,	_	17	punct	_	TokenRange=63:64
+16	сатиры	сатира	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	nsubj	_	TokenRange=65:71
+17	пишет	писать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=72:77
+18	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\r\n|TokenRange=77:78
+19	Влюблен	влюбленный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	conj	_	SpaceAfter=No|TokenRange=80:87
+20	,	,	PUNCT	,	_	22	punct	_	TokenRange=87:88
+21	как	как	ADP	IN	_	22	case	_	TokenRange=89:92
+22	Буало	Буало	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|TokenRange=93:98
+23	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=98:99
+

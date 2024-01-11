@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Издавна мудрые искали Забытых истины следов И долго, долго толковали Давнишни толки стариков.
+1	Издавна	издавна	ADV	RB	Degree=Pos	3	advmod	_	TokenRange=0:7
+2	мудрые	мудрый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	3	nsubj	_	TokenRange=8:14
+3	искали	искать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=15:21
+4	Забытых	забыть	VERB	VBNL	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	TokenRange=23:30
+5	истины	истина	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	TokenRange=31:37
+6	следов	след	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	SpacesAfter=\r\n|TokenRange=38:44
+7	И	и	CCONJ	CC	_	11	cc	_	TokenRange=46:47
+8	долго	долго	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No|TokenRange=48:53
+9	,	,	PUNCT	,	_	10	punct	_	TokenRange=53:54
+10	долго	долго	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=55:60
+11	толковали	толковать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpacesAfter=\r\n|TokenRange=61:70
+12	Давнишни	давнишний	ADJ	JJL	Degree=Pos	11	obj	_	TokenRange=72:80
+13	толки	толк	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	TokenRange=81:86
+14	стариков	старик	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|TokenRange=87:95
+15	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=95:96
+
+# sent_id = 2
+# text = Твердили: «Истина нагая В колодезь убралась тайком» — И, дружно воду выпивая, Кричали: «Здесь ее найдем!» Но кто-то, смертных благодетель (И чуть ли не старик Силен), Их важной глупости свидетель, Водой и криком утомлен, Оставил невидимку нашу, Подумал первый о вине И, осушив до капли чашу, Увидел истину на дне.
+1	Твердили	твердить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=98:106
+2	:	:	PUNCT	:	_	1	punct	_	TokenRange=106:107
+3	«Истина	«истина	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=108:115
+4	нагая	нагать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	acl	_	SpacesAfter=\r\n|TokenRange=116:121
+5	В	в	ADP	IN	_	6	case	_	TokenRange=123:124
+6	колодезь	колодезь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=125:133
+7	убралась	убраться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	ccomp	_	TokenRange=134:142
+8	тайком»	тайком»	ADV	RB	Degree=Pos	7	advmod	_	TokenRange=143:150
+9	—	—	PUNCT	--	_	16	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+10	И	и	CCONJ	CC	_	16	cc	_	SpaceAfter=No|TokenRange=154:155
+11	,	,	PUNCT	,	_	14	punct	_	TokenRange=155:156
+12	дружно	дружно	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=157:163
+13	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	TokenRange=164:168
+14	выпивая	выпивать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	SpaceAfter=No|TokenRange=169:176
+15	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+16	Кричали	кричать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=179:186
+17	:	:	PUNCT	:	_	16	punct	_	TokenRange=186:187
+18	«Здесь	«здесь	ADV	RB	Degree=Pos	20	advmod	_	TokenRange=188:194
+19	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	20	obj	_	TokenRange=195:197
+20	найдем!»	найдем!»	VERB	VBC	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	ccomp	_	SpacesAfter=\r\n|TokenRange=198:206
+21	Но	но	CCONJ	CC	_	45	cc	_	TokenRange=208:210
+22	кто-то	кто-то	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	SpaceAfter=No|TokenRange=211:217
+23	,	,	PUNCT	,	_	25	punct	_	TokenRange=217:218
+24	смертных	смертный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	TokenRange=219:227
+25	благодетель	благодетель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	SpacesAfter=\r\n|TokenRange=228:239
+26	(	(	PUNCT	(	_	31	punct	_	SpaceAfter=No|TokenRange=241:242
+27	И	и	CCONJ	CC	_	31	cc	_	TokenRange=242:243
+28	чуть	чуть	ADV	RB	Degree=Pos	30	advmod	_	TokenRange=244:248
+29	ли	ли	PART	UH	_	28	advmod	_	TokenRange=249:251
+30	не	не	PART	NEG	Polarity=Neg	31	advmod	_	TokenRange=252:254
+31	старик	старик	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	TokenRange=255:261
+32	Силен	сильный	ADJ	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No|TokenRange=262:267
+33	)	)	PUNCT	)	_	31	punct	_	SpaceAfter=No|TokenRange=267:268
+34	,	,	PUNCT	,	_	43	punct	_	SpacesAfter=\r\n|TokenRange=268:269
+35	Их	их	DET	PRP$	_	37	det	_	TokenRange=271:273
+36	важной	важный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	TokenRange=274:280
+37	глупости	глупость	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	TokenRange=281:289
+38	свидетель	свидетель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No|TokenRange=290:299
+39	,	,	PUNCT	,	_	43	punct	_	SpacesAfter=\r\n|TokenRange=299:300
+40	Водой	вода	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	43	iobj	_	TokenRange=302:307
+41	и	и	CCONJ	CC	_	42	cc	_	TokenRange=308:309
+42	криком	крик	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	conj	_	TokenRange=310:316
+43	утомлен	утомить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	conj	_	SpaceAfter=No|TokenRange=317:324
+44	,	,	PUNCT	,	_	43	punct	_	SpacesAfter=\r\n|TokenRange=324:325
+45	Оставил	оставить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=327:334
+46	невидимку	невидимка	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	45	obj	_	TokenRange=335:344
+47	нашу	наш	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	46	det	_	SpaceAfter=No|TokenRange=345:349
+48	,	,	PUNCT	,	_	49	punct	_	SpacesAfter=\r\n|TokenRange=349:350
+49	Подумал	подумать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	45	conj	_	TokenRange=352:359
+50	первый	первый	ADJ	ORD	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	49	obj	_	TokenRange=360:366
+51	о	о	ADP	IN	_	52	case	_	TokenRange=367:368
+52	вине	вина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	49	obl	_	SpacesAfter=\r\n|TokenRange=369:373
+53	И	и	CCONJ	CC	_	60	cc	_	SpaceAfter=No|TokenRange=375:376
+54	,	,	PUNCT	,	_	55	punct	_	TokenRange=376:377
+55	осушив	осушить	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	60	advcl	_	TokenRange=378:384
+56	до	до	ADP	IN	_	57	case	_	TokenRange=385:387
+57	капли	капля	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	55	obl	_	TokenRange=388:393
+58	чашу	чаша	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	55	obj	_	SpaceAfter=No|TokenRange=394:398
+59	,	,	PUNCT	,	_	55	punct	_	SpacesAfter=\r\n|TokenRange=398:399
+60	Увидел	увидеть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	45	conj	_	TokenRange=401:407
+61	истину	истина	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	60	obj	_	TokenRange=408:414
+62	на	на	ADP	IN	_	63	case	_	TokenRange=415:417
+63	дне	дно	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	60	obl	_	SpaceAfter=No|TokenRange=418:421
+64	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=421:422
+

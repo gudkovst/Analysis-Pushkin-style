@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = И останешься с вопросом На брегу замерзлых вод: «Мамзель Шредер с красным носом Милых Вельо не ведет?»
+1	И	и	CCONJ	CC	_	2	cc	_	TokenRange=0:1
+2	останешься	остаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=2:12
+3	с	с	ADP	IN	_	4	case	_	TokenRange=13:14
+4	вопросом	вопрос	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\r\n|TokenRange=15:23
+5	На	на	ADP	IN	_	6	case	_	TokenRange=25:27
+6	брегу	брег	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	TokenRange=28:33
+7	замерзлых	замерзлый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	TokenRange=34:43
+8	вод	вода	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|TokenRange=44:47
+9	:	:	PUNCT	:	_	18	punct	_	SpacesAfter=\r\n|TokenRange=47:48
+10	«Мамзель	«мамзель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	TokenRange=50:58
+11	Шредер	Шредер	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	TokenRange=59:65
+12	с	с	ADP	IN	_	14	case	_	TokenRange=66:67
+13	красным	красный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=68:75
+14	носом	нос	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpacesAfter=\r\n|TokenRange=76:81
+15	Милых	милый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	TokenRange=83:88
+16	Вельо	Вельо	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	TokenRange=89:94
+17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	TokenRange=95:97
+18	ведет	вести	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No|TokenRange=98:103
+19	?»	?»	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=103:105
+

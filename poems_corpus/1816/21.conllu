@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Богами вам еще даны Златые дни, златые ночи, И томных дев устремлены На вас внимательные очи.
+1	Богами	бог	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	TokenRange=0:6
+2	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	4	iobj	_	TokenRange=7:10
+3	еще	еще	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=11:14
+4	даны	дать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\r\n|TokenRange=15:19
+5	Златые	златый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	TokenRange=21:27
+6	дни	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	SpaceAfter=No|TokenRange=28:31
+7	,	,	PUNCT	,	_	9	punct	_	TokenRange=31:32
+8	златые	златый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	TokenRange=33:39
+9	ночи	ночь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=40:44
+10	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=44:45
+11	И	и	CCONJ	CC	_	14	cc	_	TokenRange=47:48
+12	томных	томный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	TokenRange=49:55
+13	дев	дево	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	TokenRange=56:59
+14	устремлены	устремить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	SpacesAfter=\r\n|TokenRange=60:70
+15	На	на	ADP	IN	_	16	case	_	TokenRange=72:74
+16	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	14	obl	_	TokenRange=75:78
+17	внимательные	внимательный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	TokenRange=79:91
+18	очи	очи	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj:pass	_	SpaceAfter=No|TokenRange=92:95
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=95:96
+
+# sent_id = 2
+# text = Играйте, пойте, о друзья!
+1	Играйте	играть	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=98:105
+2	,	,	PUNCT	,	_	3	punct	_	TokenRange=105:106
+3	пойте	пить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=107:112
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=112:113
+5	о	о	INTJ	IN	_	6	discourse	_	TokenRange=114:115
+6	друзья	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	SpaceAfter=No|TokenRange=116:122
+7	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=122:123
+
+# sent_id = 3
+# text = Утратьте вечер скоротечный; И вашей радости беспечной Сквозь слезы улыбнуся я.
+1	Утратьте	утратить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=125:133
+2	вечер	вечер	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	TokenRange=134:139
+3	скоротечный	скоротечный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=140:151
+4	;	;	PUNCT	:	_	11	punct	_	SpacesAfter=\r\n|TokenRange=151:152
+5	И	и	CCONJ	CC	_	11	cc	_	TokenRange=154:155
+6	вашей	ваш	DET	PRP$	Case=Dat|Gender=Fem|Number=Sing	7	det	_	TokenRange=156:161
+7	радости	радость	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	TokenRange=162:169
+8	беспечной	беспечный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\r\n|TokenRange=170:179
+9	Сквозь	сквозь	ADP	IN	_	10	case	_	TokenRange=181:187
+10	слезы	слеза	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obl	_	TokenRange=188:193
+11	улыбнуся	улыбнусти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=194:202
+12	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	SpaceAfter=No|TokenRange=203:204
+13	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=204:205
+

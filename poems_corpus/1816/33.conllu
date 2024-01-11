@@ -1,0 +1,110 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = О Делия драгая!
+1	О	о	ADP	IN	_	2	case	_	TokenRange=0:1
+2	Делия	Делия	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	TokenRange=2:7
+3	драгая	драгой	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8:14
+4	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=14:15
+
+# sent_id = 2
+# text = Спеши, моя краса; Звезда любви златая Взошла на небеса; Безмолвно месяц покатился; Спеши, твой Аргус удалился, И сон сомкнул его глаза.
+1	Спеши	спешить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=17:22
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=22:23
+3	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	4	det	_	TokenRange=24:27
+4	краса	краса	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=28:33
+5	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=33:34
+6	Звезда	звезда	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	TokenRange=36:42
+7	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	TokenRange=43:48
+8	златая	златый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\r\n|TokenRange=49:55
+9	Взошла	взойти	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=57:63
+10	на	на	ADP	IN	_	11	case	_	TokenRange=64:66
+11	небеса	небо	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|TokenRange=67:73
+12	;	;	PUNCT	:	_	15	punct	_	SpacesAfter=\r\n|TokenRange=73:74
+13	Безмолвно	безмолвно	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=76:85
+14	месяц	месяц	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=86:91
+15	покатился	покатиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	parataxis	_	SpaceAfter=No|TokenRange=92:101
+16	;	;	PUNCT	:	_	17	punct	_	SpacesAfter=\r\n|TokenRange=101:102
+17	Спеши	Спеши	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	15	parataxis	_	SpaceAfter=No|TokenRange=104:109
+18	,	,	PUNCT	,	_	21	punct	_	TokenRange=109:110
+19	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	20	det	_	TokenRange=111:115
+20	Аргус	Аргус	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	TokenRange=116:121
+21	удалился	удалиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	17	conj	_	SpaceAfter=No|TokenRange=122:130
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=130:131
+23	И	и	CCONJ	CC	_	25	cc	_	TokenRange=133:134
+24	сон	сон	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	TokenRange=135:138
+25	сомкнул	сомкнуть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=139:146
+26	его	его	DET	PRP$	_	27	det	_	TokenRange=147:150
+27	глаза	глаз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No|TokenRange=151:156
+28	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=156:157
+
+# sent_id = 3
+# text = Под сенью потаенной Дубравной тишины, Где ток уединенный Сребристыя волны Журчит с унылой Филомелой, Готов приют любви веселый И блеском освещен луны.
+1	Под	под	ADP	IN	_	2	case	_	TokenRange=159:162
+2	сенью	сень	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	TokenRange=163:168
+3	потаенной	потаенный	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	SpacesAfter=\r\n|TokenRange=169:178
+4	Дубравной	дубравный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=180:189
+5	тишины	тишина	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=190:196
+6	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=196:197
+7	Где	где	ADV	WRB	_	12	advmod	_	TokenRange=199:202
+8	ток	ток	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	TokenRange=203:206
+9	уединенный	уединить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	SpacesAfter=\r\n|TokenRange=207:217
+10	Сребристыя	сребристый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=219:229
+11	волны	волна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obj	_	SpacesAfter=\r\n|TokenRange=230:235
+12	Журчит	журчать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	TokenRange=237:243
+13	с	с	ADP	IN	_	15	case	_	TokenRange=244:245
+14	унылой	унылый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=246:252
+15	Филомелой	Филомела	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|TokenRange=253:262
+16	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\r\n|TokenRange=262:263
+17	Готов	готовый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=265:270
+18	приют	приют	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=271:276
+19	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	TokenRange=277:282
+20	веселый	веселый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	SpacesAfter=\r\n|TokenRange=283:290
+21	И	и	CCONJ	CC	_	23	cc	_	TokenRange=292:293
+22	блеском	блеск	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	iobj	_	TokenRange=294:301
+23	освещен	осветить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	conj	_	TokenRange=302:309
+24	луны	луна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nsubj:pass	_	SpaceAfter=No|TokenRange=310:314
+25	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\r\n|TokenRange=314:315
+
+# sent_id = 4
+# text = Накинут тени ночи Покровы нам свои, И дремлют сени рощи, И быстро миг любви Летит, — я весь горю желаньем, Спеши, о Делия! свиданьем, Спеши в объятия мои.
+1	Накинут	накинуть	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=317:324
+2	тени	тень	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	TokenRange=325:329
+3	ночи	ночь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\r\n|TokenRange=330:334
+4	Покровы	покров	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	TokenRange=336:343
+5	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	4	iobj	_	TokenRange=344:347
+6	свои	свой	DET	PRP$	Case=Nom|Number=Plur	4	det	_	SpaceAfter=No|TokenRange=348:352
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=352:353
+8	И	и	CCONJ	CC	_	9	cc	_	TokenRange=355:356
+9	дремлют	дремать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=357:364
+10	сени	сень	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	TokenRange=365:369
+11	рощи	рощь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=370:374
+12	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=374:375
+13	И	и	CCONJ	CC	_	17	cc	_	TokenRange=377:378
+14	быстро	быстро	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=379:385
+15	миг	миг	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=386:389
+16	любви	любовь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\r\n|TokenRange=390:395
+17	Летит	лететь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=397:402
+18	,	,	PUNCT	,	_	22	punct	_	TokenRange=402:403
+19	—	—	PUNCT	--	_	22	punct	_	TokenRange=404:405
+20	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	22	nsubj	_	TokenRange=406:407
+21	весь	весь	DET	DT	Case=Nom|Gender=Masc|Number=Sing	22	obl	_	TokenRange=408:412
+22	горю	горить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=413:417
+23	желаньем	желанье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No|TokenRange=418:426
+24	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=426:427
+25	Спеши	спешить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	22	parataxis	_	SpaceAfter=No|TokenRange=429:434
+26	,	,	PUNCT	,	_	28	punct	_	TokenRange=434:435
+27	о	о	INTJ	IN	_	28	discourse	_	TokenRange=436:437
+28	Делия	Делия	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	vocative	_	SpaceAfter=No|TokenRange=438:443
+29	!	!	PUNCT	.	_	28	punct	_	TokenRange=443:444
+30	свиданьем	свиданье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	iobj	_	SpaceAfter=No|TokenRange=445:454
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\r\n|TokenRange=454:455
+32	Спеши	спешить	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	22	conj	_	TokenRange=457:462
+33	в	в	ADP	IN	_	34	case	_	TokenRange=463:464
+34	объятия	объятие	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	32	obl	_	TokenRange=465:472
+35	мои	мой	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur	34	det	_	SpaceAfter=No|TokenRange=473:476
+36	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=476:477
+

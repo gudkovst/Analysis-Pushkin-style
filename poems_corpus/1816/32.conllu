@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Я не совсем еще рассудок потерял От рифм бахических — шатаясь на Пегасе — Я не забыл себя, хоть рад, хотя не рад.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	6	nsubj	_	TokenRange=0:1
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=2:4
+3	совсем	совсем	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=5:11
+4	еще	еще	ADV	RB	Degree=Pos	6	advmod	_	TokenRange=12:15
+5	рассудок	рассудок	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	TokenRange=16:24
+6	потерял	потерять	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=25:32
+7	От	от	ADP	IN	_	8	case	_	TokenRange=34:36
+8	рифм	рифма	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	TokenRange=37:41
+9	бахических	бахический	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	8	nmod	_	TokenRange=42:52
+10	—	—	PUNCT	``	_	11	punct	_	TokenRange=53:54
+11	шатаясь	шататься	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	TokenRange=55:62
+12	на	на	ADP	IN	_	13	case	_	TokenRange=63:65
+13	Пегасе	Пегас	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	TokenRange=66:72
+14	—	—	PUNCT	--	_	11	punct	_	SpacesAfter=\r\n|TokenRange=73:74
+15	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	17	nsubj	_	TokenRange=76:77
+16	не	не	PART	NEG	Polarity=Neg	17	advmod	_	TokenRange=78:80
+17	забыл	забыть	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	TokenRange=81:86
+18	себя	себя	PRON	PRP	Case=Acc|Reflex=Yes	17	obj	_	SpaceAfter=No|TokenRange=87:91
+19	,	,	PUNCT	,	_	21	punct	_	TokenRange=91:92
+20	хоть	хоть	SCONJ	IN	_	21	mark	_	TokenRange=93:97
+21	рад	рад	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	advcl	_	SpaceAfter=No|TokenRange=98:101
+22	,	,	PUNCT	,	_	25	punct	_	TokenRange=101:102
+23	хотя	хотя	SCONJ	IN	_	25	mark	_	TokenRange=103:107
+24	не	не	PART	NEG	Polarity=Neg	25	advmod	_	TokenRange=108:110
+25	рад	рад	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	21	obl	_	SpaceAfter=No|TokenRange=111:114
+26	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n|TokenRange=114:115
+
+# sent_id = 2
+# text = Нет, нет — вы мне совсем не брат: Вы дядя мне и на Парнасе.
+1	Нет	нет	PART	NEG	Polarity=Neg	9	parataxis	_	SpaceAfter=No|TokenRange=117:120
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=120:121
+3	нет	нет	PART	NEG	Polarity=Neg	9	parataxis	_	TokenRange=122:125
+4	—	—	PUNCT	--	_	3	punct	_	TokenRange=126:127
+5	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	9	nsubj	_	TokenRange=128:130
+6	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	9	iobj	_	TokenRange=131:134
+7	совсем	совсем	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=135:141
+8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	TokenRange=142:144
+9	брат	брат	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=145:149
+10	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=149:150
+11	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	12	nsubj	_	TokenRange=152:154
+12	дядя	дядя	VERB	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	TokenRange=155:159
+13	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	12	iobj	_	TokenRange=160:163
+14	и	и	PART	UH	_	16	advmod	_	TokenRange=164:165
+15	на	на	ADP	IN	_	16	case	_	TokenRange=166:168
+16	Парнасе	Парнас	PROPN	NNP	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|TokenRange=169:176
+17	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|TokenRange=176:177
+

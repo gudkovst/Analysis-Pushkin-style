@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Тошней идиллии и холодней, чем ода, От злости мизантроп, от глупости поэт — Как страшно над тобой забавилась природа, Когда готовила на свет.
+1	Тошней	тошный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	TokenRange=0:6
+2	идиллии	идиллия	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=7:14
+3	и	и	CCONJ	CC	_	4	cc	_	TokenRange=15:16
+4	холодней	холодный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=17:25
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=25:26
+6	чем	чем	SCONJ	IN	_	7	case	_	TokenRange=27:30
+7	ода	ода	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=31:34
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\r\n|TokenRange=34:35
+9	От	от	ADP	IN	_	10	case	_	TokenRange=37:39
+10	злости	злость	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=40:46
+11	мизантроп	мизантроп	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=47:56
+12	,	,	PUNCT	,	_	15	punct	_	TokenRange=56:57
+13	от	от	ADP	IN	_	14	case	_	TokenRange=58:60
+14	глупости	глупость	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	TokenRange=61:69
+15	поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	TokenRange=70:74
+16	—	—	PUNCT	--	_	21	punct	_	SpacesAfter=\r\n|TokenRange=75:76
+17	Как	как	ADV	WRB	_	18	advmod	_	TokenRange=78:81
+18	страшно	страшно	ADV	RB	Degree=Pos	21	advmod	_	TokenRange=82:89
+19	над	над	ADP	IN	_	20	case	_	TokenRange=90:93
+20	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	21	obl	_	TokenRange=94:99
+21	забавилась	забавиться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	11	parataxis	_	TokenRange=100:110
+22	природа	природа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No|TokenRange=111:118
+23	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=118:119
+24	Когда	когда	ADV	WRB	_	25	mark	_	TokenRange=121:126
+25	готовила	готовить	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	TokenRange=127:135
+26	на	на	ADP	IN	_	27	case	_	TokenRange=136:138
+27	свет	свет	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No|TokenRange=139:143
+28	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=143:144
+
+# sent_id = 2
+# text = Боишься ты людей, как черного недуга, О жалкий образец уродливой мечты!
+1	Боишься	боиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=146:153
+2	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	1	nsubj	_	TokenRange=154:156
+3	людей	человек	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No|TokenRange=157:162
+4	,	,	PUNCT	,	_	7	punct	_	TokenRange=162:163
+5	как	как	ADP	IN	_	7	case	_	TokenRange=164:167
+6	черного	черный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=168:175
+7	недуга	недуг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=176:182
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=182:183
+9	О	о	ADP	IN	_	11	case	_	TokenRange=185:186
+10	жалкий	жалкий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	TokenRange=187:193
+11	образец	образец	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	TokenRange=194:201
+12	уродливой	уродливый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	TokenRange=202:211
+13	мечты	мечта	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|TokenRange=212:217
+14	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=217:218
+
+# sent_id = 3
+# text = Утешься, злой глупец! иметь не будешь ты Ввек ни любовницы, ни друга.
+1	Утешься	утеться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=220:227
+2	,	,	PUNCT	,	_	4	punct	_	TokenRange=227:228
+3	злой	злой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=229:233
+4	глупец	глупец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No|TokenRange=234:240
+5	!	!	PUNCT	.	_	1	punct	_	TokenRange=240:241
+6	иметь	иметь	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	TokenRange=242:247
+7	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=248:250
+8	будешь	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	6	aux	_	TokenRange=251:257
+9	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	6	nsubj	_	SpacesAfter=\r\n|TokenRange=258:260
+10	Ввек	Ввек	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	obj	_	TokenRange=262:266
+11	ни	ни	CCONJ	CC	Polarity=Neg	12	cc	_	TokenRange=267:269
+12	любовницы	любовница	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=270:279
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=279:280
+14	ни	ни	CCONJ	CC	Polarity=Neg	15	cc	_	TokenRange=281:283
+15	друга	друг	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|TokenRange=284:289
+16	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=289:290
+
