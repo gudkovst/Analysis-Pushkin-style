@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вот муза, резвая болтунья, Которую ты столь любил.
+1	Вот	вот	PART	UH	_	0	root	_	TokenRange=0:3
+2	муза	муза	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=4:8
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=8:9
+4	резвая	резвый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	TokenRange=10:16
+5	болтунья	болтунья	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=17:25
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=25:26
+7	Которую	который	PRON	AWP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	TokenRange=28:35
+8	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=36:38
+9	столь	столь	ADV	RB	Degree=Pos	10	advmod	_	TokenRange=39:44
+10	любил	любить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No|TokenRange=45:50
+11	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=50:51
+
+# sent_id = 2
+# text = Раскаялась моя шалунья, Придворный тон ее пленил;
+1	Раскаялась	раскаяться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=53:63
+2	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	3	det	_	TokenRange=64:67
+3	шалунья	шалунья	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=68:75
+4	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\r\n|TokenRange=75:76
+5	Придворный	придворный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=78:88
+6	тон	тон	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=89:92
+7	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	obj	_	TokenRange=93:95
+8	пленил	пленить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No|TokenRange=96:102
+9	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 3
+# text = Ее всевышний осенил Своей небесной благодатью — Она духовному занятью Опасной жертвует игрой.
+1	Ее	ее	DET	PRP$	_	2	det	_	TokenRange=105:107
+2	всевышний	всевышний	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=108:117
+3	осенил	осенить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=118:124
+4	Своей	свой	DET	PRP$	Case=Ins|Gender=Fem|Number=Sing	6	det	_	TokenRange=126:131
+5	небесной	небесный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=132:140
+6	благодатью	благодать	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obj	_	TokenRange=141:151
+7	—	—	PUNCT	--	_	12	punct	_	SpacesAfter=\r\n|TokenRange=152:153
+8	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	TokenRange=155:158
+9	духовному	духовный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	TokenRange=159:168
+10	занятью	занять	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	iobj	_	SpacesAfter=\r\n|TokenRange=169:176
+11	Опасной	опасный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=178:185
+12	жертвует	жертвовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=186:194
+13	игрой	игра	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=195:200
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=200:201
+
+# sent_id = 4
+# text = Не удивляйся, милый мой,
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=203:205
+2	удивляйся	удивляться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=206:215
+3	,	,	PUNCT	,	_	4	punct	_	TokenRange=215:216
+4	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	parataxis	_	TokenRange=217:222
+5	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	4	det	_	SpaceAfter=No|TokenRange=223:226
+6	,	,	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=226:227
+
+# sent_id = 5
+# text = Ее израильскому платью— Прости ей прежние грехи И под заветною печатью Прими опасные стихи.
+1	Ее	ее	DET	PRP$	_	3	det	_	TokenRange=229:231
+2	израильскому	израильский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	TokenRange=232:244
+3	платью—	платью	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	SpacesAfter=\r\n|TokenRange=245:252
+4	Прости	простить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=254:260
+5	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	4	iobj	_	TokenRange=261:263
+6	прежние	прежний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	TokenRange=264:271
+7	грехи	грех	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpacesAfter=\r\n|TokenRange=272:277
+8	И	и	CCONJ	CC	_	12	cc	_	TokenRange=279:280
+9	под	под	ADP	IN	_	11	case	_	TokenRange=281:284
+10	заветною	заветный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=285:293
+11	печатью	печать	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpacesAfter=\r\n|TokenRange=294:301
+12	Прими	прить	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=303:308
+13	опасные	опасный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	TokenRange=309:316
+14	стихи	стихи	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|TokenRange=317:322
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=322:323
+

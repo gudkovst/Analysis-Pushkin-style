@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Язвительный поэт, остряк замысловатый, И блеском колких слов, и шутками богатый Счастливый Вяземский, завидую тебе.
+1	Язвительный	язвительный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=0:11
+2	поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No|TokenRange=12:16
+3	,	,	PUNCT	,	_	5	punct	_	TokenRange=16:17
+4	остряк	остряк	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	TokenRange=18:24
+5	замысловатый	замысловатый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=25:37
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\r\n|TokenRange=37:38
+7	И	и	CCONJ	CC	_	8	cc	_	TokenRange=40:41
+8	блеском	блеск	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	TokenRange=42:49
+9	колких	колкий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	TokenRange=50:56
+10	слов	слово	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|TokenRange=57:61
+11	,	,	PUNCT	,	_	13	punct	_	TokenRange=61:62
+12	и	и	CCONJ	CC	_	13	cc	_	TokenRange=63:64
+13	шутками	шутка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	conj	_	TokenRange=65:72
+14	богатый	богатый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\r\n|TokenRange=73:80
+15	Счастливый	счастливый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	TokenRange=82:92
+16	Вяземский	Вяземский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=93:102
+17	,	,	PUNCT	,	_	16	punct	_	TokenRange=102:103
+18	завидую	завидовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=104:111
+19	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	18	iobj	_	SpaceAfter=No|TokenRange=112:116
+20	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\r\n|TokenRange=116:117
+
+# sent_id = 2
+# text = Ты право получил, благодаря судьбе, Смеяться весело над Злобою ревнивой, Невежество разить анафемой игривой.
+1	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	TokenRange=119:121
+2	право	право	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	TokenRange=122:127
+3	получил	получить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=128:135
+4	,	,	PUNCT	,	_	6	punct	_	TokenRange=135:136
+5	благодаря	благодаря	ADP	IN	_	6	case	_	TokenRange=137:146
+6	судьбе	судьба	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=147:153
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=153:154
+8	Смеяться	смеяться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	TokenRange=156:164
+9	весело	весело	ADV	RB	Degree=Pos	8	advmod	_	TokenRange=165:171
+10	над	над	ADP	IN	_	11	case	_	TokenRange=172:175
+11	Злобою	злоба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	TokenRange=176:182
+12	ревнивой	ревнивый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No|TokenRange=183:191
+13	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\r\n|TokenRange=191:192
+14	Невежество	невежество	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	TokenRange=194:204
+15	разить	разить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	acl	_	TokenRange=205:211
+16	анафемой	анафема	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obj	_	TokenRange=212:220
+17	игривой	игривый	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No|TokenRange=221:228
+18	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=228:229
+

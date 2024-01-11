@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Эллеферия, пред тобой Затмились прелести другие, Горю тобой, я вечно твой, Я твой навек, Эллеферия!
+1	Эллеферия	эллеферия	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|TokenRange=0:9
+2	,	,	PUNCT	,	_	1	punct	_	TokenRange=9:10
+3	пред	пред	ADP	IN	_	4	case	_	TokenRange=11:15
+4	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	5	obl	_	SpacesAfter=\r\n|TokenRange=16:21
+5	Затмились	затмиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=23:32
+6	прелести	прелесть	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	TokenRange=33:41
+7	другие	другой	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No|TokenRange=42:48
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+9	Горю	горить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	TokenRange=51:55
+10	тобой	ты	PRON	DT	Case=Ins|Reflex=Yes	9	iobj	_	SpaceAfter=No|TokenRange=56:61
+11	,	,	PUNCT	,	_	14	punct	_	TokenRange=61:62
+12	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	14	nsubj	_	TokenRange=63:64
+13	вечно	вечно	ADV	RB	Degree=Pos	14	advmod	_	TokenRange=65:70
+14	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No|TokenRange=71:75
+15	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=75:76
+16	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	TokenRange=78:79
+17	твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	18	det	_	TokenRange=80:84
+18	навек	навек	ADV	RB	Degree=Pos	14	parataxis	_	SpaceAfter=No|TokenRange=85:90
+19	,	,	PUNCT	,	_	20	punct	_	TokenRange=90:91
+20	Эллеферия	Эллеферия	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	parataxis	_	SpaceAfter=No|TokenRange=92:101
+21	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=101:102
+
+# sent_id = 2
+# text = Ее пугает света шум, Придворный блеск ей неприятен;
+1	Ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	TokenRange=104:106
+2	пугает	пугать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=107:113
+3	света	свет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	TokenRange=114:119
+4	шум	шум	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=120:123
+5	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=123:124
+6	Придворный	придворный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	TokenRange=126:136
+7	блеск	блеск	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=137:142
+8	ей	она	PRON	PRP	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	iobj	_	TokenRange=143:145
+9	неприятен	неприятный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	parataxis	_	SpaceAfter=No|TokenRange=146:155
+10	;	;	PUNCT	:	_	2	punct	_	SpacesAfter=\r\n|TokenRange=155:156
+
+# sent_id = 3
+# text = Люблю в ней пылкий, правый ум.
+1	Люблю	любить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=158:163
+2	в	в	ADP	IN	_	3	case	_	TokenRange=164:165
+3	ней	она	PRON	PRP	Case=Loc|Gender=Fem|Number=Sing|Person=3	1	obl	_	TokenRange=166:169
+4	пылкий	пылкий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No|TokenRange=170:176
+5	,	,	PUNCT	,	_	6	punct	_	TokenRange=176:177
+6	правый	правый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	TokenRange=178:184
+7	ум	ум	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=185:187
+8	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\r\n|TokenRange=187:188
+
+# sent_id = 4
+# text = И сердцу глас ее понятен.
+1	И	и	CCONJ	CC	_	5	cc	_	TokenRange=190:191
+2	сердцу	сердце	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	TokenRange=192:198
+3	глас	глас	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=199:203
+4	ее	ее	DET	PRP$	_	3	det	_	TokenRange=204:206
+5	понятен	понятный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=207:214
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=214:215
+
+# sent_id = 5
+# text = На юге, в мирной темноте Живи со мной, Эллеферия, Твоей красоте Вредна холодная Россия.
+1	На	на	ADP	IN	_	2	case	_	TokenRange=217:219
+2	юге	юг	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=220:223
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=223:224
+4	в	в	ADP	IN	_	6	case	_	TokenRange=225:226
+5	мирной	мирный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=227:233
+6	темноте	темнота	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=\r\n|TokenRange=234:241
+7	Живи	жить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=243:247
+8	со	со	ADP	IN	_	9	case	_	TokenRange=248:250
+9	мной	я	PRON	PRP	Case=Ins|Number=Sing|Person=1	7	obl	_	SpaceAfter=No|TokenRange=251:255
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=255:256
+11	Эллеферия	Эллеферия	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No|TokenRange=257:266
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=266:267
+13	Твоей	твой	DET	PRP$	Case=Dat|Gender=Fem|Number=Sing	14	det	_	TokenRange=269:274
+14	красоте	красота	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	SpacesAfter=\r\n|TokenRange=275:282
+15	Вредна	вредный	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	7	parataxis	_	TokenRange=284:290
+16	холодная	холодный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	TokenRange=291:299
+17	Россия	Россия	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No|TokenRange=300:306
+18	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|TokenRange=306:307
+

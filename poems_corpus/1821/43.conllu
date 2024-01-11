@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Если с нежной красотой Вы чувствительны душою, Если горести чужой Вам ужасно быть виною, Если тяжко помнить вам Жертву тайного страданья — Не оставлю сим листам Моего воспоминанья.
+1	Если	если	SCONJ	IN	_	6	mark	_	TokenRange=0:4
+2	с	с	ADP	IN	_	4	case	_	TokenRange=5:6
+3	нежной	нежный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	TokenRange=7:13
+4	красотой	красота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\r\n|TokenRange=14:22
+5	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	6	nsubj	_	TokenRange=24:26
+6	чувствительны	чувствительный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	26	advcl	_	TokenRange=27:40
+7	душою	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	iobj	_	SpaceAfter=No|TokenRange=41:46
+8	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\r\n|TokenRange=46:47
+9	Если	если	SCONJ	IN	_	13	mark	_	TokenRange=49:53
+10	горести	горести	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	13	advcl	_	TokenRange=54:61
+11	чужой	чужой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	obj	_	SpacesAfter=\r\n|TokenRange=62:67
+12	Вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	13	iobj	_	TokenRange=69:72
+13	ужасно	ужасный	ADJ	RB	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	conj	_	TokenRange=73:79
+14	быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf	15	cop	_	TokenRange=80:84
+15	виною	вина	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No|TokenRange=85:90
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+17	Если	если	SCONJ	IN	_	18	mark	_	TokenRange=93:97
+18	тяжко	тяжкий	ADJ	PRED	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	26	advcl	_	TokenRange=98:103
+19	помнить	помнить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	TokenRange=104:111
+20	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	19	iobj	_	SpacesAfter=\r\n|TokenRange=112:115
+21	Жертву	жертва	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	TokenRange=117:123
+22	тайного	тайный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	TokenRange=124:131
+23	страданья	страданье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	TokenRange=132:141
+24	—	—	PUNCT	--	_	18	punct	_	SpacesAfter=\r\n|TokenRange=142:143
+25	Не	не	PART	NEG	Polarity=Neg	26	advmod	_	TokenRange=145:147
+26	оставлю	оставить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=148:155
+27	сим	сей	DET	DT	Case=Dat|Number=Plur	28	det	_	TokenRange=156:159
+28	листам	лист	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	26	iobj	_	SpacesAfter=\r\n|TokenRange=160:166
+29	Моего	мой	DET	PRP$	Case=Gen|Gender=Neut|Number=Sing	30	det	_	TokenRange=168:173
+30	воспоминанья	воспоминание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No|TokenRange=174:186
+31	.	.	PUNCT	.	_	26	punct	_	SpaceAfter=No|TokenRange=186:187
+

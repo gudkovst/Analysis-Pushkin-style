@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Тадарашка в вас влюблен И для ваших ножек, Говорят, заводит он Род каких-то дрожек.
+1	Тадарашка	Тадарашка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=0:9
+2	в	в	ADP	IN	_	3	case	_	TokenRange=10:11
+3	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	4	obl	_	TokenRange=12:15
+4	влюблен	влюбленный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\r\n|TokenRange=16:23
+5	И	и	CCONJ	CC	_	12	cc	_	TokenRange=25:26
+6	для	для	ADP	IN	_	8	case	_	TokenRange=27:30
+7	ваших	ваш	DET	PRP$	Case=Gen|Number=Plur	8	det	_	TokenRange=31:36
+8	ножек	ножка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|TokenRange=37:42
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\r\n|TokenRange=42:43
+10	Говорят	говорить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No|TokenRange=45:52
+11	,	,	PUNCT	,	_	10	punct	_	TokenRange=52:53
+12	заводит	заводить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=54:61
+13	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	SpacesAfter=\r\n|TokenRange=62:64
+14	Род	род	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	TokenRange=66:69
+15	каких-то	какой-то	DET	DT	Case=Gen|Number=Plur	16	det	_	TokenRange=70:78
+16	дрожек	дрожка	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No|TokenRange=79:85
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=85:86
+
+# sent_id = 2
+# text = Нам приходит не легко; Как неосторожно!
+1	Нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	2	iobj	_	TokenRange=88:91
+2	приходит	приходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=92:100
+3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	TokenRange=101:103
+4	легко	легко	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=104:109
+5	;	;	PUNCT	:	_	7	punct	_	SpacesAfter=\r\n|TokenRange=109:110
+6	Как	как	ADV	WRB	_	7	advmod	_	TokenRange=112:115
+7	неосторожно	неосторожно	ADJ	RB	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	parataxis	_	SpaceAfter=No|TokenRange=116:127
+8	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=127:128
+
+# sent_id = 3
+# text = Ох! на дрожках далеко Вам уехать можно.
+1	Ох	ох	INTJ	UH	_	8	discourse	_	SpaceAfter=No|TokenRange=130:132
+2	!	!	PUNCT	.	_	1	punct	_	TokenRange=132:133
+3	на	на	ADP	IN	_	4	case	_	TokenRange=134:136
+4	дрожках	дрожок	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	TokenRange=137:144
+5	далеко	далеко	ADV	RB	Degree=Pos	8	advmod	_	SpacesAfter=\r\n|TokenRange=145:151
+6	Вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	8	iobj	_	TokenRange=153:156
+7	уехать	уехать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	TokenRange=157:163
+8	можно	можно	VERB	PRED	_	0	root	_	SpaceAfter=No|TokenRange=164:169
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|TokenRange=169:170
+

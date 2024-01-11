@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Хоть впрочем он поэт изрядный, Эмилий человек пустой».
+1	«Хоть	«хоть	SCONJ	IN	_	4	mark	_	TokenRange=0:5
+2	впрочем	впрочем	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=6:13
+3	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	TokenRange=14:16
+4	поэт	поэт	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=17:21
+5	изрядный	изрядный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No|TokenRange=22:30
+6	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+7	Эмилий	Эмилий	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=33:39
+8	человек	человек	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	TokenRange=40:47
+9	пустой»	пустой»	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No|TokenRange=48:55
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\r\n|TokenRange=55:56
+
+# sent_id = 2
+# text = — «Да ты чем полон, шут нарядный?
+1	—	—	PUNCT	--	_	5	punct	_	TokenRange=58:59
+2	«Да	«да	CCONJ	IN	_	5	cc	_	TokenRange=60:63
+3	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	5	nsubj	_	TokenRange=64:66
+4	чем	что	PRON	WP	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	iobj	_	TokenRange=67:70
+5	полон	полный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=71:76
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=76:77
+7	шут	шут	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=78:81
+8	нарядный	нарядный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=82:90
+9	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\r\n|TokenRange=90:91
+
+# sent_id = 3
+# text = А, понимаю: сам собой; Ты полон дряни, милый мой!»
+1	А	а	CCONJ	CC	_	3	cc	_	SpaceAfter=No|TokenRange=93:94
+2	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\s\s|TokenRange=94:95
+3	понимаю	понимать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=97:104
+4	:	:	PUNCT	:	_	3	punct	_	TokenRange=104:105
+5	сам	сам	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	TokenRange=106:109
+6	собой	себя	PRON	PRP	Case=Ins|Reflex=Yes	5	nmod	_	SpaceAfter=No|TokenRange=110:115
+7	;	;	PUNCT	:	_	9	punct	_	SpacesAfter=\r\n|TokenRange=115:116
+8	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	TokenRange=118:120
+9	полон	полный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	parataxis	_	TokenRange=121:126
+10	дряни	дрянить	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|TokenRange=127:132
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=132:133
+12	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=134:139
+13	мой!»	мой!»	NOUN	.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=140:145
+

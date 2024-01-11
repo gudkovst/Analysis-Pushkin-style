@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Хромид в тебя влюблен: он молод, и не раз Украдкою вдвоем мы замечали вас; Ты слушаешь его, в безмолвии краснея;
+1	Хромид	Хромид	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=0:6
+2	в	в	ADP	IN	_	3	case	_	TokenRange=7:8
+3	тебя	ты	PRON	PRP	Case=Acc|Number=Sing|Person=2	4	obl	_	TokenRange=9:13
+4	влюблен	влюбленный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=14:21
+5	:	:	PUNCT	:	_	4	punct	_	TokenRange=21:22
+6	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	TokenRange=23:25
+7	молод	молодой	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	parataxis	_	SpaceAfter=No|TokenRange=26:31
+8	,	,	PUNCT	,	_	15	punct	_	TokenRange=31:32
+9	и	и	CCONJ	CC	_	15	cc	_	TokenRange=33:34
+10	не	не	PART	NEG	Polarity=Neg	11	advmod	_	TokenRange=35:37
+11	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpacesAfter=\r\n|TokenRange=38:41
+12	Украдкою	Украдка	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	iobj	_	TokenRange=43:51
+13	вдвоем	вдвоем	ADV	RB	Degree=Pos	15	advmod	_	TokenRange=52:58
+14	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	15	nsubj	_	TokenRange=59:61
+15	замечали	замечать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=62:70
+16	вас	вы	PRON	PRP	Case=Acc|Number=Plur|Person=2	15	obj	_	SpaceAfter=No|TokenRange=71:74
+17	;	;	PUNCT	:	_	19	punct	_	SpacesAfter=\r\n|TokenRange=74:75
+18	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	19	nsubj	_	TokenRange=77:79
+19	слушаешь	слушать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=80:88
+20	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	SpaceAfter=No|TokenRange=89:92
+21	,	,	PUNCT	,	_	24	punct	_	TokenRange=92:93
+22	в	в	ADP	IN	_	23	case	_	TokenRange=94:95
+23	безмолвии	безмолвие	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	nmod	_	TokenRange=96:105
+24	краснея	красний	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|TokenRange=106:113
+25	;	;	PUNCT	:	_	4	punct	_	SpacesAfter=\r\n|TokenRange=113:114
+
+# sent_id = 2
+# text = Твой взор потупленный желанием горит, И долго после, Дионея, Улыбку нежную лицо твое хранит.
+1	Твой	твой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=116:120
+2	взор	взор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=121:125
+3	потупленный	потупить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	TokenRange=126:137
+4	желанием	желание	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl:agent	_	TokenRange=138:146
+5	горит	гореть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=147:152
+6	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=152:153
+7	И	и	CCONJ	CC	_	17	cc	_	TokenRange=155:156
+8	долго	долго	ADV	RB	Degree=Pos	17	advmod	_	TokenRange=157:162
+9	после	после	ADP	IN	_	11	case	_	SpaceAfter=No|TokenRange=163:168
+10	,	,	PUNCT	,	_	11	punct	_	TokenRange=168:169
+11	Дионея	Дионей	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|TokenRange=170:176
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=176:177
+13	Улыбку	улыбка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	TokenRange=179:185
+14	нежную	нежный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=186:192
+15	лицо	лицо	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	TokenRange=193:197
+16	твое	твой	DET	PRP$	Case=Nom|Gender=Neut|Number=Sing	15	det	_	TokenRange=198:202
+17	хранит	хранить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TokenRange=203:209
+18	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=209:210
+

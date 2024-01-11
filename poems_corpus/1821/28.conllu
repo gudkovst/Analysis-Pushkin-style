@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не притворяйся, милый друг, Соперник мой широкоплечий!
+1	Не	не	PART	NEG	Polarity=Neg	2	advmod	_	TokenRange=0:2
+2	притворяйся	притворяться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=3:14
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=14:15
+4	милый	милый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	TokenRange=16:21
+5	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No|TokenRange=22:26
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=26:27
+7	Соперник	соперник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	TokenRange=29:37
+8	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	9	det	_	TokenRange=38:41
+9	широкоплечий	широкоплечий	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No|TokenRange=42:54
+10	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=54:55
+
+# sent_id = 2
+# text = Тебе не страшен лиры звук, Ни элегические речи.
+1	Тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	3	iobj	_	TokenRange=57:61
+2	не	не	PART	NEG	Polarity=Neg	3	advmod	_	TokenRange=62:64
+3	страшен	страшный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=65:72
+4	лиры	лир	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	TokenRange=73:77
+5	звук	звук	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=78:82
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\r\n|TokenRange=82:83
+7	Ни	ни	CCONJ	CC	Polarity=Neg	9	cc	_	TokenRange=85:87
+8	элегические	элегический	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	TokenRange=88:99
+9	речи	речь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No|TokenRange=100:104
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n|TokenRange=104:105
+
+# sent_id = 3
+# text = Дай руку мне: ты не ревнив, Я слишком ветрен и ленив, Твоя красавица не дура;
+1	Дай	дать	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=107:110
+2	руку	рука	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	TokenRange=111:115
+3	мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	1	iobj	_	SpaceAfter=No|TokenRange=116:119
+4	:	:	PUNCT	:	_	1	punct	_	TokenRange=119:120
+5	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	7	nsubj	_	TokenRange=121:123
+6	не	не	PART	NEG	Polarity=Neg	7	advmod	_	TokenRange=124:126
+7	ревнив	ревнивый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	parataxis	_	SpaceAfter=No|TokenRange=127:133
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\r\n|TokenRange=133:134
+9	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=136:137
+10	слишком	слишком	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=138:145
+11	ветрен	ветрный	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	conj	_	TokenRange=146:152
+12	и	и	CCONJ	CC	_	13	cc	_	TokenRange=153:154
+13	ленив	ленивый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	conj	_	SpaceAfter=No|TokenRange=155:160
+14	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\r\n|TokenRange=160:161
+15	Твоя	твой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	16	det	_	TokenRange=163:167
+16	красавица	красавица	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	TokenRange=168:177
+17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	TokenRange=178:180
+18	дура	дура	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=181:185
+19	;	;	PUNCT	:	_	1	punct	_	SpacesAfter=\r\n|TokenRange=185:186
+
+# sent_id = 4
+# text = Я вижу всё и не сержусь: Она прелестная Лаура, Да я в Петрарки не гожусь.
+1	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=188:189
+2	вижу	видеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=190:194
+3	всё	всё	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	TokenRange=195:198
+4	и	и	CCONJ	CC	_	6	cc	_	TokenRange=199:200
+5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	TokenRange=201:203
+6	сержусь	сердиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No|TokenRange=204:211
+7	:	:	PUNCT	:	_	10	punct	_	SpacesAfter=\r\n|TokenRange=211:212
+8	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	TokenRange=214:217
+9	прелестная	прелестный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	TokenRange=218:228
+10	Лаура	Лаура	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No|TokenRange=229:234
+11	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\r\n|TokenRange=234:235
+12	Да	да	CCONJ	CC	_	17	cc	_	TokenRange=237:239
+13	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	17	nsubj	_	TokenRange=240:241
+14	в	в	ADP	IN	_	15	case	_	TokenRange=242:243
+15	Петрарки	Петрарка	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	TokenRange=244:252
+16	не	не	PART	NEG	Polarity=Neg	17	advmod	_	TokenRange=253:255
+17	гожусь	годиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	10	conj	_	SpaceAfter=No|TokenRange=256:262
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|TokenRange=262:263
+

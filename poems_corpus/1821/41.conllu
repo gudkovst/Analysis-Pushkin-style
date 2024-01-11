@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Примите новую тетрадь, Вы, юноши, и вы, девицы,— Не веселее ль вам читать Игривой музы небылицы, Чем пиндарических похвал Высокопарные страницы Иль усыпительный журнал, Который, ввек не зная цели, Усердно так тяжел и груб И ровно кажды две недели Быть хочет зол, и только глуп.
+1	Примите	принять	VERB	VBC	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:7
+2	новую	новый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	TokenRange=8:13
+3	тетрадь	тетрадь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|TokenRange=14:21
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\r\n|TokenRange=21:22
+5	Вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	1	nsubj	_	SpaceAfter=No|TokenRange=24:26
+6	,	,	PUNCT	,	_	7	punct	_	TokenRange=26:27
+7	юноши	юноша	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No|TokenRange=28:33
+8	,	,	PUNCT	,	_	10	punct	_	TokenRange=33:34
+9	и	и	CCONJ	CC	_	10	cc	_	TokenRange=35:36
+10	вы	вы	PRON	PRP	Case=Nom|Number=Plur|Person=2	5	conj	_	SpaceAfter=No|TokenRange=37:39
+11	,	,	PUNCT	,	_	12	punct	_	TokenRange=39:40
+12	девицы	девица	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	10	appos	_	SpaceAfter=No|TokenRange=41:47
+13	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No|TokenRange=47:48
+14	—	—	PUNCT	--	_	16	punct	_	SpacesAfter=\r\n|TokenRange=48:49
+15	Не	не	PART	NEG	Polarity=Neg	16	advmod	_	TokenRange=51:53
+16	веселее	веселый	ADJ	RBR	Degree=Cmp	1	parataxis	_	TokenRange=54:61
+17	ль	ль	PART	IN	_	16	advmod	_	TokenRange=62:64
+18	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2	16	iobj	_	TokenRange=65:68
+19	читать	читать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	SpacesAfter=\r\n|TokenRange=69:75
+20	Игривой	игривый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	TokenRange=77:84
+21	музы	муза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obj	_	TokenRange=85:89
+22	небылицы	небылица	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No|TokenRange=90:98
+23	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\r\n|TokenRange=98:99
+24	Чем	чем	SCONJ	IN	_	26	case	_	TokenRange=101:104
+25	пиндарических	пиндарический	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	TokenRange=105:118
+26	похвал	похвала	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpacesAfter=\r\n|TokenRange=119:125
+27	Высокопарные	высокопарный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	TokenRange=127:139
+28	страницы	страница	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	SpacesAfter=\r\n|TokenRange=140:148
+29	Иль	иль	CCONJ	CC	_	31	cc	_	TokenRange=150:153
+30	усыпительный	усыпительный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	TokenRange=154:166
+31	журнал	журнал	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No|TokenRange=167:173
+32	,	,	PUNCT	,	_	42	punct	_	SpacesAfter=\r\n|TokenRange=173:174
+33	Который	который	PRON	AWP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	SpaceAfter=No|TokenRange=176:183
+34	,	,	PUNCT	,	_	37	punct	_	TokenRange=183:184
+35	ввек	ввек	ADV	RB	Degree=Pos	37	advmod	_	TokenRange=185:189
+36	не	не	PART	NEG	Polarity=Neg	37	advmod	_	TokenRange=190:192
+37	зная	знать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	42	advcl	_	TokenRange=193:197
+38	цели	цель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No|TokenRange=198:202
+39	,	,	PUNCT	,	_	37	punct	_	SpacesAfter=\r\n|TokenRange=202:203
+40	Усердно	усердно	ADV	RB	Degree=Pos	42	advmod	_	TokenRange=205:212
+41	так	так	ADV	RB	Degree=Pos	42	advmod	_	TokenRange=213:216
+42	тяжел	тяжелый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	31	acl:relcl	_	TokenRange=217:222
+43	и	и	CCONJ	CC	_	44	cc	_	TokenRange=223:224
+44	груб	грубый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	42	conj	_	SpacesAfter=\r\n|TokenRange=225:229
+45	И	и	CCONJ	CC	_	51	cc	_	TokenRange=231:232
+46	ровно	ровно	ADV	RB	Degree=Pos	51	advmod	_	TokenRange=233:238
+47	кажды	кажды	DET	DT	Animacy=Inan|Case=Acc|Number=Plur	49	det	_	TokenRange=239:244
+48	две	два	NUM	CD	Animacy=Inan|Case=Acc|Gender=Fem|NumType=Card	49	nummod:gov	_	TokenRange=245:248
+49	недели	неделя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	51	obl	_	SpacesAfter=\r\n|TokenRange=249:255
+50	Быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	51	xcomp	_	TokenRange=257:261
+51	хочет	хотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	conj	_	TokenRange=262:267
+52	зол	зол	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	51	obj	_	SpaceAfter=No|TokenRange=268:271
+53	,	,	PUNCT	,	_	56	punct	_	TokenRange=271:272
+54	и	и	CCONJ	CC	_	56	cc	_	TokenRange=273:274
+55	только	только	PART	UH	_	56	advmod	_	TokenRange=275:281
+56	глуп	глупый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	42	conj	_	SpaceAfter=No|TokenRange=282:286
+57	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=286:287
+

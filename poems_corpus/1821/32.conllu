@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Лечись — иль быть тебе Панглосом, Ты жертва вредной красоты — И то-то, братец, будешь с носом, Когда без носа будешь ты.
+1	Лечись	лечиться	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=0:6
+2	—	—	PUNCT	--	_	6	punct	_	TokenRange=7:8
+3	иль	иль	PART	CC	_	6	advmod	_	TokenRange=9:12
+4	быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	TokenRange=13:17
+5	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	6	iobj	_	TokenRange=18:22
+6	Панглосом	Панглос	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=23:32
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\r\n|TokenRange=32:33
+8	Ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	9	nsubj	_	TokenRange=35:37
+9	жертва	жертва	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	TokenRange=38:44
+10	вредной	вредный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	TokenRange=45:52
+11	красоты	красота	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	TokenRange=53:60
+12	—	—	PUNCT	--	_	14	punct	_	SpacesAfter=\r\n|TokenRange=61:62
+13	И	и	CCONJ	CC	_	14	cc	_	TokenRange=64:65
+14	то-то	то-то	ADV	RB	Degree=Pos	9	conj	_	SpaceAfter=No|TokenRange=66:71
+15	,	,	PUNCT	,	_	16	punct	_	TokenRange=71:72
+16	братец	братец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No|TokenRange=73:79
+17	,	,	PUNCT	,	_	16	punct	_	TokenRange=79:80
+18	будешь	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	TokenRange=81:87
+19	с	с	ADP	IN	_	20	case	_	TokenRange=88:89
+20	носом	нос	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|TokenRange=90:95
+21	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\r\n|TokenRange=95:96
+22	Когда	когда	SCONJ	WRB	_	25	mark	_	TokenRange=98:103
+23	без	без	ADP	IN	_	24	case	_	TokenRange=104:107
+24	носа	нос	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	TokenRange=108:112
+25	будешь	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	TokenRange=113:119
+26	ты	ты	PRON	PRP	Case=Nom|Number=Sing|Person=2	25	nsubj	_	SpaceAfter=No|TokenRange=120:122
+27	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|TokenRange=122:123
+

@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-gsd-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Христос воскрес, моя Ревекка!
+1	Христос	Христос	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=0:7
+2	воскрес	воскрести	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=8:15
+3	,	,	PUNCT	,	_	2	punct	_	TokenRange=15:16
+4	моя	мой	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	5	det	_	TokenRange=17:20
+5	Ревекка	Ревекка	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No|TokenRange=21:28
+6	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\r\n|TokenRange=28:29
+
+# sent_id = 2
+# text = Сегодня следуя душой Закону бога-человека, С тобой целуюсь, ангел мой.
+1	Сегодня	сегодня	ADV	RB	Degree=Pos	2	advmod	_	TokenRange=31:38
+2	следуя	следовать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	TokenRange=39:45
+3	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obj	_	SpacesAfter=\r\n|TokenRange=46:51
+4	Закону	закон	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	TokenRange=53:59
+5	бога	бог	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=60:64
+6	-	-	PUNCT	-	_	7	punct	_	SpaceAfter=No|TokenRange=64:65
+7	человека	человек	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=65:73
+8	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\r\n|TokenRange=73:74
+9	С	с	ADP	IN	_	10	case	_	TokenRange=76:77
+10	тобой	ты	PRON	DT	Case=Ins|Number=Sing|Person=2	11	obl	_	TokenRange=78:83
+11	целуюсь	целоваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=84:91
+12	,	,	PUNCT	,	_	11	punct	_	TokenRange=91:92
+13	ангел	ангел	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	TokenRange=93:98
+14	мой	мой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing	13	det	_	SpaceAfter=No|TokenRange=99:102
+15	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\r\n|TokenRange=102:103
+
+# sent_id = 3
+# text = А завтра к вере Моисея За поцелуй я не робея Готов, еврейка, приступить — И даже то тебе вручить, Чем можно верного еврея От православных отличить.
+1	А	а	CCONJ	CC	_	11	cc	_	TokenRange=105:106
+2	завтра	завтра	ADV	RB	Degree=Pos	11	advmod	_	TokenRange=107:113
+3	к	к	ADP	IN	_	4	case	_	TokenRange=114:115
+4	вере	вера	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	TokenRange=116:120
+5	Моисея	Моисей	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\r\n|TokenRange=121:127
+6	За	за	ADP	IN	_	7	case	_	TokenRange=129:131
+7	поцелуй	поцелуй	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	TokenRange=132:139
+8	я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1	11	nsubj	_	TokenRange=140:141
+9	не	не	PART	NEG	Polarity=Neg	10	advmod	_	TokenRange=142:144
+10	робея	робей	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	advcl	_	SpacesAfter=\r\n|TokenRange=145:150
+11	Готов	готовый	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=152:157
+12	,	,	PUNCT	,	_	13	punct	_	TokenRange=157:158
+13	еврейка	еврейка	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No|TokenRange=159:166
+14	,	,	PUNCT	,	_	13	punct	_	TokenRange=166:167
+15	приступить	приступить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	TokenRange=168:178
+16	—	—	PUNCT	--	_	21	punct	_	SpacesAfter=\r\n|TokenRange=179:180
+17	И	и	CCONJ	CC	_	21	cc	_	TokenRange=182:183
+18	даже	даже	PART	UH	_	21	advmod	_	TokenRange=184:188
+19	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	TokenRange=189:191
+20	тебе	ты	PRON	PRP	Case=Dat|Number=Sing|Person=2	21	iobj	_	TokenRange=192:196
+21	вручить	вручить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	conj	_	SpaceAfter=No|TokenRange=197:204
+22	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\r\n|TokenRange=204:205
+23	Чем	что	PRON	WP	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	iobj	_	TokenRange=207:210
+24	можно	можно	VERB	PRED	_	21	ccomp	_	TokenRange=211:216
+25	верного	верный	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	TokenRange=217:224
+26	еврея	еврей	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	SpacesAfter=\r\n|TokenRange=225:230
+27	От	от	ADP	IN	_	28	case	_	TokenRange=232:234
+28	православных	православный	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	TokenRange=235:247
+29	отличить	отличить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	SpaceAfter=No|TokenRange=248:256
+30	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No|TokenRange=256:257
+
