@@ -5,64 +5,75 @@ def isPunct(line: str) -> bool:
     return line.split()[3] == "PUNCT"
 
 
-def words(**params) -> dict:
+def column(**params) -> dict:
     file = params.get('file')
+    col: int = params.get('column')
     res = dict()
     for line in file:
         if not line[0].isdigit():
             continue
-        key = line.split()[2]
-        if not isPunct(line):
-            res[key] = res.get(key, 0) + 1
+        if col == 2:
+            worg_regime: bool = params.get('regime')
+            if isPunct(line) == worg_regime:
+                continue
+        key = line.split()[col]
+        res[key] = res.get(key, 0) + 1
     return res
+
+
+def words(**params) -> dict:
+    args = params | {'column': 2, 'regime': True}
+    return column(**args)
 
 
 def len_words(**params) -> dict:
-    file = params.get('file')
+    words_dict = words(**params)
     res = dict()
+    for word in words_dict:
+        ln = len(word)
+        res[ln] = res.get(ln, 0) + words_dict[word]
+    return res
+
+
+def count_in_sentence(**params) -> dict:
+    file = params.get('file')
+    word_regime: bool = params.get('regime')
+    res = dict()
+    counter = 0
     for line in file:
         if not line[0].isdigit():
+            if counter:
+                res[counter] = res.get(counter, 0) + 1
+                counter = 0
             continue
-        key = line.split()[2]
-        if not isPunct(line):
-            k = len(key)
-            res[k] = res.get(k, 0) + 1
+        if isPunct(line) != word_regime:
+            counter += 1
     return res
+
+
+def count_words_in_sentence(**params) -> dict:
+    args = params | {'regime': True}
+    return count_in_sentence(**args)
+
+
+def count_puncts_in_sentence(**params) -> dict:
+    args = params | {'regime': False}
+    return count_in_sentence(**args)
 
 
 def puncts(**params) -> dict:
-    file = params.get('file')
-    res = dict()
-    for line in file:
-        if not line[0].isdigit():
-            continue
-        key = line.split()[2]
-        if isPunct(line):
-            res[key] = res.get(key, 0) + 1
-    return res
+    args = params | {'column': 2, 'regime': False}
+    return column(**args)
 
 
 def parts(**params) -> dict:
-    file = params.get('file')
-    res = dict()
-    for line in file:
-        if not line[0].isdigit():
-            continue
-        key = line.split()[3]
-        res[key] = res.get(key, 0) + 1
-    return res
-
+    args = params | {'column': 3}
+    return column(**args)
 
 
 def rels(**params) -> dict:
-    file = params.get('file')
-    res = dict()
-    for line in file:
-        if not line[0].isdigit():
-            continue
-        key = line.split()[7]
-        res[key] = res.get(key, 0) + 1
-    return res
+    args = params | {'column': 7}
+    return column(**args)
 
 
 def n_grams_symb(**params) -> dict:
@@ -83,9 +94,10 @@ def n_grams_symb(**params) -> dict:
     return res
 
 
-def n_grams_word(**params) -> dict:
+def n_grams(**params) -> dict:
     file = params.get('file')
-    n = params.get('n', 3)
+    n: int = params.get('n', 3)
+    word_regime: bool = params.get('regime')
     res = dict()
     window = []
     index = 0
@@ -93,7 +105,7 @@ def n_grams_word(**params) -> dict:
         if not line[0].isdigit():
             continue
         key = line.split()[2]
-        if not isPunct(line):
+        if isPunct(line) != word_regime:
             if index < n:
                 window.append(key)
                 index += 1
@@ -105,30 +117,16 @@ def n_grams_word(**params) -> dict:
                 s += w + " "
             res[s] = res.get(s, 0) + 1
     return res
+
+
+def n_grams_word(**params) -> dict:
+    args = params | {'regime': True}
+    return n_grams(**args)
 
 
 def n_grams_punct(**params) -> dict:
-    file = params.get('file')
-    n = params.get('n', 3)
-    res = dict()
-    window = []
-    index = 0
-    for line in file:
-        if not line[0].isdigit():
-            continue
-        key = line.split()[2]
-        if isPunct(line):
-            if index < n:
-                window.append(key)
-                index += 1
-                continue
-            window = window[1:]
-            window.append(key)
-            s = ""
-            for w in window:
-                s += w + " "
-            res[s] = res.get(s, 0) + 1
-    return res
+    args = params | {'regime': False}
+    return n_grams(**args)
 
 
 def extract(feature: callable, filepath: str, params: dict = {}) -> dict:
@@ -152,5 +150,5 @@ def main():
         direct = root + "\\" + directory
         for file in os.listdir(direct):
             filename = direct + "\\" + file
-            print(extract(rels, filename, {'n': 3}))
+            print(extract(len_words, filename, {'n': 3}))
 main()
