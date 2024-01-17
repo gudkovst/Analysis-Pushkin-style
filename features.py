@@ -1,5 +1,3 @@
-import os
-
 
 def isPunct(line: str) -> bool:
     return line.split()[3] == "PUNCT"
@@ -135,20 +133,6 @@ def extract(feature: callable, filepath: str, params: dict = {}) -> dict:
         return feature(**args)
 
 
-def dict_sort(d: dict) -> dict:
-    return dict(sorted(d.items(), key=lambda item: item[1]))
-
-
-def selection(d: dict, border: int) -> dict:
-    return dict(item for item in d.items() if item[1] > border)
-
-
-
-def main():
-    root = "C:\\Users\\User\\Desktop\\практика\\полное собрание\\poems_corpus"
-    for directory in os.listdir(root):
-        direct = root + "\\" + directory
-        for file in os.listdir(direct):
-            filename = direct + "\\" + file
-            print(extract(len_words, filename, {'n': 3}))
-main()
+features_list = [words, len_words, count_words_in_sentence, count_puncts_in_sentence,
+            puncts, parts, rels, n_grams_symb, n_grams_word, n_grams_punct]
+features = {feature.__name__: feature for feature in features_list}
