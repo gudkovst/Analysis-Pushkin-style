@@ -1,8 +1,16 @@
 import os
 from features import extract, features
 
-words = features['words']
-periods = [['1813', '1814']]
+periods = [['1813', '1814', '1815'],
+           ['1816', '1817'],
+           ['1817 после Лицея', '1818', '1819', '1820'],
+           ['1820 Юг', '1821'],
+           ['1822', '1823', '1824'],
+           ['1824 Михайловское', '1825', '1826'],
+           ['1827', '1828', '1829'],
+           ['1830'],
+           ['1831', '1832'],
+           ['1833', '1834', '1835', '1836']]
 
 
 def dict_sort(d: dict) -> dict:
@@ -19,8 +27,9 @@ def agregate(f: dict, s: dict) -> dict:
     return f
 
 
-def extract_period(period: list, feature: callable, params: dict = {}) -> dict:
+def extract_period(period: list, feature_name: str, params: dict = {}) -> dict:
     root = "C:\\Users\\User\\Desktop\\практика\\полное собрание\\poems_corpus"
+    feature = features[feature_name]
     res = dict()
     for year in period:
         direct = root + "\\" + year
@@ -30,10 +39,10 @@ def extract_period(period: list, feature: callable, params: dict = {}) -> dict:
     return res
 
 
-def extract_all_periods(feature: callable, params: dict = {}) -> dict:
+def extract_all_periods(feature_name: str, params: dict = {}) -> dict:
     res = dict()
     for period in periods:
-        res = agregate(res, extract_period(period, feature, params))
+        res = agregate(res, extract_period(period, feature_name, params))
     return res
 
 
@@ -56,5 +65,5 @@ def global_word_rank() -> dict:
 
 
 def main():
-    print(global_word_rank()['я'])
+    print(extract_all_periods('words')['где'])
 main()
