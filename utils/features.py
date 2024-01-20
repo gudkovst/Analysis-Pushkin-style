@@ -11,8 +11,8 @@ def column(**params) -> dict:
         if not line[0].isdigit():
             continue
         if col == 2:
-            worg_regime: bool = params.get('regime')
-            if isPunct(line) == worg_regime:
+            word_regime: bool = params.get('regime')
+            if isPunct(line) == word_regime:
                 continue
         key = line.split()[col]
         res[key] = res.get(key, 0) + 1
@@ -127,12 +127,19 @@ def n_grams_punct(**params) -> dict:
     return n_grams(**args)
 
 
-def extract(feature: callable, filepath: str, params: dict = {}) -> dict:
-    with open(filepath, encoding='utf-8') as tree_file:
-        args = {'file': tree_file} | params
-        return feature(**args)
+def statistics(**params) -> dict:
+    file = params.get('file')
+    words_dict = words(**params)
+    res = {"words": sum(words_dict.values()), "unique_words": len(words_dict)}
+    file.seek(0)
+    puncts_dict = puncts(**params)
+    res |= {"puncts": sum(puncts_dict.values()), "unique_puncts": len(puncts_dict)}
+    file.seek(0)
+    sentences = count_words_in_sentence(**params)
+    res |= {"sentence": sum(sentences.values())}
+    return res
 
 
 features_list = [words, len_words, count_words_in_sentence, count_puncts_in_sentence,
-            puncts, parts, rels, n_grams_symb, n_grams_word, n_grams_punct]
+            puncts, parts, rels, n_grams_symb, n_grams_word, n_grams_punct, statistics]
 features = {feature.__name__: feature for feature in features_list}
