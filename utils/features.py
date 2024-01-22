@@ -1,3 +1,5 @@
+from utils.dict_lib import dict_sort
+
 
 def isPunct(line: str) -> bool:
     return line.split()[3] == "PUNCT"
@@ -127,10 +129,38 @@ def n_grams_punct(**params) -> dict:
     return n_grams(**args)
 
 
+def passing(word_list: list) -> list:
+    res = [0]
+    word_used = set()
+    for word in word_list:
+        if word in word_used:
+            res.append(res[-1])
+        else:
+            word_used.add(word)
+            res.append(res[-1] + 1)
+    return res[1:]
+
+
+def homogeneity(**params) -> dict:
+    file = params.get('file')
+    word_list = list()
+    for line in file:
+        if not line[0].isdigit():
+            continue
+        if not isPunct(line):
+            word_list.append(line.split()[2])
+    forward = passing(word_list)
+    word_list.reverse()
+    backward = passing(word_list)
+    sub = [f - backward[i] for i, f in enumerate(forward)]
+    hom = round(sum(sub) / len(word_list))
+    return {hom: 1}
+
+
 def statistics(**params) -> dict:
     file = params.get('file')
     words_dict = words(**params)
-    res = {"words": sum(words_dict.values()), "unique_words": len(words_dict)}
+    res = {"texts": 1, "words": sum(words_dict.values()), "unique_words": len(words_dict)}
     file.seek(0)
     puncts_dict = puncts(**params)
     res |= {"puncts": sum(puncts_dict.values()), "unique_puncts": len(puncts_dict)}
@@ -140,6 +170,16 @@ def statistics(**params) -> dict:
     return res
 
 
-features_list = [words, len_words, count_words_in_sentence, count_puncts_in_sentence,
-            puncts, parts, rels, n_grams_symb, n_grams_word, n_grams_punct, statistics]
+def rank_text(**params) -> dict:
+    file = params.get('file')
+    words_dict = words(**params)
+    words_dict = dict_sort(words_dict)
+    res = dict()
+    for i, word in enumerate(words_dict):
+        res[i] = word
+    return res
+
+
+features_list = [words, len_words, count_words_in_sentence, count_puncts_in_sentence, puncts, parts, rels, 
+                 n_grams_symb, n_grams_word, n_grams_punct, statistics, homogeneity, rank_text]
 features = {feature.__name__: feature for feature in features_list}
