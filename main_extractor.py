@@ -17,7 +17,9 @@ def extract_all_periods(feature_name: str, params: dict = {}) -> dict:
     if feature_name in features:
         return extr.extract_all_periods(feature_name, params)
     raise ValueError(f"Uncorrect feature_name: {feature_name}")
-    
-    
-def extract_statistics(filepath: str) -> dict:
-    return extr.extract("statistics", filepath)
+
+
+def extract_text(feature_name: str, filepath: str, params: dict = {}) -> dict:
+    if feature_name in features:
+        return extr.extract(feature_name, filepath, params)
+    raise ValueError(f"Uncorrect feature_name for extract from text: {feature_name}")
