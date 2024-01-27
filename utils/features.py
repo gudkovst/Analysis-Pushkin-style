@@ -120,7 +120,8 @@ def n_grams(**params) -> dict:
 
 
 def n_grams_word(**params) -> dict:
-    args = params | {'regime': True}
+    n = params.get('n', 2)
+    args = params | {'regime': True, 'n': n}
     return n_grams(**args)
 
 
