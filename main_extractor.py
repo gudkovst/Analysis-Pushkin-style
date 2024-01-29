@@ -1,5 +1,6 @@
 from utils.features import features
 from utils.agregate_feature import period_agr_features, all_periods_agr_features
+from text_feature import TextFeature
 import utils.extractors as extr
 
 
@@ -26,5 +27,9 @@ def extract_text(filepath: str, feature_name: str, params: dict = {}) -> dict:
     raise ValueError(f"Uncorrect feature_name for extract from text: {feature_name}")
 
 
-def text2fеatures(filename: str, features: list, params: dict = {}) -> list:
-    pass
+def text2fеatures(filename: str, features: list[TextFeature]) -> list[float]:
+    res = list()
+    for feature in features:
+        f = extract_text(filename, feature.feature_name, feature.params)
+        res.extend(feature.to_list(f))
+    return res
