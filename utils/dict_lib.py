@@ -21,14 +21,18 @@ def top_n(d: dict, n: int) -> dict:
     return selection(d_sort, bord)
 
 
-def mean_key(d: dict) -> int:
+def mean_key(d: dict, *args) -> float:
     s = 0
     for key in d:
         s += key * d[key]
     return s / sum(d.values())
 
 
-def select_keys_proportion(d: dict, keys: list) -> dict:
+def select_keys_proportion(d: dict, *keys) -> dict:
     count = sum(d.values())
     return {key: d[key] / count for key in keys}
-        
+
+
+agr_func_list = [mean_key, select_keys_proportion]
+
+agr_functions = {func.__name__: func for func in agr_func_list}
