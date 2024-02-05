@@ -1,8 +1,13 @@
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def create_title(period: list, feature: str) -> str:
     return feature + f" on {period[0]} - {period[-1]}"
+
+
+def label(period: list) -> str:
+    return f"{period[0]} - {period[-1]}"
 
 
 def show_barh(d: dict, title: str) -> None:
@@ -19,7 +24,7 @@ def show_bar(d: dict, title: str) -> None:
     plt.bar(list(d.keys()), d.values())
     plt.show()
 
-    
+
 def show_dict(d: dict, title: str) -> None:
     print(title)
     print(d)

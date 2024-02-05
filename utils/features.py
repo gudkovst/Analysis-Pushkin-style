@@ -1,5 +1,3 @@
-from utils.dict_lib import dict_sort
-
 
 def isPunct(line: str) -> bool:
     return line.split()[3] == "PUNCT"
@@ -79,19 +77,35 @@ def rels(**params) -> dict:
 def n_grams_symb(**params) -> dict:
     file = params.get('file')
     n = params.get('n', 3)
+    letter_regime: bool = params.get('regime')
     res = dict()
+    rus_alf = [chr(code) for code in range(ord('а'), (ord('я') + 1))]
     index = "# text = "
     tail = ""
     for line in file:
         if index not in line:
             continue
         end = -1 if line[-1] == '\n' else len(line)
-        tail += line[len(index):end].lower()
+        if letter_regime:
+            new_tail = list(filter(lambda s: s in rus_alf, line[len(index):end].lower()))
+            tail += "".join(new_tail)
+        else:
+            tail += line[len(index):end].lower()
         while len(tail) >= n:
             key = tail[:n]
             res[key] = res.get(key, 0) + 1
             tail = tail[1:]
     return res
+
+
+def n_grams_all_symb(**params) -> dict:
+    args = params | {'regime': False}
+    return n_grams_symb(**args)
+
+
+def n_grams_letter(**params) -> dict:
+    args = params | {'regime': True}
+    return n_grams_symb(**args)
 
 
 def n_grams(**params) -> dict:
@@ -171,16 +185,17 @@ def statistics(**params) -> dict:
     return res
 
 
-def rank_text(**params) -> dict:
+def rank(**params) -> dict:
     file = params.get('file')
+    words_rank = params.get('rank')
     words_dict = words(**params)
-    words_dict = dict_sort(words_dict)
-    res = dict()
-    for i, word in enumerate(words_dict):
-        res[i] = word
-    return res
+    count = sum(words_dict.values())
+    rank = 0
+    for word in words_dict:
+        rank += words_rank[word] * words_dict[word]
+    return {rank / count / len(words_rank): 1}
 
 
 features_list = [words, len_words, count_words_in_sentence, count_puncts_in_sentence, puncts, parts, rels, 
-                 n_grams_symb, n_grams_word, n_grams_punct, statistics, homogeneity, rank_text]
+                 n_grams_all_symb, n_grams_letter, n_grams_word, n_grams_punct, statistics, homogeneity, rank]
 features = {feature.__name__: feature for feature in features_list}
