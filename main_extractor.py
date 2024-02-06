@@ -1,6 +1,7 @@
 from utils.features import features
-from utils.dict_lib import dict_sort
+from utils.dict_lib import *
 from text_feature import TextFeature
+from periods import periods
 import utils.extractors as extr
 
 
@@ -44,3 +45,11 @@ def global_word_rank() -> dict:
     for i, word in enumerate(words_dict):
         res[word] = i
     return res
+
+
+def important_feature(feature: str, n_top: int = 20, rang: tuple[int] = (3, 5), params: dict = {}) -> dict:
+    d = dict()
+    for period in periods:
+        s = {f: 1 for f in top_n(extract_period(period, feature, params), n_top)}
+        d = agregate(d, s)
+    return selection(d, rang[0], rang[1])
