@@ -6,14 +6,13 @@ def isPunct(line: str) -> bool:
 def column(**params) -> dict:
     file = params.get('file')
     col: int = params.get('column')
+    word_regime: bool = params.get('regime')
     res = dict()
     for line in file:
         if not line[0].isdigit():
             continue
-        if col == 2:
-            word_regime: bool = params.get('regime')
-            if isPunct(line) == word_regime:
-                continue
+        if isPunct(line) == word_regime:
+            continue
         key = line.split()[col]
         res[key] = res.get(key, 0) + 1
     return res
@@ -65,12 +64,12 @@ def puncts(**params) -> dict:
 
 
 def parts(**params) -> dict:
-    args = params | {'column': 3}
+    args = params | {'column': 3, 'regime': True}
     return column(**args)
 
 
 def rels(**params) -> dict:
-    args = params | {'column': 7}
+    args = params | {'column': 7, 'regime': True}
     return column(**args)
 
 
