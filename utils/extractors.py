@@ -15,7 +15,7 @@ def extract(filepath: str, feature_name: str, params: dict = {}) -> dict:
         return feature(**args)
     
 
-def extract_period(period: list, feature_name: str, params: dict = {}) -> dict:
+def extract_period(period: list[str], feature_name: str, params: dict = {}) -> dict:
     res = dict()
     for year in period:
         direct = root + "\\" + year

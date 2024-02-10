@@ -31,7 +31,7 @@ def mean_key(d: dict, *args) -> float:
 
 def select_keys_proportion(d: dict, *keys) -> dict:
     count = sum(d.values())
-    return {key: d[key] / count for key in keys}
+    return {key: d.get(key, 0) / count for key in keys}
 
 
 agr_func_list = [mean_key, select_keys_proportion]
