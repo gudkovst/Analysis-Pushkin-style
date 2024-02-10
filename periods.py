@@ -1,3 +1,6 @@
+from typing import TypeAlias
+
+period_type: TypeAlias = list[str]
 
 periods = [['1813', '1814', '1815', '1816'],
            #['1816', '1817', '1817 после Лицея'],

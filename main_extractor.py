@@ -1,3 +1,4 @@
+from os import listdir, path
 from utils.features import features
 from utils.dict_lib import *
 from text_feature import TextFeature
@@ -26,8 +27,9 @@ def extract_text(filepath: str, feature_name: str, params: dict = {}) -> dict:
         raise ValueError(f"Uncorrect feature_name: {feature_name}")
     if feature_name == "rank":
         params |= {'rank': global_word_rank()}
-    filename = filepath + ".conllu"
-    return extr.extract(filename, feature_name, params)
+    if ".conllu" not in path.basename(filepath):
+        filepath += ".conllu"
+    return extr.extract(filepath, feature_name, params)
 
 
 def text2fеatures(filename: str, features: list[TextFeature]) -> list[float]:
@@ -35,6 +37,16 @@ def text2fеatures(filename: str, features: list[TextFeature]) -> list[float]:
     for feature in features:
         f = extract_text(filename, feature.feature_name, feature.params)
         res.extend(feature.to_list(f))
+    return res
+
+
+def period2features(period: list[str], features: list[TextFeature]) -> list[list[float]]:
+    res = list()
+    for year in period:
+        direct = extr.root + "\\" + year
+        for file in listdir(direct):
+            filename = year + "\\" + file
+            res.append(text2fеatures(filename, features))
     return res
 
 
