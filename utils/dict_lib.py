@@ -23,10 +23,11 @@ def top_n(d: dict, n: int, loser_reg: bool = False) -> dict:
 
 
 def mean_key(d: dict, *args) -> float:
+    n = args[0] if len(args) else 1
     s = 0
     for key in d:
         s += key * d[key]
-    return s / sum(d.values())
+    return s / sum(d.values()) / n
 
 
 def select_keys_proportion(d: dict, *keys) -> dict:
