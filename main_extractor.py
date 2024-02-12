@@ -1,7 +1,7 @@
 from os import listdir, path
 from utils.features import features
 from utils.dict_lib import *
-from text_feature import TextFeature
+from utils.text_feature import TextFeature
 from periods import periods
 import utils.extractors as extr
 
