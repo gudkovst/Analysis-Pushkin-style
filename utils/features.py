@@ -167,6 +167,7 @@ def homogeneity(**params) -> dict:
     word_list.reverse()
     backward = passing(word_list)
     sub = [f - backward[i] for i, f in enumerate(forward)]
+    #hom = sum(sub)
     hom = round(sum(sub) / len(word_list))
     return {hom: 1}
 
