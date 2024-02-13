@@ -20,7 +20,7 @@ class Data():
         self.y_test = [f[1] for f in test]
         
     def save(self, filename: str) -> None:
-        filen = root + 'models\\data\\' + path.basename(filename)
+        filen = root + 'models\\data\\' + path.basename(filename) + '.txt'
         with open(filen, 'w') as file:
             for i, x in enumerate(self.x_train):
                 record = construct_record('train', self.y_train[i], x)
@@ -52,12 +52,13 @@ def load_data(filename: str) -> Data:
     return Data(train, val, test)
 
                 
-def get_data(periods: list[period_type], features: list[TextFeature], labels: list[int], train_part: float = 0.7, val_part: float = 0.15) -> Data:
+def get_data(periods: list[period_type], features: list[TextFeature], labels: list[int], train_part: float = 0.7, val_part: float = 0.15, 
+             bord_file_size: int = 0, not_null_bord: int = 0) -> Data:
     fs = list()
     lens_train = list()
     lens_val = list()
     for period in periods:
-        f = period2features(period, features)
+        f = period2features(period, features, bord_file_size, not_null_bord)
         shuffle(f)
         fs.append(f)
         lens_train.append(int(len(f) * train_part))
