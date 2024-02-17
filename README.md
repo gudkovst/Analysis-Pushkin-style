@@ -7,3 +7,5 @@
 [II глава]() (в разработке)
 
 [Список литературы](https://docs.google.com/document/d/1g4dnsbbxSVB2nGqQTqH1spwZGvGKoUhceVvF7GoNXxM/edit?usp=sharing)
+
+[Тезисы МНСК](https://docs.google.com/document/d/1eBgh4N54D89WN3oomJW8eRKQKhZDVedOEammPSYk0KM/edit?usp=sharing)
