@@ -25,3 +25,14 @@ def count_features(features: list[TextFeature]) -> int:
     for feature in features:
         res += len(feature.args) or 1
     return res
+
+
+def get_names(features: list[TextFeature]) -> list[str]:
+    names = []
+    for feature in features:
+        if feature.agr_func.__name__ == "select_keys_proportion":
+            for arg in feature.args:
+                names.append(feature.feature_name + '/' + arg)
+        else:
+            names.append(feature.feature_name)
+    return names
