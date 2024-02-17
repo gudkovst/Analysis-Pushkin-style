@@ -42,7 +42,7 @@ def construct_record(name: str, y: int, xs: list[float]) -> str:
                 
                 
 def load_data(filename: str) -> Data:
-    filen = root + 'models\\data\\' + path.basename(filename)
+    filen = root + 'models\\data\\' + path.basename(filename) + '.txt'
     train, val, test = [], [], []
     with open(filen, 'r') as file:
         for line in file:

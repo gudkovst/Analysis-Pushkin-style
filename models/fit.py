@@ -27,3 +27,46 @@ def show(title: str, epochs: int, values: list[float], label: str, vals: list[fl
     plt.title(title)
     plt.legend()
     plt.show()
+    
+    
+def paint(x: list, y: list, title: str) -> None:
+    plt.plot(x, y)
+    plt.xlim([-0.05, 1.05])
+    plt.ylim([-0.05, 1.05])
+    plt.title(title)
+    plt.show()
+
+
+def get_metrics(predicts: list, labels: list, threshold: float) -> dict:
+    preds = [1 if c[0] > threshold else 0 for c in predicts]
+    tp = sum([l == preds[i] == 1 for i, l in enumerate(labels)])
+    fp = sum([l != preds[i] == 1 for i, l in enumerate(labels)])
+    tn = sum([l == preds[i] == 0 for i, l in enumerate(labels)])
+    fn = sum([l != preds[i] == 0 for i, l in enumerate(labels)])
+    metrics = dict()
+    if tp + fp == 0:
+        return metrics
+    metrics['precision'] = tp / (tp + fp)
+    metrics['recall'] = tp / (tp + fn)
+    metrics['fpr'] = fp / (fp + tn)
+    metrics['acc'] = (tp + tn) / (tp + tn + fp + fn)
+    metrics['f1'] = 2 * metrics['precision'] * metrics['recall'] / (metrics['precision'] + metrics['recall'])
+    return metrics
+
+
+def show_metrics(predicts: list, labels: list, n: int = 20) -> None:
+    thresholds = [i / n for i in range(n)]
+    precisions = []
+    recalls = []
+    fprs = []
+    for t in thresholds:
+        pr = get_metrics(predicts, labels, t)
+        if not pr:
+            break
+        precisions.append(pr['precision'])
+        recalls.append(pr['recall'])
+        fprs.append(pr['fpr'])
+        print(f"threshold {t}: acc = {pr['acc']}, precision = {pr['precision']}, recall = {pr['recall']}, f1 = {pr['f1']}, fpr = {pr['fpr']}")
+    
+    paint(recalls, precisions, "Precision-Recall curve")
+    paint(fprs, recalls, "ROC-curve")
