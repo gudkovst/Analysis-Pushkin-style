@@ -31,6 +31,9 @@ class Data():
             for i, x in enumerate(self.x_test):
                 record = construct_record('test', self.y_test[i], x)
                 file.write(record)
+                
+    def size(self) -> int:
+        return len(self.x_train) + len(self.x_val) + len(self.x_test)
 
 
 def construct_record(name: str, y: int, xs: list[float]) -> str:

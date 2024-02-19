@@ -1,6 +1,10 @@
 import keras.models
+import shap
 import matplotlib.pyplot as plt
-from models.data import Data
+from pandas import DataFrame
+from models.data import Data, load_data, root
+from utils.text_feature import get_names
+from utils.show import save_pict
 
 
 def fit(model: keras.models, data: Data, epochs: int) -> None:
@@ -70,3 +74,12 @@ def show_metrics(predicts: list, labels: list, n: int = 20) -> None:
     
     paint(recalls, precisions, "Precision-Recall curve")
     paint(fprs, recalls, "ROC-curve")
+
+    
+def shap_explain(data: Data, names: list[str], predict: callable, save_name: str) -> None:
+    x = data.x_train + data.x_val + data.x_test
+    df = DataFrame(x, columns=names)
+    explainer = shap.KernelExplainer(predict, df)
+    shap_values = explainer.shap_values(df)
+    shap.summary_plot(shap_values[0], df, max_display=len(df.columns), show=False)
+    save_pict(root + 'models\\saved_models\\shap\\' + save_name)
