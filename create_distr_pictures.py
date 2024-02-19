@@ -6,7 +6,7 @@ from utils.show import *
 
 barh_features = ['words', 'puncts', 'parts', 'rels', 'n_grams_all_symb', 'n_grams_letter', 'n_grams_word', 'n_grams_punct'] 
 bar_features = ['len_words', 'count_words_in_sentence', 'count_puncts_in_sentence']
-emp_features = ['count_puncts_in_sentence', 'homogeneity', 'rank']
+emp_features = ['count_puncts_in_sentence', 'count_words_in_sentence', 'len_words', 'homogeneity', 'rank']
 
 
 def label(period: list[str]) -> str:
