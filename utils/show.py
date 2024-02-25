@@ -36,3 +36,11 @@ def show_bar(d: dict, title: str, save: bool = False, path: str = '') -> None:
 def show_dict(d: dict, title: str) -> None:
     print(title)
     print(d)
+
+    
+def show_graphic(x: list, y: list, title: str) -> None:
+    plt.plot(x, y)
+    plt.xlim([-0.05, 1.05])
+    plt.ylim([-0.05, 1.05])
+    plt.title(title)
+    plt.show()
