@@ -1,4 +1,4 @@
-file: 2per(1820) acc0.791 data2.keras
+file: model2.keras
 
 arch: model = models.Sequential()
       model.add(Dense(16, activation='relu', input_shape=(k,)))
@@ -20,13 +20,15 @@ fs:   TextFeature("len_words", "mean_key", args=(25,)),
       TextFeature("n_grams_all_symb", "select_keys_proportion", args=(" не", "не ", " мо")),
       TextFeature("n_grams_letter", "select_keys_proportion", args=("ста", "его"))
 
-classes: 1813-1820; 1820 Юг-1836
+classes: 0 - 1813-1820; 1 - 1820 Юг-1836
 
 data: train_part=0.8, val_part=0.1, not_null_bord=14
 
 data_file: data2
 
 shap: model2
+
+auc roc: 0.855
 
 threshold 0.0: acc = 0.7096774193548387, precision = 0.7096774193548387, recall = 1.0, f1 = 0.8301886792452831, fpr = 1.0
 threshold 0.05: acc = 0.7096774193548387, precision = 0.7096774193548387, recall = 1.0, f1 = 0.8301886792452831, fpr = 1.0
