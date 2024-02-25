@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pandas import DataFrame
 from models.data import Data, load_data, root
 from utils.text_feature import get_names
-from utils.show import save_pict
+from utils.show import save_pict, show_graphic
 
 
 def fit(model: keras.models, data: Data, epochs: int) -> None:
@@ -31,14 +31,6 @@ def show(title: str, epochs: int, values: list[float], label: str, vals: list[fl
     plt.title(title)
     plt.legend()
     plt.show()
-    
-    
-def paint(x: list, y: list, title: str) -> None:
-    plt.plot(x, y)
-    plt.xlim([-0.05, 1.05])
-    plt.ylim([-0.05, 1.05])
-    plt.title(title)
-    plt.show()
 
 
 def get_metrics(predicts: list, labels: list, threshold: float) -> dict:
@@ -54,8 +46,18 @@ def get_metrics(predicts: list, labels: list, threshold: float) -> dict:
     metrics['recall'] = tp / (tp + fn)
     metrics['fpr'] = fp / (fp + tn)
     metrics['acc'] = (tp + tn) / (tp + tn + fp + fn)
-    metrics['f1'] = 2 * metrics['precision'] * metrics['recall'] / (metrics['precision'] + metrics['recall'])
+    metrics['f1'] = 2 * metrics['precision'] * metrics['recall']
+    if metrics['f1']:
+        metrics['f1'] /= (metrics['precision'] + metrics['recall'])
     return metrics
+
+
+def auc(x: list[float], y: list[float]) -> float:
+    #x must be sorted
+    area = 0
+    for i in range(1, len(x)):
+        area += (x[i] - x[i - 1]) * (y[i] + y[i - 1]) / 2
+    return area
 
 
 def show_metrics(predicts: list, labels: list, n: int = 20) -> None:
@@ -71,9 +73,9 @@ def show_metrics(predicts: list, labels: list, n: int = 20) -> None:
         recalls.append(pr['recall'])
         fprs.append(pr['fpr'])
         print(f"threshold {t}: acc = {pr['acc']}, precision = {pr['precision']}, recall = {pr['recall']}, f1 = {pr['f1']}, fpr = {pr['fpr']}")
-    
-    paint(recalls, precisions, "Precision-Recall curve")
-    paint(fprs, recalls, "ROC-curve")
+    print(f"auc roc = {auc(fprs[::-1], recalls[::-1])}")
+    show_graphic(recalls, precisions, "Precision-Recall curve")
+    show_graphic(fprs, recalls, "ROC-curve")
 
     
 def shap_explain(data: Data, names: list[str], predict: callable, save_name: str) -> None:
