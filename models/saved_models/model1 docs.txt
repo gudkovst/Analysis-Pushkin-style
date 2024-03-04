@@ -7,39 +7,47 @@ arch: model = models.Sequential()
       model.add(Dense(1, activation='sigmoid'))
       model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
 
-epochs: 50
+epochs: 150
 
-fs: TextFeature("len_words", "mean_key", args=(16,)), 
-    TextFeature("homogeneity", "mean_key", args=(100,)), TextFeature("rank", "mean_key"), 
+fs: TextFeature("len_words", "mean_key", args=(25,)), 
+    TextFeature("homogeneity", "mean_key", args=(100,)), 
+    TextFeature("rank", "mean_key"), 
+    TextFeature("count_puncts_in_sentence", "mean_key", args=(30,)),
+    TextFeature("count_words_in_sentence", "mean_key", args=(100,)),
     TextFeature("words", "select_keys_proportion", args=("любовь", "друг", "они", "я", "ты", "она", "что")), 
-    TextFeature("parts", "select_keys_proportion", args=("PRON", "ADP", "ADV")), 
+    TextFeature("puncts", "select_keys_proportion", args=("!",)),
+    TextFeature("parts", "select_keys_proportion", args=("PRON", "ADP", "ADV", "ADJ")), 
     TextFeature("rels", "select_keys_proportion", args=("advmod", "conj", "amod")),
     TextFeature("n_grams_letter", "select_keys_proportion", args=("ной", "енн", "его")),
-    TextFeature("n_grams_word", "select_keys_proportion", args=("что же",))
+    TextFeature("n_grams_all_symb", "select_keys_proportion", args=("ой ",))
 
 classes: 0 - 1813-1824; 1 - 1824 Михайловское-1836
 
-data: train_part=0.8, val_part=0.1, not_null_bord=14
+data: train_part=0.8, val_part=0.1, not_null_bord=12
 
 data_file: data1
 
 shap: model1
 
-aucroc: 0.812
+aucroc: 0.8672
 
-threshold 0.0: acc = 0.4838709677419355, precision = 0.4838709677419355, recall = 1.0, f1 = 0.6521739130434783, fpr = 1.0
-threshold 0.05: acc = 0.4838709677419355, precision = 0.4838709677419355, recall = 1.0, f1 = 0.6521739130434783, fpr = 1.0
-threshold 0.1: acc = 0.4838709677419355, precision = 0.4838709677419355, recall = 1.0, f1 = 0.6521739130434783, fpr = 1.0
-threshold 0.15: acc = 0.4838709677419355, precision = 0.4838709677419355, recall = 1.0, f1 = 0.6521739130434783, fpr = 1.0
-threshold 0.2: acc = 0.4838709677419355, precision = 0.4838709677419355, recall = 1.0, f1 = 0.6521739130434783, fpr = 1.0
-threshold 0.25: acc = 0.4838709677419355, precision = 0.4838709677419355, recall = 1.0, f1 = 0.6521739130434783, fpr = 1.0
-threshold 0.3: acc = 0.5, precision = 0.4918032786885246, recall = 1.0, f1 = 0.6593406593406593, fpr = 0.96875
-threshold 0.35: acc = 0.5161290322580645, precision = 0.5, recall = 0.9666666666666667, f1 = 0.6590909090909091, fpr = 0.90625
-threshold 0.4: acc = 0.6612903225806451, precision = 0.5957446808510638, recall = 0.9333333333333333, f1 = 0.7272727272727273, fpr = 0.59375
-threshold 0.45: acc = 0.7419354838709677, precision = 0.6944444444444444, recall = 0.8333333333333334, f1 = 0.7575757575757577, fpr = 0.34375
-threshold 0.5: acc = 0.7580645161290323, precision = 0.7777777777777778, recall = 0.7, f1 = 0.7368421052631577, fpr = 0.1875
-threshold 0.55: acc = 0.7096774193548387, precision = 0.8, recall = 0.5333333333333333, f1 = 0.64, fpr = 0.125
-threshold 0.6: acc = 0.6290322580645161, precision = 0.8888888888888888, recall = 0.26666666666666666, f1 = 0.41025641025641024, fpr = 0.03125
-threshold 0.65: acc = 0.5645161290322581, precision = 1.0, recall = 0.1, f1 = 0.18181818181818182, fpr = 0.0
-threshold 0.7: acc = 0.532258064516129, precision = 1.0, recall = 0.03333333333333333, f1 = 0.06451612903225806, fpr = 0.0
-threshold 0.75: acc = 0.532258064516129, precision = 1.0, recall = 0.03333333333333333, f1 = 0.06451612903225806, fpr = 0.0
+threshold 0.0: acc = 0.5540540540540541, precision = 0.5540540540540541, recall = 1.0, f1 = 0.7130434782608697, fpr = 1.0
+threshold 0.05: acc = 0.5540540540540541, precision = 0.5540540540540541, recall = 1.0, f1 = 0.7130434782608697, fpr = 1.0
+threshold 0.1: acc = 0.5540540540540541, precision = 0.5540540540540541, recall = 1.0, f1 = 0.7130434782608697, fpr = 1.0
+threshold 0.15: acc = 0.5608108108108109, precision = 0.5578231292517006, recall = 1.0, f1 = 0.7161572052401747, fpr = 0.9848484848484849
+threshold 0.2: acc = 0.5878378378378378, precision = 0.5734265734265734, recall = 1.0, f1 = 0.7288888888888889, fpr = 0.9242424242424242
+threshold 0.25: acc = 0.6148648648648649, precision = 0.5899280575539568, recall = 1.0, f1 = 0.7420814479638009, fpr = 0.8636363636363636
+threshold 0.3: acc = 0.6554054054054054, precision = 0.6183206106870229, recall = 0.9878048780487805, f1 = 0.7605633802816902, fpr = 0.7575757575757576
+threshold 0.35: acc = 0.722972972972973, precision = 0.6722689075630253, recall = 0.975609756097561, f1 = 0.7960199004975125, fpr = 0.5909090909090909
+threshold 0.4: acc = 0.7297297297297297, precision = 0.6810344827586207, recall = 0.9634146341463414, f1 = 0.7979797979797979, fpr = 0.5606060606060606
+threshold 0.45: acc = 0.7567567567567568, precision = 0.7090909090909091, recall = 0.9512195121951219, f1 = 0.8125, fpr = 0.48484848484848486
+threshold 0.5: acc = 0.7837837837837838, precision = 0.7551020408163265, recall = 0.9024390243902439, f1 = 0.8222222222222222, fpr = 0.36363636363636365
+**threshold 0.55: acc = 0.8040540540540541, precision = 0.8045977011494253, recall = 0.8536585365853658, f1 = 0.8284023668639052, fpr = 0.25757575757575757
+threshold 0.6: acc = 0.7905405405405406, precision = 0.8311688311688312, recall = 0.7804878048780488, f1 = 0.8050314465408805, fpr = 0.19696969696969696
+threshold 0.65: acc = 0.7837837837837838, precision = 0.8571428571428571, recall = 0.7317073170731707, f1 = 0.7894736842105263, fpr = 0.15151515151515152
+threshold 0.7: acc = 0.7364864864864865, precision = 0.8524590163934426, recall = 0.6341463414634146, f1 = 0.7272727272727272, fpr = 0.13636363636363635
+threshold 0.75: acc = 0.7162162162162162, precision = 0.8846153846153846, recall = 0.5609756097560976, f1 = 0.6865671641791045, fpr = 0.09090909090909091
+threshold 0.8: acc = 0.6756756756756757, precision = 0.8695652173913043, recall = 0.4878048780487805, f1 = 0.625, fpr = 0.09090909090909091
+threshold 0.85: acc = 0.6486486486486487, precision = 0.8947368421052632, recall = 0.4146341463414634, f1 = 0.5666666666666667, fpr = 0.06060606060606061
+threshold 0.9: acc = 0.6013513513513513, precision = 0.96, recall = 0.2926829268292683, f1 = 0.44859813084112143, fpr = 0.015151515151515152
+threshold 0.95: acc = 0.527027027027027, precision = 1.0, recall = 0.14634146341463414, f1 = 0.2553191489361702, fpr = 0.0
