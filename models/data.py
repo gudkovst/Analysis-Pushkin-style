@@ -9,7 +9,7 @@ from main_extractor import period2features
 from utils.text_feature import *
 
 
-class Data():
+class Data:
     
     def __init__(self, train, val, test):
         self.x_train = [f[0] for f in train]
@@ -55,11 +55,12 @@ def load_data(filename: str) -> Data:
     return Data(train, val, test)
 
                 
-def get_data(periods: list[period_type], features: list[TextFeature], labels: list[int], train_part: float = 0.7, val_part: float = 0.15, 
+def get_data(periods: list[period_type], features: list[TextFeature], labels: list[int] = None, train_part: float = 0.8, val_part: float = 0.1, 
              bord_file_size: int = 0, not_null_bord: int = 0) -> Data:
     fs = list()
     lens_train = list()
     lens_val = list()
+    labels = labels or [i for i in range(len(periods))]
     for period in periods:
         f = period2features(period, features, bord_file_size, not_null_bord)
         shuffle(f)
