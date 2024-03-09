@@ -13,13 +13,13 @@ class TextData:
         self.predicted = False
 
     @property
-    def predict_list(self):
-        return self.__predict_list
+    def predict_dict(self):
+        return self.__predict_dict
 
-    @predict_list.setter
-    def predict_list(self, predict: list[float]):
+    @predict_dict.setter
+    def predict_dict(self, predict: dict[str, float]):
         self.predicted = True
-        self.predict_list = predict
+        self.predict_dict = predict
 
     def add_sample(self, sample: list[float]) -> None:
         self.samples.append(sample)
@@ -32,7 +32,7 @@ class TextData:
         return k >= q
 
 
-def ansamble_test_data(lists_fs: list[list[TextFeature]], borders: list[int], q: int) -> list[TextData]:
+def ensemble_test_data(lists_fs: list[list[TextFeature]], borders: list[int], q: int) -> list[TextData]:
     all_data = []
     for features in lists_fs:
         d = get_data(periods, features, train_part=0, val_part=0)
@@ -52,16 +52,16 @@ def ansamble_test_data(lists_fs: list[list[TextFeature]], borders: list[int], q:
 
 
 def predict_list(model_names: list[str], data: list[TextData]) -> None:
-    ansamble = []
+    ensemble = []
     for name in model_names:
-        ansamble.append(models.load_model(root + f"models\\saved_models\\{name}.keras"))
+        ensemble.append(models.load_model(root + f"models\\saved_models\\{name}.keras"))
     for td in data:
-        if len(td.samples) != len(ansamble):
+        if len(td.samples) != len(ensemble):
             continue
-        preds = []
+        preds = {}
         for i, f in enumerate(td.samples):
-            preds.append(ansamble[i].predict(f))
-        td.predict_list = preds
+            preds[model_names[i]] = ensemble[i].predict(f)
+        td.predict_dict = preds
 
 
 def predict():
