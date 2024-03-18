@@ -44,3 +44,17 @@ def show_graphic(x: list, y: list, title: str) -> None:
     plt.ylim([-0.05, 1.05])
     plt.title(title)
     plt.show()
+
+    
+def confusion_matrix(labels: list[int], preds: list[int],ticks: list[str], normalize: bool = False, save: bool = False, path: str = ''):
+    from sklearn.metrics import confusion_matrix
+    norm = 'true' if normalize else None
+    fmt = '.2f' if normalize else '.0f'
+    cm = confusion_matrix(labels, preds, normalize=norm)
+    plt.title('Confusion Matrix')
+    hmap = sns.heatmap(cm, annot=True, fmt=fmt, xticklabels=ticks, yticklabels=ticks)
+    plt.ylabel('Actual')
+    plt.xlabel('Predicted')
+    if save:
+        save_pict(path)
+    plt.show()
