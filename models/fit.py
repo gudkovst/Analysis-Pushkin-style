@@ -1,9 +1,9 @@
 import keras.models
-import shap
 import matplotlib.pyplot as plt
+import shap
 from pandas import DataFrame
-from models.data import Data, load_data, root
-from utils.text_feature import get_names
+
+from models.data import Data, root
 from utils.show import save_pict, show_graphic
 
 
@@ -53,7 +53,7 @@ def get_metrics(predicts: list, labels: list, threshold: float) -> dict:
 
 
 def auc(x: list[float], y: list[float]) -> float:
-    #x must be sorted
+    # x must be sorted
     area = 0
     for i in range(1, len(x)):
         area += (x[i] - x[i - 1]) * (y[i] + y[i - 1]) / 2
