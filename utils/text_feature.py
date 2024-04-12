@@ -1,7 +1,9 @@
+from typing import assert_never
+
 from utils.dict_lib import agr_functions
 
 
-class TextFeature():
+class TextFeature:
     
     def __init__(self, feature_name: str, agr_func: str, params: dict = {}, args: tuple = ()):
         self.feature_name: str = feature_name

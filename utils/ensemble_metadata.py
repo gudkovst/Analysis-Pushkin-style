@@ -1,7 +1,7 @@
 from utils.text_feature import *
 
 
-def features() -> dict[list[TextFeature]]:
+def features() -> dict[str, list[TextFeature]]:
     res = {}
     fs = [TextFeature("len_words", "mean_key", args=(25,)),  TextFeature("homogeneity", "mean_key", args=(100,)), TextFeature("rank", "mean_key"), 
           TextFeature("count_puncts_in_sentence", "mean_key", args=(30,)), TextFeature("count_words_in_sentence", "mean_key", args=(100,)),
@@ -42,11 +42,11 @@ def features() -> dict[list[TextFeature]]:
     return res
 
 
-def borders() -> dict[int]:
+def borders() -> dict[str, int]:
     return {"model1": 12, "model2": 14, "model4": 11, "model4-1": 14, "model5": 9}
 
 
-def thresholds() -> dict[float]:
+def thresholds() -> dict[str, float]:
     return {"model1": 0.55, "model2": 0.6, "model4": 0.55, "model4-1": 0.45, "model5": 0.5}
 
 

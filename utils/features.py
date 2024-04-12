@@ -167,8 +167,8 @@ def homogeneity(**params) -> dict:
     word_list.reverse()
     backward = passing(word_list)
     sub = [f - backward[i] for i, f in enumerate(forward)]
-    #hom = sum(sub)
-    hom = round(sum(sub) / len(word_list))
+    hom = sum(sub)
+    #hom = round(sum(sub) / len(word_list))
     return {hom: 1}
 
 
@@ -186,14 +186,13 @@ def statistics(**params) -> dict:
 
 
 def rank(**params) -> dict:
-    file = params.get('file')
     words_rank = params.get('rank')
     words_dict = words(**params)
     count = sum(words_dict.values())
-    rank = 0
+    r = 0
     for word in words_dict:
-        rank += words_rank[word] * words_dict[word]
-    return {rank / count / len(words_rank): 1}
+        r += words_rank[word] * words_dict[word]
+    return {r / count / len(words_rank): 1}
 
 
 features_list = [words, len_words, count_words_in_sentence, count_puncts_in_sentence, puncts, parts, rels, 
