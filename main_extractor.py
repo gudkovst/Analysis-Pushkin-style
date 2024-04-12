@@ -11,7 +11,7 @@ word_rank = None
 
 def extract_period(period: list, feature_name: str, params: dict = {}) -> dict:
     if feature_name not in features:
-        raise ValueError(f"Uncorrect feature_name: {feature_name}")
+        raise ValueError(f"Uncorrected feature_name: {feature_name}")
     if feature_name == "rank":
         global word_rank
         if not word_rank:
@@ -22,7 +22,7 @@ def extract_period(period: list, feature_name: str, params: dict = {}) -> dict:
 
 def extract_all_periods(feature_name: str, params: dict = {}) -> dict:
     if feature_name not in features:
-        raise ValueError(f"Uncorrect feature_name: {feature_name}")
+        raise ValueError(f"Uncorrected feature_name: {feature_name}")
     if feature_name == "rank":
         global word_rank
         if not word_rank:
@@ -33,7 +33,7 @@ def extract_all_periods(feature_name: str, params: dict = {}) -> dict:
 
 def extract_text(filepath: str, feature_name: str, params: dict = {}) -> dict:
     if feature_name not in features:
-        raise ValueError(f"Uncorrect feature_name: {feature_name}")
+        raise ValueError(f"Uncorrected feature_name: {feature_name}")
     if feature_name == "rank":
         global word_rank
         if not word_rank:
@@ -44,24 +44,23 @@ def extract_text(filepath: str, feature_name: str, params: dict = {}) -> dict:
     return extr.extract(filepath, feature_name, params)
 
 
-def text2fеatures(filename: str, features: list[TextFeature]) -> list[float]:
+def text2features(filename: str, fs: list[TextFeature]) -> list[float]:
     res = list()
-    for feature in features:
+    for feature in fs:
         f = extract_text(filename, feature.feature_name, feature.params)
         res.extend(feature.to_list(f))
     return res
 
 
-def period2features(period: list[str], features: list[TextFeature], bord_file_size: int = 0, not_null_bord: int = 0) -> list[list[float]]:
+def period2features(period: list[str], fs: list[TextFeature], not_null_bord: int = 0) -> list[list[float]]:
     res = list()
     for year in period:
         direct = extr.root + "\\" + year
         for file in listdir(direct):
             filename = year + "\\" + file
-            if path.getsize(direct + "\\" + file) >= bord_file_size:
-                f = text2fеatures(filename, features)
-                if len(f) - f.count(0.0) >= not_null_bord:
-                    res.append(f)
+            f = text2features(filename, fs)
+            if len(f) - f.count(0.0) >= not_null_bord:
+                res.append(f)
     return res
 
 
