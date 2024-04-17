@@ -111,17 +111,14 @@ def get_p_label(td) -> int:
 
 
 def pred2label_determ(td, pred: int) -> int:
-    from random import shuffle, choice
-    convs = {3: [1], 6: [0], 7: [0], 10: [1], 11: [1],
-             17: [2], 19: [2, 3], 22: [2],
-             24: [3], 25: [3], 26: [3], 28: [1], 29: [2],
-             30: [3]}
+    convs = {3: 1, 6: 0, 7: 0, 10: 1, 11: 1,
+             17: 2, 19: 2, 22: 2,
+             24: 3, 25: 3, 26: 3, 28: 1, 29: 2,
+             30: 3}
     unconvs = [14, 15, 23, 27, 31]
 
     if pred in convs:
-        pr = convs[pred]
-        shuffle(pr)
-        return choice(pr)
+        return convs[pred]
     elif pred in unconvs:
         return get_p_label(td)
     else:
