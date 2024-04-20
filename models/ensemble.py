@@ -16,7 +16,6 @@ class TextData:
         self.samples = [sample]
         self.label = label
         self.predicted = False
-        self.ens_vector = None
 
     @property
     def predict_dict(self):
@@ -38,8 +37,7 @@ class TextData:
         return k >= q
 
 
-def ensemble_test_data(lists_fs: list[list[TextFeature]], borders: list[int], q: int,
-                       ens_fs: list[TextFeature] = None) -> list[TextData]:
+def ensemble_test_data(lists_fs: list[list[TextFeature]], borders: list[int], q: int) -> list[TextData]:
     if not lists_fs:
         return []
     all_data = []
@@ -48,16 +46,11 @@ def ensemble_test_data(lists_fs: list[list[TextFeature]], borders: list[int], q:
         if all_data:
             assert d.size() == all_data[-1].size()
         all_data.append(d)
-    if ens_fs:
-        from main_extractor import period2features
-        ens_data = period2features(periods, ens_fs)
     data = []
     for i, x in enumerate(all_data[0].x_test):
         td = TextData(x, all_data[0].y_test[i])
         for d in all_data[1:]:
             td.add_sample(d.x_test[i])
-        if ens_fs:
-            td.ens_vector = ens_data[i]
         if td.quorum(borders, q):
             data.append(td)
     return data
