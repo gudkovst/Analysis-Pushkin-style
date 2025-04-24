@@ -1,4 +1,4 @@
-from os import listdir
+import os
 from utils.dict_lib import agregate
 from utils.features import features
 from periods import periods
@@ -9,7 +9,7 @@ root = "C:\\Users\\User\\Desktop\\практика\\полное собрани�
 
 def extract(filepath: str, feature_name: str, params: dict = {}) -> dict:
     feature = features[feature_name]
-    filename = root + "\\" + filepath
+    filename = os.path.join(root, filepath)
     with open(filename, encoding='utf-8') as tree_file:
         args = {'file': tree_file} | params
         return feature(**args)
@@ -18,9 +18,9 @@ def extract(filepath: str, feature_name: str, params: dict = {}) -> dict:
 def extract_period(period: list[str], feature_name: str, params: dict = {}) -> dict:
     res = dict()
     for year in period:
-        direct = root + "\\" + year
-        for file in listdir(direct):
-            filename = year + "\\" + file
+        direct = os.path.join(root, year)
+        for file in os.listdir(direct):
+            filename = os.path.join(year, file)
             res = agregate(res, extract(filename, feature_name, params))
     return res
 
